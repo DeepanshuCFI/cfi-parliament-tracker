@@ -5,6 +5,12 @@
       "added": 8,
       "source": "claude-fable-manual (first run, in-session review)",
       "notes": "overrides: 2 (speed-limit encoding glitch, potholes)"
+    },
+    {
+      "candidates": 71,
+      "added": 7,
+      "source": "keyword+claude-haiku-4-5",
+      "notes": "overrides: 1 | spend this month: $0.01"
     }
   ],
   "overrides": [
@@ -21,6 +27,13 @@
       "keyword": false,
       "llm": true,
       "reason": "potholes/cracks are road defects - core road safety"
+    },
+    {
+      "title": "Emergency Services on NHs",
+      "ministry": "MoRTH",
+      "keyword": false,
+      "llm": true,
+      "reason": "Emergency services on highways relate to accident response/crash care"
     }
   ]
 }

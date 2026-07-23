@@ -718,5 +718,431 @@
     "title": "Creating senior-friendly infrastructures",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
+  },
+  "LS|MoRTH|8|S|69": {
+    "include": false,
+    "title": "Projects to Decongest South Delhi",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|S|67": {
+    "include": false,
+    "title": "Four-laning of National Highway-75",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|S|63": {
+    "include": false,
+    "title": "National High-Speed Corridors and Expressway Projects",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|915": {
+    "include": false,
+    "title": "Dilapidated Condition of Road in Nashik",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|914": {
+    "include": true,
+    "title": "Increase in Road Accidents and Fatalities",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|912": {
+    "include": false,
+    "title": "National Highways in Gujarat",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|904": {
+    "include": false,
+    "title": "Damages to Engines due to E20 Fuel",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|901": {
+    "include": false,
+    "title": "Development of NH-66 in Kollam",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|899": {
+    "include": false,
+    "title": "Road Development Projects in Remote Areas",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|895": {
+    "include": false,
+    "title": "New Durgapur Link Expressway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|893": {
+    "include": false,
+    "title": "Expansion of Public Transport",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|889": {
+    "include": false,
+    "title": "Road Projects in Maharashtra",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|886": {
+    "include": true,
+    "title": "Identification and Rectification of Black Spots",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|874": {
+    "include": false,
+    "title": "Dilapidated Condition of Nashik-Pune Highway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|873": {
+    "include": false,
+    "title": "Widening of National Highway-730",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|872": {
+    "include": false,
+    "title": "Central Road and Infrastructure Fund",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|870": {
+    "include": false,
+    "title": "Delay in Construction of National Highway-39",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|869": {
+    "include": false,
+    "title": "Impact of Ethanol-Blended Petrol on Vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|864": {
+    "include": false,
+    "title": "Upgradation of NH-373",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|863": {
+    "include": false,
+    "title": "Bhandara-Deori Section under NH-53",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|848": {
+    "include": false,
+    "title": "Construction of Elevated Flyover in Kozhikode District",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|843": {
+    "include": false,
+    "title": "National Highway Projects",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|834": {
+    "include": true,
+    "title": "Emergency Services on NHs",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|825": {
+    "include": false,
+    "title": "National Highway Projects in Bihar",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|824": {
+    "include": false,
+    "title": "Status of National Highway Project in Vadakara",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|819": {
+    "include": false,
+    "title": "Completion of Work on Mumbai-Goa Highway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|818": {
+    "include": true,
+    "title": "Implementation of Automated Testing Stations for Vehicle Fitness",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|809": {
+    "include": true,
+    "title": "National Road Safety Strategy and Action Plan",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|808": {
+    "include": false,
+    "title": "Cybersecurity of Advanced Technology Vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|807": {
+    "include": false,
+    "title": "Complaints against Toll Plazas",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|794": {
+    "include": false,
+    "title": "Violation of Norms by PUC Centres",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|791": {
+    "include": true,
+    "title": "Road Accidents on NHs",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|789": {
+    "include": false,
+    "title": "Alignment of National Highway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|786": {
+    "include": false,
+    "title": "Toll Collection despite Dilapidated Condition of NHs",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|752": {
+    "include": false,
+    "title": "Construction of National Highway Projects",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|740": {
+    "include": false,
+    "title": "Impact of Alignment of Greenfield Expressway to Dausa District",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|728": {
+    "include": true,
+    "title": "Black Spot Rectification and Road Safety",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|727": {
+    "include": false,
+    "title": "Construction of Under/Over-Bridges on NH-48",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|718": {
+    "include": false,
+    "title": "Progress of NHs Projects in Seemanchal Region",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|MoRTH|8|U|691": {
+    "include": false,
+    "title": "Ropecar Facility to Rockfort Temple, Tiruchirappalli",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|S|75": {
+    "include": false,
+    "title": "Inclusion of New Cities under SCM in Tamil Nadu",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|S|70": {
+    "include": false,
+    "title": "Inclusion of Narayanpur Municipal Board, Sonitpur, Assam under PMAY-U 2.0",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|911": {
+    "include": false,
+    "title": "Infrastructure Project for Amaravati",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|909": {
+    "include": false,
+    "title": "Difficulties in Construction and Housing Schemes",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|905": {
+    "include": false,
+    "title": "Progress under AMRUT 2.0 in Muzaffarnagar",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|888": {
+    "include": false,
+    "title": "Projects and Schemes under Smart Cities Mission",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|882": {
+    "include": false,
+    "title": "Smart City Projects in Srinagar",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|875": {
+    "include": false,
+    "title": "National Framework for Structural Safety Audits and Seismic Resilience of Buildings",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|862": {
+    "include": false,
+    "title": "Beneficiaries under PMAY-U 2.0 in Maharashtra",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|858": {
+    "include": false,
+    "title": "Metro Rail Expansion and Urban Mass Transit Projects in Ranchi",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|846": {
+    "include": false,
+    "title": "Funds allocated for Uttar Pradesh under PMAY-U 2.0",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|845": {
+    "include": false,
+    "title": "Status of Metro Rail Projects",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|831": {
+    "include": false,
+    "title": "PMAY-U 2.0 in Tamil Nadu",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|830": {
+    "include": false,
+    "title": "Status of PMAY-U",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|828": {
+    "include": false,
+    "title": "Role of Integrated Command and Control Centres in Smart Cities",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|812": {
+    "include": false,
+    "title": "Status of Projects in Maharashtra under SBM-U",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|811": {
+    "include": false,
+    "title": "Guidelines for Urban Challenge Fund",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|784": {
+    "include": false,
+    "title": "Status of AMRUT 2.0 in Assam",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|781": {
+    "include": false,
+    "title": "Status of South Zone Building Works",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|780": {
+    "include": false,
+    "title": "Urban Infrastructure in Darbhanga",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|779": {
+    "include": false,
+    "title": "Implementation of PM-SVANidhi Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|778": {
+    "include": false,
+    "title": "Bottlenecks in Urban Development Sector",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|755": {
+    "include": false,
+    "title": "Status of Projects under AMRUT 2.0 in Rajasthan",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|742": {
+    "include": false,
+    "title": "Budgetary Provisions for SCM and AMRUT",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|731": {
+    "include": false,
+    "title": "Status of PM-UDAY in North East Delhi",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|729": {
+    "include": false,
+    "title": "Pradhan Mantri Awas Yojana–Urban 2.0 in Karnataka",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|726": {
+    "include": false,
+    "title": "Redevelopment of Colonies in Delhi",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|721": {
+    "include": false,
+    "title": "'Cities as Growth Hubs' Initiative under the Urban Challenge Fund",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|705": {
+    "include": false,
+    "title": "Progress and Finalisation of Third and Fourth Phases of Kochi Metro",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|702": {
+    "include": false,
+    "title": "Assistance for Waste Management System",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|Urban|8|U|695": {
+    "include": false,
+    "title": "Loans sanctioned and disbursed under PM-SVANidhi Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
   }
 }
