@@ -1,0 +1,17 @@
+{
+  "_comment": "Session registry. 'current' drives the delta refresh and the site's ongoing-session strip. Update when a new session is notified (MoPA announcement); the pipeline flags newly discovered session numbers in the job summary if this file is stale.",
+  "current": {
+    "label": "Monsoon Session 2026",
+    "start": "2026-07-20",
+    "end": "2026-08-13",
+    "sittings": 19,
+    "ls_lk": "18",
+    "ls_session": "8",
+    "rs_session": "271"
+  },
+  "history": [
+    { "label": "Budget Session 2026", "ls_lk": "18", "ls_session": "7", "rs_session": "270" },
+    { "label": "Winter Session 2025", "ls_lk": "18", "ls_session": "6", "rs_session": "269" },
+    { "label": "Monsoon Session 2025", "ls_lk": "18", "ls_session": "5", "rs_session": "268" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/og-card.png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/mpimg/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/mpimg/:uuid",
+      "destination": "https://sansad.in/getFile/dms/fetch/:uuid?source=dsp2"
+    }
+  ]
+}

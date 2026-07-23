@@ -1,0 +1,26 @@
+{
+  "runs": [
+    {
+      "candidates": 120,
+      "added": 8,
+      "source": "claude-fable-manual (first run, in-session review)",
+      "notes": "overrides: 2 (speed-limit encoding glitch, potholes)"
+    }
+  ],
+  "overrides": [
+    {
+      "title": "Speed ??limit on expressways",
+      "ministry": "MoRTH",
+      "keyword": false,
+      "llm": true,
+      "reason": "speed-limit question; encoding glitch (??) defeated the keyword regex"
+    },
+    {
+      "title": "Potholes and cracks in Delhi Dehradun Expressway",
+      "ministry": "MoRTH",
+      "keyword": false,
+      "llm": true,
+      "reason": "potholes/cracks are road defects - core road safety"
+    }
+  ]
+}

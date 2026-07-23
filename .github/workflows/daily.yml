@@ -1,0 +1,105 @@
+name: Daily refresh
+
+on:
+  schedule:
+    - cron: '15 2 * * *'   # 02:15 UTC = 07:45 IST, before the morning brief
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # pinned below the next major so an SDK breaking change can't kill a run
+      - run: pip install "anthropic>=0.60,<2"
+
+      - name: Pull current-session questions (delta)
+        run: python3 pipeline/delta_refresh.py
+
+      - name: Curate new titles (Claude, hard-capped ~INR 100/month)
+        run: python3 pipeline/curate.py
+
+      - name: Update enrichment (MP stats, never-asked, states)
+        run: python3 pipeline/build_enrich.py
+
+      - name: Publish dataset + CSV
+        run: python3 pipeline/publish.py
+
+      - name: Build page
+        run: python3 pipeline/build_page.py
+
+      - name: Sanity gate
+        run: python3 pipeline/sanity_check.py
+
+      - name: Commit data + site
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          date -u +%FT%TZ > data/last_run.txt
+          git add data/ site/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes today."
+          else
+            git commit -m "Daily refresh $(date -u +%F)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy to Vercel
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        working-directory: site
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: npx vercel deploy --prod --yes --token "$VERCEL_TOKEN"
+
+      - name: Notify on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="Daily refresh FAILED"
+          NUM=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number' || true)
+          BODY="Run failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ -n "$NUM" ] && [ "$NUM" != "null" ]; then
+            gh issue comment "$NUM" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Refresh report"
+            echo '```json'
+            cat data/refresh_report.json 2>/dev/null || echo '{}'
+            echo '```'
+            echo "## Curation log (last run)"
+            echo '```json'
+            python3 -c "import json;d=json.load(open('data/curation_log.json'));print(json.dumps(d['runs'][-1] if d.get('runs') else {}, indent=2))" 2>/dev/null || echo '{}'
+            echo '```'
+            echo "## Enrichment"
+            echo '```json'
+            cat data/enrich_report.json 2>/dev/null || echo '{}'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

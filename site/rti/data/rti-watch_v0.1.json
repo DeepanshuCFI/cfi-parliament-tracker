@@ -1,0 +1,400 @@
+{
+  "dataset": "rti-watch",
+  "version": "0.1",
+  "extracted": "2026-07-16",
+  "extraction_method": "LLM read of Drive scans (OCR quality poor on several court replies); every thread verification.status=needs_review until human-checked against originals",
+  "campaigns": [
+    {
+      "slug": "delhi-mact-audit-2025",
+      "title": "Delhi MACT Ecosystem Audit",
+      "description": "One coordinated RTI sweep (Oct 2025 - Feb 2026) across every institution in Delhi's crash-compensation chain: Transport Dept, DSLSA/DLSAs, Delhi Police districts, MACT courts in all district court complexes, and MoRTH. Probes hit-and-run scheme uptake, legal aid, claim pendency, and DAR/FDAR compliance with Supreme Court directions (Rajesh Tyagi v. Jaibir Singh; Gohar Mohammed)."
+    }
+  ],
+  "threads": [
+    {
+      "id": "DMA-T01",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "Transport Department, GNCT of Delhi", "type": "state_dept", "jurisdiction": "Delhi" },
+      "filed_date": "2025-10-16",
+      "registration_no": "DOTPD/R/2025/60757",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "Claims Enquiry Officers and crash-compensation claim statistics, FY 2019-20 to 2023-24",
+      "themes": ["mact", "hit-and-run", "victim-compensation"],
+      "questions_summary": "Names/contacts of Claims Enquiry Officers per district; claims filed annually, average settlement time, rejected/pending counts; documented reasons for delayed or missing payouts incl. hit-and-run scheme.",
+      "status": "first_appeal",
+      "events": [
+        { "date": "2025-10-16", "type": "filed", "detail": "Filed on Delhi RTI portal, fee paid online" },
+        { "date": "2025-11-25", "type": "first_appeal", "detail": "First appeal DOTPD/A/2025/60204 filed after no substantive reply within 30 days" },
+        { "date": "2025-12-30", "type": "transfer_6_3", "detail": "Transport Dept transferred part of the application to MoRTH u/s 6(3) (letter ID No. 929/Tpt/RTI/2025)" }
+      ],
+      "responses": [
+        { "authority": "Transport Department GNCTD", "reply_date": "2025-12-30", "grade": "transferred", "exemptions_cited": [], "summary": "No substantive data supplied; part-transfer to MoRTH u/s 6(3) ~75 days after filing, after the first appeal was already lodged." }
+      ],
+      "key_figures": [],
+      "findings": [
+        "The nodal state transport department produced zero substantive data on compensation claims; its only recorded action was a s.6(3) part-transfer ~75 days after filing (statute allows 5 days for transfer, s.6(3))."
+      ],
+      "documents": [
+        { "title": "RTI Application under Section 6.docx", "drive_id": "1wclgZdjUV00S85iIVEyeHHVY2HAoW4am", "kind": "application" },
+        { "title": "RTI Transport Delhi.pdf", "drive_id": "1vgmbBf-pXyXPvvTase9TSs3pUJEa2veY", "kind": "application" },
+        { "title": "RTI Application.pdf (portal receipt)", "drive_id": "1Mr_sLTmv1oW4jVlPnevloRz_n1X0Z6VC", "kind": "receipt" },
+        { "title": "RTI Delhi Transport.pdf (first-appeal receipt)", "drive_id": "1dXE8nEsbIGqkptJucoslNs7swwRl4p1n", "kind": "appeal_receipt" },
+        { "title": "DelhiTransporttoMoRTH_5.1.26.pdf (s.6(3) transfer)", "drive_id": "1BvhbYbBsz6FhK2NqgOmW1C-NhvvMbfQC", "kind": "transfer_letter" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "Check whether any appeal decision or MoRTH response arrived after Feb 2026; folder has none." }
+    },
+    {
+      "id": "DMA-T02",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "Delhi State Legal Services Authority (DSLSA)", "type": "slsa", "jurisdiction": "Delhi" },
+      "filed_date": "2025-12-09",
+      "registration_no": "DLLSA/R/2025/60132",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "Legal aid to motor accident victims, DVCS 2018 compensation, hit-and-run schemes, FY 2021-22 to 2023-24 (21 queries)",
+      "themes": ["legal-aid", "victim-compensation", "hit-and-run", "mact"],
+      "questions_summary": "Legal aid applications/approvals/rejections for MACT cases; lawyer-assignment time; MACT panel size; DVCS 2018 applications and amounts; hit-and-run scheme applications and beneficiary counts; SOPs; awareness campaigns.",
+      "status": "replied",
+      "events": [
+        { "date": "2025-12-09", "type": "filed", "detail": "Filed on Delhi RTI portal" },
+        { "date": "2025-12-10", "type": "transfer_6_3", "detail": "Forwarded online to all DLSAs for district-level queries" },
+        { "date": "2025-12-22", "type": "reply", "detail": "Disposed with central-office reply (13 days)" }
+      ],
+      "responses": [
+        { "authority": "DSLSA Central Office", "reply_date": "2025-12-22", "grade": "partial", "exemptions_cited": [], "summary": "Answered 5 of 21 queries centrally, rest forwarded to DLSAs. Confirmed NO panel of lawyers specifically for MACT cases exists (2022-2024) and NO SOP for legal aid in motor accident cases. Gave disbursement totals - but supplied IDENTICAL figures for DVCS road-victim disbursals (Q10) and Hit-and-Run Scheme disbursals (Q14), while also stating it only disburses under DVCS 2018: internally inconsistent." }
+      ],
+      "key_figures": [
+        { "metric": "Compensation disbursed to road traffic accident victims (DVCS 2018)", "value": "Rs 26,76,25,000", "period": "FY 2021-22", "source": "DSLSA reply Q10", "confidence": "high" },
+        { "metric": "Compensation disbursed to road traffic accident victims (DVCS 2018)", "value": "Rs 39,88,50,000", "period": "FY 2022-23", "source": "DSLSA reply Q10", "confidence": "high" },
+        { "metric": "Compensation disbursed to road traffic accident victims (DVCS 2018)", "value": "Rs 46,74,71,000", "period": "FY 2023-24", "source": "DSLSA reply Q10", "confidence": "high" },
+        { "metric": "LSAs empanelled specifically for MACT cases", "value": 0, "period": "2022, 2023, 2024", "source": "DSLSA reply Q6", "confidence": "high" }
+      ],
+      "findings": [
+        "No MACT-specific lawyer panel exists anywhere in DSLSA (2022-2024); candidates for 'MACT panel' merely need 5 years of civil practice.",
+        "No SOP exists for legal aid in motor accident cases.",
+        "DSLSA's reply gives identical rupee figures for two different schemes (DVCS Q10 and Hit-and-Run Q14) - an internal inconsistency worth a follow-up RTI or appeal."
+      ],
+      "documents": [
+        { "title": "RTI to DSLSA (1).docx", "drive_id": "1ywjQrpVKqUV_ACp8myz4kF0OjxSr9BSg", "kind": "application" },
+        { "title": "rtidsla.pdf", "drive_id": "1vKnGkSORfGEykMFQVps3SpE5fhOt68ZI", "kind": "application" },
+        { "title": "RTI Online __ DSLA.pdf (portal receipt)", "drive_id": "1zWrZQ9UzaxhzTCgsEvvR6_OLxPUtHdck", "kind": "receipt" },
+        { "title": "DSLSA RTI Reply.pdf (portal disposal DLLSA/R/2025/60132/4)", "drive_id": "18GPzwz1f3v5zM3j5Ly9iVJ7kxeFTGwCE", "kind": "reply" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "Q10/Q14 duplication is verbatim from portal reply - high confidence, but confirm on portal." }
+    },
+    {
+      "id": "DMA-T03",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "DLSA East (Karkardooma Courts)", "type": "dlsa", "jurisdiction": "Delhi — East District" },
+      "filed_date": "2025-12-09",
+      "registration_no": "37/DLSA/EAST/RTI/25-26 (via DSLSA forward)",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "District cut of the DSLSA 21-query application",
+      "themes": ["legal-aid", "victim-compensation", "hit-and-run"],
+      "questions_summary": "Same 21 queries as DMA-T02, answered for East district.",
+      "status": "replied",
+      "events": [
+        { "date": "2025-12-10", "type": "transfer_6_3", "detail": "Received via DSLSA forward" },
+        { "date": "2026-01-08", "type": "reply", "detail": "Point-wise reply" }
+      ],
+      "responses": [
+        { "authority": "DLSA East", "reply_date": "2026-01-08", "grade": "substantive", "exemptions_cited": [], "summary": "Point-wise data on legal aid, DVCS and hit-and-run. The only DLSA in the corpus that reported hit-and-run scheme applications/beneficiaries (others said the scheme 'does not pertain to this authority')." }
+      ],
+      "key_figures": [
+        { "metric": "Legal aid applications from motor accident victims", "value": 1, "period": "FY 2021-22", "source": "DLSA East Q1", "confidence": "high" },
+        { "metric": "Legal aid applications from motor accident victims", "value": 5, "period": "FY 2022-23", "source": "DLSA East Q1", "confidence": "high" },
+        { "metric": "Legal aid applications from motor accident victims", "value": 4, "period": "FY 2023-24", "source": "DLSA East Q1", "confidence": "high" },
+        { "metric": "DVCS compensation approved & disbursed", "value": "Rs 69,25,000", "period": "2021", "source": "DLSA East Q9-10", "confidence": "medium" },
+        { "metric": "DVCS compensation approved & disbursed", "value": "Rs 1,44,50,000", "period": "2022", "source": "DLSA East Q9-10", "confidence": "medium" },
+        { "metric": "DVCS compensation approved & disbursed", "value": "Rs 1,56,50,000", "period": "2023", "source": "DLSA East Q9-10", "confidence": "medium" },
+        { "metric": "Hit-and-run scheme applications (2022 Scheme)", "value": "0 / 18 / 34", "period": "2021 / 2022 / 2023", "source": "DLSA East Q12", "confidence": "medium" },
+        { "metric": "Hit-and-run beneficiaries — death @ Rs 2,00,000 (2022 Scheme)", "value": 29, "period": "2021-2024", "source": "DLSA East Q16", "confidence": "high" },
+        { "metric": "Hit-and-run beneficiaries — grievous hurt @ Rs 50,000 (2022 Scheme)", "value": 22, "period": "2021-2024", "source": "DLSA East Q16", "confidence": "high" },
+        { "metric": "Hit-and-run amount approved/disbursed", "value": "Rs 87,50,000 (2022), Rs 1,56,50,000 (2023)", "period": "2022-2023", "source": "DLSA East Q14", "confidence": "low" }
+      ],
+      "findings": [
+        "Ten legal-aid applications in three years, in a district whose MACT bench reports 1,840 pending cases.",
+        "Q14 hit-and-run amounts partially mirror Q9 DVCS amounts - same scheme-conflation pattern as DSLSA central."
+      ],
+      "documents": [
+        { "title": "DLSA_East_8.1.26.pdf", "drive_id": "1OLi9_tBhyfe2zR_UJORQRRIQtRkZKcSp", "kind": "reply" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "Amount digits partially garbled in OCR (69,25,000 read as 6925000 etc.); verify against scan." }
+    },
+    {
+      "id": "DMA-T04",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "DLSA West (Tis Hazari Courts)", "type": "dlsa", "jurisdiction": "Delhi — West District" },
+      "filed_date": "2025-12-09",
+      "registration_no": "DLSA/WEST/THC/RTI/2025/41(Reg.2026)/03/2026/3687 (via DSLSA forward, DLLSA/R/2025/60132/5)",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "District cut of the DSLSA 21-query application",
+      "themes": ["legal-aid", "victim-compensation", "hit-and-run"],
+      "questions_summary": "Same 21 queries as DMA-T02, answered for West district.",
+      "status": "replied",
+      "events": [
+        { "date": "2025-12-10", "type": "transfer_6_3", "detail": "Received via DSLSA forward" },
+        { "date": "2026-01-12", "type": "reply", "detail": "Point-wise reply" }
+      ],
+      "responses": [
+        { "authority": "DLSA West", "reply_date": "2026-01-12", "grade": "substantive", "exemptions_cited": [], "summary": "Point-wise data. Hit-and-run scheme: 'not dealt with by this Authority'. Awareness campaigns for motor accident victims 2021-24: Nil. No MACT-specific advocate panel; 3 legal-aid counsel drawn from general panel." }
+      ],
+      "key_figures": [
+        { "metric": "Legal aid applications from motor accident victims", "value": "8 / 20 / 19", "period": "FY 2021-22 / 2022-23 / 2023-24", "source": "DLSA West Q1", "confidence": "high" },
+        { "metric": "DVCS applications from road traffic accident victims", "value": "44 / 177 / 124", "period": "FY 2021-22 / 2022-23 / 2023-24", "source": "DLSA West Q7", "confidence": "high" },
+        { "metric": "DVCS compensation approved", "value": "Rs 2,85,000 / Rs 7,65,50,000 / Rs 5,12,25,000", "period": "FY 2021-22 / 2022-23 / 2023-24", "source": "DLSA West Q9", "confidence": "low" },
+        { "metric": "Legal-aid counsel handling MACT cases (from ADJ panel; no MACT panel)", "value": 3, "period": "2022-2024", "source": "DLSA West Q6", "confidence": "medium" },
+        { "metric": "Awareness campaigns for motor accident victims", "value": 0, "period": "2021-2024", "source": "DLSA West Q21", "confidence": "high" }
+      ],
+      "findings": [
+        "Hit-and-run scheme explicitly disowned: 'this authority does not receive, process, or maintain records' - despite DLSAs being the ground tier of the victim-compensation machinery.",
+        "Zero awareness campaigns for motor accident victims in four years."
+      ],
+      "documents": [
+        { "title": "DLSA West_RTI Reply.pdf", "drive_id": "1GN-qUl9DQXCE5INNpBS2sSELOF4SFuFv", "kind": "reply" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "FY 2021-22 approved amount (Rs 2,85,000) is suspiciously low next to later years - likely OCR or a genuine outlier; verify." }
+    },
+    {
+      "id": "DMA-T05",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "DLSA North-West (Rohini Courts)", "type": "dlsa", "jurisdiction": "Delhi — North-West District" },
+      "filed_date": "2025-12-09",
+      "registration_no": "44/NWDLSA/RTI/December/2025 (via DSLSA forward)",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "District cut of the DSLSA 21-query application",
+      "themes": ["legal-aid", "victim-compensation", "hit-and-run"],
+      "questions_summary": "Same 21 queries as DMA-T02, answered for North-West district.",
+      "status": "replied",
+      "events": [
+        { "date": "2025-12-10", "type": "transfer_6_3", "detail": "Received via DSLSA forward" },
+        { "date": "2026-01-08", "type": "reply", "detail": "Point-wise reply" }
+      ],
+      "responses": [
+        { "authority": "DLSA North-West", "reply_date": "2026-01-08", "grade": "substantive", "exemptions_cited": [], "summary": "Point-wise data. Hit-and-run: 'not dealt with by this Authority'. Awareness campaigns: Nil. 9 legal-aid advocates for MACT." }
+      ],
+      "key_figures": [
+        { "metric": "Legal aid applications from motor accident victims", "value": "4 / 12 / 12", "period": "FY 2021-22 / 2022-23 / 2023-24", "source": "DLSA NW Q1", "confidence": "high" },
+        { "metric": "DVCS road-accident cases and awards", "value": "45 (Rs 1,08,49,996) / 95 (Rs 1,32,40,000) / 97 (Rs 1,12,35,000) / (Rs 1,76,50,000)", "period": "2021 / 2022 / 2023 / 2024", "source": "DLSA NW Q7-9", "confidence": "low" },
+        { "metric": "Legal-aid advocates for MACT cases", "value": 9, "period": "2022-2024", "source": "DLSA NW Q6", "confidence": "high" },
+        { "metric": "Awareness campaigns for motor accident victims", "value": 0, "period": "2021-2024", "source": "DLSA NW Q21", "confidence": "high" }
+      ],
+      "findings": [
+        "Hit-and-run scheme disowned; all beneficiary counts Nil.",
+        "Zero awareness campaigns in four years."
+      ],
+      "documents": [
+        { "title": "DLSA_NorthWest_8.1.26.pdf", "drive_id": "1tCFe7J6it15nacyKcOH-OsjCZ0x3DY73", "kind": "reply" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "Q7-9 table columns (cases vs amounts vs years) misaligned in OCR - 4 amounts against 3-4 year labels; verify." }
+    },
+    {
+      "id": "DMA-T06",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "DLSA North-East (Karkardooma Courts)", "type": "dlsa", "jurisdiction": "Delhi — North-East District" },
+      "filed_date": "2025-12-09",
+      "registration_no": "KKD/DLSA/North-East/RTI/26-63 (via DSLSA forward)",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "District cut of the DSLSA 21-query application",
+      "themes": ["legal-aid", "victim-compensation", "hit-and-run"],
+      "questions_summary": "Same 21 queries as DMA-T02, answered for North-East district.",
+      "status": "replied",
+      "events": [
+        { "date": "2025-12-10", "type": "transfer_6_3", "detail": "Received via DSLSA forward" },
+        { "date": "2026-01-08", "type": "reply", "detail": "Point-wise reply" }
+      ],
+      "responses": [
+        { "authority": "DLSA North-East", "reply_date": "2026-01-08", "grade": "partial", "exemptions_cited": [], "summary": "Every legal-aid query (A1-B6): Nil. DVCS cases and amounts given. Hit-and-run: does not pertain to this authority; all beneficiary counts Nil." }
+      ],
+      "key_figures": [
+        { "metric": "Legal aid applications from motor accident victims", "value": 0, "period": "FY 2021-22 to 2023-24 (all Nil)", "source": "DLSA NE Q1-6", "confidence": "high" },
+        { "metric": "DVCS road-accident cases", "value": "22 / 33 / 38", "period": "FY 2021-22 / 2022-23 / 2023-24", "source": "DLSA NE Q7", "confidence": "high" },
+        { "metric": "DVCS amounts", "value": "Rs 3,39,75,000 / Rs 2,15,05,000 / Rs 26,62,50,000", "period": "FY 2021-22 / 2022-23 / 2023-24", "source": "DLSA NE Q9", "confidence": "low" }
+      ],
+      "findings": [
+        "ZERO legal-aid applications from motor accident victims in three years - in one of Delhi's highest-crash districts, whose MACT bench reports ~1,400+ pending cases.",
+        "FY 2023-24 DVCS amount (Rs 26.62 crore) is an order of magnitude above the two prior years - verify against scan; likely OCR misread of Rs 2,66,25,000."
+      ],
+      "documents": [
+        { "title": "DLSA_NorthEast_8.1.26.pdf", "drive_id": "1kflBp2AD8FVoCfPIkY4SrRNyCbvi-8oG", "kind": "reply" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "Verify the Rs 26,62,50,000 figure before ANY public use." }
+    },
+    {
+      "id": "DMA-T07",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "DLSA Shahdara (Karkardooma Courts)", "type": "dlsa", "jurisdiction": "Delhi — Shahdara District" },
+      "filed_date": "2025-12-09",
+      "registration_no": "DLSA/Shahdara/RTI/2025 (via DSLSA forward)",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "District cut of the DSLSA 21-query application",
+      "themes": ["legal-aid", "victim-compensation", "hit-and-run"],
+      "questions_summary": "Same 21 queries as DMA-T02, answered for Shahdara district.",
+      "status": "replied",
+      "events": [
+        { "date": "2025-12-10", "type": "transfer_6_3", "detail": "Received via DSLSA forward" },
+        { "date": "2026-01-08", "type": "reply", "detail": "Point-wise reply" }
+      ],
+      "responses": [
+        { "authority": "DLSA Shahdara", "reply_date": "2026-01-08", "grade": "substantive", "exemptions_cited": [], "summary": "Point-wise data. Lawyer-assignment time: 'no such data maintained'. ONE panel lawyer for MACT cases. Hit-and-run: Nil. Awareness campaigns: Nil." }
+      ],
+      "key_figures": [
+        { "metric": "Legal aid applications from motor accident victims (total)", "value": 28, "period": "2021: 14, 2022: 5, 2023: 3, 2024: 6", "source": "DLSA Shahdara Q1", "confidence": "medium" },
+        { "metric": "Panel lawyers for MACT cases", "value": 1, "period": "2022-2024", "source": "DLSA Shahdara Q6", "confidence": "high" },
+        { "metric": "DVCS applications", "value": "66 / 65 / 56", "period": "FY 2021-22 / 2022-23 / 2023-24", "source": "DLSA Shahdara Q7", "confidence": "high" },
+        { "metric": "DVCS amounts approved", "value": "~Rs 2,55,93,786 / Rs 1,73,50,000 / Rs 1,61,00,000", "period": "FY 2021-22 / 2022-23 / 2023-24", "source": "DLSA Shahdara Q9", "confidence": "low" },
+        { "metric": "Awareness campaigns for motor accident victims", "value": 0, "period": "2021-2024", "source": "DLSA Shahdara Q21", "confidence": "high" }
+      ],
+      "findings": [
+        "One panel lawyer for MACT cases in the whole district.",
+        "Cannot say how long lawyer assignment takes - 'no such data maintained'."
+      ],
+      "documents": [
+        { "title": "DLSA_Shahdara_8.1.26.pdf", "drive_id": "1kvJPjxs-U-y62wa3VHxIBMIktMu7nr1_", "kind": "reply" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "Q9 amounts heavily garbled in OCR; year-wise legal-aid split (14/5/3/6) uses calendar years unlike other DLSAs - verify." }
+    },
+    {
+      "id": "DMA-T08",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "Delhi Police (Commissioner's office, fanned to district DCPs)", "type": "police", "jurisdiction": "Delhi" },
+      "filed_date": "2025-12-10",
+      "registration_no": "DEPOL/R/E/25/11058 (district suffixes /10-/14 etc.)",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "DAR/IAR/FAR filing compliance in road-crash cases, FY 2022-23 to 2024-25",
+      "themes": ["dar-compliance", "mact"],
+      "questions_summary": "District-wise fatal and non-fatal crash counts; DARs filed within/beyond 90 days; IARs within/beyond 50 days; FARs within 24 hours; completeness of DAR documentation; MACT rectification directions. These deadlines are the Gohar Mohammed (SC, 2023) / MV (Amendment) Act framework.",
+      "status": "replied",
+      "events": [
+        { "date": "2025-12-10", "type": "filed", "detail": "Filed online; distributed to district PIOs" },
+        { "date": "2026-01-05", "type": "reply", "detail": "West, Shahdara, Kashmere Gate Metro replies" },
+        { "date": "2026-01-07", "type": "inspection_offer", "detail": "North-East: inspection offer" },
+        { "date": "2026-01-08", "type": "inspection_offer", "detail": "South: inspection offer" },
+        { "date": "2026-01-10", "type": "inspection_offer", "detail": "South-East: inspection offer" },
+        { "date": "2026-01-13", "type": "inspection_offer", "detail": "North-West: inspection offer" }
+      ],
+      "responses": [
+        { "authority": "DCP South District", "reply_date": "2026-01-08", "grade": "deflected_inspection", "exemptions_cited": ["RTI s.4(a)/(d)", "implied s.7(9)"], "summary": "'Very lengthy, time consuming, requires diversion of manpower' - offered record inspection at police stations, figures only." },
+        { "authority": "DCP South-East District", "reply_date": "2026-01-10", "grade": "deflected_inspection", "exemptions_cited": ["RTI s.7(9)", "s.4(d)"], "summary": "Same deflection; inspection at DCP office within a month." },
+        { "authority": "DCP North-West District", "reply_date": "2026-01-13", "grade": "deflected_inspection", "exemptions_cited": ["s.4(f) Delhi RTI Rules 2012"], "summary": "Same deflection; visit police stations 10am-5pm." },
+        { "authority": "DCP North-East District", "reply_date": "2026-01-07", "grade": "deflected_inspection", "exemptions_cited": ["RTI s.7(9)", "s.4(d)"], "summary": "Same deflection; also pointed to Delhi Police website." },
+        { "authority": "DCP Shahdara District", "reply_date": "2026-01-05", "grade": "deflected_inspection", "exemptions_cited": ["RTI s.4(f)", "s.7(9)"], "summary": "Deflection - and admitted the MACT Inspector's records are 'not available in the requisite format'." },
+        { "authority": "DCP West District (Janakpuri)", "reply_date": "2026-01-05", "grade": "partial", "exemptions_cited": ["RTI s.2(f)"], "summary": "Gave district crash counts (see key_figures) but said DAR/IAR timeliness records are 'not maintained separately' and ruled remaining queries outside 'information' u/s 2(f)." },
+        { "authority": "DCP Metro (Kashmere Gate)", "reply_date": "2026-01-05", "grade": "substantive", "exemptions_cited": [], "summary": "Tiny jurisdiction; 1 fatal crash (FY 2022-23, DAR within 90 days, FAR within 24h), 1 non-fatal (IAR within 50 days). The only police unit that answered the compliance questions as asked." }
+      ],
+      "key_figures": [
+        { "metric": "Fatal accidents, West District", "value": "182 / 150 / 151 / 142", "period": "2022 / 2023 / 2024 / 2025", "source": "DCP West reply", "confidence": "high" },
+        { "metric": "Simple (non-fatal) accidents, West District", "value": "329 / 342 / 295 / 283", "period": "2022 / 2023 / 2024 / 2025", "source": "DCP West reply", "confidence": "high" },
+        { "metric": "Police district responses that deflected to inspection", "value": "5 of 7 district replies on record (+ HQ silence)", "period": "Jan 2026", "source": "corpus-wide", "confidence": "high" }
+      ],
+      "findings": [
+        "No Delhi Police district could (or would) state how many DARs were filed within the 90-day legal deadline - the single most consequential compliance number for crash victims.",
+        "Five of seven district replies used the identical 'voluminous - come inspect' template, suggesting a coordinated non-answer.",
+        "West District's own numbers show fatal crashes declining 182 -> 142 (2022-2025)."
+      ],
+      "documents": [
+        { "title": "RTIPolice.pdf (application)", "drive_id": "1omPtWlUsVjMWJlk6rVzE8x2cq-2mnj5M", "kind": "application" },
+        { "title": "DePol_South_8.1.26.pdf", "drive_id": "1aMYi916ykkRBSaz4mLc3UkPJefmvGnJE", "kind": "reply" },
+        { "title": "DePol_SouthEast_10.1.26.pdf", "drive_id": "1vo4eVe4GyBhZv8QwJAVbokfSGGo8Y1s9", "kind": "reply" },
+        { "title": "DePol_NorthWest_13.1.26.pdf", "drive_id": "1CobmU3NXP5qWSIw5JM8TZr0Ak9u3besR", "kind": "reply" },
+        { "title": "DePol_NorthEast_7.1.26.pdf", "drive_id": "190O3RKCVm-_YIkZLFv_X9ImLKVbATjQu", "kind": "reply" },
+        { "title": "DePol_Shahdara_5.1.26.pdf", "drive_id": "1J0W3wzSELl-GVArdcvzWrzJwwWwfO093", "kind": "reply" },
+        { "title": "DePol_Janakpuri_5.1.26.pdf (West)", "drive_id": "161jPDiPaoWGNUFnnsfE3pN-Gvenpnq39", "kind": "reply" },
+        { "title": "DePol_KashmereGate_5.1.26.pdf (Metro)", "drive_id": "1yo4_sKAClsvmY7dMo9TRq3yYYaiTNGKH", "kind": "reply" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "Confirm whether other districts (Central, New Delhi, Rohini, Outer etc.) replied at all - folder has 7 districts + Metro." }
+    },
+    {
+      "id": "DMA-T09",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "Delhi District Courts — MACT benches (via Delhi HC Registrar General & PDSJ Central/RTI Central THC)", "type": "court", "jurisdiction": "Delhi (all district court complexes)" },
+      "filed_date": "2025-12-22",
+      "registration_no": "PDSJT/R/2025/60224 (transferred to district PIOs: PTHWD/R/2026/90003, PDNED/R/2026/90002, PDNDD/R/2026/90002, PKCSD/R/2026/90002, PDSWD/R/2026/90002/25, ...)",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "MACT pendency, disposal statistics, disposal time, and FDAR/CTAP/MCTAP compliance (Rajesh Tyagi directions), FY 2020-21 to 2024-25",
+      "themes": ["court-pendency", "fdar-ctap", "mact", "dar-compliance"],
+      "questions_summary": "Pending cases by year/type; cases pending >3 years with reasons; disposals by method; average disposal time; compliance with SC targets (120-day FDAR disposal, 6-12 month standard disposal); DAR filing within 30 days under the scheme; insurance settlement within 30 days of DAR.",
+      "status": "replied",
+      "events": [
+        { "date": "2025-12-22", "type": "filed", "detail": "Filed with PDSJ Central (Tis Hazari); parallel paper application to Delhi HC Registrar General" },
+        { "date": "2026-01-21", "type": "transfer_6_3", "detail": "RTI Central THC transferred online to all district court PIOs" }
+      ],
+      "responses": [
+        { "authority": "MACT-01 Central (Tis Hazari)", "reply_date": "2026-01-16", "grade": "substantive", "exemptions_cited": [], "summary": "Fullest reply in the corpus: pendency 1,126 (460 fatal/663 injury/3 DoP); DAR filed within 30 days vs beyond - 32 vs 1,543 over 2020-25; insurance settled within 30 days of DAR: 48 vs 392 contested; disposal-time claim 'within 12 months' for all categories (inconsistent with its own >5yr table: 114 of 2,111 disposals took >5 years)." },
+        { "authority": "MACT-02 Central (Tis Hazari)", "reply_date": "2026-01-16", "grade": "substantive", "exemptions_cited": [], "summary": "Pendency 427 (>3yr: 42); FDAR disposals: Nil; 6-12-month disposals 1,168/3,661; >2yr disposals 1,731/3,661 (47%); >5yr 687/3,661 (19%); DAR delay 'average 2-3 months'." },
+        { "authority": "West District (Tis Hazari) MACT courts", "reply_date": "2026-02-12", "grade": "partial", "exemptions_cited": [], "summary": "Pendency table by year/type; 321 cases >3 years (159 fatal); disposals FY20-25: 1,034 contested / 1,604 settled / 58 dismissed; FDAR disposals: Nil; 6-12-month disposals 1,099/4,600; >2yr 1,251/4,600; delay reasons, disposal-time and DAR-timeliness data 'not maintained'." },
+        { "authority": "East District (Karkardooma) MACT", "reply_date": "2026-02-19", "grade": "data_not_maintained", "exemptions_cited": [], "summary": "Pendency 1,840 (per NJDG), 586 pending >3 years, 258 pending witness examination; ~1,835 disposals contested/compromised/settled; everything else - FDAR/CTAP compliance, disposal times, DAR timeliness, insurance conduct - 'no such data maintained'." },
+        { "authority": "North-East District (Karkardooma) MACT", "reply_date": "2026-02-01", "grade": "data_not_maintained", "exemptions_cited": [], "summary": "Handwritten reply. Pendency ~1,409 (NJDG); ~519 pending >3 years; ~1,458 disposed; FDAR, disposal-time, DAR and insurance queries all 'no such data maintained'. Digits uncertain - verify." },
+        { "authority": "Shahdara District (Karkardooma) MACT-02 + PO MACT", "reply_date": "2026-02-02", "grade": "partial", "exemptions_cited": [], "summary": "MACT-02: 661 pending, 118 >3yr, 842 disposed since 2020; qualitative delay reasons given (HC stays, witness/counsel availability). Second court (per NJDG): ~2,076 pending, ~170 >3yr, ~2,141 disposed. Disposal-time and FDAR data 'not maintained'." },
+        { "authority": "New Delhi District (Patiala House) MACT-01", "reply_date": "2026-02-13", "grade": "refused_exemption", "exemptions_cited": ["DDC RTI Rules 7(vii)", "DDC RTI Rules 7(ix)", "RTI s.7(9)"], "summary": "Pendency 340 (38 death/298 injury/4 DoP), 432 >3yr (figure inconsistent with pendency - verify); delay-reason and disposal-time queries refused as 'creation of information'; ONE case disposed under FDAR ever; 435 contested / 156 mediation / 1,411 Lok Adalat disposals." },
+        { "authority": "New Delhi District (Patiala House) MACT-02", "reply_date": "2026-02-13", "grade": "partial", "exemptions_cited": [], "summary": "Court only created 26.08.2025; gave pendency snapshot (1,649 incl. DAR/execution/misc categories, 567 fatal/533 injury) and declined historic queries as pre-dating its existence. Delay-reason data: maintaining it 'not envisaged under RTI' (s.2(f)/s.2(j) argument)." },
+        { "authority": "Dwarka (South-West) MACT-01", "reply_date": "2026-01-29", "grade": "refused_exemption", "exemptions_cited": ["DDC RTI Rules 7(vi)", "7(vii)", "9(x)", "RTI s.7(9)"], "summary": "Pendency 1,578 (559 fatal/810 injury), 431 >3yr; ONE case disposed under FDAR; delay reasons refused (Rule 7(vii)); disposal stats 'in public domain'; judicial-proceedings exemption (9(x)) invoked." },
+        { "authority": "Dwarka (South-West) MACT-02", "reply_date": "2026-01-29", "grade": "refused_exemption", "exemptions_cited": ["DDC RTI Rules 7(vi)", "7(vii)", "9(x)", "RTI s.7(9)"], "summary": "Pendency 1,259 (403 fatal/671 injury), 485 >3yr; ZERO FDAR cases; same exemption pattern as MACT-01." }
+      ],
+      "key_figures": [
+        { "metric": "DAR filed by police within 30 days (FDAR scheme) vs beyond", "value": "32 within vs 1,543 beyond (2.0% on time)", "period": "2020-2025", "source": "MACT-01 Central", "confidence": "high" },
+        { "metric": "Insurance settled claim within 30 days of DAR vs contested", "value": "48 vs 392", "period": "2020-2025", "source": "MACT-01 Central", "confidence": "high" },
+        { "metric": "Cases disposed under FDAR/CTAP/MCTAP - all reporting courts combined", "value": "2 (1 PHC MACT-01, 1 Dwarka MACT-01; all others Nil or 'no data')", "period": "FY 2020-21 to 2024-25", "source": "all court replies", "confidence": "high" },
+        { "metric": "MACT cases pending >3 years (reporting courts, sum)", "value": "~3,144 (East 586, NE ~519, West THC 321, Shahdara 118+~170, PHC 432, Dwarka 431+485, Central 42+40)", "period": "as of Jan-Feb 2026", "source": "court replies", "confidence": "medium" },
+        { "metric": "Disposals taking >2 years, Central MACT-02", "value": "1,731 of 3,661 (47%)", "period": "2020-2025", "source": "MACT-02 Central", "confidence": "high" },
+        { "metric": "Disposals taking >5 years, Central MACT-02", "value": "687 of 3,661 (19%)", "period": "2020-2025", "source": "MACT-02 Central", "confidence": "high" },
+        { "metric": "Total pendency, East District MACT (NJDG)", "value": 1840, "period": "Feb 2026", "source": "East KKD reply", "confidence": "high" },
+        { "metric": "Standard-target compliance (6-12 month disposal), West THC", "value": "1,099 of 4,600 (24%)", "period": "2020-2025", "source": "West THC reply", "confidence": "medium" }
+      ],
+      "findings": [
+        "FDAR/CTAP/MCTAP - the Supreme Court's fast-track machinery from Rajesh Tyagi - has produced TWO disposals across every Delhi MACT court that answered, in five years. The scheme is functionally dead in the very jurisdiction where it was designed.",
+        "Only 2% of DARs reached Central district MACT-01 within the 30-day scheme deadline (32 vs 1,543).",
+        "No MACT court maintains the compliance statistics the SC's Gohar Mohammed/Rajesh Tyagi framework presupposes: disposal-time registers, DAR-timeliness logs, FDAR compliance data - 'no such data maintained', across the board.",
+        "Two court complexes (Patiala House, Dwarka) invoked Delhi District Court RTI Rules 7(vi)/(vii)/9(x) to refuse delay-reason data as 'creation of information' - an appealable position given the SC's own direction that this data be tracked.",
+        "~3,100+ MACT cases pending over 3 years across reporting courts alone (several districts missing)."
+      ],
+      "documents": [
+        { "title": "RTIHighCourt.pdf (application)", "drive_id": "1Wj5PWZaA7BKp5Eil63a6_l14V7WlZFL1", "kind": "application" },
+        { "title": "RTI Online __ Online RTI Information System.pdf (PDSJT receipt)", "drive_id": "1P0FhHpVlHRZIU3oFkG6KqWrfBpdlrl_X", "kind": "receipt" },
+        { "title": "DistrictCourt_RTI Reply.pdf (RTI Central THC + Central MACT-01/02)", "drive_id": "10wYo7iu3UFEmt4RH25ZGT2KHJAn7SvxJ", "kind": "reply" },
+        { "title": "WestTizHazari_RTIReply_12.2.26.pdf", "drive_id": "1J0xR9b9AtFUJlmQKeGtaD8_OoO5nGBcZ", "kind": "reply" },
+        { "title": "EastKarkardoomaCourt_RTIReply_19.2.26.pdf", "drive_id": "1JMUyB-pBiiOOaxl0reFgXAaG7R4NbNPw", "kind": "reply" },
+        { "title": "NEKarkardoomaCourt_RTIReply_1.2.26.pdf", "drive_id": "16aRNABUKXyj0SwyLb5BKQiHTHIGrcGbt", "kind": "reply" },
+        { "title": "ShahdaraDistrictKarkardoomaCourt_RTIReply_2.2.26.pdf", "drive_id": "1Yym_94w8z-LXNIDapsDayThWcelDOkp4", "kind": "reply" },
+        { "title": "NewDelhiPatialaHouse_RTIReply_13.2.26.pdf", "drive_id": "1EKFmCvDbQ-H7U58SX55oLn05FmRWzsnS", "kind": "reply" },
+        { "title": "Dwarka RTI Reply.pdf", "drive_id": "1xCn73cUiZB0FTkDAF3BRivAOpcx8OXwM", "kind": "reply" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "NE Karkardooma reply is handwritten - all its digits low-confidence. PHC MACT-01 pendency vs >3yr figures inconsistent (340 pending but 432 >3yr) - one is misread; verify. Rohini and Saket complexes absent from folder - chase or record as no_reply." }
+    },
+    {
+      "id": "DMA-T10",
+      "campaign": "delhi-mact-audit-2025",
+      "authority": { "name": "Ministry of Road Transport & Highways (MoRTH)", "type": "ministry", "jurisdiction": "India" },
+      "filed_date": "2025-12-22",
+      "registration_no": "(CPIO MoRTH; also receiving s.6(3) transfer from Delhi Transport Dept, 30.12.2025)",
+      "applicant": "Crashfree India (Research Fellow)",
+      "subject": "National hit-and-run compensation scheme data: claims, sanctions, disbursals, processing time, awareness spend, FY 2022-23 to 2024-25",
+      "themes": ["hit-and-run", "victim-compensation"],
+      "questions_summary": "State-wise hit-and-run accidents vs claims filed/sanctioned/settled/rejected/pending with time buckets; average processing time; awareness campaign budgets; studies on the ~0.3% claim-filing rate; s.161 eligibility where vehicle later identified; s.163 refunds to insurers.",
+      "status": "awaiting_reply",
+      "events": [
+        { "date": "2025-12-22", "type": "filed", "detail": "Application to CPIO MoRTH" },
+        { "date": "2025-12-30", "type": "transfer_6_3", "detail": "Also received part of Delhi Transport Dept application via transfer" }
+      ],
+      "responses": [],
+      "key_figures": [],
+      "findings": [
+        "No reply on record as of 30 Jun 2026 folder snapshot - deemed refusal territory (s.7(1) 30-day clock expired ~21 Jan 2026); first-appeal option available (condonation may be needed).",
+        "This is the thread that triangulates directly against MoRTH's parliament answers on the Hit-and-Run Scheme 2022 in the road-safety-in-parliament dataset."
+      ],
+      "documents": [
+        { "title": "RTIMoRTH.pdf (application)", "drive_id": "1h6naZy3320TMAmn3uuendM1txXB4fPiI", "kind": "application" }
+      ],
+      "parliament_links": [],
+      "verification": { "status": "needs_review", "notes": "Confirm with Kesar whether a MoRTH reply exists outside this folder." }
+    }
+  ]
+}
