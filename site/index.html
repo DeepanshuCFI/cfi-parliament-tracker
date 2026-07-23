@@ -69,6 +69,9 @@ header{border-bottom:1px solid var(--border);background:#fff}
 .stat{border:1px solid var(--border);border-radius:16px;background:#fff;padding:18px 20px}
 .stat b{display:block;font-family:var(--head);font-size:clamp(26px,3.4vw,38px);font-weight:700;color:var(--brand);line-height:1.05;font-variant-numeric:tabular-nums}
 .stat i{display:block;font-style:normal;margin-top:7px;font-size:13px;color:var(--muted);line-height:1.45}
+.sess-houses{display:flex;gap:20px}
+.sess-houses .sh{flex:1;min-width:0}
+.sess-houses .sh+.sh{border-left:1px solid var(--border);padding-left:20px}
 
 /* ongoing-session strip */
 .sess-dot{width:9px;height:9px;border-radius:50%;background:var(--brand);display:inline-block;margin-right:10px;position:relative;vertical-align:1px}
@@ -131,6 +134,7 @@ header{border-bottom:1px solid var(--border);background:#fff}
 .gfill.deaths{background:#FFC5C9}
 .gfill.qs{background:#fff}
 .gval{font-family:var(--head);font-weight:700;font-size:13px;font-variant-numeric:tabular-nums}
+.gval-wide{grid-column:2/4;text-align:left;font-size:12px;font-weight:600;color:rgba(255,255,255,.9)}
 .gap-note{margin-top:26px;font-size:13px;color:rgba(255,255,255,.85);max-width:760px;line-height:1.6}
 .gap-cta{margin-top:22px;border-top:1px solid rgba(255,255,255,.18);padding-top:22px;font-size:14.5px;color:rgba(255,255,255,.92);max-width:760px}
 
@@ -293,6 +297,12 @@ footer{border-top:1px solid var(--border);background:#fff}
   .search input,.sortsel,.statesel{font-size:16px}
   .chip{min-height:40px;padding:11px 14px}
   .pill-x{min-height:40px;padding:8px 12px}
+  /* compress the hero so the CTA buttons reach the first viewport on phones */
+  .hero-inner{padding-top:40px;padding-bottom:44px}
+  h1{margin-top:16px}
+  .lead{margin-top:16px}
+  .cta-row{margin-top:24px}
+  .statrow{margin-top:36px}
 }
 </style>
 
@@ -338,7 +348,7 @@ footer{border-top:1px solid var(--border);background:#fff}
     <p class="lead" id="sessLead"></p>
     <div class="sess-stats" id="sessStats" hidden>
       <div class="stat"><b id="sessN">0</b><i>road-safety questions answered this session</i></div>
-      <div class="stat"><b id="sessSplit">—</b><i>Lok Sabha · Rajya Sabha</i></div>
+      <div class="stat sess-houses"><span class="sh"><b id="sessLS">—</b><i>Lok Sabha</i></span><span class="sh"><b id="sessRS">—</b><i>Rajya Sabha</i></span></div>
       <div class="stat"><b id="sessLatest">—</b><i>latest answer in this database</i></div>
     </div>
     <div class="card sess-recent" id="sessRecent" hidden>
@@ -794,7 +804,7 @@ function buildGapChart(){
     const name=c.name||c.tag;
     const deathBar = c.deaths!=null
       ? `<span class="gline"><span class="glab">${c.rowLabel}</span><span class="gtrack"><span class="gfill deaths" style="width:${c.deaths/scaleMax*100}%"></span></span><span class="gval">${c.deathsLabel}</span></span>`
-      : `<span class="gline"><span class="glab">${c.rowLabel}</span><span class="gtrack"></span><span class="gval" style="font-size:11px">${c.deathsLabel}</span></span>`;
+      : `<span class="gline"><span class="glab">${c.rowLabel}</span><span class="gval gval-wide">${c.deathsLabel} in police data</span></span>`;
     return `<button class="gaprow" type="button" data-tag="${i}" aria-label="${esc(name)}: ${c.spoken}, but only ${n} questions since 2014 — ${qpct.toFixed(1)}% of all questions. Read these questions in the database.">
       <span class="gt"><span class="gname">${esc(name)}</span><span class="gn">${n} question${n===1?'':'s'} since 2014 →</span></span>
       <span class="gbars">
@@ -1199,7 +1209,8 @@ function buildSessionStrip(){
   }
   if(n>0){
     setTxt('sessN', fmt(n));
-    setTxt('sessSplit', `${fmt(nLS)} · ${fmt(nRS)}`);
+    setTxt('sessLS', fmt(nLS));
+    setTxt('sessRS', fmt(nRS));
     const latest = recs.find(r=>r.d);
     setTxt('sessLatest', latest ? fmtDate(latest.d) : '—');
     $('sessStats').hidden = false;
