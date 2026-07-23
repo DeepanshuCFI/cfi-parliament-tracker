@@ -2,11 +2,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Every road-safety question in Parliament since 2014 — all {{TOTAL}} across four ministries, reconciled against Parliament's own records. {{NEVER}} of {{SITTING}} sitting Lok Sabha MPs have never asked one. A Crashfree India public database.">
 <meta property="og:title" content="{{TOTAL}} road-safety questions in Parliament. {{NEVER}} sitting MPs never asked one.">
-<meta property="og:description" content="Every Lok Sabha & Rajya Sabha question on road safety since 2014 — across Road Transport, Health and Heavy Industries — searchable by state, MP and topic. Find your MP's record.">
+<meta property="og:description" content="Every Lok Sabha & Rajya Sabha question on road safety since 2014 — across Road Transport, Health, Heavy Industries and Housing & Urban Affairs — searchable by state, MP and topic. Find your MP's record.">
 <meta property="og:type" content="article">
+<meta property="og:url" content="https://road-safety-parliament.vercel.app">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:image" content="./og-card.png">
-<meta name="twitter:image" content="./og-card.png">
+<meta property="og:image" content="https://road-safety-parliament.vercel.app/og-card.png">
+<meta name="twitter:image" content="https://road-safety-parliament.vercel.app/og-card.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
 <title>Road Safety in Parliament — Crashfree India</title>
 <style>
@@ -14,7 +15,7 @@
 @font-face{font-family:'Geist';font-style:normal;font-weight:100 900;font-display:swap;src:url(data:font/woff2;base64,__GEIST__) format('woff2')}
 :root{
   --brand:#4A35FF;--brand-lite:#F8F7FF;--lavender:#F3F1FF;--lav-mid:#C8C0FF;--lav-txt:#D9D4FF;
-  --dark:#1a1c1c;--muted:#777589;--border:#EDEEF2;--danger:#F10015;--white:#FFFFFF;
+  --dark:#1a1c1c;--muted:#727084;--border:#EDEEF2;--danger:#F10015;--white:#FFFFFF;
   --head:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
   --body:'Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
 }
@@ -92,7 +93,10 @@ header{border-bottom:1px solid var(--border);background:#fff}
 @media(min-width:768px){.card{padding:28px}}
 .card h3{font-size:17px;font-weight:600}
 .card .sub{font-size:13px;color:var(--muted);margin-top:4px}
+.ychart-outer{position:relative}
 .ychart-wrap{overflow-x:auto;margin-top:24px;padding-bottom:4px}
+.ychart-fade{position:absolute;top:24px;bottom:4px;left:0;width:36px;background:linear-gradient(90deg,#fff 15%,rgba(255,255,255,0));pointer-events:none}
+.ychart-hint{font-size:11.5px;color:var(--muted);margin-top:8px}
 .ychart{display:flex;align-items:flex-end;gap:10px;min-width:720px;height:250px}
 .ybar{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:0;background:none;border:none;cursor:pointer;height:100%;padding:0;border-radius:8px}
 .ybar:hover .seg{opacity:.8}
@@ -281,6 +285,15 @@ footer{border-top:1px solid var(--border);background:#fff}
 .ft .tag-line{font-size:13px;color:var(--muted)}
 .ft .fm{font-family:var(--head);font-weight:700;font-size:14px}
 .ft .fm span{color:var(--brand)}
+
+/* mobile (≤520px): header collapse, iOS zoom guard, tap targets */
+@media(max-width:520px){
+  .hd .hd-label{display:none}
+  .hd .rti-link{white-space:nowrap}
+  .search input,.sortsel,.statesel{font-size:16px}
+  .chip{min-height:40px;padding:11px 14px}
+  .pill-x{min-height:40px;padding:8px 12px}
+}
 </style>
 
 <a class="skip" href="#explorer">Skip to the database</a>
@@ -288,7 +301,7 @@ footer{border-top:1px solid var(--border);background:#fff}
 <header>
   <div class="wrap hd">
     <img class="logo" src="data:image/svg+xml;base64,__LOGOBLUE__" alt="Crashfree India" width="188" height="38">
-    <div style="display:flex;align-items:center;gap:18px"><a href="/rti" style="font-family:var(--head);font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brand)">RTI Watch →</a><div class="hd-label">Parliament Watch</div></div>
+    <div style="display:flex;align-items:center;gap:18px"><a class="rti-link" href="/rti" style="font-family:var(--head);font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brand)">RTI Watch →</a><div class="hd-label">Parliament Watch</div></div>
   </div>
 </header>
 
@@ -331,7 +344,7 @@ footer{border-top:1px solid var(--border);background:#fff}
     <div class="card sess-recent" id="sessRecent" hidden>
       <h3>Most recent this session</h3>
       <p class="sub">Titles link to the official answer PDF on sansad.in where one is available.</p>
-      <ul class="sess-list" id="sessList"></ul>
+      <ul class="sess-list" id="sessList" role="list"></ul>
     </div>
     <p class="sess-zero" id="sessZero" hidden></p>
     <div class="cta-row" id="sessCtaRow" hidden>
@@ -348,7 +361,8 @@ footer{border-top:1px solid var(--border);background:#fff}
     <div class="card" style="margin-top:40px">
       <h3>Questions per year, by House</h3>
       <p class="sub">Select a year to see its questions in the database. <span id="ychartNote">{{CHART_NOTE}}</span></p>
-      <div class="ychart-wrap"><div class="ychart" id="yearChart" role="group" aria-label="Questions per year — select a year to filter the database"></div></div>
+      <div class="ychart-outer"><div class="ychart-wrap" id="ychartWrap"><div class="ychart" id="yearChart" role="group" aria-label="Questions per year — select a year to filter the database"></div></div><div class="ychart-fade" id="ychartFade" hidden aria-hidden="true"></div></div>
+      <p class="ychart-hint" id="ychartHint" hidden aria-hidden="true">← scroll for earlier years</p>
       <div class="legend">
         <span><span class="dot" style="background:var(--brand)"></span>Lok Sabha</span>
         <span><span class="dot" style="background:var(--lav-mid)"></span>Rajya Sabha</span>
@@ -466,7 +480,7 @@ footer{border-top:1px solid var(--border);background:#fff}
       </select>
     </div>
 
-    <ul class="qlist" id="list" tabindex="-1" style="outline:none"></ul>
+    <ul class="qlist" id="list" role="list" tabindex="-1" style="outline:none"></ul>
     <div class="empty" id="empty" hidden>No questions match these filters. Try clearing a filter or broadening the search.</div>
     <div class="more-wrap">
       <button class="btn btn-ghost" id="more" hidden type="button">Show 50 more</button>
@@ -482,8 +496,8 @@ footer{border-top:1px solid var(--border);background:#fff}
     <div class="meth-grid">
       <div class="card meth-card">
         <h3>How this was built — and checked</h3>
-        <p>Road safety is answered by more than one ministry, so we enumerated <strong>every</strong> question — directly from Parliament's own question APIs — put to the four that own it: Road Transport &amp; Highways (roads, vehicles, enforcement), Health &amp; Family Welfare (trauma centres, ambulances, accident-victim care), Heavy Industries (vehicle crash standards), and Housing &amp; Urban Affairs (pedestrian and footpath safety in cities). From those, we kept the 1,415 whose titles concern road safety across the 16th–18th Lok Sabhas and Rajya Sabha sessions 232–270 (July 2014 – April 2026).</p>
-        <p>Because the first pass was an automated scrape of MoRTH alone, we <strong>independently reconciled it against the official API question-by-question</strong> and extended it across the other two ministries. The check found 0 spurious records and ~520 questions the scrape had missed; all were added. Every record carries its answering ministry, is tagged by topic, matched to the asking MP's official profile (party, state, constituency), and linked to the Government's answer PDF. Refreshed after every session.</p>
+        <p>Road safety is answered by more than one ministry, so we enumerated <strong>every</strong> question — directly from Parliament's own question APIs — put to the four that own it: Road Transport &amp; Highways (roads, vehicles, enforcement), Health &amp; Family Welfare (trauma centres, ambulances, accident-victim care), Heavy Industries (vehicle crash standards), and Housing &amp; Urban Affairs (pedestrian and footpath safety in cities). From those, the audited baseline kept the 1,415 whose titles concern road safety across the 16th–18th Lok Sabhas and Rajya Sabha sessions 232–270 (July 2014 – April 2026); the tracker now adds each session's questions daily, bringing the set to <span id="methTotal">{{TOTAL}}</span> through <span id="methThrough">{{DATA_THROUGH_MY}}</span>.</p>
+        <p>Because the first pass was an automated scrape of MoRTH alone, we <strong>independently reconciled it against the official API question-by-question</strong> and extended it across the other three ministries. The check found 0 spurious records and ~520 questions the scrape had missed; all were added. Every record carries its answering ministry, is tagged by topic, matched to the asking MP's official profile (party, state, constituency), and linked to the Government's answer PDF. Refreshed daily during sessions.</p>
       </div>
       <div class="card meth-card">
         <h3>Caveats</h3>
@@ -513,7 +527,7 @@ footer{border-top:1px solid var(--border);background:#fff}
       <img class="logo" src="data:image/svg+xml;base64,__LOGOBLUE__" alt="Crashfree India" width="200" height="40">
       <div class="tag-line" style="margin-top:12px">Systems work because we hold them accountable.</div>
     </div>
-    <div class="tag-line">Source: sansad.in · Data period <span id="ftPeriod">{{PERIOD}}</span> · Refreshed every session</div>
+    <div class="tag-line">Source: sansad.in · Data period <span id="ftPeriod">{{PERIOD}}</span> · Refreshed daily during sessions</div>
   </div>
 </footer>
 
@@ -526,6 +540,8 @@ const MINF = DATA.ministries || {MoRTH:'Road Transport & Highways',Health:'Healt
 const MPMETA = ENRICH.mpMeta || {};   // name -> [state, partyAbbr, n, firstYr, lastYr]
 const TOTAL = R.length;
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+// data-derived hrefs must be http(s) — anything else (javascript:, data:, …) renders the no-PDF fallback
+const safeUrl = u => { if(!u) return ''; try { const p = new URL(u, location.origin); return (p.protocol==='http:'||p.protocol==='https:') ? p.href : ''; } catch(e) { return ''; } };
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const fmtDate = d => { if(!d) return '—'; const [y,m,dd]=d.split('-'); return `${+dd} ${MONTHS[+m-1]} ${y}`; };
 const fmt = n => n.toLocaleString('en-IN');
@@ -611,7 +627,9 @@ function render(){
   const rows = filtered();
   const slice = rows.slice(0, state.shown);
   $('count').innerHTML = `<b>${fmt(rows.length)}</b> of ${fmt(TOTAL)} questions`;
-  $('list').innerHTML = slice.map(r => `
+  $('list').innerHTML = slice.map(r => {
+    const u = safeUrl(r.u);
+    return `
     <li class="qrow">
       <div>
         <div class="qdate">${fmtDate(r.d)}</div>
@@ -619,12 +637,12 @@ function render(){
         ${r.t==='S' ? '<span class="qstar" title="Answered orally on the floor">STARRED</span>' : ''}
       </div>
       <div>
-        <div class="qsubj">${r.u ? `<a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.j)}</a>` : esc(r.j)}</div>
+        <div class="qsubj">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(r.j)}</a>` : esc(r.j)}</div>
         <div class="qmps">${r.m.map(m=>`<button type="button" data-mp="${esc(m)}" aria-label="Profile of ${esc(m)}">${esc(m)}</button>`).join(' · ')}</div>
         <div class="qtags"><span class="qtag qmin" title="Answering ministry">${esc(MINF[r.min]||'MoRTH')}</span>${r.g.map(g=>`<span class="qtag">${esc(TAGS[g])}</span>`).join('')}</div>
       </div>
-      <div>${r.u ? `<a class="qpdf" href="${esc(r.u)}" target="_blank" rel="noopener" aria-label="Official answer PDF: ${esc(r.j)}">Answer PDF ↗</a>` : '<span class="qpdf na">PDF unavailable</span>'}</div>
-    </li>`).join('');
+      <div>${u ? `<a class="qpdf" href="${esc(u)}" target="_blank" rel="noopener" aria-label="Official answer PDF: ${esc(r.j)}">Answer PDF ↗</a>` : '<span class="qpdf na">PDF unavailable</span>'}</div>
+    </li>`;}).join('');
   $('empty').hidden = rows.length>0;
   $('more').hidden = rows.length<=state.shown;
   $('all').hidden = rows.length<=state.shown;
@@ -746,6 +764,17 @@ function buildYearChart(){
     const b=e.target.closest('.ybar');
     if(b){ freshView(); state.year=b.dataset.year; refreshChips(); render(); goExplorer(); }
   });
+  // on narrow screens the chart scrolls: open at the right edge (recent years, which the
+  // headline cites) and show a fade + hint so the earlier years are discoverable
+  const wrap = $('ychartWrap');
+  if(wrap && wrap.scrollWidth > wrap.clientWidth + 1){
+    wrap.scrollLeft = wrap.scrollWidth;
+    $('ychartHint').hidden = false;
+    const fade = $('ychartFade');
+    const updFade = ()=>{ fade.hidden = wrap.scrollLeft <= 1; };
+    wrap.addEventListener('scroll', updFade, {passive:true});
+    updFade();
+  }
 }
 
 // ---------- attention gap chart ----------
@@ -805,7 +834,9 @@ function buildLeaderboards(){
 function filterToMP(name){
   freshView(); state.mp=name; refreshChips(); render(); closeMP(); goExplorer();
 }
+let mpOpener = null;   // element that opened the modal — focus returns to it on close
 function openMP(name){
+  mpOpener = document.activeElement;
   const meta = MPMETA[name] || ['','',0,'',''];
   const [st, party, n, fy, ly] = meta;
   const recs = R.filter(r=>r.m.includes(name));
@@ -833,9 +864,23 @@ function openMP(name){
   $('mpClose').onclick=closeMP;
   $('mpClose').focus();
 }
-function closeMP(){ $('mpModal').hidden=true; }
+function closeMP(){
+  $('mpModal').hidden=true;
+  if(mpOpener && document.contains(mpOpener) && mpOpener.focus) mpOpener.focus();
+  mpOpener = null;
+}
 $('mpModal').addEventListener('click', e=>{ if(e.target===$('mpModal')) closeMP(); });
 document.addEventListener('keydown', e=>{ if(e.key==='Escape' && !$('mpModal').hidden) closeMP(); });
+// focus trap: Tab / Shift-Tab cycle within the modal while it is open
+$('mpModal').addEventListener('keydown', e=>{
+  if(e.key!=='Tab' || $('mpModal').hidden) return;
+  const f=[...$('mpModal').querySelectorAll('button,a[href],input,select,[tabindex]:not([tabindex="-1"])')]
+    .filter(el=>!el.disabled && el.offsetParent!==null);
+  if(!f.length) return;
+  const first=f[0], last=f[f.length-1], a=document.activeElement;
+  if(e.shiftKey && (a===first || !$('mpModal').contains(a))){ e.preventDefault(); last.focus(); }
+  else if(!e.shiftKey && (a===last || !$('mpModal').contains(a))){ e.preventDefault(); first.focus(); }
+});
 
 // ---------- state section ----------
 function syncStateSel(){ if($('stateSel')) $('stateSel').value = state.geo || ''; }
@@ -1060,7 +1105,7 @@ function renderStatePanel(st){
 $('dl').addEventListener('click', ()=>{
   const head='House,Chamber No,Session,Q No,Type,Date,MPs,Subject,Tags,Answer PDF\n';
   const csv=head+R.map(r=>[r.h,r.l,r.s,r.q,r.t==='S'?'Starred':'Unstarred',r.d,r.m.join('; '),r.j,r.g.map(g=>TAGS[g]).join('; '),r.u]
-    .map(v=>`"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');
+    .map(v=>{ let s=String(v); if(/^[=+\-@\t\r]/.test(s)) s="'"+s; return `"${s.replace(/"/g,'""')}"`; }).join(',')).join('\n');
   const a=document.createElement('a');
   a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
   a.download=`crashfree-india_road-safety-in-parliament_v${DATA.version||'3.1'}.csv`;
@@ -1071,7 +1116,7 @@ $('dl').addEventListener('click', ()=>{
 function setTxt(id, v){ const el=$(id); if(el) el.textContent=v; }
 function applyDynamicNumbers(){
   const totalF = fmt(TOTAL);
-  ['dynTotalLead','dynTotalCta','statTotal','gapTotal'].forEach(id=>setTxt(id, totalF));
+  ['dynTotalLead','dynTotalCta','statTotal','gapTotal','methTotal'].forEach(id=>setTxt(id, totalF));
   setTxt('statPeriod', PERIOD_TXT); setTxt('ftPeriod', PERIOD_TXT);
   if(ENRICH.neverTotal!=null) setTxt('statNever', fmt(ENRICH.neverTotal));
   if(ENRICH.sittingLS18) setTxt('statSitting', fmt(ENRICH.sittingLS18));
@@ -1110,7 +1155,9 @@ function applyDynamicNumbers(){
   if(DATA.version) setTxt('dataVersion', String(DATA.version));
   if(DATES.length){
     const mx = DATES[DATES.length-1];
-    setTxt('dataThrough', `${MONTHS_FULL[+mx.slice(5,7)-1]} ${mx.slice(0,4)}`);
+    const throughMY = `${MONTHS_FULL[+mx.slice(5,7)-1]} ${mx.slice(0,4)}`;
+    setTxt('dataThrough', throughMY);
+    setTxt('methThrough', throughMY);
     setTxt('citeYear', mx.slice(0,4));
   }
 }
@@ -1122,15 +1169,23 @@ function buildSessionStrip(){
   const now = new Date(), pad2 = n=>String(n).padStart(2,'0');
   const todayISO = `${now.getFullYear()}-${pad2(now.getMonth()+1)}-${pad2(now.getDate())}`;
   const live = todayISO>=SESS.start && todayISO<=SESS.end;
+  const upcoming = todayISO<SESS.start;
   const recs = R.filter(inCurrentSession).sort((a,b)=>(b.d||'').localeCompare(a.d||''));
   const n = recs.length, nLS = recs.filter(r=>r.h==='LS').length, nRS = n-nLS;
   const label = SESS.label || 'Current session';
-  $('sessEyebrow').textContent = (live ? 'Live · ' : 'Latest session · ') + label;
+  $('sessEyebrow').textContent = (live ? 'Live · ' : upcoming ? 'Next session · ' : 'Latest session · ') + label;
   $('sessDot').hidden = !live;
   const longD = (d, withYear) => { const [y,m,dd]=d.split('-'); return `${+dd} ${MONTHS_FULL[+m-1]}${withYear?' '+y:''}`; };
   const sameYear = SESS.start.slice(0,4)===SESS.end.slice(0,4);
   const range = `${longD(SESS.start, !sameYear)} – ${longD(SESS.end, true)}`;
   const meta = range + (SESS.sittings ? ` · ${SESS.sittings} sittings` : '');
+  if(upcoming){
+    // notified ahead of opening: no stats, no list, no CTA — just the when
+    $('sessHead').innerHTML = `Parliament convenes<br><span class="accent">${longD(SESS.start, !sameYear)}.</span>`;
+    $('sessLead').textContent = `${meta}. The ${label} opens ${longD(SESS.start, false)}; road-safety questions will appear here from the first answer day.`;
+    sec.hidden = false;
+    return;
+  }
   if(live){
     $('sessHead').innerHTML = n>0
       ? `Parliament is in session.<br><span class="accent">${fmt(n)} road-safety question${n===1?'':'s'} so far.</span>`
@@ -1148,11 +1203,13 @@ function buildSessionStrip(){
     const latest = recs.find(r=>r.d);
     setTxt('sessLatest', latest ? fmtDate(latest.d) : '—');
     $('sessStats').hidden = false;
-    $('sessList').innerHTML = recs.slice(0,5).map(r=>`
+    $('sessList').innerHTML = recs.slice(0,5).map(r=>{
+      const u = safeUrl(r.u);
+      return `
       <li>
-        <div class="st">${r.u ? `<a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.j)}</a>` : esc(r.j)}</div>
+        <div class="st">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(r.j)}</a>` : esc(r.j)}</div>
         <div class="sm">${r.h==='LS'?'Lok Sabha':'Rajya Sabha'} · ${esc(MINF[r.min]||'MoRTH')} · ${fmtDate(r.d)}</div>
-      </li>`).join('');
+      </li>`;}).join('');
     $('sessRecent').hidden = false;
     $('sessCtaRow').hidden = false;
     $('sessCta').setAttribute('aria-label', `See all ${n} question${n===1?'':'s'} from ${label} in the database`);

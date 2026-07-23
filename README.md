@@ -45,14 +45,27 @@ Verify with the manual **Check secrets** workflow. Public repo = unlimited free 
 When a new session is notified (Budget/Monsoon/Winter), edit `data/sessions.json`:
 move `current` into `history`, set the new `current` (label, dates, sittings, LS/RS
 session numbers). The pipeline detects rollover on its own (probes RS N+1 and the LS
-session list) and shouts in the job summary until you do.
+session list) and files/comments a **"Tracker needs attention"** GitHub issue daily
+until you do. The same issue fires when any API source fails 3+ consecutive runs.
+
+**When the 19th Lok Sabha begins** (post-general-election): beyond sessions.json,
+the enrichment layer needs structural work — `data/enrich.json`'s mpDir/hemicycle
+and never-asked list are LS18-specific (new 540-member roster, fresh never list,
+new mpDir with photos). Plan a session for it; do not let the daily refresh run
+LS19 records through the LS18 enrichment.
 
 ## Human-review gates (check the job summary / failure issue)
 
-- `data/curation_log.json` — LLM overrides of keyword verdicts + `needs_review` batches
-- `data/enrich_report.json` — new askers whose names couldn't be matched to the official
-  roster (add them to `data/mp_enrichment.csv`, then correct `data/enrich.json` counts)
-- Failure issue **"Daily refresh FAILED"** — one reusable issue, commented per failure
+- `data/curation_log.json` — LLM overrides of keyword verdicts + `needs_review` batches.
+  Degraded (keyword-only) runs seal only their INCLUDES; excludes re-stage the next day
+  for a real review, so nothing is permanently mis-filed by a bad day.
+- `data/enrich_report.json` → `unresolved_askers_outstanding` — askers whose names can't
+  be matched to the roster. They stay on this list (and in every job summary) until you
+  add a row to `data/mp_enrichment.csv`; the pipeline then heals their state/party
+  automatically on the next run (`healed_this_run`).
+- Issue **"Daily refresh FAILED"** — pipeline/deploy failures, commented per failure
+- Issue **"Tracker needs attention"** — session rollover needed, or an API source
+  failing 3+ consecutive runs (fires daily until fixed)
 
 ## Manual operations
 
@@ -63,6 +76,8 @@ session list) and shouts in the job summary until you do.
   `cd pipeline && for s in delta_refresh curate build_enrich publish build_page sanity_check; do python3 $s.py || break; done`
   (run from repo root with `python3 pipeline/<step>.py` — paths are repo-relative)
 - **Deploy by hand:** `cd site && npx vercel deploy --prod`
+- **Regenerate the OG share image** (evergreen — no numbers/dates, edit copy in `site/assets/og-card-src.html` first if needed, fonts are embedded):
+  `"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --screenshot=site/og-card.png --window-size=1200,630 --hide-scrollbars "file://$PWD/site/assets/og-card-src.html"` from repo root
 
 ## Data notes
 

@@ -42,6 +42,11 @@ dataset['records'].sort(key=lambda r: r['d'] or '0', reverse=True)
 save_json(DATA / 'dataset.json', dataset, compact=True)
 
 # ---- public CSV (same column layout as the published v3.1 CSV) ----
+def guard(v):
+    """Spreadsheet formula-injection guard: prefix cells starting with = + - @."""
+    v = str(v)
+    return "'" + v if v[:1] in ('=', '+', '-', '@', '\t', '\r') else v
+
 def write_csv(path):
     with open(path, 'w', newline='') as f:
         w = csv.writer(f)
@@ -49,8 +54,9 @@ def write_csv(path):
                     'type', 'date', 'mp_names', 'subject', 'topic_tags', 'answer_pdf_url'])
         for r in dataset['records']:
             w.writerow([record_id(r), MIN_FULL[r['min']], r['h'], r['l'], r['s'], r['q'],
-                        'Starred' if r['t'] == 'S' else 'Unstarred', r['d'], ';'.join(r['m']),
-                        r['j'], ';'.join(TAGS[gi] for gi in r['g']), r['u']])
+                        'Starred' if r['t'] == 'S' else 'Unstarred', r['d'],
+                        guard(';'.join(r['m'])), guard(r['j']),
+                        ';'.join(TAGS[gi] for gi in r['g']), r['u']])
 
 write_csv(DATA / 'road-safety-in-parliament.csv')
 (SITE / 'data').mkdir(exist_ok=True)

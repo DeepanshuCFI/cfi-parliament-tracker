@@ -13,5 +13,6 @@
   },
   "new_candidates": 0,
   "rollover_alert": null,
+  "failing_streaks": {},
   "keyword_included": 0
 }

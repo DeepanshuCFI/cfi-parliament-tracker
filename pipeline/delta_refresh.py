@@ -9,7 +9,7 @@ Outputs:
   data/pending_curation.json  - new candidate records + keyword verdicts (curate.py commits them)
   data/refresh_report.json    - what happened this run (surfaced in the CI job summary)
 """
-import sys, time
+import csv, sys, time
 from common import (DATA, get, MINISTRIES, tag_for, iso, clean_mp,
                     record_key, load_json, save_json)
 
@@ -19,8 +19,27 @@ dataset = load_json(DATA / 'dataset.json')
 existing = {record_key(r) for r in dataset['records']}
 decisions = load_json(DATA / 'curation_decisions.json', {})
 
+# Canonical MP names at ingest: apply name_merges here so enrichment never sees
+# a variant spelling (publish's merge pass remains an idempotent safety net).
+merges = {}
+with open(DATA / 'name_merges.csv') as f:
+    for row in csv.DictReader(f):
+        merges[row['variant_merged']] = row['canonical_name']
+def canon_mp(n):
+    return merges.get(n, n)
+
+def safe_u(u):
+    """Answer-PDF URLs come verbatim from external APIs - allow http(s) only."""
+    u = (u or '').strip()
+    return u if u.startswith('http://') or u.startswith('https://') else ''
+
+# per-source consecutive-failure streaks; surfaced as a GitHub issue by CI at >=3
+health = load_json(DATA / 'source_health.json', {})
+def mark(src, bad):
+    health[src] = health.get(src, 0) + 1 if bad else 0
+
 report = {'session': cur['label'], 'api_failures': [], 'fetched': {}, 'new_candidates': 0,
-          'rollover_alert': None}
+          'rollover_alert': None, 'failing_streaks': {}}
 
 # ---- session rollover detection ------------------------------------------------
 # RS: probe one session past the registered one; LS: read the official session list.
@@ -52,21 +71,25 @@ if sess_meta:
 # ---- pull the current session, both houses, all four ministries ----------------
 pending = []
 for label, ls_code, rs_code, keep in MINISTRIES:
-    # RS: single unpaginated call per ministry
+    # RS: single unpaginated call per ministry. NIC error responses are JSON
+    # dicts, not lists - treat any non-list shape as a failure, never iterate it.
     d = get(f"https://rsdoc.nic.in/Question/Search_Questions?whereclause=ses_no={cur['rs_session']}%20and%20min_code=%27{rs_code}%27")
-    if d is None:
+    if not isinstance(d, list):
         report['api_failures'].append(f'RS {label}')
+        mark(f'RS/{label}', True)
     else:
+        mark(f'RS/{label}', False)
         report['fetched'][f'RS/{label}'] = len(d)
         for q in d:
+            if not isinstance(q, dict): continue
             # rsdoc emits '?' for unencodable unicode (e.g. soft hyphens) - scrub the artifact
             title = (q.get('qtitle') or '').replace('??', '').strip()
             if not title: continue
             typ = 'S' if ('STARRED' in (q.get('qtype') or '') and 'UN' not in (q.get('qtype') or '')) else 'U'
-            mp = clean_mp((q.get('name') or '').strip(), (q.get('shri') or '').strip())
+            mp = canon_mp(clean_mp((q.get('name') or '').strip(), (q.get('shri') or '').strip()))
             rec = {'h': 'RS', 'l': '', 's': str(cur['rs_session']), 'q': str(q.get('qno') or '').replace('.0', '').strip(),
                    't': typ, 'd': iso(q.get('ans_date')), 'm': [mp] if mp else [], 'j': title,
-                   'g': tag_for(title, label), 'u': (q.get('files') or '').strip(), 'min': label}
+                   'g': tag_for(title, label), 'u': safe_u(q.get('files')), 'min': label}
             k = record_key(rec)
             if k in existing or k in decisions: continue
             pending.append({'record': rec, 'keyword_verdict': bool(keep(title))})
@@ -77,26 +100,34 @@ for label, ls_code, rs_code, keep in MINISTRIES:
     base = (f"https://sansad.in/api_ls/question/qetFilteredQuestionsAns?loksabhaNo={cur['ls_lk']}"
             f"&sessionNumber={cur['ls_session']}&ministryCode={ls_code}&locale=en&pageSize=100&pageNo=")
     first = get(base + '1')
-    if first is None:
+    # Silent-zero guard: valid JSON in an unexpected shape (dict envelope,
+    # renamed keys) must count as a FAILURE, not as "no questions today".
+    if not isinstance(first, list) or (first and not isinstance(first[0], dict)):
         report['api_failures'].append(f'LS {label}')
+        mark(f'LS/{label}', True)
     else:
+        mark(f'LS/{label}', False)
         rows = []
-        if first and isinstance(first, list) and first[0].get('listOfQuestions'):
+        if first and first[0].get('listOfQuestions'):
             total = first[0]['totalRecordSize']; rows = list(first[0]['listOfQuestions'])
             for p in range(2, (total + 99) // 100 + 1):
                 dd = get(base + str(p)); time.sleep(0.1)
-                if dd and dd[0].get('listOfQuestions'): rows += dd[0]['listOfQuestions']
+                if isinstance(dd, list) and dd and isinstance(dd[0], dict) and dd[0].get('listOfQuestions'):
+                    rows += dd[0]['listOfQuestions']
+                else:
+                    report['api_failures'].append(f'LS {label} page {p}')
         report['fetched'][f'LS/{label}'] = len(rows)
         for q in rows:
-            title = (q.get('subjects') or '').strip()
+            if not isinstance(q, dict): continue
+            title = (q.get('subjects') or '').replace('??', '').strip()
             if not title: continue
             # defensive: if the API ignored our session filter, drop out-of-session rows
             if str(q.get('sessionNo') or cur['ls_session']) != str(cur['ls_session']): continue
             typ = 'S' if ('STARRED' in (q.get('type') or '') and 'UN' not in (q.get('type') or '')) else 'U'
-            mps = [clean_mp(m) for m in (q.get('member') or []) if m]
+            mps = [canon_mp(clean_mp(m)) for m in (q.get('member') or []) if m]
             rec = {'h': 'LS', 'l': str(cur['ls_lk']), 's': str(cur['ls_session']), 'q': str(q.get('quesNo') or '').strip(),
                    't': typ, 'd': iso(q.get('date')), 'm': mps, 'j': title,
-                   'g': tag_for(title, label), 'u': (q.get('questionsFilePath') or '').strip(), 'min': label}
+                   'g': tag_for(title, label), 'u': safe_u(q.get('questionsFilePath')), 'min': label}
             k = record_key(rec)
             if k in existing or k in decisions: continue
             pending.append({'record': rec, 'keyword_verdict': bool(keep(title))})
@@ -110,6 +141,8 @@ pending = list(seen.values())
 
 report['new_candidates'] = len(pending)
 report['keyword_included'] = sum(1 for p in pending if p['keyword_verdict'])
+report['failing_streaks'] = {src: n for src, n in health.items() if n >= 3}
+save_json(DATA / 'source_health.json', health)
 save_json(DATA / 'pending_curation.json', pending)
 save_json(DATA / 'refresh_report.json', report)
 print(f"delta_refresh: {report['fetched']} | new candidates: {len(pending)} "

@@ -71,6 +71,7 @@ required — without both the strip stays hidden.
 | State | Behaviour |
 |---|---|
 | No `DATA.session` | Section stays `hidden`; `?session=current` in the URL is ignored and stripped. Fully backward compatible. |
+| Upcoming (client date before `start`) | Eyebrow "NEXT SESSION · <LABEL>", no pulse dot; headline "Parliament convenes <start day>."; lead "<date range> · <sittings> sittings. The <label> opens <start day>; road-safety questions will appear here from the first answer day." Stats, recent list, CTA and zero-state all stay hidden. |
 | Live (client date within start…end), records > 0 | Eyebrow "LIVE · <LABEL>" with pulsing brand-blue dot (animation disabled under `prefers-reduced-motion`), count + LS·RS split + latest answer date, 5 most recent titles linked to their PDFs (`target=_blank rel=noopener`), CTA "See all questions from this session". |
 | Live, 0 records | Same eyebrow/dot; honest zero-state copy ("The session opened 20 July… the tracker checks daily"); stats, list and CTA hidden. |
 | After `end` | Eyebrow "LATEST SESSION · <LABEL>", no pulse; stats + recent list + CTA if records exist, otherwise a plain "no road-safety questions" line. |

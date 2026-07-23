@@ -17,8 +17,6 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 25
-    env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -26,13 +24,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      # pinned below the next major so an SDK breaking change can't kill a run
-      - run: pip install "anthropic>=0.60,<2"
+      # exact pin: this runs unattended with secrets in scope - upgrades are deliberate
+      - run: pip install "anthropic==0.116.0"
 
       - name: Pull current-session questions (delta)
         run: python3 pipeline/delta_refresh.py
 
       - name: Curate new titles (Claude, hard-capped ~INR 100/month)
+        env:
+          # step-scoped on purpose: no other step (esp. the npm deploy) can read it
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 pipeline/curate.py
 
       - name: Update enrichment (MP stats, never-asked, states)
@@ -47,6 +48,41 @@ jobs:
       - name: Sanity gate
         run: python3 pipeline/sanity_check.py
 
+      - name: Alert on rollover / chronic source failure
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - > /tmp/alert.txt <<'PY'
+          import json
+          r = json.load(open('data/refresh_report.json'))
+          msgs = []
+          if r.get('rollover_alert'):
+              msgs.append('SESSION ROLLOVER NEEDED: ' + str(r['rollover_alert']))
+          for src, n in sorted((r.get('failing_streaks') or {}).items()):
+              msgs.append(f'{src} has failed {n} consecutive runs')
+          print('\n'.join(msgs))
+          PY
+          if [ -s /tmp/alert.txt ]; then
+            TITLE="Tracker needs attention"
+            NUM=$(gh issue list --state open \
+              --search "\"$TITLE\" in:title author:app/github-actions" \
+              --json number --jq '.[0].number' || true)
+            {
+              cat /tmp/alert.txt
+              echo
+              echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+              echo
+              echo "Fix: edit data/sessions.json (rollover) or check the failing source, then close this issue."
+            } > /tmp/alert_body.txt
+            if [ -n "$NUM" ] && [ "$NUM" != "null" ]; then
+              gh issue comment "$NUM" --body-file /tmp/alert_body.txt
+            else
+              gh issue create --title "$TITLE" --body-file /tmp/alert_body.txt
+            fi
+          else
+            echo "No rollover or chronic-failure alerts."
+          fi
+
       - name: Commit data + site
         id: commit
         run: |
@@ -59,18 +95,28 @@ jobs:
             echo "No changes today."
           else
             git commit -m "Daily refresh $(date -u +%F)"
+            # survive a human push that landed mid-run instead of failing the day
+            git pull --rebase origin main
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Scrub git credential before third-party deploy step
+        if: always()
+        run: git config --local --unset-all http.https://github.com/.extraheader || true
 
       - name: Deploy to Vercel
         if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         working-directory: site
         env:
+          # only VERCEL_* is visible here; the npm-fetched CLI never sees the
+          # Anthropic key (step-scoped above) or the GitHub token (scrubbed above)
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        run: npx vercel deploy --prod --yes --token "$VERCEL_TOKEN"
+        # exact pin (locally tested version) - a compromised latest release must
+        # not auto-run here; bump deliberately
+        run: npx vercel@56.5.0 deploy --prod --yes --token "$VERCEL_TOKEN"
 
       - name: Notify on failure
         if: failure()
@@ -78,7 +124,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TITLE="Daily refresh FAILED"
-          NUM=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number' || true)
+          NUM=$(gh issue list --state open \
+            --search "\"$TITLE\" in:title author:app/github-actions" \
+            --json number --jq '.[0].number' || true)
           BODY="Run failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           if [ -n "$NUM" ] && [ "$NUM" != "null" ]; then
             gh issue comment "$NUM" --body "$BODY"

@@ -2,6 +2,12 @@
 """MANUAL full rebuild (not part of CI - takes tens of minutes, hits every session
 since 2014). Writes data/full_rebuild_output.json for hand-merging into dataset.json.
 Run from repo root. RS session ceiling: env RS_MAX_SESSION (default 280).
+CAUTION (audit 23 Jul 2026): this rebuild applies KEYWORD filters only. The live
+dataset additionally contains LLM/editor-curated inclusions (e.g. pothole and
+speed-limit titles the keywords miss) and excludes some keyword matches. NEVER
+overwrite dataset.json with this output directly - reconcile against
+data/curation_decisions.json first (apply include=True records the keywords
+missed; drop include=False ones the keywords caught).
 Build the COMPLETE dataset from sansad.in's official MoRTH question APIs.
 Enumerates the full MoRTH universe, applies a calibrated inclusive road-safety title
 filter, retags topics, and reconstructs answer-PDF links + member names."""

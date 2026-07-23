@@ -50,12 +50,31 @@ for house_key in ('ls', 'rs'):
         if k and k not in roster_map:
             roster_map[k] = (m.get('name', ''), m.get('state', ''), m.get('party', ''))
 
+# State spellings differ across sources ('Jammu and Kashmir' / 'Jammu & Kashmir',
+# 'NCT of Delhi', trailing spaces in the RS roster). Canonicalise onto the blob's
+# own keys by connective-free token key so rollups never split across spellings.
+def _state_key(s):
+    return ' '.join(t for t in re.findall(r'[a-z]+', (s or '').lower())
+                    if t not in ('and', 'of', 'the'))
+
+STATE_CANON = {}
+for _k in list(enrich['states'].keys()) + list(enrich['mpDir'].keys()):
+    STATE_CANON.setdefault(_state_key(_k), _k)
+STATE_CANON.setdefault('nct delhi', 'Delhi')
+STATE_CANON.setdefault('national capital territory delhi', 'Delhi')
+
+def canon_state(s):
+    return STATE_CANON.get(_state_key(s), (s or '').strip())
+
 def resolve(name):
     """(official_name, state, party) or (None, '', '') when unresolvable."""
     if name in name_map:
-        return name_map[name]
+        o, st, p = name_map[name]
+        return (o, canon_state(st), p)
     hit = roster_map.get(name_tokens(name))
-    return hit if hit else (None, '', '')
+    if hit:
+        return (hit[0], canon_state(hit[1]), hit[2])
+    return (None, '', '')
 
 # official never-asked list (LS18); membership here drives the red hemicycle dots
 never = load_json(DATA / 'never_official.json')
@@ -134,6 +153,33 @@ for r in new:
             enrich['states'][st]['total'] = enrich['states'][st].get('total', 0) + 1
     counted.add(record_key(r))
 
+# Persistently retry askers we couldn't resolve on earlier runs (new RS members,
+# by-election MPs missing from the static roster). Once a mapping appears
+# (roster refresh or a hand-added mp_enrichment.csv row), patch their mpMeta
+# state/party in place and fold their accumulated count into the state rollup.
+# Until then they stay in the report EVERY run, not just the day they appeared.
+healed = []
+still_unresolved = []
+for nm in state.get('unresolved', []):
+    meta = enrich['mpMeta'].get(nm)
+    if meta is None:
+        continue
+    if meta[0]:
+        healed.append(nm); continue          # fixed by hand in the blob itself
+    off, st_, party = resolve(nm)
+    if off is not None and st_:
+        meta[0], meta[1] = st_, party
+        if st_ in enrich['states']:
+            # approximation: assumes no same-state co-asker already counted these
+            # records; exact backfill would need per-record replay
+            enrich['states'][st_]['total'] = enrich['states'][st_].get('total', 0) + meta[2]
+        healed.append(nm)
+    else:
+        still_unresolved.append(nm)
+for u in unmatched:
+    if u['name'] not in still_unresolved:
+        still_unresolved.append(u['name'])
+
 # recompute each state's top-asker list from mpMeta (keep existing list length)
 for st, s in enrich['states'].items():
     if 'top' in s and s['top']:
@@ -144,9 +190,12 @@ for st, s in enrich['states'].items():
 
 save_json(DATA / 'enrich.json', enrich, compact=True)
 save_json(DATA / 'never_official.json', never)
-save_json(DATA / 'enrich_state.json', {'counted_keys': sorted(counted)})
+save_json(DATA / 'enrich_state.json', {'counted_keys': sorted(counted),
+                                       'unresolved': still_unresolved})
 save_json(DATA / 'enrich_report.json', {'new_records_applied': len(new),
                                         'unmatched_new_askers': unmatched,
+                                        'unresolved_askers_outstanding': still_unresolved,
+                                        'healed_this_run': healed,
                                         'left_never_asked_list': removed_from_never})
 print(f'build_enrich: applied {len(new)} new records | never-asked now {enrich["neverTotal"]} '
       f'| unmatched new askers: {len(unmatched)}')

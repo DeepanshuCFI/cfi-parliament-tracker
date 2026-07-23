@@ -82,7 +82,7 @@ K C Venugopal,Lok Sabha,"16,18",5,K C Venugopal,4567,Indian National Congress,Ke
 Kalyan Banerjee,Lok Sabha,"16,17,18",5,Kalyan Banerjee,4498,All India Trinamool Congress,West Bengal,Sreerampur,"15,16,17,18",yes,high,sansad.in,
 Fauzia Khan,Rajya Sabha,,5,Dr. Fauzia Khan,2441,Nationalist Congress Party-SHARADCHANDRA PAWAR,Maharashtra,,,,high,sansad.in,
 Kirti (jha) Azad,Lok Sabha,"16,18",5,Azad Kirti Jha,25,All India Trinamool Congress,West Bengal,Bardhaman-Durgapur,"13,15,16,18",yes,medium,sansad.in,
-Rajesh Verma,Lok Sabha,"16,17,18",5,Rajesh Verma,510,Bharatiya Janata Party,Uttar Pradesh,Sitapur,"13,14,16,17",yes,medium,sansad.in,
+Rajesh Verma (Sitapur),Lok Sabha,"16,17",4,Rajesh Verma,510,Bharatiya Janata Party,Uttar Pradesh,Sitapur,"13,14,16,17",yes,medium,"sansad.in (homonym split, audit 23 Jul 2026)",
 Gaurav Gogoi,Lok Sabha,"16,17,18",5,Gaurav Gogoi,4788,Indian National Congress,Assam,Jorhat,"16,17,18",yes,high,sansad.in,
 E. T. Mohammed Basheer,Lok Sabha,"16,17,18",5,E T Mohammed Basheer,4561,Indian Union Muslim League,Kerala,Malappuram,"15,16,17,18",yes,high,sansad.in,
 Raghu Ramakrishna Raju Kanumuru,Lok Sabha,17,5,Raghu Ramakrishna Raju Kanumuru,5097,Yuvajana Sramika Rythu Congress Party,Andhra Pradesh,Narsapuram,17,yes,high,sansad.in,
@@ -839,3 +839,4 @@ V. Maitreyan,Rajya Sabha,,1,Dr. V. Maitreyan,1853,All India Anna Dravida Munnetr
 M.P. Achuthan,Rajya Sabha,,1,Shri M.P. Achuthan,2105,Communist Party of India,Kerala,,,,high,sansad.in,
 Gundu Sudharani,Rajya Sabha,,1,Smt. Gundu Sudharani,2143,Telugu Desam Party,Telangana,,,,high,sansad.in,
 Anil Kumar Sahani,Rajya Sabha,,1,Dr. Anil Kumar Sahani,2128,Janata Dal (United),Bihar,,,,high,sansad.in,
+Rajesh Verma,Lok Sabha,18,1,Rajesh Verma,,Lok Janshakti Party (Ram Vilas),Bihar,Khagaria,18,yes,high,"manual-audit (homonym split, 23 Jul 2026)",
