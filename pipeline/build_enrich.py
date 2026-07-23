@@ -41,7 +41,10 @@ def name_tokens(s):
 
 roster_map = {}
 roster = load_json(DATA / 'roster.json', {})
-for house_key in ('rs', 'ls'):
+# LS first: LS roster names are plain-form ("Hemang Joshi") while RS names are
+# comma-flipped with honorifics ("Kumar, Shri Mithlesh"); first-token-set-wins
+# means RS entries must not shadow LS ones or never-list matching breaks.
+for house_key in ('ls', 'rs'):
     for m in roster.get(house_key, []):
         k = name_tokens(m.get('name'))
         if k and k not in roster_map:
@@ -68,10 +71,17 @@ def in_session(r):
 new = [r for r in dataset['records'] if in_session(r) and record_key(r) not in counted]
 unmatched, removed_from_never = [], []
 
+# token-set index of the never list: the roster fallback returns comma-flipped
+# honorific forms ("Selvaganapathi, Shri T.M.") that never equal the plain
+# never-list keys, so membership must be tested by token set, not exact string
+never_tok = {name_tokens(k): k for k in never}
+
 for r in new:
     yr = int(r['d'][:4]) if r['d'] else None
     enrich['minCounts'][r['min']] = enrich['minCounts'].get(r['min'], 0) + 1
+    rec_states = set()
     for name in r['m']:
+        official, rst, party = resolve(name)
         meta = enrich['mpMeta'].get(name)
         if meta:
             meta[2] += 1
@@ -80,29 +90,48 @@ for r in new:
                 meta[4] = max(int(meta[4]), yr) if meta[4] else yr
             st = meta[0]
         else:
-            official, st, party = resolve(name)
+            st = rst
             enrich['mpMeta'][name] = [st, party, 1, yr, yr]
             if official is None:
                 unmatched.append({'name': name, 'house': r['h'], 'title': r['j']})
-        if st and st in enrich['states']:
-            enrich['states'][st]['total'] = enrich['states'][st].get('total', 0) + 1
-        # never-asked -> asked transition (LS only; the headline stat)
-        official = resolve(name)[0]
-        if r['h'] == 'LS' and official and official in never:
-            nst = never.pop(official)
-            removed_from_never.append({'official': official, 'dataset_name': name, 'state': nst})
-            enrich['neverTotal'] = max(0, enrich['neverTotal'] - 1)
-            if nst in enrich['states'] and 'never' in enrich['states'][nst]:
-                enrich['states'][nst]['never'] = max(0, enrich['states'][nst]['never'] - 1)
-        # constituency directory (LS18 sitting members): bump count + year range
         if st:
-            for entry in enrich['mpDir'].get(st, []):
-                if entry.get('ds') == name:
-                    entry['n'] = entry.get('n', 0) + 1
-                    if yr and entry.get('y'):
-                        entry['y'] = [min(entry['y'][0], yr), max(entry['y'][1], yr)] \
-                            if isinstance(entry['y'], list) else entry['y']
-                    break
+            rec_states.add(st)
+        # never-asked -> asked transition (LS only; the headline stat)
+        if r['h'] == 'LS' and official:
+            nk = never_tok.pop(name_tokens(official), None)
+            if nk is not None:
+                nst = never.pop(nk)
+                removed_from_never.append({'official': nk, 'dataset_name': name, 'state': nst})
+                enrich['neverTotal'] = max(0, enrich['neverTotal'] - 1)
+                if nst in enrich['states'] and 'never' in enrich['states'][nst]:
+                    enrich['states'][nst]['never'] = max(0, enrich['states'][nst]['never'] - 1)
+        # constituency directory (LS18 sitting members only, so LS records only):
+        # bump the MP's entry. A first-time asker's entry has ds='' — fall back to
+        # token-matching the official name, then stamp ds so their hemicycle dot
+        # flips and future runs take the fast path.
+        if st and r['h'] == 'LS':
+            entries = enrich['mpDir'].get(st, [])
+            hit = next((x for x in entries if x.get('ds') == name), None)
+            if hit is None and official:
+                otoks = name_tokens(official)
+                hit = next((x for x in entries
+                            if not x.get('ds') and name_tokens(x.get('mp')) == otoks), None)
+                if hit is not None:
+                    hit['ds'] = name
+            if hit is not None:
+                hit['n'] = hit.get('n', 0) + 1
+                if yr:
+                    yrs = [int(x) for x in re.findall(r'\d{4}', str(hit.get('y') or ''))] + [yr]
+                    hit['y'] = f'{min(yrs)}–{max(yrs)}'
+                tl = hit.setdefault('t', [])
+                for gi in r['g']:
+                    if TAGS[gi] not in tl:
+                        tl.append(TAGS[gi])
+    # per-state totals count DISTINCT QUESTIONS with >=1 asker from the state
+    # (v3.1 baseline semantics) — never once per co-asker
+    for st in rec_states:
+        if st in enrich['states']:
+            enrich['states'][st]['total'] = enrich['states'][st].get('total', 0) + 1
     counted.add(record_key(r))
 
 # recompute each state's top-asker list from mpMeta (keep existing list length)

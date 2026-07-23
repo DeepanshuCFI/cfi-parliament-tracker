@@ -35,6 +35,17 @@ if not en:
     errors.append('enrich.json missing/unparseable')
 elif not (en.get('mpMeta') and en.get('states') and en.get('neverTotal')):
     errors.append('enrich.json missing required keys')
+else:
+    # The never-asked stat renders from THREE sources that must agree:
+    # hero/og:title (neverTotal), hemicycle red dots (mpDir n==0), state cards
+    hemi = sum(1 for members in en['mpDir'].values() for m in members if not m.get('n'))
+    st_never = sum(s.get('never', 0) for s in en['states'].values())
+    if not (en['neverTotal'] == hemi == st_never):
+        errors.append(f"never-asked mismatch: neverTotal={en['neverTotal']} "
+                      f"hemicycle={hemi} state-sum={st_never}")
+    if ds and sum(en['minCounts'].values()) != len(ds['records']):
+        errors.append(f"minCounts sum {sum(en['minCounts'].values())} != "
+                      f"record count {len(ds['records'])} - enrichment drifted from dataset")
 
 page = SITE / 'index.html'
 if not page.exists():

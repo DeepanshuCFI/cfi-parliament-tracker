@@ -141,7 +141,10 @@ def clean_mp(name, prefix=''):
     return n
 
 def record_key(r):
-    return f"{r['h']}|{r['min']}|{r['s']}|{r['t']}|{r['q']}"
+    # 'l' (Lok Sabha number) is load-bearing: LS session numbers restart each
+    # Lok Sabha, so without it an LS18 question collides with an LS16/17 record
+    # of the same session+ministry+type+number and is silently dropped.
+    return f"{r['h']}|{r['l']}|{r['min']}|{r['s']}|{r['t']}|{r['q']}"
 
 def record_id(r):
     if r['h'] == 'LS':

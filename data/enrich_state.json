@@ -1,19 +1,19 @@
 {
   "counted_keys": [
-    "LS|MoRTH|8|U|728",
-    "LS|MoRTH|8|U|791",
-    "LS|MoRTH|8|U|809",
-    "LS|MoRTH|8|U|818",
-    "LS|MoRTH|8|U|834",
-    "LS|MoRTH|8|U|886",
-    "LS|MoRTH|8|U|914",
-    "RS|MoRTH|271|U|416",
-    "RS|MoRTH|271|U|418",
-    "RS|MoRTH|271|U|419",
-    "RS|MoRTH|271|U|430",
-    "RS|MoRTH|271|U|431",
-    "RS|MoRTH|271|U|432",
-    "RS|MoRTH|271|U|433",
-    "RS|MoRTH|271|U|436"
+    "LS|18|MoRTH|8|U|728",
+    "LS|18|MoRTH|8|U|791",
+    "LS|18|MoRTH|8|U|809",
+    "LS|18|MoRTH|8|U|818",
+    "LS|18|MoRTH|8|U|834",
+    "LS|18|MoRTH|8|U|886",
+    "LS|18|MoRTH|8|U|914",
+    "RS||MoRTH|271|U|416",
+    "RS||MoRTH|271|U|418",
+    "RS||MoRTH|271|U|419",
+    "RS||MoRTH|271|U|430",
+    "RS||MoRTH|271|U|431",
+    "RS||MoRTH|271|U|432",
+    "RS||MoRTH|271|U|433",
+    "RS||MoRTH|271|U|436"
   ]
 }

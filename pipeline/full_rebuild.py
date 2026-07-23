@@ -192,7 +192,7 @@ for label, ls_code, rs_code, keep in MINISTRIES:
 # ---------- dedupe (by house+ministry+session+type+qno) & finalize ----------
 seen = {}
 for r in records:
-    k = (r['h'], r['min'], r['s'], r['t'], r['q'])
+    k = (r['h'], r['l'], r['min'], r['s'], r['t'], r['q'])  # 'l': LS session numbers restart per Lok Sabha
     if k not in seen: seen[k] = r
 records = list(seen.values())
 records.sort(key=lambda r: r['d'] or '0', reverse=True)

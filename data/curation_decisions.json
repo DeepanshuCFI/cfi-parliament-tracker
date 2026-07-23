@@ -1,1145 +1,1145 @@
 {
-  "RS|MoRTH|271|S|45": {
+  "RS||MoRTH|271|S|45": {
     "include": false,
     "title": "Impact of E20 petrol on vehicle performance and consumers",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|443": {
+  "RS||MoRTH|271|U|443": {
     "include": false,
     "title": "Status of NH-55 in Odisha",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|436": {
+  "RS||MoRTH|271|U|436": {
     "include": true,
     "title": "National Tunnel Safety System",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|411": {
+  "RS||MoRTH|271|U|411": {
     "include": false,
     "title": "Construction of National High-Speed Corridors and Greenfield Expressways",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|412": {
+  "RS||MoRTH|271|U|412": {
     "include": false,
     "title": "Pending projects in Punjab",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|418": {
+  "RS||MoRTH|271|U|418": {
     "include": true,
     "title": "Speed ??limit on expressways",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|417": {
+  "RS||MoRTH|271|U|417": {
     "include": false,
     "title": "Development of National High-Speed Corridors and Expressways in Haryana",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|435": {
+  "RS||MoRTH|271|U|435": {
     "include": false,
     "title": "Survey of condition of newly constructed highways",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|434": {
+  "RS||MoRTH|271|U|434": {
     "include": false,
     "title": "Multi-Modal Logistics Park in Visakhapatnam",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|419": {
+  "RS||MoRTH|271|U|419": {
     "include": true,
     "title": "Highway safety",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|425": {
+  "RS||MoRTH|271|U|425": {
     "include": false,
     "title": "E-buses and modernization of public transportation",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|413": {
+  "RS||MoRTH|271|U|413": {
     "include": false,
     "title": "‘Slag’ in Road Construction",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|414": {
+  "RS||MoRTH|271|U|414": {
     "include": false,
     "title": "Implementation of Bharatmala Pariyojana",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|416": {
+  "RS||MoRTH|271|U|416": {
     "include": true,
     "title": "Road safety and removal of black spots",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|423": {
+  "RS||MoRTH|271|U|423": {
     "include": false,
     "title": "EV-based last-mile delivery",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|420": {
+  "RS||MoRTH|271|U|420": {
     "include": false,
     "title": "STRR and National Highway projects in Karnataka",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|415": {
+  "RS||MoRTH|271|U|415": {
     "include": false,
     "title": "FASTag based toll collection and digital tolling system",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|430": {
+  "RS||MoRTH|271|U|430": {
     "include": true,
     "title": "Road safety on National Highways",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|426": {
+  "RS||MoRTH|271|U|426": {
     "include": false,
     "title": "EV charging",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|428": {
+  "RS||MoRTH|271|U|428": {
     "include": false,
     "title": "Intelligent Transport Systems and digital highway infrastructure",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|427": {
+  "RS||MoRTH|271|U|427": {
     "include": false,
     "title": "Climate-resilient road infrastructure",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|433": {
+  "RS||MoRTH|271|U|433": {
     "include": true,
     "title": "Road safety on Dhenkanal–Cuttack National Highway",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|424": {
+  "RS||MoRTH|271|U|424": {
     "include": false,
     "title": "Fossil fuel reduction in last-mile delivery services",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|421": {
+  "RS||MoRTH|271|U|421": {
     "include": false,
     "title": "Highway projects in the country",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|431": {
+  "RS||MoRTH|271|U|431": {
     "include": true,
     "title": "Potholes and cracks in Delhi Dehradun Expressway",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|429": {
+  "RS||MoRTH|271|U|429": {
     "include": false,
     "title": "National Highways in Assam",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|422": {
+  "RS||MoRTH|271|U|422": {
     "include": false,
     "title": "All-weather road connectivity in remote and tribal areas",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|MoRTH|271|U|432": {
+  "RS||MoRTH|271|U|432": {
     "include": true,
     "title": "Road safety measures on National Highways in Tamil Nadu",
     "ministry": "MoRTH",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|S|20": {
+  "RS||Health|271|S|20": {
     "include": false,
     "title": "Maintenance of data on hospital-acquired infections",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|S|22": {
+  "RS||Health|271|S|22": {
     "include": false,
     "title": "Measures to strengthen primary healthcare system",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|S|30": {
+  "RS||Health|271|S|30": {
     "include": false,
     "title": "Nurse-population ratio in the country",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|205": {
+  "RS||Health|271|U|205": {
     "include": false,
     "title": "Regulating high sugar in ultra-processed foods",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|257": {
+  "RS||Health|271|U|257": {
     "include": false,
     "title": "National preparedness against emerging infectious diseases",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|258": {
+  "RS||Health|271|U|258": {
     "include": false,
     "title": "HPV vaccination programme and cervical cancer prevention",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|259": {
+  "RS||Health|271|U|259": {
     "include": false,
     "title": "National Antimicrobial Resistance Surveillance",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|260": {
+  "RS||Health|271|U|260": {
     "include": false,
     "title": "Strengthening primary healthcare services in the country",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|261": {
+  "RS||Health|271|U|261": {
     "include": false,
     "title": "Procurement of medicines and medical equipment",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|262": {
+  "RS||Health|271|U|262": {
     "include": false,
     "title": "Procurement, empanelment and beneficiary grievance redressal under CGHS",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|263": {
+  "RS||Health|271|U|263": {
     "include": false,
     "title": "Revision of the National List of Essential Medicines",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|264": {
+  "RS||Health|271|U|264": {
     "include": false,
     "title": "Status of primary and community health centres in Kushinagar",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|265": {
+  "RS||Health|271|U|265": {
     "include": false,
     "title": "Establishment of critical care blocks under  PM-ABHIM in Bihar",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|266": {
+  "RS||Health|271|U|266": {
     "include": false,
     "title": "Deaths and disabilities caused by medical errors",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|267": {
+  "RS||Health|271|U|267": {
     "include": false,
     "title": "Public health infrastructure and initiatives",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|268": {
+  "RS||Health|271|U|268": {
     "include": false,
     "title": "Satellite AIIMS centre at Rourkela Odisha",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|269": {
+  "RS||Health|271|U|269": {
     "include": false,
     "title": "Availability of doctors in Maharashtra",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|270": {
+  "RS||Health|271|U|270": {
     "include": false,
     "title": "Expansion of affordable healthcare services",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|271": {
+  "RS||Health|271|U|271": {
     "include": false,
     "title": "AIIMS-like healthcare facilities in Cuttack",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|272": {
+  "RS||Health|271|U|272": {
     "include": false,
     "title": "Immunisation programme and preparedness for pandemic",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|273": {
+  "RS||Health|271|U|273": {
     "include": false,
     "title": "Snakebite fatalities and availability of anti-snake venom",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|274": {
+  "RS||Health|271|U|274": {
     "include": false,
     "title": "Testing and monitoring of drugs by the CDSCO",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|275": {
+  "RS||Health|271|U|275": {
     "include": false,
     "title": "Healthcare infrastructure in border and tribal areas of Himachal Pradesh",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|276": {
+  "RS||Health|271|U|276": {
     "include": false,
     "title": "Hospital-Based Drug De-Addiction Facilities in Himachal Pradesh",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|277": {
+  "RS||Health|271|U|277": {
     "include": false,
     "title": "Use of food items banned in other countries",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|278": {
+  "RS||Health|271|U|278": {
     "include": false,
     "title": "National heatwave health preparedness framework",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|279": {
+  "RS||Health|271|U|279": {
     "include": false,
     "title": "Financial and administrative support to the PCI",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|280": {
+  "RS||Health|271|U|280": {
     "include": false,
     "title": "Measures to prevent counterfeit drugs and strengthen drug quality enforcement",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|281": {
+  "RS||Health|271|U|281": {
     "include": false,
     "title": "Availability of cancer care centres",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|282": {
+  "RS||Health|271|U|282": {
     "include": false,
     "title": "Strengthening of health services in the country",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|283": {
+  "RS||Health|271|U|283": {
     "include": false,
     "title": "Status of private hospital empanelment under AB-PMJAY",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|284": {
+  "RS||Health|271|U|284": {
     "include": false,
     "title": "Drug quality norms",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|285": {
+  "RS||Health|271|U|285": {
     "include": false,
     "title": "Allocation of fund for health research",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|286": {
+  "RS||Health|271|U|286": {
     "include": false,
     "title": "Benefiiciaries under AB-PMJAY in Haryana",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|287": {
+  "RS||Health|271|U|287": {
     "include": false,
     "title": "Operationalization of health and wellness centres in Odisha",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|288": {
+  "RS||Health|271|U|288": {
     "include": false,
     "title": "National guidelines on surgical load and infection control in operation theatres",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|289": {
+  "RS||Health|271|U|289": {
     "include": false,
     "title": "Beneficiaries under AB-PMJAY in Bodoland and North East",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|290": {
+  "RS||Health|271|U|290": {
     "include": false,
     "title": "FSSAI enforcement of food-contact safety standards for Plastic packaging",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|291": {
+  "RS||Health|271|U|291": {
     "include": false,
     "title": "Establishment of AIIMS-like institute in Assam",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|292": {
+  "RS||Health|271|U|292": {
     "include": false,
     "title": "Progress under ABDM",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Health|271|U|293": {
+  "RS||Health|271|U|293": {
     "include": false,
     "title": "Ayushman Bharat and Universal Health Coverage",
     "ministry": "Health",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|460": {
+  "LS|18|Heavy|8|U|460": {
     "include": false,
     "title": "Rare Earth Permanent Management Scheme",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|459": {
+  "LS|18|Heavy|8|U|459": {
     "include": false,
     "title": "Industrial Development in Bihar",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|458": {
+  "LS|18|Heavy|8|U|458": {
     "include": false,
     "title": "PLI Scheme for Automobile and Auto Components and Battery Storage",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|457": {
+  "LS|18|Heavy|8|U|457": {
     "include": false,
     "title": "Development of Heavy Industrial Ecosystem in Punjab",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|456": {
+  "LS|18|Heavy|8|U|456": {
     "include": false,
     "title": "Modernisation and Capacity Expansion of the Bharat Heavy Electricals Limited",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|455": {
+  "LS|18|Heavy|8|U|455": {
     "include": false,
     "title": "PLI Scheme for Automobile and Auto Components",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|454": {
+  "LS|18|Heavy|8|U|454": {
     "include": false,
     "title": "Scheme for Enhancement of Competitiveness of Capital Goods Sector",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|453": {
+  "LS|18|Heavy|8|U|453": {
     "include": false,
     "title": "Charging Stations for Electric Vehicles (EVs)",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|452": {
+  "LS|18|Heavy|8|U|452": {
     "include": false,
     "title": "Cybersecurity Vulnerabilities in E-Rickshaw BMS and Role of Certification Agencies",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|451": {
+  "LS|18|Heavy|8|U|451": {
     "include": false,
     "title": "Sick Mills",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|449": {
+  "LS|18|Heavy|8|U|449": {
     "include": false,
     "title": "Scheme to Promote Manufacturing of Electric Passenger Cars (SPMEPC)",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|442": {
+  "LS|18|Heavy|8|U|442": {
     "include": false,
     "title": "Assessment of Rare Earth Permanent Management Scheme",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|392": {
+  "LS|18|Heavy|8|U|392": {
     "include": false,
     "title": "Technological and Financial Support",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|256": {
+  "LS|18|Heavy|8|U|256": {
     "include": false,
     "title": "Delayed Implementation and Utilisation Gaps under the FAME-II Electric Mobility Scheme",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|Heavy|8|U|237": {
+  "LS|18|Heavy|8|U|237": {
     "include": false,
     "title": "PM E-DRIVE Scheme",
     "ministry": "Heavy",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|S|3": {
+  "RS||Urban|271|S|3": {
     "include": false,
     "title": "Present status of Pradhan Mantri Awas Yojana-Urban  2.0",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|S|4": {
+  "RS||Urban|271|S|4": {
     "include": false,
     "title": "Metro rail expansion and urban mass transit projects of Telangana and AP",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|S|9": {
+  "RS||Urban|271|S|9": {
     "include": false,
     "title": "Smart City Mission in Amritsar, Jalandhar and Ludhiana",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|S|11": {
+  "RS||Urban|271|S|11": {
     "include": false,
     "title": "Mitigating the urban heat island effect in Indian cities",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|S|14": {
+  "RS||Urban|271|S|14": {
     "include": false,
     "title": "Objectives and key components of National Urban Digital Mission",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|S|5": {
+  "RS||Urban|271|S|5": {
     "include": false,
     "title": "Urban housing shortage and progress under PMAY-U 2.0",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|S|8": {
+  "RS||Urban|271|S|8": {
     "include": false,
     "title": "Municipal finances and their sustainability",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|82": {
+  "RS||Urban|271|U|82": {
     "include": false,
     "title": "Cancellation of tender works under AMRUT 2.0 in Andhra Pradesh",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|81": {
+  "RS||Urban|271|U|81": {
     "include": false,
     "title": "Dig-once policy to extend urban road life",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|80": {
+  "RS||Urban|271|U|80": {
     "include": false,
     "title": "Urban flooding and landslides in several cities",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|78": {
+  "RS||Urban|271|U|78": {
     "include": false,
     "title": "Flood management infrastructure for Tamil Nadu",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|77": {
+  "RS||Urban|271|U|77": {
     "include": false,
     "title": "Metro rail expansion and urban mass transit projects",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|76": {
+  "RS||Urban|271|U|76": {
     "include": false,
     "title": "Achievements of SBM-U 2.0",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|75": {
+  "RS||Urban|271|U|75": {
     "include": false,
     "title": "Retirement-oriented investment",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|74": {
+  "RS||Urban|271|U|74": {
     "include": false,
     "title": "Status of PMAY-U",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|73": {
+  "RS||Urban|271|U|73": {
     "include": false,
     "title": "Status of SCM and AMRUT in Maharashtra",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|72": {
+  "RS||Urban|271|U|72": {
     "include": false,
     "title": "Objection to the PMAY publicity boards",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|71": {
+  "RS||Urban|271|U|71": {
     "include": false,
     "title": "Waste segregation at source",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|70": {
+  "RS||Urban|271|U|70": {
     "include": false,
     "title": "Central support for urban infrastructure and housing in Bengaluru / Karnataka",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|69": {
+  "RS||Urban|271|U|69": {
     "include": false,
     "title": "Metro rail, Metronew/Metrolite services up to Rishikesh",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|68": {
+  "RS||Urban|271|U|68": {
     "include": false,
     "title": "Metro rail expansion and urban mass transit projects",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|67": {
+  "RS||Urban|271|U|67": {
     "include": false,
     "title": "Shifting of occupants of colonies for redevelopment",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|66": {
+  "RS||Urban|271|U|66": {
     "include": false,
     "title": "Status of Metro rail expansion, financial support and outcomes of urban mass transit projects",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|65": {
+  "RS||Urban|271|U|65": {
     "include": false,
     "title": "Allocation of funds for AMRUT 2.0 in Tamil Nadu",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|64": {
+  "RS||Urban|271|U|64": {
     "include": false,
     "title": "Approval status of UCF",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|63": {
+  "RS||Urban|271|U|63": {
     "include": false,
     "title": "National framework for structural safety audits and seismic resilience of buildings",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|62": {
+  "RS||Urban|271|U|62": {
     "include": false,
     "title": "Transit-Oriented Development projects",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|79": {
+  "RS||Urban|271|U|79": {
     "include": false,
     "title": "Implementation status of Pradhan Mantri Awas Yojana – Urban",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|59": {
+  "RS||Urban|271|U|59": {
     "include": false,
     "title": "Solid waste managerment and sewage treatment infrastructure in Maharashtra",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|58": {
+  "RS||Urban|271|U|58": {
     "include": false,
     "title": "Metro rail expansion and urban mass transit projects",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|56": {
+  "RS||Urban|271|U|56": {
     "include": false,
     "title": "Institutionalisation of ward-level citizen assemblies",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|55": {
+  "RS||Urban|271|U|55": {
     "include": false,
     "title": "Accelerating implementation of PMAY-U 2.0",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|54": {
+  "RS||Urban|271|U|54": {
     "include": false,
     "title": "Guwahati city flooding situation",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|60": {
+  "RS||Urban|271|U|60": {
     "include": false,
     "title": "Flood management and urban water resilience",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|61": {
+  "RS||Urban|271|U|61": {
     "include": false,
     "title": "Status of implementation of Urban Challenge Fund",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "RS|Urban|271|U|57": {
+  "RS||Urban|271|U|57": {
     "include": false,
     "title": "Creating senior-friendly infrastructures",
     "ministry": "Urban",
     "source": "claude-fable-manual (first run, in-session review)"
   },
-  "LS|MoRTH|8|S|69": {
+  "LS|18|MoRTH|8|S|69": {
     "include": false,
     "title": "Projects to Decongest South Delhi",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|S|67": {
+  "LS|18|MoRTH|8|S|67": {
     "include": false,
     "title": "Four-laning of National Highway-75",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|S|63": {
+  "LS|18|MoRTH|8|S|63": {
     "include": false,
     "title": "National High-Speed Corridors and Expressway Projects",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|915": {
+  "LS|18|MoRTH|8|U|915": {
     "include": false,
     "title": "Dilapidated Condition of Road in Nashik",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|914": {
+  "LS|18|MoRTH|8|U|914": {
     "include": true,
     "title": "Increase in Road Accidents and Fatalities",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|912": {
+  "LS|18|MoRTH|8|U|912": {
     "include": false,
     "title": "National Highways in Gujarat",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|904": {
+  "LS|18|MoRTH|8|U|904": {
     "include": false,
     "title": "Damages to Engines due to E20 Fuel",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|901": {
+  "LS|18|MoRTH|8|U|901": {
     "include": false,
     "title": "Development of NH-66 in Kollam",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|899": {
+  "LS|18|MoRTH|8|U|899": {
     "include": false,
     "title": "Road Development Projects in Remote Areas",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|895": {
+  "LS|18|MoRTH|8|U|895": {
     "include": false,
     "title": "New Durgapur Link Expressway",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|893": {
+  "LS|18|MoRTH|8|U|893": {
     "include": false,
     "title": "Expansion of Public Transport",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|889": {
+  "LS|18|MoRTH|8|U|889": {
     "include": false,
     "title": "Road Projects in Maharashtra",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|886": {
+  "LS|18|MoRTH|8|U|886": {
     "include": true,
     "title": "Identification and Rectification of Black Spots",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|874": {
+  "LS|18|MoRTH|8|U|874": {
     "include": false,
     "title": "Dilapidated Condition of Nashik-Pune Highway",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|873": {
+  "LS|18|MoRTH|8|U|873": {
     "include": false,
     "title": "Widening of National Highway-730",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|872": {
+  "LS|18|MoRTH|8|U|872": {
     "include": false,
     "title": "Central Road and Infrastructure Fund",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|870": {
+  "LS|18|MoRTH|8|U|870": {
     "include": false,
     "title": "Delay in Construction of National Highway-39",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|869": {
+  "LS|18|MoRTH|8|U|869": {
     "include": false,
     "title": "Impact of Ethanol-Blended Petrol on Vehicles",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|864": {
+  "LS|18|MoRTH|8|U|864": {
     "include": false,
     "title": "Upgradation of NH-373",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|863": {
+  "LS|18|MoRTH|8|U|863": {
     "include": false,
     "title": "Bhandara-Deori Section under NH-53",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|848": {
+  "LS|18|MoRTH|8|U|848": {
     "include": false,
     "title": "Construction of Elevated Flyover in Kozhikode District",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|843": {
+  "LS|18|MoRTH|8|U|843": {
     "include": false,
     "title": "National Highway Projects",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|834": {
+  "LS|18|MoRTH|8|U|834": {
     "include": true,
     "title": "Emergency Services on NHs",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|825": {
+  "LS|18|MoRTH|8|U|825": {
     "include": false,
     "title": "National Highway Projects in Bihar",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|824": {
+  "LS|18|MoRTH|8|U|824": {
     "include": false,
     "title": "Status of National Highway Project in Vadakara",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|819": {
+  "LS|18|MoRTH|8|U|819": {
     "include": false,
     "title": "Completion of Work on Mumbai-Goa Highway",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|818": {
+  "LS|18|MoRTH|8|U|818": {
     "include": true,
     "title": "Implementation of Automated Testing Stations for Vehicle Fitness",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|809": {
+  "LS|18|MoRTH|8|U|809": {
     "include": true,
     "title": "National Road Safety Strategy and Action Plan",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|808": {
+  "LS|18|MoRTH|8|U|808": {
     "include": false,
     "title": "Cybersecurity of Advanced Technology Vehicles",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|807": {
+  "LS|18|MoRTH|8|U|807": {
     "include": false,
     "title": "Complaints against Toll Plazas",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|794": {
+  "LS|18|MoRTH|8|U|794": {
     "include": false,
     "title": "Violation of Norms by PUC Centres",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|791": {
+  "LS|18|MoRTH|8|U|791": {
     "include": true,
     "title": "Road Accidents on NHs",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|789": {
+  "LS|18|MoRTH|8|U|789": {
     "include": false,
     "title": "Alignment of National Highway",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|786": {
+  "LS|18|MoRTH|8|U|786": {
     "include": false,
     "title": "Toll Collection despite Dilapidated Condition of NHs",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|752": {
+  "LS|18|MoRTH|8|U|752": {
     "include": false,
     "title": "Construction of National Highway Projects",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|740": {
+  "LS|18|MoRTH|8|U|740": {
     "include": false,
     "title": "Impact of Alignment of Greenfield Expressway to Dausa District",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|728": {
+  "LS|18|MoRTH|8|U|728": {
     "include": true,
     "title": "Black Spot Rectification and Road Safety",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|727": {
+  "LS|18|MoRTH|8|U|727": {
     "include": false,
     "title": "Construction of Under/Over-Bridges on NH-48",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|718": {
+  "LS|18|MoRTH|8|U|718": {
     "include": false,
     "title": "Progress of NHs Projects in Seemanchal Region",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|MoRTH|8|U|691": {
+  "LS|18|MoRTH|8|U|691": {
     "include": false,
     "title": "Ropecar Facility to Rockfort Temple, Tiruchirappalli",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|S|75": {
+  "LS|18|Urban|8|S|75": {
     "include": false,
     "title": "Inclusion of New Cities under SCM in Tamil Nadu",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|S|70": {
+  "LS|18|Urban|8|S|70": {
     "include": false,
     "title": "Inclusion of Narayanpur Municipal Board, Sonitpur, Assam under PMAY-U 2.0",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|911": {
+  "LS|18|Urban|8|U|911": {
     "include": false,
     "title": "Infrastructure Project for Amaravati",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|909": {
+  "LS|18|Urban|8|U|909": {
     "include": false,
     "title": "Difficulties in Construction and Housing Schemes",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|905": {
+  "LS|18|Urban|8|U|905": {
     "include": false,
     "title": "Progress under AMRUT 2.0 in Muzaffarnagar",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|888": {
+  "LS|18|Urban|8|U|888": {
     "include": false,
     "title": "Projects and Schemes under Smart Cities Mission",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|882": {
+  "LS|18|Urban|8|U|882": {
     "include": false,
     "title": "Smart City Projects in Srinagar",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|875": {
+  "LS|18|Urban|8|U|875": {
     "include": false,
     "title": "National Framework for Structural Safety Audits and Seismic Resilience of Buildings",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|862": {
+  "LS|18|Urban|8|U|862": {
     "include": false,
     "title": "Beneficiaries under PMAY-U 2.0 in Maharashtra",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|858": {
+  "LS|18|Urban|8|U|858": {
     "include": false,
     "title": "Metro Rail Expansion and Urban Mass Transit Projects in Ranchi",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|846": {
+  "LS|18|Urban|8|U|846": {
     "include": false,
     "title": "Funds allocated for Uttar Pradesh under PMAY-U 2.0",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|845": {
+  "LS|18|Urban|8|U|845": {
     "include": false,
     "title": "Status of Metro Rail Projects",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|831": {
+  "LS|18|Urban|8|U|831": {
     "include": false,
     "title": "PMAY-U 2.0 in Tamil Nadu",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|830": {
+  "LS|18|Urban|8|U|830": {
     "include": false,
     "title": "Status of PMAY-U",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|828": {
+  "LS|18|Urban|8|U|828": {
     "include": false,
     "title": "Role of Integrated Command and Control Centres in Smart Cities",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|812": {
+  "LS|18|Urban|8|U|812": {
     "include": false,
     "title": "Status of Projects in Maharashtra under SBM-U",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|811": {
+  "LS|18|Urban|8|U|811": {
     "include": false,
     "title": "Guidelines for Urban Challenge Fund",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|784": {
+  "LS|18|Urban|8|U|784": {
     "include": false,
     "title": "Status of AMRUT 2.0 in Assam",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|781": {
+  "LS|18|Urban|8|U|781": {
     "include": false,
     "title": "Status of South Zone Building Works",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|780": {
+  "LS|18|Urban|8|U|780": {
     "include": false,
     "title": "Urban Infrastructure in Darbhanga",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|779": {
+  "LS|18|Urban|8|U|779": {
     "include": false,
     "title": "Implementation of PM-SVANidhi Scheme",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|778": {
+  "LS|18|Urban|8|U|778": {
     "include": false,
     "title": "Bottlenecks in Urban Development Sector",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|755": {
+  "LS|18|Urban|8|U|755": {
     "include": false,
     "title": "Status of Projects under AMRUT 2.0 in Rajasthan",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|742": {
+  "LS|18|Urban|8|U|742": {
     "include": false,
     "title": "Budgetary Provisions for SCM and AMRUT",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|731": {
+  "LS|18|Urban|8|U|731": {
     "include": false,
     "title": "Status of PM-UDAY in North East Delhi",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|729": {
+  "LS|18|Urban|8|U|729": {
     "include": false,
     "title": "Pradhan Mantri Awas Yojana–Urban 2.0 in Karnataka",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|726": {
+  "LS|18|Urban|8|U|726": {
     "include": false,
     "title": "Redevelopment of Colonies in Delhi",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|721": {
+  "LS|18|Urban|8|U|721": {
     "include": false,
     "title": "'Cities as Growth Hubs' Initiative under the Urban Challenge Fund",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|705": {
+  "LS|18|Urban|8|U|705": {
     "include": false,
     "title": "Progress and Finalisation of Third and Fourth Phases of Kochi Metro",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|702": {
+  "LS|18|Urban|8|U|702": {
     "include": false,
     "title": "Assistance for Waste Management System",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
   },
-  "LS|Urban|8|U|695": {
+  "LS|18|Urban|8|U|695": {
     "include": false,
     "title": "Loans sanctioned and disbursed under PM-SVANidhi Scheme",
     "ministry": "Urban",
