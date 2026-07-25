@@ -11,6 +11,13 @@
       "added": 7,
       "source": "keyword+claude-haiku-4-5",
       "notes": "overrides: 1 | spend this month: $0.01"
+    },
+    {
+      "candidates": 99,
+      "added": 0,
+      "deferred_excludes": 0,
+      "source": "keyword+claude-haiku-4-5",
+      "notes": "llm-reviewed 99/99 | overrides: 0 | spend this month: $0.03"
     }
   ],
   "overrides": [

@@ -5,13 +5,13 @@
     "RS/MoRTH": 28,
     "LS/MoRTH": 40,
     "RS/Health": 41,
-    "LS/Health": 0,
-    "RS/Heavy": 0,
+    "LS/Health": 94,
+    "RS/Heavy": 5,
     "LS/Heavy": 15,
     "RS/Urban": 36,
     "LS/Urban": 31
   },
-  "new_candidates": 0,
+  "new_candidates": 99,
   "rollover_alert": null,
   "failing_streaks": {},
   "keyword_included": 0
