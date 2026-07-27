@@ -146,6 +146,26 @@ for r in new:
                 for gi in r['g']:
                     if TAGS[gi] not in tl:
                         tl.append(TAGS[gi])
+        # Rajya Sabha directory (sitting members): bump count; a 0->1 transition
+        # flips the RS hemicycle dot. Fallback token-match requires a UNIQUE
+        # candidate (homonym guard); ambiguous names stay unflipped for review.
+        if r['h'] == 'RS' and enrich.get('rsDir'):
+            rhit = None
+            for entries in enrich['rsDir'].values():
+                rhit = next((x for x in entries if x.get('ds') == name), None)
+                if rhit: break
+            if rhit is None and official:
+                otoks = name_tokens(official)
+                pool = (enrich['rsDir'].get(st) if st in enrich['rsDir']
+                        else [x for v in enrich['rsDir'].values() for x in v])
+                cand = [x for x in pool if not x.get('ds') and name_tokens(x.get('mp')) == otoks]
+                if len(cand) == 1:
+                    rhit = cand[0]; rhit['ds'] = name
+            if rhit is not None:
+                if rhit.get('n', 0) == 0:
+                    removed_from_never.append({'official': rhit['mp'], 'dataset_name': name,
+                                               'state': st or '?', 'house': 'RS'})
+                rhit['n'] = rhit.get('n', 0) + 1
     # per-state totals count DISTINCT QUESTIONS with >=1 asker from the state
     # (v3.1 baseline semantics) — never once per co-asker
     for st in rec_states:
@@ -187,6 +207,10 @@ for st, s in enrich['states'].items():
         ranked = sorted(((n, m[2], m[1]) for n, m in enrich['mpMeta'].items() if m[0] == st),
                         key=lambda x: -x[1])[:k]
         s['top'] = [[n, c, p] for n, c, p in ranked]
+
+# RS never-count is recomputed wholesale each run (self-contained in rsDir)
+if enrich.get('rsDir'):
+    enrich['rsNeverTotal'] = sum(1 for v in enrich['rsDir'].values() for x in v if not x.get('n'))
 
 save_json(DATA / 'enrich.json', enrich, compact=True)
 save_json(DATA / 'never_official.json', never)

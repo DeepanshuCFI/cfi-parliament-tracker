@@ -80,6 +80,36 @@ The CTA (and `?session=current` deep links) set a real `session` filter in the
 explorer, shown as a removable pill ("Session: Monsoon Session 2026 ✕")
 alongside the existing MP/ministry/state/year pills.
 
+## `ENRICH.rsDir` contract (Rajya Sabha layer of the #state section)
+
+The #state section has a Lok Sabha / Rajya Sabha toggle. Everything RS-side —
+hemicycle (241 dots), legend, vacant-seat caption, member picker, verdict card,
+and the "Rajya Sabha: k members · j never asked" line in the state panel — is
+computed **client-side from `ENRICH.rsDir` at load**; no RS number is baked into
+the template or into build tokens (`build_page.py` needed no changes). Refining
+`data/enrich.json` and rebuilding is therefore sufficient to update every RS
+figure on the page.
+
+Shape the page JS depends on (per state key, incl. `"Nominated"`):
+
+```json
+"rsDir": { "West Bengal": [
+  { "mp":  "Sagarika Ghose",  // display name; also the ?rsm= deep-link value
+    "p":   "AITC",            // party, rendered verbatim (short abbrev expected)
+    "n":   3,                 // int; 0 = never asked (any term, either House)
+    "ds":  "Sagarika Ghose",  // dataset MP name for the explorer filter; "" = no
+                              //    records -> "See their questions" is hidden
+    "exp": "2030" }           // term-end year, shown in the card footnote
+] }
+```
+
+Client-side computations: members = Σ|rsDir[state]| (must equal `rsSitting`);
+never = count of `n === 0` (must equal `rsNeverTotal` — `sanity_check.py`
+enforces both); asked = members − never; vacant = 245 − members. Deep link:
+`?rss=<State>&rsm=<mp>` (mutually exclusive with the LS `?pcs`/`?pc` pair).
+RS members have **no constituency and no photo** — the card uses a two-letter
+initials avatar and never fetches `/mpimg/`.
+
 ## Idempotence guarantee
 
 The build is a pure function of (template, assets, dataset, enrich): running it

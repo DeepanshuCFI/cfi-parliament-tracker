@@ -159,12 +159,20 @@ header{border-bottom:1px solid var(--border);background:#fff}
 .hdot.asked{background:var(--brand)}
 .hdot.never{background:var(--danger)}
 .hemi-wrap{margin-top:16px}
-#hemi{width:100%;height:auto;display:block}
-#hemi circle{cursor:pointer;transition:opacity .12s}
-#hemi circle.asked{fill:var(--brand)}
-#hemi circle.never{fill:var(--danger);fill-opacity:.88}
-#hemi circle:hover{opacity:.6}
+#hemi,#rsHemi{width:100%;height:auto;display:block}
+#hemi circle,#rsHemi circle{cursor:pointer;transition:opacity .12s}
+#hemi circle.asked,#rsHemi circle.asked{fill:var(--brand)}
+#hemi circle.never,#rsHemi circle.never{fill:var(--danger);fill-opacity:.88}
+#hemi circle:hover,#rsHemi circle:hover{opacity:.6}
 .hemi-cap{margin-top:12px;font-size:12.5px;color:var(--muted);max-width:640px;line-height:1.55}
+/* house toggle (Lok Sabha / Rajya Sabha) */
+.house-toggle{margin-top:36px;display:inline-flex;gap:4px;padding:4px;border:1px solid var(--border);border-radius:999px;background:#fff}
+.htg-btn{border:none;background:transparent;color:var(--muted);font-family:var(--head);font-size:14px;font-weight:600;line-height:1;min-height:38px;padding:10px 22px;border-radius:999px;cursor:pointer;transition:all .12s}
+.htg-btn:hover{color:var(--brand)}
+.htg-btn[aria-pressed="true"]{background:var(--brand);color:#fff}
+/* RS member card avatar + state-panel RS line */
+.mpf-avatar{width:84px;height:84px;border-radius:16px;background:var(--brand);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--head);font-size:30px;font-weight:700;letter-spacing:.02em;flex:none}
+.sp-rsline{grid-column:1/-1;font-size:12.5px;color:var(--muted);line-height:1.5;padding:2px 4px 0}
 
 /* find-your-MP card */
 .mpfind{margin-top:28px}
@@ -415,7 +423,11 @@ footer{border-top:1px solid var(--border);background:#fff}
     <span class="eyebrow">Road safety in your state</span>
     <h2>Who speaks for road safety<br><span class="accent">where you live?</span></h2>
     <p class="lead">Pick your state, then your constituency — and see your own MP's road-safety record as a shareable card. Or browse the state's picture: who raises road safety most, and how many of its sitting MPs never have.</p>
-    <div class="hemi-block">
+    <div class="house-toggle" role="group" aria-label="Choose a House of Parliament">
+      <button class="htg-btn" type="button" id="htgLS" aria-pressed="true">Lok Sabha</button>
+      <button class="htg-btn" type="button" id="htgRS" aria-pressed="false">Rajya Sabha</button>
+    </div>
+    <div class="hemi-block" id="hemiBlockLS">
       <div class="hemi-head">
         <span class="hemi-leg"><span class="hdot never"></span><b id="hemiNever"></b> sitting MPs have never asked</span>
         <span class="hemi-leg"><span class="hdot asked"></span><b id="hemiAsked"></b> have asked at least once</span>
@@ -423,13 +435,21 @@ footer{border-top:1px solid var(--border);background:#fff}
       <div class="hemi-wrap"><svg id="hemi" viewBox="0 0 1000 545" role="img"></svg></div>
       <p class="hemi-cap">The 18th Lok Sabha, seat by seat — every dot is a sitting MP. Select a dot for that MP's record. <span id="hemiVacant">Three of the 543 seats are currently vacant.</span> Counts cover every term each MP has served.</p>
     </div>
+    <div class="hemi-block" id="hemiBlockRS" hidden>
+      <div class="hemi-head">
+        <span class="hemi-leg"><span class="hdot never"></span><b id="rsHemiNever"></b> sitting RS MPs have never asked</span>
+        <span class="hemi-leg"><span class="hdot asked"></span><b id="rsHemiAsked"></b> have asked at least once</span>
+      </div>
+      <div class="hemi-wrap"><svg id="rsHemi" viewBox="0 0 1000 545" role="img"></svg></div>
+      <p class="hemi-cap">The Rajya Sabha, seat by seat — every dot is a sitting member. Select a dot for that member's record. <span id="rsHemiVacant">4 of the 245 seats are currently vacant.</span> Counts cover every term each member has served, in either House.</p>
+    </div>
     <div class="pick-row">
       <div>
         <label for="stateSel" class="flabel" style="display:block;margin-bottom:8px">Your state or UT</label>
         <select id="stateSel" class="statesel"></select>
       </div>
       <div>
-        <label for="pcSel" class="flabel" style="display:block;margin-bottom:8px">Your Lok Sabha constituency</label>
+        <label for="pcSel" class="flabel" style="display:block;margin-bottom:8px" id="pcLabel">Your Lok Sabha constituency</label>
         <select id="pcSel" class="statesel" disabled><option value="">— pick a state first —</option></select>
       </div>
     </div>
@@ -895,23 +915,59 @@ $('mpModal').addEventListener('keydown', e=>{
 // ---------- state section ----------
 function syncStateSel(){ if($('stateSel')) $('stateSel').value = state.geo || ''; }
 const MPDIR = ENRICH.mpDir || {};
+const RSDIR = ENRICH.rsDir || {};
+// which House the #state section is showing; everything below dispatches on this
+let HOUSE = 'LS';
+let rsHemiBuilt = false;
+function buildStateOptions(){
+  const sel = $('stateSel');
+  if(HOUSE==='RS'){
+    const names = Object.keys(RSDIR).sort();
+    sel.innerHTML = `<option value="">— choose a state —</option>` +
+      names.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');
+  }else{
+    const S = ENRICH.states || {};
+    const names = [...new Set([...Object.keys(S), ...Object.keys(MPDIR)])].sort();
+    sel.innerHTML = `<option value="">— choose a state —</option>` +
+      names.map(s=>`<option value="${esc(s)}">${esc(s)}${S[s]?` (${S[s].total})`:''}</option>`).join('');
+  }
+}
+function setHouse(h){
+  if(HOUSE===h) return;
+  HOUSE = h;
+  const rs = h==='RS';
+  $('htgLS').setAttribute('aria-pressed', String(!rs));
+  $('htgRS').setAttribute('aria-pressed', String(rs));
+  $('hemiBlockLS').hidden = rs;
+  $('hemiBlockRS').hidden = !rs;
+  if(rs && !rsHemiBuilt){ buildRSHemicycle(); rsHemiBuilt = true; }
+  $('pcLabel').textContent = rs ? 'Your state’s Rajya Sabha members' : 'Your Lok Sabha constituency';
+  const cur = $('stateSel').value;
+  buildStateOptions();
+  const keep = cur && [...$('stateSel').options].some(o=>o.value===cur);
+  $('stateSel').value = keep ? cur : '';
+  clearMPFind();
+  buildMemberSel($('stateSel').value);
+  renderStatePanel($('stateSel').value);
+}
 function buildStateSection(){
-  const S = ENRICH.states || {};
-  const names = [...new Set([...Object.keys(S), ...Object.keys(MPDIR)])].sort();
-  $('stateSel').innerHTML = `<option value="">— choose a state —</option>` +
-    names.map(s=>`<option value="${esc(s)}">${esc(s)}${S[s]?` (${S[s].total})`:''}</option>`).join('');
+  buildStateOptions();
+  $('htgLS').addEventListener('click', ()=>setHouse('LS'));
+  $('htgRS').addEventListener('click', ()=>setHouse('RS'));
   $('stateSel').addEventListener('change', e=>{
     const st = e.target.value;
-    buildPCSel(st);
+    buildMemberSel(st);
     clearMPFind();
     renderStatePanel(st);
   });
   $('pcSel').addEventListener('change', e=>{
     const st = $('stateSel').value;
-    if(e.target.value) renderMPFind(st, e.target.value);
-    else clearMPFind();
+    if(!e.target.value){ clearMPFind(); return; }
+    if(HOUSE==='RS') renderRSMPFind(st, e.target.value);
+    else renderMPFind(st, e.target.value);
   });
 }
+function buildMemberSel(st){ if(HOUSE==='RS') buildRSSel(st); else buildPCSel(st); }
 function buildPCSel(st){
   const sel = $('pcSel');
   const list = MPDIR[st] || [];
@@ -919,6 +975,14 @@ function buildPCSel(st){
   sel.disabled = false;
   sel.innerHTML = '<option value="">— your constituency —</option>' +
     list.map(e=>`<option value="${esc(e.c)}">${esc(e.c)}</option>`).join('');
+}
+function buildRSSel(st){
+  const sel = $('pcSel');
+  const list = RSDIR[st] || [];
+  if(!list.length){ sel.innerHTML = '<option value="">— pick a state first —</option>'; sel.disabled = true; return; }
+  sel.disabled = false;
+  sel.innerHTML = '<option value="">— pick a member —</option>' +
+    list.map(e=>`<option value="${esc(e.mp)}">${esc(e.mp)} · ${esc(e.p)} · ${e.n===0?'never asked':`${e.n} question${e.n===1?'':'s'}`}</option>`).join('');
 }
 // ---------- hemicycle: the 18th Lok Sabha, seat by seat ----------
 function buildHemicycle(){
@@ -963,6 +1027,50 @@ function buildHemicycle(){
     $('mpFind').scrollIntoView({behavior:'smooth', block:'center'});
   });
 }
+// ---------- hemicycle: the Rajya Sabha, seat by seat ----------
+function buildRSHemicycle(){
+  const svg = $('rsHemi'); if(!svg) return;
+  const members = [];
+  Object.keys(RSDIR).forEach(st => RSDIR[st].forEach(e => members.push({st, ...e})));
+  // never-asked first (red wedge fills from the left), then states alphabetically within each group
+  members.sort((a,b)=> ((a.n===0?0:1)-(b.n===0?0:1)) || a.st.localeCompare(b.st) || b.n-a.n || a.mp.localeCompare(b.mp));
+  const N = members.length;
+  const never = members.filter(m=>m.n===0).length;
+  $('rsHemiNever').textContent = fmt(never);
+  $('rsHemiAsked').textContent = fmt(N-never);
+  if($('rsHemiVacant')){
+    const vac = 245-N;
+    $('rsHemiVacant').textContent = vac<=0 ? 'All 245 seats are currently filled.' : `${vac} of the 245 seats are currently vacant.`;
+  }
+  // same band and dot size as the LS chamber; 8 rows so 241 seats keep a uniform grid
+  const rows=8, r0=210, r1=470, cx=500, cy=518;
+  const radii=[]; for(let i=0;i<rows;i++) radii.push(r0+(r1-r0)*i/(rows-1));
+  const tot=radii.reduce((a,r)=>a+r,0);
+  const counts=radii.map(r=>Math.round(N*r/tot));
+  let diff=N-counts.reduce((a,b)=>a+b,0);
+  for(let i=rows-1; diff!==0; i=(i-1+rows)%rows){ counts[i]+=Math.sign(diff); diff-=Math.sign(diff); }
+  const seats=[];
+  counts.forEach((cnt,i)=>{
+    const r=radii[i];
+    for(let j=0;j<cnt;j++){
+      const a=Math.PI*(cnt===1?0.5:1-(j/(cnt-1)));
+      seats.push({x:cx+r*Math.cos(a), y:cy-r*Math.sin(a), a});
+    }
+  });
+  seats.sort((p,q)=>q.a-p.a);  // left to right across the chamber
+  svg.setAttribute('aria-label', `The Rajya Sabha seat map: of ${N} sitting members, ${never} have never asked a road-safety question and ${N-never} have asked at least one.`);
+  svg.innerHTML = seats.map((s,i)=>{
+    const m=members[i]; if(!m) return '';
+    return `<circle class="${m.n===0?'never':'asked'}" cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="8.6" data-st="${esc(m.st)}" data-mp="${esc(m.mp)}"><title>${esc(m.mp)} · ${esc(m.st)} · ${m.n} road-safety question${m.n===1?'':'s'}</title></circle>`;
+  }).join('');
+  svg.addEventListener('click', ev=>{
+    const c = ev.target.closest('circle'); if(!c) return;
+    const st=c.dataset.st, mp=c.dataset.mp;
+    $('stateSel').value=st; buildRSSel(st); renderStatePanel(st);
+    $('pcSel').value=mp; renderRSMPFind(st, mp);
+    $('mpFind').scrollIntoView({behavior:'smooth', block:'center'});
+  });
+}
 const MPIMG = {};
 Object.keys(ENRICH.mpDir||{}).forEach(st=>(ENRICH.mpDir[st]||[]).forEach(e=>{
   if(e.img){ MPIMG[e.mp]=e.img; if(e.ds) MPIMG[e.ds]=e.img; }
@@ -970,15 +1078,37 @@ Object.keys(ENRICH.mpDir||{}).forEach(st=>(ENRICH.mpDir[st]||[]).forEach(e=>{
 function pcToURL(st, pc){
   const p = new URLSearchParams(location.search);
   if(st && pc){ p.set('pcs', st); p.set('pc', pc); } else { p.delete('pcs'); p.delete('pc'); }
+  p.delete('rss'); p.delete('rsm');   // one MP deep link at a time
+  const qs = p.toString();
+  try{ history.replaceState(null, '', location.pathname + (qs?'?'+qs:'') + location.hash); }catch(e){}
+}
+function rsToURL(st, mp){
+  const p = new URLSearchParams(location.search);
+  if(st && mp){ p.set('rss', st); p.set('rsm', mp); } else { p.delete('rss'); p.delete('rsm'); }
+  p.delete('pcs'); p.delete('pc');
   const qs = p.toString();
   try{ history.replaceState(null, '', location.pathname + (qs?'?'+qs:'') + location.hash); }catch(e){}
 }
 function clearMPFind(){ const el=$('mpFind'); el.hidden=true; el.innerHTML=''; pcToURL('',''); }
+const initials = name => {
+  const w = String(name).trim().split(/\s+/).filter(Boolean);
+  if(!w.length) return '?';
+  return (w.length===1 ? w[0].slice(0,2) : w[0][0]+w[w.length-1][0]).toUpperCase();
+};
 function shareText(e, st){
   const url = location.origin + location.pathname + '?pcs=' + encodeURIComponent(st) + '&pc=' + encodeURIComponent(e.c);
   return e.n===0
     ? `My MP — ${e.mp} (${e.p}, ${e.c}) — has never asked a single road-safety question in Parliament. The record: ${url}`
     : `My MP — ${e.mp} (${e.p}, ${e.c}) — has asked ${e.n} road-safety question${e.n===1?'':'s'} in Parliament. The record: ${url}`;
+}
+function shareTextRS(e, st){
+  const url = location.origin + location.pathname + '?rss=' + encodeURIComponent(st) + '&rsm=' + encodeURIComponent(e.mp);
+  const who = st==='Nominated'
+    ? `${e.mp} (${e.p}), nominated Rajya Sabha MP`
+    : `${e.mp} (${e.p}), Rajya Sabha MP for ${st}`;
+  return e.n===0
+    ? `My MP — ${who} — has never asked a single road-safety question in Parliament. The record: ${url}`
+    : `My MP — ${who} — has asked ${e.n} road-safety question${e.n===1?'':'s'} in Parliament. The record: ${url}`;
 }
 function renderMPFind(st, cons){
   const e = (MPDIR[st]||[]).find(x=>x.c===cons);
@@ -1019,8 +1149,46 @@ function renderMPFind(st, cons){
     $('mpfSee').onclick = ()=>{ freshView(); state.mp=e.ds; refreshChips(); render(); goExplorer(); };
   }
 }
+function renderRSMPFind(st, name){
+  const e = (RSDIR[st]||[]).find(x=>x.mp===name);
+  const box = $('mpFind');
+  if(!e){ box.hidden=true; return; }
+  const zero = e.n===0;
+  const verdictLabel = zero
+    ? `road-safety questions asked in Parliament — across every term they have served, in either House`
+    : `road-safety question${e.n===1?'':'s'} asked in Parliament`;
+  box.innerHTML = `
+    <div class="mpf-card">
+      <div class="mpf-top">
+        <div class="mpf-avatar" aria-hidden="true">${esc(initials(e.mp))}</div>
+        <div>
+          <div class="mpf-kicker">${esc(st)} · Rajya Sabha · Sitting MP</div>
+          <div class="mpf-name">${esc(e.mp)}<span class="mpf-party">${esc(e.p)}</span></div>
+        </div>
+      </div>
+      <div class="mpf-verdict">
+        <span class="mpf-num${zero?' zero':''}">${e.n}</span>
+        <span class="mpf-label">${verdictLabel}</span>
+      </div>
+      <div class="mpf-actions">
+        <button class="btn btn-primary" type="button" id="mpfShare">Share card</button>
+        <button class="btn btn-ghost" type="button" id="mpfDl">Download card</button>
+        <a class="btn btn-ghost" id="mpfWa" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(shareTextRS(e,st))}">WhatsApp</a>
+        <a class="btn btn-ghost" id="mpfX" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareTextRS(e,st))}">Post on X</a>
+        ${e.n>0 && e.ds ? `<button class="btn btn-ghost btn-arrow" type="button" id="mpfSee">See their questions</button>` : ''}
+      </div>
+      <div class="mpf-note">Counts every question this MP asked in this database, across every term served in either House (four ministries, title-matched).${e.exp?` Current term ends ${esc(e.exp)}.`:''} Source: sansad.in.</div>
+    </div>`;
+  box.hidden = false;
+  rsToURL(st, name);
+  $('mpfDl').onclick = ()=>downloadMPCard(e, st, false, true);
+  $('mpfShare').onclick = ()=>downloadMPCard(e, st, true, true);
+  if(e.n>0 && e.ds){
+    $('mpfSee').onclick = ()=>{ freshView(); state.mp=e.ds; refreshChips(); render(); goExplorer(); };
+  }
+}
 // ---------- canvas share-card (1080x1080, CFI brand) ----------
-function drawMPCard(e, st){
+function drawMPCard(e, st, rs){
   const W=1080, H=1080, cv=document.createElement('canvas');
   cv.width=W; cv.height=H;
   const x=cv.getContext('2d');
@@ -1038,14 +1206,24 @@ function drawMPCard(e, st){
   const kick='ROAD SAFETY IN PARLIAMENT';
   let kx=PAD; for(const ch of kick){ x.fillText(ch,kx,PAD+105); kx+=x.measureText(ch).width+4.5; }
   x.restore();
-  // constituency line
+  // constituency line (RS members have no constituency — they sit for the whole state)
   x.fillStyle='#777589'; x.font='500 30px Geist, sans-serif';
-  x.fillText(`${e.c} · ${st}`, PAD, 320);
+  x.fillText(rs ? `${st} · Rajya Sabha` : `${e.c} · ${st}`, PAD, 320);
   // MP name
   x.fillStyle='#1a1c1c'; x.font='700 52px Montserrat';
   x.fillText(`${e.mp}`, PAD, 385);
   x.fillStyle='#777589'; x.font='500 30px Geist, sans-serif';
-  x.fillText(`${e.p} · Sitting MP, 18th Lok Sabha`, PAD, 432);
+  x.fillText(`${e.p} · Sitting MP, ${rs?'Rajya Sabha':'18th Lok Sabha'}`, PAD, 432);
+  // RS: initials avatar on a brand-blue disc (no photo pipeline for RS — never fetch)
+  if(rs){
+    x.save();
+    x.beginPath(); x.arc(W-PAD-72, 356, 72, 0, Math.PI*2);
+    x.fillStyle='#4A35FF'; x.fill();
+    x.fillStyle='#fff'; x.font='700 56px Montserrat';
+    x.textAlign='center'; x.textBaseline='middle';
+    x.fillText(initials(e.mp), W-PAD-72, 360);
+    x.restore();
+  }
   // verdict number
   x.fillStyle= zero ? '#F10015' : '#4A35FF';
   x.font='700 250px Montserrat';
@@ -1063,14 +1241,14 @@ function drawMPCard(e, st){
   x.fillText(location.host + location.pathname.replace(/\/$/,''), PAD, H-PAD+4);
   return cv;
 }
-function downloadMPCard(e, st, tryShare){
-  const cv = drawMPCard(e, st);
+function downloadMPCard(e, st, tryShare, rs){
+  const cv = drawMPCard(e, st, rs);
   cv.toBlob(async blob=>{
     if(!blob) return;
-    const fname = `my-mp-road-safety_${e.c.toLowerCase().replace(/[^a-z0-9]+/g,'-')}.png`;
+    const fname = `my-mp-road-safety_${(rs?e.mp:e.c).toLowerCase().replace(/[^a-z0-9]+/g,'-')}.png`;
     const file = new File([blob], fname, {type:'image/png'});
     if(tryShare && navigator.canShare && navigator.canShare({files:[file]})){
-      try{ await navigator.share({files:[file], text: shareText(e, st)}); return; }catch(err){ if(err && err.name==='AbortError') return; }
+      try{ await navigator.share({files:[file], text: rs ? shareTextRS(e, st) : shareText(e, st)}); return; }catch(err){ if(err && err.name==='AbortError') return; }
     }
     const a=document.createElement('a');
     a.href=URL.createObjectURL(blob); a.download=fname; a.click();
@@ -1084,7 +1262,15 @@ function renderStatePanel(st){
   if(!d && MPDIR[st]){
     d = { total:0, nmps:0, top:[], never:(MPDIR[st]||[]).filter(x=>x.n===0).length };
   }
-  if(!d){ panel.hidden=true; panel.innerHTML=''; return; }
+  // Rajya Sabha line — computed live from rsDir so refined data flows through untouched
+  const rsl = RSDIR[st] || [];
+  const rsLine = rsl.length
+    ? `<div class="sp-rsline">Rajya Sabha: ${rsl.length} member${rsl.length===1?'':'s'} · ${rsl.filter(x=>x.n===0).length} never asked</div>`
+    : '';
+  if(!d){
+    if(rsLine){ panel.innerHTML = rsLine; panel.hidden=false; return; }
+    panel.hidden=true; panel.innerHTML=''; return;
+  }
   const top = d.top.map(([m,n,p])=>`
     <div class="sp-mp" data-mp="${esc(m)}" role="button" tabindex="0" aria-label="Profile of ${esc(m)}">
       <span><span class="sp-name">${esc(m)}</span><span class="sp-party">${esc(p||'')}</span></span>
@@ -1096,6 +1282,7 @@ function renderStatePanel(st){
       <div class="sp-stat"><b>${d.nmps}</b><i>MPs from ${esc(st)} have asked at least one</i></div>
       <div class="sp-stat warn"><b>${d.never}</b><i>sitting Lok Sabha MPs from ${esc(st)} never have</i></div>
       <div class="sp-stat"><b>${d.top.length?d.top[0][1]:0}</b><i>questions by the most vocal — ${esc(d.top.length?d.top[0][0]:'—')}</i></div>
+      ${rsLine}
     </div>
     <div class="sp-vocal">
       <h3>Most vocal on road safety in ${esc(st)}</h3>
@@ -1251,5 +1438,14 @@ if(hadPC){
   if(_pc && (MPDIR[_pcs]||[]).some(x=>x.c===_pc)){ $('pcSel').value = _pc; renderMPFind(_pcs, _pc); }
   setTimeout(()=>{ window.scrollTo({top:$('state').offsetTop, behavior:'instant'}); }, 80);
 }
-if(hadURLState && !hadPC){ setTimeout(()=>{ window.scrollTo({top:$('explorer').offsetTop, behavior:'instant'}); }, 60); }
+// Rajya Sabha deep link (?rss=State&rsm=Member name)
+const _rss = _pp.get('rss'), _rsm = _pp.get('rsm');
+const hadRS = !hadPC && !!(_rss && RSDIR[_rss]);
+if(hadRS){
+  setHouse('RS');
+  $('stateSel').value = _rss; buildRSSel(_rss); renderStatePanel(_rss);
+  if(_rsm && (RSDIR[_rss]||[]).some(x=>x.mp===_rsm)){ $('pcSel').value = _rsm; renderRSMPFind(_rss, _rsm); }
+  setTimeout(()=>{ window.scrollTo({top:$('state').offsetTop, behavior:'instant'}); }, 80);
+}
+if(hadURLState && !hadPC && !hadRS){ setTimeout(()=>{ window.scrollTo({top:$('explorer').offsetTop, behavior:'instant'}); }, 60); }
 </script>

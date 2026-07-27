@@ -46,6 +46,13 @@ else:
     if ds and sum(en['minCounts'].values()) != len(ds['records']):
         errors.append(f"minCounts sum {sum(en['minCounts'].values())} != "
                       f"record count {len(ds['records'])} - enrichment drifted from dataset")
+    if en.get('rsDir'):
+        rs_n = sum(len(v) for v in en['rsDir'].values())
+        rs_never = sum(1 for v in en['rsDir'].values() for m in v if not m.get('n'))
+        if en.get('rsSitting') != rs_n:
+            errors.append(f"rsSitting {en.get('rsSitting')} != rsDir member count {rs_n}")
+        if en.get('rsNeverTotal') != rs_never:
+            errors.append(f"rsNeverTotal {en.get('rsNeverTotal')} != rsDir n==0 count {rs_never}")
 
 page = SITE / 'index.html'
 if not page.exists():
