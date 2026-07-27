@@ -60,7 +60,8 @@ jobs:
               msgs.append('SESSION ROLLOVER NEEDED: ' + str(r['rollover_alert']))
           for src, n in sorted((r.get('failing_streaks') or {}).items()):
               msgs.append(f'{src} has failed {n} consecutive runs')
-          print('\n'.join(msgs))
+          if msgs:  # no bare print: an empty print emits '\n' and [ -s ] treats that as an alert
+              print('\n'.join(msgs))
           PY
           if [ -s /tmp/alert.txt ]; then
             TITLE="Tracker needs attention"
@@ -81,6 +82,13 @@ jobs:
             fi
           else
             echo "No rollover or chronic-failure alerts."
+            # self-heal: close the attention issue once alerts clear
+            NUM=$(gh issue list --state open \
+              --search "\"Tracker needs attention\" in:title author:app/github-actions" \
+              --json number --jq '.[0].number' || true)
+            if [ -n "$NUM" ] && [ "$NUM" != "null" ]; then
+              gh issue close "$NUM" --comment "Alerts clear on today's run - closing automatically."
+            fi
           fi
 
       - name: Commit data + site

@@ -158,6 +158,11 @@ def compute_tokens(dataset: dict, enrich: dict) -> dict:
         'STARRED_RAW': str(starred),
         'START_MY': my_full(dmin),
         'DATA_THROUGH_MY': my_full(dmax),
+        # build date (IST) - the daily heartbeat deploy keeps this current, so the
+        # page can distinguish "tracker checked, nothing new" from "tracker stale"
+        'LAST_CHECKED': __import__('datetime').datetime.now(
+            __import__('datetime').timezone(__import__('datetime').timedelta(hours=5, minutes=30))
+        ).strftime('%d %b %Y').lstrip('0'),
         'PERIOD': f"{my_short(dmin)} – {my_short(dmax)}",
         'YEAR_LEAD': year_lead,
         'RECORD_YEAR': rec_y,
