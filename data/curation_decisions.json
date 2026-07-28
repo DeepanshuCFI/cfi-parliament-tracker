@@ -1738,5 +1738,197 @@
     "title": "EV charging infrastructure in Andhra Pradesh including Kakinada",
     "ministry": "Heavy",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|S|78": {
+    "include": false,
+    "title": "Implementaion status of Pradhan Mantri Awas Yojana",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|873": {
+    "include": true,
+    "title": "Ensuring adequate padestrian infrastructure",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|872": {
+    "include": false,
+    "title": "Implementation status of housing for all",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|843": {
+    "include": false,
+    "title": "Implementation of SNA-SPARSH under PMAY-Urban 2.0",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|844": {
+    "include": false,
+    "title": "PMAY-Urban in Andhra Pradesh",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|845": {
+    "include": false,
+    "title": "Status of cleanliness in smart city of NCR",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|846": {
+    "include": false,
+    "title": "Stormwater management in urban coastal areas of Andhra Pradesh",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|847": {
+    "include": false,
+    "title": "Measures to prevent pollution and improve UWM and STP",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|848": {
+    "include": false,
+    "title": "Sustainable cities under Viksit Bharat 2047",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|849": {
+    "include": false,
+    "title": "Central funding for Bengaluru metro",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|850": {
+    "include": false,
+    "title": "Street Vendors under PM SVANidhi",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|851": {
+    "include": false,
+    "title": "Promotion of decentralised smart waste processing systems",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|852": {
+    "include": false,
+    "title": "Urban slum upgradation and civic amenities",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|853": {
+    "include": false,
+    "title": "Mandatory PMAY Urban logo display on houses",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|854": {
+    "include": false,
+    "title": "Urban water security",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|855": {
+    "include": false,
+    "title": "Deficiencies in urban planning and municipal governance",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|856": {
+    "include": false,
+    "title": "Stormwater management in urban coastal areas of Andhra Pradesh",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|857": {
+    "include": false,
+    "title": "Smart Cities projects",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|858": {
+    "include": false,
+    "title": "National Ease of Living Index for cities and districts",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|859": {
+    "include": false,
+    "title": "Enhancing urban housing through PMAY-U 2.0 implementation",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|860": {
+    "include": false,
+    "title": "Urban development of heritage cities in Assam",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|861": {
+    "include": false,
+    "title": "Implementation status of Namo Bharat Corridors",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|862": {
+    "include": false,
+    "title": "Demolition drives undertaken by DDA in the NCT of Delhi",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|863": {
+    "include": false,
+    "title": "Metro rail utilization in Tamil Nadu",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|871": {
+    "include": false,
+    "title": "Data-driven enforcement of anti-littering provisions under SWM Rules, 2016",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|870": {
+    "include": false,
+    "title": "Shifting of occupants from colonies for redevelopment",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|869": {
+    "include": false,
+    "title": "Expansion of metro rail project in Bengaluru",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|868": {
+    "include": false,
+    "title": "Maintenance of annual ground rent records of institutional plots by DDA",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|867": {
+    "include": false,
+    "title": "AMRUT 2.0 expenditure and water security constraints",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|866": {
+    "include": false,
+    "title": "AMRUT/smart city fund disbursal to Tamil Nadu Urban Local Bodies",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|865": {
+    "include": false,
+    "title": "AMRUT 2.0 outlays and water security bottlenecks",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|864": {
+    "include": false,
+    "title": "PMAY-U and PMAY-U 2.0 in Andhra Pradesh",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
   }
 }

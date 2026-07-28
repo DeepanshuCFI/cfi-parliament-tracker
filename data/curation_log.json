@@ -18,6 +18,13 @@
       "deferred_excludes": 0,
       "source": "keyword+claude-haiku-4-5",
       "notes": "llm-reviewed 99/99 | overrides: 0 | spend this month: $0.03"
+    },
+    {
+      "candidates": 32,
+      "added": 1,
+      "deferred_excludes": 0,
+      "source": "keyword+claude-haiku-4-5",
+      "notes": "llm-reviewed 32/32 | overrides: 1 | spend this month: $0.03"
     }
   ],
   "overrides": [
@@ -41,6 +48,13 @@
       "keyword": false,
       "llm": true,
       "reason": "Emergency services on highways relate to accident response/crash care"
+    },
+    {
+      "title": "Ensuring adequate padestrian infrastructure",
+      "ministry": "Urban",
+      "keyword": false,
+      "llm": true,
+      "reason": "Pedestrian infrastructure directly addresses pedestrian safety."
     }
   ]
 }
