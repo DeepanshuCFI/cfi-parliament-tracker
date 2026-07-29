@@ -4,14 +4,14 @@
   "fetched": {
     "RS/MoRTH": 28,
     "LS/MoRTH": 40,
-    "RS/Health": 41,
+    "RS/Health": 80,
     "LS/Health": 94,
     "RS/Heavy": 5,
-    "LS/Heavy": 15,
+    "LS/Heavy": 33,
     "RS/Urban": 68,
     "LS/Urban": 31
   },
-  "new_candidates": 32,
+  "new_candidates": 57,
   "rollover_alert": null,
   "failing_streaks": {},
   "keyword_included": 0

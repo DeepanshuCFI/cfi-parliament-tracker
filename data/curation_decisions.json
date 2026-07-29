@@ -1930,5 +1930,347 @@
     "title": "PMAY-U and PMAY-U 2.0 in Andhra Pradesh",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1057": {
+    "include": false,
+    "title": "Food adulteration, licensing compliance and formalisation of small food vendors",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1055": {
+    "include": false,
+    "title": "Surveillance data on monsoon-related diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1084": {
+    "include": false,
+    "title": "Strengthening tertiary healthcare infrastructure in Bihar",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1081": {
+    "include": false,
+    "title": "Critical care infrastructure under PM-ABHIM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1089": {
+    "include": false,
+    "title": "Timely processing of applications for PG medical seats by NMC",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1087": {
+    "include": false,
+    "title": "Exorbitant cost of treatment of rare diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1085": {
+    "include": false,
+    "title": "Establishment of AIIMS in Kerala",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1060": {
+    "include": false,
+    "title": "Digitisation and Universal Health Coverage Saturation",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1090": {
+    "include": false,
+    "title": "Decline in exclusive breastfeeding rates",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1054": {
+    "include": false,
+    "title": "Cancer Care infrastructure in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1059": {
+    "include": false,
+    "title": "Strengthening medical education capacity in Karnataka",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1071": {
+    "include": false,
+    "title": "Functioning of Government funded healthcare institutions in Odisha",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1080": {
+    "include": false,
+    "title": "Annual free health check-ups for early detection of diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1077": {
+    "include": false,
+    "title": "NCD mortality burden in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1056": {
+    "include": false,
+    "title": "Private hospital scams",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1058": {
+    "include": false,
+    "title": "CDSCO approved AI screening technologies for breast cancer under NP-NCD",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|104": {
+    "include": false,
+    "title": "Expansion of medical infrastructure under PM-ABHIM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1067": {
+    "include": false,
+    "title": "Antimicrobial resistance and rational use of medicines",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|98": {
+    "include": false,
+    "title": "COVID cases in Andhra Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1069": {
+    "include": false,
+    "title": "Deaths due to adulteration of milk in Andhra Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1062": {
+    "include": false,
+    "title": "Health infrastructure and fund allocation under NHM in Bihar",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1083": {
+    "include": false,
+    "title": "Utilisation of health cess for PMSSN",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1076": {
+    "include": false,
+    "title": "Establishment of HEOC in Maharashtra",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1065": {
+    "include": false,
+    "title": "Regulation and patient safety framework for dental implantology",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1066": {
+    "include": false,
+    "title": "Regulation of cosmetic surgery and aesthetic procedures",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1063": {
+    "include": false,
+    "title": "Regional imbalances in doctor-to-population ratio for allopathic and Ayush practitioners",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1064": {
+    "include": false,
+    "title": "Policy measures and actions against private hospital malpractices",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1072": {
+    "include": false,
+    "title": "Healthcare services in tribal and remote areas",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1086": {
+    "include": false,
+    "title": "Anaemia prevalence amongst women from minority communities",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1073": {
+    "include": false,
+    "title": "Declining FMGE pass rate in 2026",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1082": {
+    "include": false,
+    "title": "Status of healthcare infrastructure and service-delivery systems in Tamil Nadu",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1075": {
+    "include": false,
+    "title": "Assessment and strengthening of mental health services in Jammu and Kashmir",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1068": {
+    "include": false,
+    "title": "Portability under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1088": {
+    "include": false,
+    "title": "Issuance of cards under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1078": {
+    "include": false,
+    "title": "Reproduction health awareness for couples",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1061": {
+    "include": false,
+    "title": "Healthcare infrastructure  in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1079": {
+    "include": false,
+    "title": "Central assistance under AB-PMJAY to Tamil Nadu",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1074": {
+    "include": false,
+    "title": "Financial assistance for critical diseases under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1070": {
+    "include": false,
+    "title": "NHM fund disbursal to Tamil Nadu",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|S|126": {
+    "include": false,
+    "title": "PM E-DRIVE",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|S|124": {
+    "include": false,
+    "title": "Assessment of Competitiveness of Heavy Industries Sector",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|S|122": {
+    "include": false,
+    "title": "EVs-Penetration in the North-east",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1590": {
+    "include": false,
+    "title": "Establishing Heavy Industries in Purulia",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1583": {
+    "include": false,
+    "title": "EV-servicing Training Centres",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1568": {
+    "include": false,
+    "title": "Establishing Heavy Industries in Maharashtra",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1562": {
+    "include": false,
+    "title": "EV Policy",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1541": {
+    "include": false,
+    "title": "EV Charging Infrastructure in Ladakh",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1528": {
+    "include": false,
+    "title": "Industrial Promotion Schemes in Punjab",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1525": {
+    "include": false,
+    "title": "Domestic Manufacturing of Essential Construction Equipment",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1521": {
+    "include": false,
+    "title": "Battery Manufacturing Infrastructure, Localization and Recycling",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1512": {
+    "include": false,
+    "title": "PM-eBus Sewa-PSM Scheme",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1478": {
+    "include": false,
+    "title": "Impact of E20 Fuel on Vehicles",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1472": {
+    "include": false,
+    "title": "PLI Scheme for Automobile and Auto Components",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1444": {
+    "include": false,
+    "title": "Recruitment in BHEL",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1424": {
+    "include": false,
+    "title": "Expansion of EV Charging Infrastructure in West Bengal",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1412": {
+    "include": false,
+    "title": "National Electric Vehicles Policy",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|1406": {
+    "include": false,
+    "title": "PM E-DRIVE Scheme and Promotion of Electric Mobility",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
   }
 }

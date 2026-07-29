@@ -1,16 +1,9 @@
 {
-  "new_records_applied": 1,
+  "new_records_applied": 0,
   "unmatched_new_askers": [],
   "unresolved_askers_outstanding": [
     "M. Thambidurai"
   ],
   "healed_this_run": [],
-  "left_never_asked_list": [
-    {
-      "official": "S.R. Sivalingam",
-      "dataset_name": "S.R. Sivalingam",
-      "state": "Tamil Nadu",
-      "house": "RS"
-    }
-  ]
+  "left_never_asked_list": []
 }
