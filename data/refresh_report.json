@@ -2,7 +2,7 @@
   "session": "Monsoon Session 2026",
   "api_failures": [],
   "fetched": {
-    "RS/MoRTH": 28,
+    "RS/MoRTH": 51,
     "LS/MoRTH": 40,
     "RS/Health": 80,
     "LS/Health": 94,
@@ -11,8 +11,8 @@
     "RS/Urban": 68,
     "LS/Urban": 31
   },
-  "new_candidates": 57,
+  "new_candidates": 24,
   "rollover_alert": null,
   "failing_streaks": {},
-  "keyword_included": 0
+  "keyword_included": 3
 }

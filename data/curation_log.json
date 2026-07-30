@@ -32,6 +32,13 @@
       "deferred_excludes": 0,
       "source": "keyword+claude-haiku-4-5",
       "notes": "llm-reviewed 57/57 | overrides: 0 | spend this month: $0.04"
+    },
+    {
+      "candidates": 24,
+      "added": 2,
+      "deferred_excludes": 0,
+      "source": "keyword+claude-haiku-4-5",
+      "notes": "llm-reviewed 24/24 | overrides: 1 | spend this month: $0.05"
     }
   ],
   "overrides": [
@@ -62,6 +69,13 @@
       "keyword": false,
       "llm": true,
       "reason": "Pedestrian infrastructure directly addresses pedestrian safety."
+    },
+    {
+      "title": "Impact of E20 fuel on motor vehicles",
+      "ministry": "MoRTH",
+      "keyword": true,
+      "llm": false,
+      "reason": "Fuel composition impact on vehicles, not road safety"
     }
   ]
 }
