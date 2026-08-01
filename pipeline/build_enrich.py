@@ -13,7 +13,8 @@ data/enrich_report.json for a manual matching pass (same human-gate philosophy
 as the SC litigation tracker).
 """
 import csv, re, sys
-from common import DATA, SITE, TAGS, load_json, save_json, record_key
+from common import (DATA, SITE, TAGS, load_json, save_json, record_key,
+                    name_tokens, state_key as _state_key)
 
 dataset = load_json(DATA / 'dataset.json')
 enrich = load_json(DATA / 'enrich.json')
@@ -30,22 +31,12 @@ with open(DATA / 'mp_enrichment.csv') as f:
     for row in csv.DictReader(f):
         name_map[row['mp_name_in_dataset']] = (row['official_name'], row['state'], row['party'])
 
-# Fallback: the official sansad roster, which stores names comma-flipped with
-# honorifics ("Kumar, Shri Mithlesh"). Normalising to a sorted token set matches
-# those against dataset-form names without a fuzzy pass.
-HON_TOK = {'shri', 'smt', 'dr', 'prof', 'kumari', 'km', 'sardar', 'adv', 'ms', 'mr',
-           'mrs', 'sushri', 'shrimata', 'shrimati', 'thiru', 'justice', 'col', 'capt', 'maj', 'gen'}
-def name_tokens(s):
-    toks = re.findall(r'[a-z]+', (s or '').lower())
-    return tuple(sorted(t for t in toks if t not in HON_TOK and len(t) > 1))
+# name_tokens (the comma-flipped/honorific-free match key) and _state_key live in
+# common.py - fetch_rs_photos.py matches members with the same rules.
 
 # State spellings differ across sources ('Jammu and Kashmir' / 'Jammu & Kashmir',
 # 'NCT of Delhi', trailing spaces in the RS roster). Canonicalise onto the blob's
 # own keys by connective-free token key so rollups never split across spellings.
-def _state_key(s):
-    return ' '.join(t for t in re.findall(r'[a-z]+', (s or '').lower())
-                    if t not in ('and', 'of', 'the'))
-
 STATE_CANON = {}
 for _k in list(enrich['states'].keys()) + list(enrich['mpDir'].keys()):
     STATE_CANON.setdefault(_state_key(_k), _k)

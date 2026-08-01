@@ -1071,10 +1071,16 @@ function buildRSHemicycle(){
     $('mpFind').scrollIntoView({behavior:'smooth', block:'center'});
   });
 }
+// Both houses: LS entries carry a sansad DMS uuid, RS entries 'rs/P<mpsno>.jpg'
+// — /mpimg/ rewrites both (see site/vercel.json), so the src is built the same
+// way either way. mpDir is walked first so that where one name sits in both
+// houses the LS photo wins, matching LS-before-RS precedence elsewhere.
 const MPIMG = {};
-Object.keys(ENRICH.mpDir||{}).forEach(st=>(ENRICH.mpDir[st]||[]).forEach(e=>{
-  if(e.img){ MPIMG[e.mp]=e.img; if(e.ds) MPIMG[e.ds]=e.img; }
-}));
+[ENRICH.mpDir, ENRICH.rsDir].forEach(dir=>Object.keys(dir||{}).forEach(st=>(dir[st]||[]).forEach(e=>{
+  if(!e.img) return;
+  if(!MPIMG[e.mp]) MPIMG[e.mp] = e.img;
+  if(e.ds && !MPIMG[e.ds]) MPIMG[e.ds] = e.img;
+})));
 function pcToURL(st, pc){
   const p = new URLSearchParams(location.search);
   if(st && pc){ p.set('pcs', st); p.set('pc', pc); } else { p.delete('pcs'); p.delete('pc'); }
@@ -1095,6 +1101,13 @@ const initials = name => {
   if(!w.length) return '?';
   return (w.length===1 ? w[0].slice(0,2) : w[0][0]+w[w.length-1][0]).toUpperCase();
 };
+// A photo that fails to load falls back to the initials disc rather than leaving
+// a hole — sansad occasionally has no file for a freshly sworn-in member.
+function photoFail(img, ini){
+  const d = document.createElement('div');
+  d.className = 'mpf-avatar'; d.setAttribute('aria-hidden','true'); d.textContent = ini;
+  img.replaceWith(d);
+}
 function shareText(e, st){
   const url = location.origin + location.pathname + '?pcs=' + encodeURIComponent(st) + '&pc=' + encodeURIComponent(e.c);
   return e.n===0
@@ -1160,7 +1173,9 @@ function renderRSMPFind(st, name){
   box.innerHTML = `
     <div class="mpf-card">
       <div class="mpf-top">
-        <div class="mpf-avatar" aria-hidden="true">${esc(initials(e.mp))}</div>
+        ${e.img
+          ? `<img class="mpf-photo" src="/mpimg/${esc(e.img)}" alt="" onerror="photoFail(this,'${esc(initials(e.mp))}')">`
+          : `<div class="mpf-avatar" aria-hidden="true">${esc(initials(e.mp))}</div>`}
         <div>
           <div class="mpf-kicker">${esc(st)} · Rajya Sabha · Sitting MP</div>
           <div class="mpf-name">${esc(e.mp)}<span class="mpf-party">${esc(e.p)}</span></div>

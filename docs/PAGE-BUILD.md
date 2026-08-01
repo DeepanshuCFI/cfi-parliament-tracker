@@ -107,8 +107,25 @@ Client-side computations: members = Σ|rsDir[state]| (must equal `rsSitting`);
 never = count of `n === 0` (must equal `rsNeverTotal` — `sanity_check.py`
 enforces both); asked = members − never; vacant = 245 − members. Deep link:
 `?rss=<State>&rsm=<mp>` (mutually exclusive with the LS `?pcs`/`?pc` pair).
-RS members have **no constituency and no photo** — the card uses a two-letter
-initials avatar and never fetches `/mpimg/`.
+RS members have **no constituency** — they sit for a whole state, so the card
+prints `<State> · Rajya Sabha` where the LS card prints a constituency.
+
+They **do** have photos. `/mpimg/` proxies both houses via `site/vercel.json`,
+which keeps images same-origin under the CSP:
+
+| House | `img` value | rewritten to |
+|---|---|---|
+| LS | DMS uuid | `getFile/dms/fetch/<uuid>?source=dsp2` |
+| RS | `rs/P<mpsno>.jpg` | `getFile/newmembers/photos/P<mpsno>.jpg?source=rajyasabha` |
+
+RS needs no uuid lookup — the filename is the member number. `fetch_rs_photos.py`
+stamps `img` onto `rsDir` from `api_rs/member/sitting-members` (falling back to
+`roster.json`, whose mpsno coverage is better: the live list dropped a sitting
+member). It is **not** in the daily workflow — re-run it when the House turns
+over. `--verify` GETs every photo and drops any that doesn't return an image, so
+a dead id never ships; sansad answers HEAD with 403, so the check must use GET.
+A missing or failed photo falls back to the initials disc via `photoFail()`.
+`sanity_check.py` holds coverage above 90% per house and validates the id shape.
 
 ## Name resolution and the homonym guard
 

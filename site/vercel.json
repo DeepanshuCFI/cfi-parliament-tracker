@@ -47,6 +47,10 @@
   ],
   "rewrites": [
     {
+      "source": "/mpimg/rs/:file",
+      "destination": "https://sansad.in/getFile/newmembers/photos/:file?source=rajyasabha"
+    },
+    {
       "source": "/mpimg/:uuid",
       "destination": "https://sansad.in/getFile/dms/fetch/:uuid?source=dsp2"
     }

@@ -140,6 +140,26 @@ def clean_mp(name, prefix=''):
         prev = n; n = HON.sub('', n).strip()
     return n
 
+HON_TOK = {'shri', 'smt', 'dr', 'prof', 'kumari', 'km', 'sardar', 'adv', 'ms', 'mr',
+           'mrs', 'sushri', 'shrimata', 'shrimati', 'thiru', 'justice', 'col', 'capt', 'maj', 'gen'}
+def name_tokens(s):
+    """Order-free, honorific-free key for matching one MP across sources.
+
+    Sansad returns names comma-flipped with honorifics ("Kumar, Shri Mithlesh")
+    where the dataset carries plain form ("Mithlesh Kumar"); a sorted token set
+    matches those without a fuzzy pass. Single letters are dropped, so initials
+    do NOT distinguish members - "C.R. / P P / R K Chaudhary" all key to
+    ('chaudhary',). Every caller must therefore carry a homonym guard: never
+    resolve an ambiguous key by taking the first hit. See docs/PAGE-BUILD.md.
+    """
+    toks = re.findall(r'[a-z]+', (s or '').lower())
+    return tuple(sorted(t for t in toks if t not in HON_TOK and len(t) > 1))
+
+def state_key(s):
+    """Connective-free state key ('Jammu and Kashmir' == 'Jammu & Kashmir')."""
+    return ' '.join(t for t in re.findall(r'[a-z]+', (s or '').lower())
+                    if t not in ('and', 'of', 'the'))
+
 def record_key(r):
     # 'l' (Lok Sabha number) is load-bearing: LS session numbers restart each
     # Lok Sabha, so without it an LS18 question collides with an LS16/17 record

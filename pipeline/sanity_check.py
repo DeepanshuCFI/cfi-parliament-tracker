@@ -54,6 +54,24 @@ else:
         if en.get('rsNeverTotal') != rs_never:
             errors.append(f"rsNeverTotal {en.get('rsNeverTotal')} != rsDir n==0 count {rs_never}")
 
+    # MP photo coverage. Photos are proxied per /mpimg/ (site/vercel.json), so a
+    # malformed id renders a broken frame for a named person - check shape, and
+    # hold coverage above a floor so a wiped img field is loud rather than a
+    # gradual slide back to initials discs. The floor is proportional, not exact:
+    # a newly sworn-in member with no photo yet must not fail the daily run.
+    for house, dirname in (('LS', 'mpDir'), ('RS', 'rsDir')):
+        entries = [m for v in (en.get(dirname) or {}).values() for m in v]
+        if not entries:
+            continue
+        withimg = [m for m in entries if m.get('img')]
+        if len(withimg) < 0.9 * len(entries):
+            errors.append(f'{house} photo coverage {len(withimg)}/{len(entries)} '
+                          f'below the 90% floor - did an img field get wiped?')
+        bad = [m['mp'] for m in withimg
+               if not re.fullmatch(r'rs/P\d+\.jpg|[0-9a-f-]{36}', str(m['img']))]
+        if bad:
+            errors.append(f'{house} malformed photo id on {len(bad)} entries: {bad[:3]}')
+
 page = SITE / 'index.html'
 if not page.exists():
     errors.append('site/index.html missing')
