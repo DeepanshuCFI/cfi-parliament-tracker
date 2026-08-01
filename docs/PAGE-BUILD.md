@@ -110,6 +110,32 @@ enforces both); asked = members − never; vacant = 245 − members. Deep link:
 RS members have **no constituency and no photo** — the card uses a two-letter
 initials avatar and never fetches `/mpimg/`.
 
+## Name resolution and the homonym guard
+
+`build_enrich.name_tokens()` drops honorifics **and single-letter initials**, so
+an asker's key is their surname plus full given names only. Distinct members
+therefore collapse onto one key — C.R. Chaudhary (Rajasthan), P P Chaudhary
+(Rajasthan) and R K Chaudhary (Uttar Pradesh) are all `('chaudhary',)`. The
+roster has 64 such keys whose colliders disagree on state.
+
+Resolution order and its guards:
+
+1. `data/mp_enrichment.csv` (hand-verified, `mp_name_in_dataset` → official /
+   state / party). Always wins; this is the override for any collision.
+2. `data/roster.json`, first-token-set-wins, **LS before RS** — but a key whose
+   colliders disagree on state is refused outright (`AMBIGUOUS`). Same-state
+   collisions keep first-wins: those are one member listed in both houses
+   (`C M Ramesh` / `Ramesh, Dr. C.M.`, both Andhra Pradesh).
+3. Otherwise unresolved → `enrich_report.json` for the manual pass.
+
+Two further guards, because the never-asked stat renders from three sources that
+must agree (`neverTotal`, `mpDir` red dots, per-state `never`): the never-list
+removal requires the never-list entry's **state to equal the resolved state**,
+and the `mpDir` fallback match requires a **unique** unstamped candidate (the
+same rule the RS path uses). Without them a repeat asker can evict a namesake
+from the never list — the count drops with no red dot to flip, and
+`sanity_check.py` fails the run rather than publish the three disagreeing.
+
 ## Idempotence guarantee
 
 The build is a pure function of (template, assets, dataset, enrich): running it

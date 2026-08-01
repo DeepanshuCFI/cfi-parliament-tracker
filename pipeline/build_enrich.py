@@ -39,17 +39,6 @@ def name_tokens(s):
     toks = re.findall(r'[a-z]+', (s or '').lower())
     return tuple(sorted(t for t in toks if t not in HON_TOK and len(t) > 1))
 
-roster_map = {}
-roster = load_json(DATA / 'roster.json', {})
-# LS first: LS roster names are plain-form ("Hemang Joshi") while RS names are
-# comma-flipped with honorifics ("Kumar, Shri Mithlesh"); first-token-set-wins
-# means RS entries must not shadow LS ones or never-list matching breaks.
-for house_key in ('ls', 'rs'):
-    for m in roster.get(house_key, []):
-        k = name_tokens(m.get('name'))
-        if k and k not in roster_map:
-            roster_map[k] = (m.get('name', ''), m.get('state', ''), m.get('party', ''))
-
 # State spellings differ across sources ('Jammu and Kashmir' / 'Jammu & Kashmir',
 # 'NCT of Delhi', trailing spaces in the RS roster). Canonicalise onto the blob's
 # own keys by connective-free token key so rollups never split across spellings.
@@ -66,13 +55,42 @@ STATE_CANON.setdefault('national capital territory delhi', 'Delhi')
 def canon_state(s):
     return STATE_CANON.get(_state_key(s), (s or '').strip())
 
+roster_map = {}
+roster = load_json(DATA / 'roster.json', {})
+# LS first: LS roster names are plain-form ("Hemang Joshi") while RS names are
+# comma-flipped with honorifics ("Kumar, Shri Mithlesh"); first-token-set-wins
+# means RS entries must not shadow LS ones or never-list matching breaks.
+#
+# Homonym guard: name_tokens strips single-letter initials, so distinct members
+# collapse onto one key - C.R. Chaudhary (Rajasthan), P P Chaudhary (Rajasthan)
+# and R K Chaudhary (Uttar Pradesh) are all ('chaudhary',). When the colliders
+# disagree on state, first-wins files the asker under a stranger's state and the
+# hemicycle lookup then searches the wrong bucket, so the never-asked count drops
+# with no red dot to flip. Refuse those keys instead and let the asker surface in
+# enrich_report.json for the manual pass (the mp_enrichment.csv override still
+# resolves them, since it is consulted first).
+# Same-state collisions keep first-wins: those are one member listed in both
+# houses ("C M Ramesh" / "Ramesh, Dr. C.M.", both Andhra Pradesh).
+AMBIGUOUS = set()
+for house_key in ('ls', 'rs'):
+    for m in roster.get(house_key, []):
+        k = name_tokens(m.get('name'))
+        if not k:
+            continue
+        if k in roster_map:
+            if canon_state(m.get('state')) != canon_state(roster_map[k][1]):
+                AMBIGUOUS.add(k)
+        else:
+            roster_map[k] = (m.get('name', ''), m.get('state', ''), m.get('party', ''))
+
 def resolve(name):
     """(official_name, state, party) or (None, '', '') when unresolvable."""
     if name in name_map:
         o, st, p = name_map[name]
         return (o, canon_state(st), p)
-    hit = roster_map.get(name_tokens(name))
-    if hit:
+    k = name_tokens(name)
+    hit = roster_map.get(k)
+    if hit and k not in AMBIGUOUS:
         return (hit[0], canon_state(hit[1]), hit[2])
     return (None, '', '')
 
@@ -115,10 +133,18 @@ for r in new:
                 unmatched.append({'name': name, 'house': r['h'], 'title': r['j']})
         if st:
             rec_states.add(st)
-        # never-asked -> asked transition (LS only; the headline stat)
+        # never-asked -> asked transition (LS only; the headline stat).
+        # State guard, same reason as AMBIGUOUS above: an initials-stripped token
+        # key is shared by distinct MPs, so a repeat asker must not be allowed to
+        # evict a namesake from the list - that decrements the count with no
+        # hemicycle dot to flip, which is exactly the drift the sanity gate trips on.
         if r['h'] == 'LS' and official:
-            nk = never_tok.pop(name_tokens(official), None)
+            ntoks = name_tokens(official)
+            nk = never_tok.get(ntoks)
+            if nk is not None and canon_state(never[nk]) != st:
+                nk = None
             if nk is not None:
+                never_tok.pop(ntoks, None)
                 nst = never.pop(nk)
                 removed_from_never.append({'official': nk, 'dataset_name': name, 'state': nst})
                 enrich['neverTotal'] = max(0, enrich['neverTotal'] - 1)
@@ -133,9 +159,12 @@ for r in new:
             hit = next((x for x in entries if x.get('ds') == name), None)
             if hit is None and official:
                 otoks = name_tokens(official)
-                hit = next((x for x in entries
-                            if not x.get('ds') and name_tokens(x.get('mp')) == otoks), None)
-                if hit is not None:
+                # unique-candidate homonym guard, as on the RS path below: two
+                # unstamped namesakes in one state must not be resolved by order
+                cand = [x for x in entries
+                        if not x.get('ds') and name_tokens(x.get('mp')) == otoks]
+                if len(cand) == 1:
+                    hit = cand[0]
                     hit['ds'] = name
             if hit is not None:
                 hit['n'] = hit.get('n', 0) + 1
