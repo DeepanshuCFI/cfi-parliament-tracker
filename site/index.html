@@ -877,7 +877,9 @@ function openMP(name){
   const metaBits = [party, st, houses, yrs?`active ${yrs}`:''].filter(Boolean).join(' · ');
   const photo = MPIMG[name];
   $('mpCard').innerHTML = `
-    ${photo ? `<img class="mpf-photo" src="/mpimg/${esc(photo)}" alt="" onerror="this.style.display='none'" style="margin-bottom:14px">` : ''}
+    ${photo
+      ? `<img class="mpf-photo" src="/mpimg/${esc(photo)}" alt="" onerror="photoFail(this,'${esc(initials(name))}')" style="margin-bottom:14px">`
+      : `<div class="mpf-avatar" aria-hidden="true" style="margin-bottom:14px">${esc(initials(name))}</div>`}
     <h3 id="mpModalName">${esc(name)}</h3>
     <div class="mp-meta-line">${esc(metaBits)}</div>
     <div class="mp-bignum">
@@ -1106,6 +1108,7 @@ const initials = name => {
 function photoFail(img, ini){
   const d = document.createElement('div');
   d.className = 'mpf-avatar'; d.setAttribute('aria-hidden','true'); d.textContent = ini;
+  d.style.cssText = img.style.cssText;   // keep inline layout (the modal's margin)
   img.replaceWith(d);
 }
 function shareText(e, st){
@@ -1134,7 +1137,9 @@ function renderMPFind(st, cons){
   box.innerHTML = `
     <div class="mpf-card">
       <div class="mpf-top">
-        ${e.img ? `<img class="mpf-photo" src="/mpimg/${esc(e.img)}" alt="" onerror="this.style.display='none'">` : ''}
+        ${e.img
+          ? `<img class="mpf-photo" src="/mpimg/${esc(e.img)}" alt="" onerror="photoFail(this,'${esc(initials(e.mp))}')">`
+          : `<div class="mpf-avatar" aria-hidden="true">${esc(initials(e.mp))}</div>`}
         <div>
           <div class="mpf-kicker">${esc(cons)} · ${esc(st)} · Sitting MP, 18th Lok Sabha</div>
           <div class="mpf-name">${esc(e.mp)}<span class="mpf-party">${esc(e.p)}</span></div>
