@@ -39,6 +39,13 @@
       "deferred_excludes": 0,
       "source": "keyword+claude-haiku-4-5",
       "notes": "llm-reviewed 24/24 | overrides: 1 | spend this month: $0.05"
+    },
+    {
+      "candidates": 174,
+      "added": 11,
+      "deferred_excludes": 0,
+      "source": "keyword+claude-haiku-4-5",
+      "notes": "llm-reviewed 174/174 | overrides: 1 | spend this month: $0.03"
     }
   ],
   "overrides": [
@@ -76,6 +83,13 @@
       "keyword": true,
       "llm": false,
       "reason": "Fuel composition impact on vehicles, not road safety"
+    },
+    {
+      "title": "Unauthorised Modifications on Vehicles",
+      "ministry": "MoRTH",
+      "keyword": false,
+      "llm": true,
+      "reason": "Vehicle modifications affect safety compliance standards"
     }
   ]
 }

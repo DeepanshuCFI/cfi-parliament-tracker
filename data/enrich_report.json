@@ -1,9 +1,45 @@
 {
-  "new_records_applied": 2,
+  "new_records_applied": 11,
   "unmatched_new_askers": [],
   "unresolved_askers_outstanding": [
     "M. Thambidurai"
   ],
   "healed_this_run": [],
-  "left_never_asked_list": []
+  "left_never_asked_list": [
+    {
+      "official": "Manoj Kumar",
+      "dataset_name": "Manoj Kumar",
+      "state": "Bihar"
+    },
+    {
+      "official": "R K Chaudhary",
+      "dataset_name": "R K Chaudhary",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "official": "Gowaal Kagada Padavi",
+      "dataset_name": "Gowaal Kagada Padavi",
+      "state": "Maharashtra"
+    },
+    {
+      "official": "Shyamkumar Daulat Barve",
+      "dataset_name": "Shyamkumar Daulat Barve",
+      "state": "Maharashtra"
+    },
+    {
+      "official": "Anand Kumar",
+      "dataset_name": "Anand Kumar",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "official": "Navaskani K",
+      "dataset_name": "Navaskani K",
+      "state": "Tamil Nadu"
+    },
+    {
+      "official": "Kadiyam Kavya",
+      "dataset_name": "Kadiyam Kavya",
+      "state": "Telangana"
+    }
+  ]
 }

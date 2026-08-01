@@ -2416,5 +2416,1049 @@
     "title": "Impact of E20 fuel on motor vehicles",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|180": {
+    "include": false,
+    "title": "Upgradation of National Highway-65",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|179": {
+    "include": false,
+    "title": "Construction of NHs in Bihar and Uttar Pradesh",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|174": {
+    "include": false,
+    "title": "Status of Expressway Projects in Bihar",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|169": {
+    "include": true,
+    "title": "Infrastructure for Pedestrians",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|164": {
+    "include": false,
+    "title": "Impact of E20 Fuel",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|162": {
+    "include": false,
+    "title": "Construction of Greenfield Highway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2066": {
+    "include": false,
+    "title": "Stoppage of Toll Collection on NHs",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2065": {
+    "include": false,
+    "title": "Exemption of Toll",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2064": {
+    "include": false,
+    "title": "Plantation of Trees along NHs",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2062": {
+    "include": false,
+    "title": "Status of Vadodara–Mumbai Expressway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2059": {
+    "include": false,
+    "title": "Increase in Height of Culverts/Bridges",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2058": {
+    "include": false,
+    "title": "Status of National Highway Projects in Nashik",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2053": {
+    "include": false,
+    "title": "NHAI Projects in Delhi",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2040": {
+    "include": false,
+    "title": "Financial Assistance for Construction of Roads",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2028": {
+    "include": false,
+    "title": "Construction of Highways under Bharatmala Pariyojana",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2021": {
+    "include": false,
+    "title": "Upgradation Work on NH-148",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2019": {
+    "include": false,
+    "title": "Status of Bengaluru-Chennai Expressway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2017": {
+    "include": false,
+    "title": "FASTag Annual Plan",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2014": {
+    "include": false,
+    "title": "Coastal Road Project in Konkan Region",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|2006": {
+    "include": true,
+    "title": "Construction of Pedestrian Underpass",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1995": {
+    "include": false,
+    "title": "Development of National Highways in Amritsar",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1990": {
+    "include": false,
+    "title": "ARAI Study on E20 Fuel",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1981": {
+    "include": true,
+    "title": "Safety Improvement Works on NHs in Dharmapuri",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1979": {
+    "include": false,
+    "title": "National Highway Projects in Andhra Pradesh",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1965": {
+    "include": true,
+    "title": "Road Accidents and Cashless Treatment",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1963": {
+    "include": false,
+    "title": "Chausa-Varanasi Four-Lane Highway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1960": {
+    "include": false,
+    "title": "Ernakulam Bypass Project",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1957": {
+    "include": false,
+    "title": "Alignment of Gorakhpur-Siliguri Expressway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1956": {
+    "include": false,
+    "title": "Electric Vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1939": {
+    "include": true,
+    "title": "Road Accidents, Fatalities and Road Safety",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1938": {
+    "include": false,
+    "title": "National Highway Projects in Murshidabad",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1935": {
+    "include": false,
+    "title": "Delay in Completion of Projects on NHs in Rajasthan",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1932": {
+    "include": true,
+    "title": "Unauthorised Modifications on Vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1926": {
+    "include": false,
+    "title": "Toll Plazas in Sasaram",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1925": {
+    "include": false,
+    "title": "Maintenance of NHs",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1912": {
+    "include": true,
+    "title": "Pedestrian Fatalities on NHs",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1889": {
+    "include": false,
+    "title": "Reconciliation of Toll Plaza Records",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1883": {
+    "include": false,
+    "title": "National Highway Projects in Karnataka",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1878": {
+    "include": true,
+    "title": "Identification and Rectification of Black Spots",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1873": {
+    "include": false,
+    "title": "Development of Four-Lane Highway",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1872": {
+    "include": false,
+    "title": "Four Laning of Tumkur–Shivamogga Section of NH-69",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1867": {
+    "include": false,
+    "title": "Parivahan Checkpost Portal",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1865": {
+    "include": false,
+    "title": "Construction of Control line along National Highways",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1857": {
+    "include": false,
+    "title": "Implementation of National Highways Projects in West Bengal",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1853": {
+    "include": false,
+    "title": "Toll Collection Infrastructure in Maharashtra",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|1852": {
+    "include": false,
+    "title": "Private Investment in National Highway Projects",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|200": {
+    "include": false,
+    "title": "Services at AAMs in Karnataka",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|199": {
+    "include": false,
+    "title": "Incidence of Sickle Cell Disease",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|198": {
+    "include": false,
+    "title": "Financial Assistance to Odisha for Health and Medical Education",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|197": {
+    "include": false,
+    "title": "PG Courses in Government Medical Colleges",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|196": {
+    "include": false,
+    "title": "Facilities for Patients in AIIMS",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|194": {
+    "include": false,
+    "title": "Strengthening of Rural Healthcare System",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|191": {
+    "include": false,
+    "title": "Healthcare Services in Bundelkhand Region",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|186": {
+    "include": false,
+    "title": "Deployment of Artificial Intelligence in Public Healthcare",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|185": {
+    "include": false,
+    "title": "Strengthening of Ayushman Arogya Mandirs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|184": {
+    "include": false,
+    "title": "Ebola Virus Outbreak",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|183": {
+    "include": false,
+    "title": "Need for Modern Health Services in Ahilyanagar",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|181": {
+    "include": false,
+    "title": "Functioning of Nutrition Rehabilitation Centres",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2300": {
+    "include": false,
+    "title": "Shortage of Allied Health Professionals",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2299": {
+    "include": false,
+    "title": "Satellite Centre at AIIMS Bhadohi",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2298": {
+    "include": false,
+    "title": "Adulteration in Energy Drinks",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2295": {
+    "include": false,
+    "title": "Arbitrary Fees at Private Clinics",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2294": {
+    "include": false,
+    "title": "Review of Implementation of AB-PMJAY in Himachal Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2293": {
+    "include": false,
+    "title": "Strengthening of Primary Healthcare",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2292": {
+    "include": false,
+    "title": "Prescription for Medicinal Syrups",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2289": {
+    "include": false,
+    "title": "Shortage of Medical Equipments",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2288": {
+    "include": false,
+    "title": "Sickle Cell Anemia in Bastar",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2287": {
+    "include": false,
+    "title": "Shortage of Medical Staff in Health Centres in Maharashtra",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2286": {
+    "include": false,
+    "title": "Increasing Suicide among Students",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2285": {
+    "include": false,
+    "title": "Establishment of AIIMS Under PMSSY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2284": {
+    "include": false,
+    "title": "Inter-AIIMS Transfer Policy",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2281": {
+    "include": false,
+    "title": "Incidence of Food Adulteration in Maharashtra",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2280": {
+    "include": false,
+    "title": "Diagnostic facilities in PHCs and SHCs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2277": {
+    "include": false,
+    "title": "Strengthening of Healthcare facilities in Northern Kerala",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2274": {
+    "include": false,
+    "title": "Ayushman Arogya Mandirs in Andhra Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2267": {
+    "include": false,
+    "title": "Quality of Construction of New AIIMS in  Uttar Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2256": {
+    "include": true,
+    "title": "Emergency Admissions at BHU Trauma Centre",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2255": {
+    "include": false,
+    "title": "Healthcare Funding and Budget Utilisation",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2254": {
+    "include": false,
+    "title": "Senior Doctors opting VRS in AIIMS",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2253": {
+    "include": false,
+    "title": "Use of AIKosha Platform",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2252": {
+    "include": false,
+    "title": "National List of Essential Medicines",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2249": {
+    "include": false,
+    "title": "Right to Primary Healthcare for Registered Pharmacists",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2248": {
+    "include": false,
+    "title": "Establishment of Regional Medical Hubs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2247": {
+    "include": false,
+    "title": "Key Health Indicators",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2246": {
+    "include": false,
+    "title": "Health Insurance Coverage for Newborn",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2243": {
+    "include": false,
+    "title": "Utilization of Fund under PM-ABHIM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2241": {
+    "include": false,
+    "title": "Rejection of Claims under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2240": {
+    "include": false,
+    "title": "Shortage of Medical Staff in Hospitals",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2238": {
+    "include": false,
+    "title": "HIV/AIDS Prevention Programme",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2237": {
+    "include": false,
+    "title": "Availability of Essential Medicines in Government Healthcare Institutions",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2227": {
+    "include": false,
+    "title": "Package of Comprehensive Primary Healthcare Service",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2226": {
+    "include": false,
+    "title": "Prevalence of Anaemia and Malnutrition in Women",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2225": {
+    "include": false,
+    "title": "Financial Assistances under NHM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2222": {
+    "include": false,
+    "title": "Medical Tourism",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2221": {
+    "include": true,
+    "title": "Trauma Care Facility",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2218": {
+    "include": false,
+    "title": "Tampering of Autopsy",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2207": {
+    "include": false,
+    "title": "Misuse of Antibiotics and Packaging Warnings",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2203": {
+    "include": false,
+    "title": "Screening for Sickle Cell Diseases in Tribal Areas",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2202": {
+    "include": false,
+    "title": "Upgradation of District Hospitals and Medical Colleges",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2196": {
+    "include": false,
+    "title": "Use of Biometric Attendance System in PHCs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2189": {
+    "include": false,
+    "title": "Increase in C-Section Deliveries",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2186": {
+    "include": false,
+    "title": "Strengthening Drug Safety and Regulation",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2185": {
+    "include": false,
+    "title": "Survey on Imbalance Sex Ratio",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2180": {
+    "include": false,
+    "title": "Demand for Dialysis Facilities",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2179": {
+    "include": false,
+    "title": "Pradhan Mantri Surakshit Matritva Abhiyan",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2176": {
+    "include": false,
+    "title": "Implementation of Pradhan Mantri Swasthya Suraksha Yojana",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2171": {
+    "include": false,
+    "title": "Status of Construction of AIIMS at Darbhanga",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2170": {
+    "include": false,
+    "title": "National Mental Health Survey",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2168": {
+    "include": false,
+    "title": "Insulin Awiqi of Novo Nordisk",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2167": {
+    "include": false,
+    "title": "Nipah Virus Outbreaks in Kerala",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2165": {
+    "include": false,
+    "title": "Centres of Excellence for Rare Diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2163": {
+    "include": false,
+    "title": "Fortified Rice Programme",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2162": {
+    "include": false,
+    "title": "Non-operational Community Health Centre",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2161": {
+    "include": false,
+    "title": "National Health Mission in Assam",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2157": {
+    "include": false,
+    "title": "Treatment For Chronic and Life-Threatening Diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2156": {
+    "include": true,
+    "title": "PM Shri Air Ambulance Service in Himachal Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2152": {
+    "include": false,
+    "title": "Out-of-Pocket Expenditure on Cancer and Cardiac Treatment",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2151": {
+    "include": false,
+    "title": "Ethyl Alcohol in Drugs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2148": {
+    "include": false,
+    "title": "De-empanelment of PM-JAY Hospital in Kerala",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2147": {
+    "include": false,
+    "title": "Status of Government Medical Facilities and Health Centres",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2143": {
+    "include": false,
+    "title": "Progress of New Medical Colleges",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2141": {
+    "include": false,
+    "title": "Shortage of Doctors",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2139": {
+    "include": false,
+    "title": "Umanath Singh Government Medical College, Jaunpur",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2135": {
+    "include": false,
+    "title": "Land Allocation for AIIMS in Assam",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2132": {
+    "include": false,
+    "title": "Rising Rates of Caesarean Deliveries",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2124": {
+    "include": false,
+    "title": "Development of Infrastructure for Promotion of Health Research Scheme",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2123": {
+    "include": false,
+    "title": "Air Pollution related Diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2121": {
+    "include": false,
+    "title": "Implementation of AB-PMJAY in Amalapuram",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2119": {
+    "include": false,
+    "title": "Mental Health Challenges",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2114": {
+    "include": false,
+    "title": "Review of AAMs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2111": {
+    "include": false,
+    "title": "Progress of AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2109": {
+    "include": false,
+    "title": "Upgradation of Healthcare Infrastructure",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2107": {
+    "include": false,
+    "title": "Fund Allocation under Special Assistance to States",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2101": {
+    "include": false,
+    "title": "Establishment of AIIMS-Level Institution in Amritsar",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2098": {
+    "include": false,
+    "title": "Exclusion of Certain Indicators in NFHS - 6",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2095": {
+    "include": false,
+    "title": "Drugs and Magic Remedies Act 1954",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2094": {
+    "include": false,
+    "title": "Components of Swasth Nari Sashakt Parivar Abhiyan",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2093": {
+    "include": false,
+    "title": "Telemedicine Services",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2091": {
+    "include": false,
+    "title": "Ayushman Bharat Digital Mission",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2090": {
+    "include": false,
+    "title": "Teleconsultation Services",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2089": {
+    "include": false,
+    "title": "PM-ABHIM Infrastructure Projects in Perambalur",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2076": {
+    "include": false,
+    "title": "Quality and Purity of Food Items",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|2074": {
+    "include": false,
+    "title": "Sale of unsafe Food Products through Online Delivery Platforms",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|176": {
+    "include": false,
+    "title": "Implementation of Urban Challenge Fund",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|173": {
+    "include": false,
+    "title": "Houses under PMAY-U 2.0 in Dumka, Jharkhand",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|167": {
+    "include": false,
+    "title": "National Urban Digital Mission",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|163": {
+    "include": false,
+    "title": "PMAY-U 2.0 in  Andhra Pradesh",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2060": {
+    "include": false,
+    "title": "Implementation of AMRUT in Karnataka",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2048": {
+    "include": false,
+    "title": "Review of Smart Cities Mission",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2046": {
+    "include": false,
+    "title": "Fund Allocation for Andhra Pradesh under PMAY-U",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2043": {
+    "include": false,
+    "title": "Financial Assistance for Maharashtra under SBM-U 2.0",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2034": {
+    "include": false,
+    "title": "Housing Targets and Funds under PMAY-U",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2029": {
+    "include": false,
+    "title": "Increasing Demand for Affordable Housing",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2022": {
+    "include": false,
+    "title": "Implementation of PMAY-U",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2013": {
+    "include": false,
+    "title": "Unauthorized Constructions on Public Land",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2008": {
+    "include": false,
+    "title": "Implementation of SCM and AMRUT",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2003": {
+    "include": false,
+    "title": "Development of Cities as 'Growth Hubs'",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1988": {
+    "include": false,
+    "title": "Development of Amaravati",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1985": {
+    "include": false,
+    "title": "Status of AMRUT 2.0 in Katni",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1973": {
+    "include": false,
+    "title": "Storm Water Drainage Master Plan",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1966": {
+    "include": false,
+    "title": "Progress and Outcome Assessment of SCM",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1958": {
+    "include": false,
+    "title": "Redevelopment of Colonies in Delhi",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1947": {
+    "include": false,
+    "title": "National Smart Public Transport Mission",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1943": {
+    "include": false,
+    "title": "Status of Metro Rail Projects",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1931": {
+    "include": false,
+    "title": "Liveability Index System",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1927": {
+    "include": false,
+    "title": "'Namo Cities' under NCR Regional Plan-2041",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1922": {
+    "include": false,
+    "title": "Implementation of RERA  Act, 2016",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1919": {
+    "include": false,
+    "title": "Central Schemes for Urban Flood Mitigation in Guwahati",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1903": {
+    "include": false,
+    "title": "Scientific Solid Waste Management Practices in Tamil Nadu",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1893": {
+    "include": false,
+    "title": "Smart Cities Mission in West Bengal",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1869": {
+    "include": false,
+    "title": "Beneficiaries under PM-SVANidhi Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1856": {
+    "include": false,
+    "title": "Street Vendors under Street Vendors Act, 2014",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1848": {
+    "include": false,
+    "title": "Status of SCM in Bengaluru, Mangaluru and Tumakuru",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|1847": {
+    "include": false,
+    "title": "Urban Flood Management in Metropolitan Cities",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
   }
 }
