@@ -1,0 +1,72 @@
+name: Verify MP photos
+
+# Reachability audit for every MP photo id in ENRICH, both houses. Deliberately
+# NOT part of the daily refresh: it is ~780 requests to sansad, and a transient
+# upstream failure must never block a publish over cosmetics. Weekly is the right
+# cadence - a photo that stops resolving degrades to an initials disc, so this is
+# a slow leak to notice, not an outage to page on.
+
+on:
+  schedule:
+    - cron: '30 7 * * 0'   # Sundays 07:30 UTC = 13:00 IST, clear of the daily window
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: verify-photos
+  cancel-in-progress: false
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # stdlib + curl only - nothing to install
+      - name: Verify MP photos (both houses)
+        run: |
+          set +e
+          python3 pipeline/verify_photos.py 2>&1 | tee /tmp/photos.txt
+          RC=${PIPESTATUS[0]}
+          if [ "$RC" -ne 0 ]; then
+            echo "--- first pass failed (rc=$RC); sansad may have blipped, retrying in 60s ---"
+            sleep 60
+            python3 pipeline/verify_photos.py 2>&1 | tee /tmp/photos.txt
+            RC=${PIPESTATUS[0]}
+          fi
+          exit $RC
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## MP photo audit"
+            echo '```'
+            tail -40 /tmp/photos.txt 2>/dev/null || echo 'no output captured'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Notify on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="MP photo audit FAILED"
+          NUM=$(gh issue list --state open \
+            --search "\"$TITLE\" in:title author:app/github-actions" \
+            --json number --jq '.[0].number' || true)
+          BODY=$(printf 'Unreachable MP photos (failed twice, 60s apart).\n\nRun: %s/%s/actions/runs/%s\n\n```\n%s\n```\n\nThe page degrades to an initials disc for these, so nothing is broken visually. Re-run `python3 pipeline/fetch_rs_photos.py --verify` to re-stamp RS ids; LS uuids need a manual fix in enrich.json.' \
+            "${{ github.server_url }}" "${{ github.repository }}" "${{ github.run_id }}" "$(grep -E 'FAIL|NO IMG|reachable' /tmp/photos.txt | head -30)")
+          if [ -n "$NUM" ] && [ "$NUM" != "null" ]; then
+            gh issue comment "$NUM" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi
