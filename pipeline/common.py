@@ -140,6 +140,25 @@ def clean_mp(name, prefix=''):
         prev = n; n = HON.sub('', n).strip()
     return n
 
+def photo_url(img):
+    """Upstream URL for an ENRICH img id, mirroring the /mpimg/ rewrites."""
+    if str(img).startswith('rs/'):
+        return f'https://sansad.in/getFile/newmembers/photos/{str(img)[3:]}?source=rajyasabha'
+    return f'https://sansad.in/getFile/dms/fetch/{img}?source=dsp2'
+
+def probe_image(img):
+    """(ok, '<code> <type> <bytes>') for one photo id.
+
+    GET, not HEAD: sansad answers HEAD with 403 for every file. The content type
+    is checked too, so an HTML error page served as 200 does not pass.
+    """
+    r = subprocess.run(['curl', '-s', '-o', '/dev/null', '--max-time', '45', '-A', UA,
+                        '-w', '%{http_code} %{content_type} %{size_download}',
+                        photo_url(img)], capture_output=True, text=True)
+    v = r.stdout.strip(); p = v.split()
+    return (len(p) == 3 and p[0] == '200' and p[1].startswith('image/')
+            and int(p[2]) > 1000), v
+
 HON_TOK = {'shri', 'smt', 'dr', 'prof', 'kumari', 'km', 'sardar', 'adv', 'ms', 'mr',
            'mrs', 'sushri', 'shrimata', 'shrimati', 'thiru', 'justice', 'col', 'capt', 'maj', 'gen'}
 def name_tokens(s):

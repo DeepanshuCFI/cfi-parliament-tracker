@@ -17,18 +17,17 @@ Re-run on an RS roster change:  python3 pipeline/fetch_rs_photos.py
   --dry-run   report matches, write nothing
   --verify    GET every stamped photo, drop any that does not return an image
 """
-import subprocess, sys
+import sys
 from concurrent.futures import ThreadPoolExecutor
 
-from common import DATA, UA, get, load_json, save_json, name_tokens, state_key
+from common import (DATA, get, load_json, save_json, name_tokens, state_key,
+                    probe_image)
 
 API = ('https://sansad.in/api_rs/member/sitting-members?state=&party=&gender='
        '&page={page}&size=50&mpFlag=1&ageFrom=&ageTo=&terms=&search=&locale=en'
        '&month=&ministership=&membershipFrom=&membershipTo=&educationLevelCode='
        '&degreeCode=&subjectCode=&profession1=&profession2=&profession3='
        '&noOfChildren=&nominated=')
-PHOTO = 'https://sansad.in/getFile/newmembers/photos/{f}?source=rajyasabha'
-
 # The roster spells Delhi out in full; rsDir uses the short form.
 STATE_ALIAS = {'national capital territory delhi': 'delhi', 'nct delhi': 'delhi'}
 
@@ -132,21 +131,12 @@ for st, mp, why in missed:
     print(f'   UNMATCHED  {mp} ({st}) - {why}')
 
 if verify:
-    def probe(e):
-        # GET, not HEAD: sansad answers HEAD with 403 across the board. Check the
-        # content type too, so an HTML error page served as 200 is not a pass.
-        f = e['img'].split('/', 1)[1]
-        r = subprocess.run(['curl', '-s', '-o', '/dev/null', '--max-time', '45',
-                            '-A', UA, '-w', '%{http_code} %{content_type} %{size_download}',
-                            PHOTO.format(f=f)], capture_output=True, text=True)
-        return e, r.stdout.strip()
+    # probe_image lives in common.py so verify_photos.py (which audits both
+    # houses) and this harvest-time check cannot drift apart
     have = [e for v in rsdir.values() for e in v if e.get('img')]
     with ThreadPoolExecutor(max_workers=8) as pool:
-        results = list(pool.map(probe, have))
-    def ok(v):
-        p = v.split()
-        return len(p) == 3 and p[0] == '200' and p[1].startswith('image/') and int(p[2]) > 1000
-    bad = [(e, v) for e, v in results if not ok(v)]
+        results = list(pool.map(lambda e: (e, probe_image(e['img'])), have))
+    bad = [(e, v) for e, (ok, v) in results if not ok]
     print(f'fetch_rs_photos: verified {len(results)} photos, {len(bad)} failed')
     for e, v in bad:
         print(f"   FAIL [{v}]  {e['mp']}  {e['img']}")

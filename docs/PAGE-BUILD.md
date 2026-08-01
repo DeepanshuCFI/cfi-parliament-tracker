@@ -124,8 +124,19 @@ stamps `img` onto `rsDir` from `api_rs/member/sitting-members` (falling back to
 member). It is **not** in the daily workflow — re-run it when the House turns
 over. `--verify` GETs every photo and drops any that doesn't return an image, so
 a dead id never ships; sansad answers HEAD with 403, so the check must use GET.
-A missing or failed photo falls back to the initials disc via `photoFail()`.
-`sanity_check.py` holds coverage above 90% per house and validates the id shape.
+A missing or failed photo falls back to the initials disc via `photoFail()` — on
+the LS card, the RS card and the shared asker modal alike.
+
+Two layers of checking, deliberately split:
+
+- `sanity_check.py` runs **daily** and guards coverage (≥90% per house) and id
+  shape. Cheap, no network.
+- `verify_photos.py` is **on demand** and GETs every id in both houses
+  (`--ls` / `--rs` to narrow). Read-only, exits nonzero on any failure.
+  Reachability is deliberately *not* in the daily gate: ~780 requests to sansad
+  per run, and any upstream hiccup would block a publish over cosmetics.
+
+Last full audit: 781/781 reachable (540 LS + 241 RS).
 
 ## Name resolution and the homonym guard
 
