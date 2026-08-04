@@ -46,6 +46,13 @@
       "deferred_excludes": 0,
       "source": "keyword+claude-haiku-4-5",
       "notes": "llm-reviewed 174/174 | overrides: 1 | spend this month: $0.03"
+    },
+    {
+      "candidates": 37,
+      "added": 1,
+      "deferred_excludes": 0,
+      "source": "keyword+claude-haiku-4-5",
+      "notes": "llm-reviewed 37/37 | overrides: 1 | spend this month: $0.04"
     }
   ],
   "overrides": [
@@ -90,6 +97,13 @@
       "keyword": false,
       "llm": true,
       "reason": "Vehicle modifications affect safety compliance standards"
+    },
+    {
+      "title": "Safety of women in public transports in urban areas",
+      "ministry": "Urban",
+      "keyword": false,
+      "llm": true,
+      "reason": "Women safety in public transport is road/urban safety."
     }
   ]
 }

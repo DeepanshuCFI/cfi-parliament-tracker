@@ -3460,5 +3460,227 @@
     "title": "Urban Flood Management in Metropolitan Cities",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1521": {
+    "include": false,
+    "title": "Electric vehicle manufacturing and global trends",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1522": {
+    "include": false,
+    "title": "Cybersecurity audits of battery management systems",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1523": {
+    "include": false,
+    "title": "Implementation of PLI scheme for automobile and auto components in Andhra Pradesh",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1524": {
+    "include": false,
+    "title": "EV charging infrastructure in Andhra Pradesh",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1525": {
+    "include": false,
+    "title": "Economic and energy implications of large-scale ICE vehicle usage",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1526": {
+    "include": false,
+    "title": "Advanced chemistry cell manufacturing",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1527": {
+    "include": false,
+    "title": "Technology gaps in domestic heavy engineering manufacturing",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1528": {
+    "include": false,
+    "title": "Electric vehicle charging infrastructure and FAME scheme in Maharashtra",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|1529": {
+    "include": false,
+    "title": "Attracting global EV manufacturers for investment under SPMEPC",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|S|152": {
+    "include": false,
+    "title": "Updated urban housing shortage data",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|S|156": {
+    "include": false,
+    "title": "Infrastructure projects and transparency measures for Mumbai",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|S|158": {
+    "include": false,
+    "title": "Implementation of PMAY-Urban 2.0 and women's empowerment",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|S|163": {
+    "include": false,
+    "title": "Implementation of PMAY-U 2.0",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|S|164": {
+    "include": false,
+    "title": "DDA's statutory control over flats",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1644": {
+    "include": false,
+    "title": "Urban drinking water demand–supply gap and water quality",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1645": {
+    "include": false,
+    "title": "Smart city proposals in India and implementation gaps",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1646": {
+    "include": false,
+    "title": "Mounting debt burden and financial sustainability of DMRC",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1647": {
+    "include": false,
+    "title": "PMAY-U 2.0 implementation and technology upgradations",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1648": {
+    "include": false,
+    "title": "Delay, cost escalation in Smart City Mission projects in Srinagar and Jammu",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1649": {
+    "include": false,
+    "title": "Pradhan Mantri Awas Yojana–(U) 2.0 in Tamil Nadu",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1650": {
+    "include": false,
+    "title": "Status of PM SVANidhi Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1651": {
+    "include": false,
+    "title": "Urban flooding in Indian cities",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1652": {
+    "include": false,
+    "title": "Urban Flood Risk Mitigation Programme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1653": {
+    "include": false,
+    "title": "Implementation status of DAY-NULM in Andhra Pradesh",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1654": {
+    "include": false,
+    "title": "Implementation status of Urban Challenge Fund",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1655": {
+    "include": false,
+    "title": "Status of PM SVANidhi Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1656": {
+    "include": false,
+    "title": "Urban Flood Risk Mitigation Programme in Gujarat and Maharashtra",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1657": {
+    "include": false,
+    "title": "Progress of the Swachh Bharat Mission 2.0 in Uttar Pradesh",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1658": {
+    "include": false,
+    "title": "Status and implementation framework of the Urban Challenge Fund",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1659": {
+    "include": false,
+    "title": "Grievance redressal under the PM-UDAY Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1660": {
+    "include": false,
+    "title": "Climate resilient cities and urban heatwaves",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1661": {
+    "include": false,
+    "title": "Poor waste segregation at source",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1662": {
+    "include": true,
+    "title": "Safety of women in public transports in urban areas",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1663": {
+    "include": false,
+    "title": "Evaluations of measurable outcomes delivered by SCM",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1664": {
+    "include": false,
+    "title": "Smart cities infrastructure",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1665": {
+    "include": false,
+    "title": "Challenges faced by DDA in demolition drives",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|1759": {
+    "include": false,
+    "title": "Shifting of occupants for redevelopment of colonies",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
   }
 }

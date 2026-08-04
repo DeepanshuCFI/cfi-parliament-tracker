@@ -6,12 +6,12 @@
     "LS/MoRTH": 86,
     "RS/Health": 80,
     "LS/Health": 191,
-    "RS/Heavy": 5,
+    "RS/Heavy": 14,
     "LS/Heavy": 33,
-    "RS/Urban": 68,
+    "RS/Urban": 96,
     "LS/Urban": 62
   },
-  "new_candidates": 0,
+  "new_candidates": 37,
   "rollover_alert": null,
   "failing_streaks": {},
   "keyword_included": 0
