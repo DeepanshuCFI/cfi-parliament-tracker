@@ -3682,5 +3682,389 @@
     "title": "Shifting of occupants for redevelopment of colonies",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1857": {
+    "include": false,
+    "title": "Functionality of primary health centres and rural healthcare infrastructure",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1858": {
+    "include": false,
+    "title": "Preparedness for vector-borne diseases during the southwest monsoon 2026",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1863": {
+    "include": false,
+    "title": "Prohibition of smoking in public places",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1851": {
+    "include": false,
+    "title": "New Cancer cases and deaths in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1852": {
+    "include": false,
+    "title": "Enhancing TB diagnosis through drone technology",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1878": {
+    "include": false,
+    "title": "Funds sanctioned for establishment of new medical hospitals",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1865": {
+    "include": false,
+    "title": "Mental health review board under the Mental Healthcare Act, 2017",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1866": {
+    "include": false,
+    "title": "Cashless treatment under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1879": {
+    "include": false,
+    "title": "Menstrual hygiene indicators",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1864": {
+    "include": false,
+    "title": "Timely processing of medical colleges for MCC counselling",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1867": {
+    "include": false,
+    "title": "Ineffectiveness of antibiotics and the blue-strip labeling policy",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1853": {
+    "include": false,
+    "title": "Delay in payment of honoraria to ASHA workers",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1892": {
+    "include": false,
+    "title": "Strengthening of disease surveillance systems",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1883": {
+    "include": false,
+    "title": "Paediatric endocrine health infrastructure",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1881": {
+    "include": false,
+    "title": "NFHS-6 assessment of child nutrition and breastfeeding",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1885": {
+    "include": false,
+    "title": "Food safety compliance by quick-commerce platforms",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1895": {
+    "include": false,
+    "title": "Treatment of cancer patients",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1890": {
+    "include": false,
+    "title": "Drone-based medical sample transport for TB",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1850": {
+    "include": false,
+    "title": "Implementation of PM-ABHIM in Nellore District, Andhra Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1861": {
+    "include": false,
+    "title": "Status of rural health infrastructure in Tamil Nadu under NHM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1884": {
+    "include": false,
+    "title": "Implementation of Universal Health Coverage for inpatient and outpatient care",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1871": {
+    "include": false,
+    "title": "Progress under PM-ABHIM and capacity enhancement of AIIMS Bibinagar",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1872": {
+    "include": false,
+    "title": "Integrated medical hubs and medical tourism",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1897": {
+    "include": false,
+    "title": "Denial of treatment under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1854": {
+    "include": false,
+    "title": "Digital promotion of banned e-cigarettes through social media",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1855": {
+    "include": false,
+    "title": "Sale of counterfeit and substandard medicines through online and offline platforms",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1875": {
+    "include": false,
+    "title": "Point-of-care diagnostic tools for maternal care",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1896": {
+    "include": false,
+    "title": "Crossing of advertisement line by weight loss drug companies",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|179": {
+    "include": false,
+    "title": "Cancer care in Andhra Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1869": {
+    "include": false,
+    "title": "Misleading health claims on food products in the market",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1870": {
+    "include": false,
+    "title": "Status of extension of PM-ABHIM mission period beyond March, 2026",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1893": {
+    "include": false,
+    "title": "Rising caesarean deliveries and regulatory oversight in maternal healthcare",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1868": {
+    "include": false,
+    "title": "AIIMS, Darbhanga",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1859": {
+    "include": false,
+    "title": "Procedure for organ transplantation in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1860": {
+    "include": false,
+    "title": "Research and innovation by ICMR",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1891": {
+    "include": false,
+    "title": "Regulation of working hours of doctors",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1862": {
+    "include": false,
+    "title": "Rising obesity trends and Government's measures under Eat Right India",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|170": {
+    "include": false,
+    "title": "Spurious Drugs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1789": {
+    "include": false,
+    "title": "Expired and rotten food products",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|173": {
+    "include": false,
+    "title": "National Disease Control Programmes",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1880": {
+    "include": false,
+    "title": "Recall of disposable syringe batches at AIIMS, New Delhi",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1887": {
+    "include": false,
+    "title": "Establishment of COE for cancer in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1886": {
+    "include": false,
+    "title": "Missing crucial health data from NFHS 6",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1882": {
+    "include": false,
+    "title": "Reducing blood wastage and regional shortages in the blood supply chain",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1888": {
+    "include": false,
+    "title": "Immunization coverage in J & K under UIP",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1898": {
+    "include": false,
+    "title": "Implementation of SAHI and BODH initiatives for health AI",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1873": {
+    "include": false,
+    "title": "Anemia Mukt Bharat Abhiyaan and strengthening of maternal health",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1874": {
+    "include": false,
+    "title": "Cashless facility under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1856": {
+    "include": false,
+    "title": "Recent advances in genetic research on rare diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1894": {
+    "include": false,
+    "title": "Health research and disease surveillance",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1889": {
+    "include": false,
+    "title": "National AIDS and STD control programme in Assam",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1876": {
+    "include": false,
+    "title": "Progress under ABDM in Chhattisgarh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|1877": {
+    "include": false,
+    "title": "Transparency and rule amendments in document verification under NRI Quota for NEET counseling",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|S|227": {
+    "include": false,
+    "title": "Implementation of FAME and PM E-DRIVE Schemes",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2760": {
+    "include": false,
+    "title": "Central Public Sector Enterprises under the Ministry of Heavy Industries",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2713": {
+    "include": false,
+    "title": "Samarth Udyog Bharat Initiative",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2695": {
+    "include": false,
+    "title": "Implementation of PM E-DRIVE Scheme in North Eastern Region",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2689": {
+    "include": false,
+    "title": "Manufacturing of Flex-fuel and Electric Vehicles",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2686": {
+    "include": false,
+    "title": "Scheme to Promote Manufacturing of Electric Passenger Cars",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2648": {
+    "include": false,
+    "title": "High-Speed EV Charging Infrastructure on National Highways",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2629": {
+    "include": false,
+    "title": "Reducing Carbon Emissions",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2608": {
+    "include": false,
+    "title": "Direct and Indirect  Jobs in Heavy Industries",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2590": {
+    "include": false,
+    "title": "Implementation of FAME-III Scheme",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|2551": {
+    "include": false,
+    "title": "Corporate Social Responsibility",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
   }
 }

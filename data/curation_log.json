@@ -53,6 +53,13 @@
       "deferred_excludes": 0,
       "source": "keyword+claude-haiku-4-5",
       "notes": "llm-reviewed 37/37 | overrides: 1 | spend this month: $0.04"
+    },
+    {
+      "candidates": 64,
+      "added": 0,
+      "deferred_excludes": 0,
+      "source": "keyword+claude-haiku-4-5",
+      "notes": "llm-reviewed 64/64 | overrides: 1 | spend this month: $0.05"
     }
   ],
   "overrides": [
@@ -104,6 +111,13 @@
       "keyword": false,
       "llm": true,
       "reason": "Women safety in public transport is road/urban safety."
+    },
+    {
+      "title": "Cashless treatment under AB-PMJAY",
+      "ministry": "Health",
+      "keyword": true,
+      "llm": false,
+      "reason": "Generic cashless treatment scheme, not crash-specific"
     }
   ]
 }
