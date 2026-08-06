@@ -4066,5 +4066,179 @@
     "title": "Corporate Social Responsibility",
     "ministry": "Heavy",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|S|181": {
+    "include": false,
+    "title": "National Highway projects in West Bengal",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|S|182": {
+    "include": true,
+    "title": "Road signage and safety markings",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|S|193": {
+    "include": false,
+    "title": "General Management Consultants for technology-driven Highways",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2035": {
+    "include": false,
+    "title": "Projects of National Highways in West Bengal",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2034": {
+    "include": false,
+    "title": "Poor quality of highway construction",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2030": {
+    "include": false,
+    "title": "Newly constructed National Highways and Expressways",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2017": {
+    "include": false,
+    "title": "Compatibility of E20  fuel for vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2015": {
+    "include": true,
+    "title": "Safety audit of bridges",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2021": {
+    "include": false,
+    "title": "Elevated overbridge for wildlife movement on NH 127C",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2011": {
+    "include": true,
+    "title": "Black spot rectification and road safety works",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2024": {
+    "include": false,
+    "title": "Development of wayside amenities and electric vehicle charging corridors on National Highways",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2033": {
+    "include": false,
+    "title": "Demand-supply gap in electric vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2023": {
+    "include": false,
+    "title": "Hydrogen fuel trials on National Highway corridors",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2031": {
+    "include": false,
+    "title": "Environmental safeguards in NH construction",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2029": {
+    "include": true,
+    "title": "High-risk road corridors",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2026": {
+    "include": false,
+    "title": "Network of electric vehicle charging stations in the country",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2028": {
+    "include": false,
+    "title": "Plantation and beautification of National Highways across the country",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2019": {
+    "include": true,
+    "title": "E-challan issued across the country",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2027": {
+    "include": false,
+    "title": "Development of logistics corridors in Bihar",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2013": {
+    "include": true,
+    "title": "Road safety measures on National Highways",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2012": {
+    "include": false,
+    "title": "National Highway projects in Tamil Nadu",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2032": {
+    "include": false,
+    "title": "Funding, delays and cost escalation under Bharatmala Pariyojana",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2022": {
+    "include": false,
+    "title": "Future ready Indian roads and smart transportation infrastructure",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2014": {
+    "include": false,
+    "title": "Maintenance of National Highways and construction quality issues",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2020": {
+    "include": false,
+    "title": "Vehicle Scrapping Policy and OEM discounts",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2025": {
+    "include": true,
+    "title": "Road safety and accidents in Chattisgarh",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2016": {
+    "include": false,
+    "title": "Modifications of vehicle",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|2018": {
+    "include": false,
+    "title": "Registered Vehicle Scrapping Facilities and Automated Testing Stations",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||MoRTH|271|U|1993": {
+    "include": false,
+    "title": "Traffic congestion and road infrastructure in Bhubaneswar and Cuttack",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
   }
 }

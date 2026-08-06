@@ -60,6 +60,13 @@
       "deferred_excludes": 0,
       "source": "keyword+claude-haiku-4-5",
       "notes": "llm-reviewed 64/64 | overrides: 1 | spend this month: $0.05"
+    },
+    {
+      "candidates": 29,
+      "added": 7,
+      "deferred_excludes": 0,
+      "source": "keyword+claude-haiku-4-5",
+      "notes": "llm-reviewed 29/29 | overrides: 1 | spend this month: $0.05"
     }
   ],
   "overrides": [
@@ -118,6 +125,13 @@
       "keyword": true,
       "llm": false,
       "reason": "Generic cashless treatment scheme, not crash-specific"
+    },
+    {
+      "title": "High-risk road corridors",
+      "ministry": "MoRTH",
+      "keyword": false,
+      "llm": true,
+      "reason": "High-risk road corridors implies crash/accident focus"
     }
   ]
 }

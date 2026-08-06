@@ -1,9 +1,16 @@
 {
-  "new_records_applied": 0,
+  "new_records_applied": 7,
   "unmatched_new_askers": [],
   "unresolved_askers_outstanding": [
     "M. Thambidurai"
   ],
   "healed_this_run": [],
-  "left_never_asked_list": []
+  "left_never_asked_list": [
+    {
+      "official": "Laxmi Verma",
+      "dataset_name": "Laxmi Verma",
+      "state": "Chhattisgarh",
+      "house": "RS"
+    }
+  ]
 }
