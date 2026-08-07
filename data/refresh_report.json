@@ -3,16 +3,16 @@
   "api_failures": [],
   "fetched": {
     "RS/MoRTH": 81,
-    "LS/MoRTH": 86,
+    "LS/MoRTH": 140,
     "RS/Health": 133,
     "LS/Health": 191,
     "RS/Heavy": 14,
     "LS/Heavy": 44,
     "RS/Urban": 96,
-    "LS/Urban": 62
+    "LS/Urban": 96
   },
-  "new_candidates": 29,
+  "new_candidates": 88,
   "rollover_alert": null,
   "failing_streaks": {},
-  "keyword_included": 6
+  "keyword_included": 12
 }

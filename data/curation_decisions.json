@@ -4240,5 +4240,533 @@
     "title": "Traffic congestion and road infrastructure in Bhubaneswar and Cuttack",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|280": {
+    "include": false,
+    "title": "Damage to Roads and Flyovers",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|272": {
+    "include": false,
+    "title": "Construction of National Highways in Rajasthan",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|269": {
+    "include": false,
+    "title": "Bir Billing Ropeway Project",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|266": {
+    "include": false,
+    "title": "Upgradation of Existing Roads as National Highways in Kerala",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|S|264": {
+    "include": false,
+    "title": "Construction of Roads under CRF",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3214": {
+    "include": false,
+    "title": "National Highway-66 in Kerala",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3212": {
+    "include": false,
+    "title": "Illegal Collection from Vehicles on NHs",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3207": {
+    "include": false,
+    "title": "Projects under CRIF in Telangana",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3202": {
+    "include": false,
+    "title": "Road Projects in Bihar",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3194": {
+    "include": false,
+    "title": "Road and Infrastructure Projects in Mathurapur",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3185": {
+    "include": false,
+    "title": "Development of NH-627 in Assam",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3182": {
+    "include": false,
+    "title": "Dilapiadated Condition of Road",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3179": {
+    "include": false,
+    "title": "Multiple Tax on Vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3176": {
+    "include": false,
+    "title": "DPR for Service Road on NH-66",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3173": {
+    "include": true,
+    "title": "Increasing Road Accidents on NH 66 in Kerala",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3171": {
+    "include": true,
+    "title": "Cashless Treatment for Road Accident Victims",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3169": {
+    "include": true,
+    "title": "Accidents and Fatalities on Expressways",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3154": {
+    "include": false,
+    "title": "Establishment of Bus Terminal",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3152": {
+    "include": false,
+    "title": "Construction of NH from Chausa to Varanasi",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3136": {
+    "include": true,
+    "title": "Measures to Reduce Road Accidents",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3134": {
+    "include": false,
+    "title": "Structural Failures on NH-66 in Kerala",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3133": {
+    "include": false,
+    "title": "Parvatmala Pariyojana and Ropeway Projects",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3132": {
+    "include": false,
+    "title": "Expansion of National Highways",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3131": {
+    "include": false,
+    "title": "3A Notification for NH-183",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3119": {
+    "include": true,
+    "title": "Road Safety Audit of NHs in Kerala",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3118": {
+    "include": false,
+    "title": "Bharatmala Pariyojana Phase-II",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3116": {
+    "include": true,
+    "title": "Black Spots on Rajganj-Govindpur NH Stretch in Dhanbad",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3115": {
+    "include": true,
+    "title": "Rectification of Black Spots on NHs in Andhra Pradesh",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3114": {
+    "include": false,
+    "title": "Expressway Projects under Bharatmala Pariyojana",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3111": {
+    "include": false,
+    "title": "Status of Chardham Mahamarg Vikas Pariyojana",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3098": {
+    "include": false,
+    "title": "Approval for Outer Ring Road Project in Kerala",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3096": {
+    "include": false,
+    "title": "Shortage of Bitumen",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3093": {
+    "include": false,
+    "title": "Implementation of CRIF Setu Bandhan Scheme",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3089": {
+    "include": true,
+    "title": "Compliance with Traffic Rules by Vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3088": {
+    "include": false,
+    "title": "Impact of Bharatmala Pariyojana Projects",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3086": {
+    "include": false,
+    "title": "Underwater Road Tunnel under Hooghly River",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3080": {
+    "include": false,
+    "title": "Toll Policy in Bihar",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3078": {
+    "include": true,
+    "title": "Strengthening Road Safety",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3077": {
+    "include": false,
+    "title": "Implementation of Cashless Treatment Scheme",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3067": {
+    "include": false,
+    "title": "Outstanding Debt on NHAI",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3065": {
+    "include": true,
+    "title": "Penalty Provisions for overloaded Vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3063": {
+    "include": false,
+    "title": "National Highway Projects  in Tamil Nadu",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3058": {
+    "include": false,
+    "title": "National Highway-183A in Kerala",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3051": {
+    "include": false,
+    "title": "Upgradation of Roads",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3045": {
+    "include": false,
+    "title": "Status of Greenfield Project",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3041": {
+    "include": false,
+    "title": "Status of Mandi Northern Bypass Project",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3040": {
+    "include": false,
+    "title": "Restrictions on Purchase of Vehicles",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3038": {
+    "include": false,
+    "title": "Construction of Railway Over Bridge",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3034": {
+    "include": false,
+    "title": "Construction of Tunnels on NH-326 and NH-26",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3021": {
+    "include": false,
+    "title": "Maintenance of Highway Sanitation",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3014": {
+    "include": true,
+    "title": "Schemes for Road Accident Victims",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3006": {
+    "include": false,
+    "title": "Bhoomi Rashi Portal for Land Acquisition",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3005": {
+    "include": false,
+    "title": "Multimodal Logistics Parks under Bharatmala Pariyojana",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|MoRTH|8|U|3001": {
+    "include": false,
+    "title": "Widening of Aroor to Edappally Stretch on NH-66",
+    "ministry": "MoRTH",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|279": {
+    "include": false,
+    "title": "Implementation of Smart Cities Mission",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|276": {
+    "include": false,
+    "title": "Assistance and Incentives under PM SVANidhi Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|275": {
+    "include": false,
+    "title": "Implementation of SBM-U",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|262": {
+    "include": false,
+    "title": "Implementation of PMAY-U 2.0 in Tamil Nadu",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|S|261": {
+    "include": false,
+    "title": "Assessment of Housing Shortage",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3206": {
+    "include": false,
+    "title": "Potable Water Supply under AMRUT 2.0",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3201": {
+    "include": false,
+    "title": "Housing for All",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3198": {
+    "include": false,
+    "title": "Projects under the North Eastern-Region Urban Development Programme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3195": {
+    "include": false,
+    "title": "Undocumented Habitations on Private Owned Lands",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3189": {
+    "include": false,
+    "title": "Loan Applications under Deendayal Jan Aajeevika Yojana–Shehari",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3166": {
+    "include": false,
+    "title": "Status of NUDM",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3163": {
+    "include": false,
+    "title": "Construction of Houses under PMAY-U in Andhra Pradesh",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3158": {
+    "include": false,
+    "title": "NITI Aayog Report on empowering City Governments",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3156": {
+    "include": false,
+    "title": "Encroachment on DDA Land",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3148": {
+    "include": false,
+    "title": "Targets under SCM",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3143": {
+    "include": false,
+    "title": "Amendment in Model Building Bye-Laws",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3135": {
+    "include": false,
+    "title": "Drainage Framework of Sikar",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3128": {
+    "include": false,
+    "title": "Sustainable Urban Water Management",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3126": {
+    "include": false,
+    "title": "Urban Housing Projects under PMAY-U in Punjab",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3107": {
+    "include": false,
+    "title": "Financial, Technical and Logistical Assistance to Kerala under AMRUT",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3106": {
+    "include": false,
+    "title": "Periodic Safety Audits of Operational Metro Rail Systems",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3102": {
+    "include": false,
+    "title": "Incentives to ULBs",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3087": {
+    "include": false,
+    "title": "Funds for Bengaluru Metro Rail",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3075": {
+    "include": false,
+    "title": "Completion Status of Projects under SCM",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3073": {
+    "include": false,
+    "title": "Metro Rail Network in Chennai",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3069": {
+    "include": false,
+    "title": "Approval of Norms for High Rise Buildings",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3053": {
+    "include": false,
+    "title": "Projects under AMRUT 2.0 in Bihar",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3050": {
+    "include": false,
+    "title": "ULBs covered under SBM-U 2.0 in Thanjavur",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3035": {
+    "include": true,
+    "title": "Pedestrian Infrastructure",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3022": {
+    "include": false,
+    "title": "Implementation of AMRUT 2.0",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3020": {
+    "include": false,
+    "title": "Projects and Schemes Financed by HUDCO",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3013": {
+    "include": false,
+    "title": "Slum Rehabilitation Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|3000": {
+    "include": false,
+    "title": "Namo Bharat Regional Rapid Transit System",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Urban|8|U|2991": {
+    "include": false,
+    "title": "Management of Burial Grounds and Crematoria",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
   }
 }
