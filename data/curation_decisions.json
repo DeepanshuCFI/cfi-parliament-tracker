@@ -4768,5 +4768,599 @@
     "title": "Management of Burial Grounds and Crematoria",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|298": {
+    "include": false,
+    "title": "Strengthening Healthcare Infrastructure in Lakhimpur Kheri",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|297": {
+    "include": false,
+    "title": "Expansion of PG Medical Seats",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|295": {
+    "include": false,
+    "title": "Status of Health Infrastructure Projects under PM-ABHIM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|294": {
+    "include": false,
+    "title": "Day Care Cancer Centres",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|292": {
+    "include": true,
+    "title": "Setting up of Trauma Centres in Bihar",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|290": {
+    "include": false,
+    "title": "Digital Health Services under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|288": {
+    "include": false,
+    "title": "Allocation of Funds under PM-ABHIM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|287": {
+    "include": false,
+    "title": "Financial Disbursements under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|S|284": {
+    "include": false,
+    "title": "Effectiveness of Telemedicine Services",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3449": {
+    "include": false,
+    "title": "Vacancies of Doctors and Paramedical Staff",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3448": {
+    "include": false,
+    "title": "District Mental Health Programme in Rajasthan",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3446": {
+    "include": false,
+    "title": "National Immunisation Programme",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3445": {
+    "include": false,
+    "title": "Schemes for Welfare of Pregnant Women",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3444": {
+    "include": false,
+    "title": "Vacant Posts of Medical Officers and Doctors",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3443": {
+    "include": false,
+    "title": "Healthcare Services for Tribal Women",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3442": {
+    "include": false,
+    "title": "Shortage of Doctors in Government Hospitals",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3439": {
+    "include": false,
+    "title": "Medical Colleges in Himachal Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3438": {
+    "include": false,
+    "title": "Prevention and Control of NCDs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3437": {
+    "include": false,
+    "title": "Healthcare System in Robertsganj",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3434": {
+    "include": false,
+    "title": "Non-Availability of ASHA Drug Kits",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3430": {
+    "include": false,
+    "title": "Shortage of Medical Equipment in Bundelkhand Region",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3429": {
+    "include": false,
+    "title": "Service Conditions of ASHA Facilitators",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3426": {
+    "include": false,
+    "title": "Impact of El Nino on Health",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3424": {
+    "include": false,
+    "title": "Setting Up of New Urban Primary Health Centres",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3422": {
+    "include": false,
+    "title": "Microplastic Contamination in Food Products",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3421": {
+    "include": false,
+    "title": "Impact of Ultra-Processed Foods",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3420": {
+    "include": false,
+    "title": "Upgradation of Community Health Centre (CHC) at Kadmat Island",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3419": {
+    "include": false,
+    "title": "Shortage of Faculty Members in Medical Colleges and AIIMS",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3418": {
+    "include": false,
+    "title": "Cases of Food Adulteration in Maharashtra",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3417": {
+    "include": false,
+    "title": "Quality in Medical Education",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3416": {
+    "include": false,
+    "title": "Reviewing of the National List of Essential Medicines, 2022",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3415": {
+    "include": false,
+    "title": "Out-of-Pocket Expenditure on Healthcare",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3413": {
+    "include": false,
+    "title": "Illegal Treatments in Universal IVF Centres",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3412": {
+    "include": false,
+    "title": "Setting up of Integrated Vaccine Complex",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3407": {
+    "include": false,
+    "title": "Financial assistance for Rare Diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3405": {
+    "include": false,
+    "title": "Cases of Cancer and Life Style Diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3403": {
+    "include": false,
+    "title": "Tele Mental Health Assistance",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3400": {
+    "include": false,
+    "title": "Management of Non-Communicable Diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3395": {
+    "include": false,
+    "title": "Inspection of Private Health Institutions in Border Areas",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3394": {
+    "include": false,
+    "title": "UG and PG Seats in Medical College",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3392": {
+    "include": false,
+    "title": "Establishment of Additional Cancer Hospital in Assam",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3391": {
+    "include": false,
+    "title": "Measures to reduce C-section Delivery Rates",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3390": {
+    "include": false,
+    "title": "Rising Caesarean Deliveries",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3384": {
+    "include": false,
+    "title": "NHM Schemes and Financial Assistance in Odisha",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3382": {
+    "include": false,
+    "title": "Shortage of Specialist and General Physicians",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3377": {
+    "include": false,
+    "title": "Students Appearing for NEET-UG and PG",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3375": {
+    "include": false,
+    "title": "Transparency in FMGE Examinations",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3374": {
+    "include": false,
+    "title": "Early Screening Programmes for NCDs",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3373": {
+    "include": true,
+    "title": "Operationalisation of Pending Trauma Centres in Uttar Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3369": {
+    "include": false,
+    "title": "Widespread Sleep Disorders",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3367": {
+    "include": false,
+    "title": "Zero-dose under Universal Immunisation Programme",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3362": {
+    "include": false,
+    "title": "Assessment of Shortage of Medical Personnel",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3361": {
+    "include": false,
+    "title": "National Centre for Vector Borne Diseases Control",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3359": {
+    "include": false,
+    "title": "Allocation of Funds to Health Programmes",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3357": {
+    "include": false,
+    "title": "NABARD Funded Hospital Project",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3355": {
+    "include": false,
+    "title": "Budget Allocation for ABDM and U-WIN Platform",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3352": {
+    "include": false,
+    "title": "Prevalence of Staphylococci Bacteria",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3350": {
+    "include": false,
+    "title": "Regulation and Patient Safety in Dental Implantology",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3347": {
+    "include": false,
+    "title": "Increase of MBBS Seats in Bihar",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3341": {
+    "include": false,
+    "title": "Pendency of Central Outlays under NHM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3340": {
+    "include": false,
+    "title": "CGHS Wellness Centre in Durgapur",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3336": {
+    "include": false,
+    "title": "Mobile Cancer Detection/Screening Vans",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3333": {
+    "include": false,
+    "title": "Funding for Mukhyamantri Ayushman Arogya Mandir in Rajasthan",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3318": {
+    "include": false,
+    "title": "Strengthening of Primary Health Services in Remote Areas",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3314": {
+    "include": false,
+    "title": "Incidence of Gestational Diabetes Mellitus",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3313": {
+    "include": false,
+    "title": "Set up of Medical Colleges in Odisha",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3304": {
+    "include": false,
+    "title": "Establishment of Government Medical College",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3302": {
+    "include": false,
+    "title": "Global Tuberculosis Report 2024",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3293": {
+    "include": false,
+    "title": "Working of Doctors beyond Working Hours",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3286": {
+    "include": false,
+    "title": "Quality of Generic Medicines",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3285": {
+    "include": false,
+    "title": "Strengthening Pharmacy Education in Manipur",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3284": {
+    "include": false,
+    "title": "Unutilised Fund under NPRD 2021",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3273": {
+    "include": false,
+    "title": "Access to Quality Healthcare in Uttar Pradesh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3272": {
+    "include": false,
+    "title": "Waiting List of Organ Transplant",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3270": {
+    "include": false,
+    "title": "Violations of Food Safety Standards",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3263": {
+    "include": false,
+    "title": "Implementation of AB-PMJAY in Dahod",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3260": {
+    "include": false,
+    "title": "Availability of Quality and Specialised Health Services",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3254": {
+    "include": false,
+    "title": "Shortage of Essential Medicines",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3252": {
+    "include": false,
+    "title": "Preventive Healthcare and Screening Programmes",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3248": {
+    "include": false,
+    "title": "Health Infrastructure Projects in Bareilly",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3246": {
+    "include": false,
+    "title": "Vacancies in Government Hospitals and Medical Colleges",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3245": {
+    "include": false,
+    "title": "Cases of Nipah Virus in West Bengal",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3237": {
+    "include": false,
+    "title": "Improvement of Primary Healthcare Centres in Mishrikh",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3234": {
+    "include": false,
+    "title": "Modernisation of Medical Education in India",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3228": {
+    "include": false,
+    "title": "Heart and Liver Transplant Services",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3227": {
+    "include": false,
+    "title": "Sale of Adulterated and Artificial Products",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3226": {
+    "include": false,
+    "title": "Microplastics in Packaged and Processed Foods",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3225": {
+    "include": false,
+    "title": "Review of Food Safety and Standards Act",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Health|8|U|3222": {
+    "include": false,
+    "title": "Foreign Medical Graduate Examination (FMGE)",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2326": {
+    "include": false,
+    "title": "Adoption of electric vehicles in Chhattisgarh",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2327": {
+    "include": false,
+    "title": "Challenges faced by PM E-Drive Scheme",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2328": {
+    "include": false,
+    "title": "Evaluation and impact of E20 petrol on vehicles in the country",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2329": {
+    "include": false,
+    "title": "Promotion of electric vehicle manufacturing and charging infrastructure in Gujarat",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2330": {
+    "include": false,
+    "title": "Implementation of FAME-II and PM E-DRIVE Schemes",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2331": {
+    "include": false,
+    "title": "Industrial development in backward districts under Central schemes",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2332": {
+    "include": false,
+    "title": "Electric vehicle charging infrastructure and FAME Scheme in Maharashtra",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2333": {
+    "include": false,
+    "title": "Installation of Electric Vehicle charging stations",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2334": {
+    "include": false,
+    "title": "Share transfer of CPSEs under Ministry of Heavy Industries",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Heavy|271|U|2335": {
+    "include": false,
+    "title": "Liquidation and disposal proceedings of HPF, Ooty",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
   }
 }

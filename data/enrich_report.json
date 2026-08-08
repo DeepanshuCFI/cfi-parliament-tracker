@@ -1,5 +1,5 @@
 {
-  "new_records_applied": 12,
+  "new_records_applied": 2,
   "unmatched_new_askers": [],
   "unresolved_askers_outstanding": [
     "M. Thambidurai"
@@ -7,23 +7,8 @@
   "healed_this_run": [],
   "left_never_asked_list": [
     {
-      "official": "B K Parthasarathi",
-      "dataset_name": "B K Parthasarathi",
-      "state": "Andhra Pradesh"
-    },
-    {
-      "official": "Bastipati Nagaraju",
-      "dataset_name": "Bastipati Nagaraju",
-      "state": "Andhra Pradesh"
-    },
-    {
-      "official": "Imran Masood",
-      "dataset_name": "Imran Masood",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "official": "Arun Kumar Sagar",
-      "dataset_name": "Arun Kumar Sagar",
+      "official": "Pushpendra Saroj",
+      "dataset_name": "Pushpendra Saroj",
       "state": "Uttar Pradesh"
     }
   ]
