@@ -1,15 +1,9 @@
 {
-  "new_records_applied": 2,
+  "new_records_applied": 0,
   "unmatched_new_askers": [],
   "unresolved_askers_outstanding": [
     "M. Thambidurai"
   ],
   "healed_this_run": [],
-  "left_never_asked_list": [
-    {
-      "official": "Pushpendra Saroj",
-      "dataset_name": "Pushpendra Saroj",
-      "state": "Uttar Pradesh"
-    }
-  ]
+  "left_never_asked_list": []
 }
