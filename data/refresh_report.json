@@ -8,11 +8,11 @@
     "LS/Health": 280,
     "RS/Heavy": 24,
     "LS/Heavy": 44,
-    "RS/Urban": 96,
+    "RS/Urban": 116,
     "LS/Urban": 96
   },
-  "new_candidates": 0,
+  "new_candidates": 20,
   "rollover_alert": null,
   "failing_streaks": {},
-  "keyword_included": 0
+  "keyword_included": 1
 }

@@ -5362,5 +5362,125 @@
     "title": "Liquidation and disposal proceedings of HPF, Ooty",
     "ministry": "Heavy",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|S|233": {
+    "include": false,
+    "title": "Integrated urban development of Cuttack",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2433": {
+    "include": false,
+    "title": "Scientific processing of solid waste",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2435": {
+    "include": false,
+    "title": "MRTS in the Bhubaneswar–Cuttack–Puri corridor",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2437": {
+    "include": false,
+    "title": "Affordable rental housing and gender inclusion in urban development",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2438": {
+    "include": false,
+    "title": "Metro rail projects in Maharashtra",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2440": {
+    "include": false,
+    "title": "Cities identified for urban flooding vulnerability",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2441": {
+    "include": false,
+    "title": "Status of Smart Cities Mission fund utilisation and project completion",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2443": {
+    "include": false,
+    "title": "Progress and impact of NUDM",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2446": {
+    "include": false,
+    "title": "Pradhan Mantri Awas Yojana - Urban in Odisha",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2447": {
+    "include": false,
+    "title": "Achievements and socio-economic impact under the PM SVANidhi Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2450": {
+    "include": false,
+    "title": "Status of PMAY-U in Tamil Nadu",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2498": {
+    "include": false,
+    "title": "Affordable rental accommodation for migrant workers and students",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2445": {
+    "include": false,
+    "title": "GIS-based urban planning and modernisation of master plans",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2432": {
+    "include": false,
+    "title": "Stay imposed on conversion from leasehold to freehold by DDA",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2434": {
+    "include": false,
+    "title": "Implementation and impact of the PM SVANidhi Scheme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2436": {
+    "include": false,
+    "title": "Planning for mitigation of flooding resilience",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2442": {
+    "include": false,
+    "title": "Water and sanitation infrastructure in urban areas",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2444": {
+    "include": false,
+    "title": "Pradhan Mantri Awas Yojana in Jammu and Kashmir",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2448": {
+    "include": false,
+    "title": "Status of Dumpsite Remediation Accelerator Programme",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Urban|271|U|2449": {
+    "include": true,
+    "title": "Absence of safe cycling infrastructure in Indian cities",
+    "ministry": "Urban",
+    "source": "keyword+claude-haiku-4-5"
   }
 }
