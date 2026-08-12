@@ -5482,5 +5482,359 @@
     "title": "Absence of safe cycling infrastructure in Indian cities",
     "ministry": "Urban",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|245": {
+    "include": false,
+    "title": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2673": {
+    "include": false,
+    "title": "Implementation of NSCEM in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2663": {
+    "include": false,
+    "title": "Female foeticide",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|244": {
+    "include": false,
+    "title": "Funds allocated to NTCP",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2678": {
+    "include": false,
+    "title": "Pharmaceutical manufacturing units inspected by CDSCO",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2661": {
+    "include": false,
+    "title": "Status of digital health accounts under ABDM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2659": {
+    "include": false,
+    "title": "Status of hospital beds and healthcare facilities in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2650": {
+    "include": false,
+    "title": "Disease surveillance and public health laboratories in Odisha",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2685": {
+    "include": false,
+    "title": "Loss of sleep due to heat waves and health cost",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2684": {
+    "include": false,
+    "title": "Implementation of revised Anemia Mukt Bharat operational guidelines",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2651": {
+    "include": false,
+    "title": "Hospitals under Union Government",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2669": {
+    "include": false,
+    "title": "Medical seats and faculty availability",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2655": {
+    "include": false,
+    "title": "Funds allocated under DMHP",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2665": {
+    "include": false,
+    "title": "Screening for lipid disorders in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2664": {
+    "include": false,
+    "title": "Implementation of PMNDP in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2677": {
+    "include": false,
+    "title": "Financial support to Tamil Nadu to improve medical infrastructure under NHM",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2644": {
+    "include": false,
+    "title": "Regulation of private hospitals and protection of patients from exploitation",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2645": {
+    "include": false,
+    "title": "Referral system in Government hospitals and accountability of medical officers",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2660": {
+    "include": false,
+    "title": "Vitamin D deficiency in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2682": {
+    "include": false,
+    "title": "Kidney transplant racket",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|254": {
+    "include": false,
+    "title": "Environmental health history of residents of mining areas",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2657": {
+    "include": false,
+    "title": "Financial assistance for rare diseases",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2649": {
+    "include": false,
+    "title": "Strengthening the provisions under FSSAI",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2671": {
+    "include": false,
+    "title": "Implementation of Central health and family welfare Schemes in J & K",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2676": {
+    "include": false,
+    "title": "Cancer care infrastructure in Punjab",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2646": {
+    "include": false,
+    "title": "Cancer incidence in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2571": {
+    "include": false,
+    "title": "Assessment of health performance",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2652": {
+    "include": false,
+    "title": "Delay in reimbursement of CGHS claims to empanelled hospitals",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2666": {
+    "include": false,
+    "title": "Regulatory framework for  regenerative medicine",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2674": {
+    "include": false,
+    "title": "Super Speciality Blocks in Government medical colleges",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2672": {
+    "include": false,
+    "title": "Expansion of health protection through AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2653": {
+    "include": false,
+    "title": "Differential health warning requirements for food products",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2681": {
+    "include": false,
+    "title": "Promotion of menstrual health and hygiene",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|S|249": {
+    "include": false,
+    "title": "Vacant specialist posts at rural Community Health Centres",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2656": {
+    "include": true,
+    "title": "Availability of trauma centres in Vidarbha region",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2654": {
+    "include": false,
+    "title": "Expansion of mental health services across the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2647": {
+    "include": false,
+    "title": "Unsafe and adulterated food items",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2648": {
+    "include": false,
+    "title": "Fake and sub-Standard Quality medicines",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2680": {
+    "include": false,
+    "title": "Status of AB-PMJAY in the country",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2658": {
+    "include": false,
+    "title": "ICMR INDIA B  national data on blood lipids",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2683": {
+    "include": false,
+    "title": "Vacancies of healthcare personnel in Government hospitals",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2679": {
+    "include": false,
+    "title": "NQAS/NABH quality certification and hospital modernization",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2675": {
+    "include": false,
+    "title": "Development of medical colleges in Gondia and Bhandara",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2667": {
+    "include": false,
+    "title": "Socio-economic study of beneficiary families under AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2668": {
+    "include": false,
+    "title": "Digitization of AB-PMJAY",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "RS||Health|271|U|2662": {
+    "include": false,
+    "title": "Infrastructure and operational challenges in Central Government hospitals in Delhi",
+    "ministry": "Health",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3870": {
+    "include": false,
+    "title": "Electric Vehicles in Madhya Pradesh",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3863": {
+    "include": false,
+    "title": "Central Public Sector Enterprises",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3861": {
+    "include": false,
+    "title": "Skill Development for Heavy Industries Workforce",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3785": {
+    "include": false,
+    "title": "Status of Revival of HMT Unit at Kalamassery",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3760": {
+    "include": false,
+    "title": "Electric Mobility Promotion and EV Infrastructure",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3759": {
+    "include": false,
+    "title": "Fast-Charging infrastructure",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3755": {
+    "include": false,
+    "title": "Scheme to Promote Manufacturing of Electric Passenger Cars",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3712": {
+    "include": false,
+    "title": "Heavy Industries and Manufacturing Sectors",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3706": {
+    "include": false,
+    "title": "PLI Scheme for Automobile and Auto Components",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3703": {
+    "include": false,
+    "title": "Financial Performance of Central Public Sector Enterprises",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3697": {
+    "include": false,
+    "title": "Inclusion of Punjab under EV Manufacturing Initiatives",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3696": {
+    "include": false,
+    "title": "Advanced Chemistry Cell Batteries",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|18|Heavy|8|U|3683": {
+    "include": false,
+    "title": "Electric Vehicle Charging Stations at Petrol Pumps in Tiruchirappalli",
+    "ministry": "Heavy",
+    "source": "keyword+claude-haiku-4-5"
   }
 }
