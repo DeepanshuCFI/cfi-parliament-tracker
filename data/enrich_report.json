@@ -1,5 +1,5 @@
 {
-  "new_records_applied": 1,
+  "new_records_applied": 5,
   "unmatched_new_askers": [],
   "unresolved_askers_outstanding": [
     "M. Thambidurai"
@@ -7,9 +7,15 @@
   "healed_this_run": [],
   "left_never_asked_list": [
     {
-      "official": "Maya Chintaman Ivnate",
-      "dataset_name": "Maya Chintaman Ivnate",
-      "state": "Maharashtra",
+      "official": "Manoj Kumar Jha",
+      "dataset_name": "Manoj Kumar Jha",
+      "state": "Bihar",
+      "house": "RS"
+    },
+    {
+      "official": "Kamal Haasan",
+      "dataset_name": "Kamal Haasan",
+      "state": "Tamil Nadu",
       "house": "RS"
     }
   ]
