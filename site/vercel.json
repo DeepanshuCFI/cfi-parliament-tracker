@@ -45,6 +45,18 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/rti",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/rti/(.*)",
+      "destination": "/",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/mpimg/rs/:file",
