@@ -85,9 +85,11 @@ header{border-bottom:1px solid var(--border);background:#fff}
 .sess-recent{margin-top:20px;max-width:880px}
 .sess-list{margin-top:14px;list-style:none;display:flex;flex-direction:column}
 .sess-list li{padding:13px 0;border-top:1px solid var(--border)}
+.sess-recent h3{font-family:var(--head);font-size:11px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:var(--muted)}
 .sess-list .st{font-size:15px;font-weight:600;line-height:1.4;color:var(--dark)}
-.sess-list .st a{color:var(--dark)}
-.sess-list .st a:hover{color:var(--brand);text-decoration:none}
+.sess-list .st a{color:var(--brand);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:rgba(71,54,254,.35)}
+.sess-list .st a:hover{color:#3c2ed8;text-decoration-color:currentColor}
+.sess-list .st .ext{font-size:.8em;margin-left:5px;opacity:.75}
 .sess-list .sm{margin-top:4px;font-size:12.5px;color:var(--muted)}
 .sess-zero{margin-top:36px;border:1px dashed var(--border);border-radius:14px;padding:18px 20px;font-size:14.5px;color:var(--muted);max-width:680px;line-height:1.6}
 #session .cta-row{margin-top:32px}
@@ -1503,7 +1505,7 @@ function buildSessionStrip(){
       const u = safeUrl(r.u);
       return `
       <li>
-        <div class="st">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(r.j)}</a>` : esc(r.j)}</div>
+        <div class="st">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(r.j)}<span class="ext" aria-hidden="true">↗</span></a>` : esc(r.j)}</div>
         <div class="sm">${r.h==='LS'?'Lok Sabha':'Rajya Sabha'} · ${esc(MINF[r.min]||'MoRTH')} · ${fmtDate(r.d)}</div>
       </li>`;}).join('');
     $('sessRecent').hidden = false;
