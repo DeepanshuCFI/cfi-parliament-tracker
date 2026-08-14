@@ -11,8 +11,8 @@
     "RS/Urban": 116,
     "LS/Urban": 96
   },
-  "new_candidates": 33,
+  "new_candidates": 0,
   "rollover_alert": null,
   "failing_streaks": {},
-  "keyword_included": 5
+  "keyword_included": 0
 }
