@@ -4,10 +4,11 @@
 <meta property="og:title" content="{{TOTAL}} road-safety questions in Parliament. {{NEVER}} sitting MPs never asked one.">
 <meta property="og:description" content="Every Lok Sabha & Rajya Sabha question on road safety since 2014 — across Road Transport, Health, Heavy Industries and Housing & Urban Affairs — searchable by state, MP and topic. Find your MP's record.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://road-safety-parliament.vercel.app">
+<meta property="og:url" content="https://parliament.crashfreeindia.org">
+<link rel="canonical" href="https://parliament.crashfreeindia.org">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:image" content="https://road-safety-parliament.vercel.app/og-card.png">
-<meta name="twitter:image" content="https://road-safety-parliament.vercel.app/og-card.png">
+<meta property="og:image" content="https://parliament.crashfreeindia.org/og-card.png">
+<meta name="twitter:image" content="https://parliament.crashfreeindia.org/og-card.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
 <title>Road Safety in Parliament — Crashfree India</title>
 <style>
@@ -422,7 +423,7 @@ footer{border-top:1px solid var(--border);background:#fff}
   <div class="wrap sec-pad">
     <span class="eyebrow">Road safety in your state</span>
     <h2>Who speaks for road safety<br><span class="accent">where you live?</span></h2>
-    <p class="lead">Pick your state, then your constituency — and see your own MP's road-safety record as a shareable card. Or browse the state's picture: who raises road safety most, and how many of its sitting MPs never have.</p>
+    <p class="lead">Pick your state, then your constituency — and see your own MP's road-safety record as a shareable card. Then do the one thing that changes it: <strong>write to them</strong>. Every card carries the MP's official parliamentary email with a ready draft — thanks if they've raised road safety, an invitation to start if they haven't. Your part didn't end at the ballot box.</p>
     <div class="house-toggle" role="group" aria-label="Choose a House of Parliament">
       <button class="htg-btn" type="button" id="htgLS" aria-pressed="true">Lok Sabha</button>
       <button class="htg-btn" type="button" id="htgRS" aria-pressed="false">Rajya Sabha</button>
@@ -535,6 +536,7 @@ footer{border-top:1px solid var(--border);background:#fff}
           <li>Selection is title-based: a question that raises road safety under an unrelated title isn't counted. Still treat totals as a near-complete floor, not an absolute ceiling.</li>
           <li><span id="pdfCount">{{WITH_PDF}} of {{TOTAL}}</span> records link to an answer PDF; a few older answers survive only in legacy formats.</li>
           <li>Questions asked jointly are credited to every co-asking MP. MP names are matched to the official roster; a handful of low-confidence matches are flagged in the dataset.</li>
+          <li><strong>Accuracy.</strong> Everything here is compiled by automated pipelines from the official records of the Lok Sabha and Rajya Sabha published on sansad.in, and checked continuously — but discrepancies, in the source records or in our matching, are possible. We present a good-faith reflection of the official record, not a claim of perfection, and no count here should by itself be read as a judgment of any MP. Spotted an error? <a href="https://github.com/DeepanshuCFI/cfi-parliament-tracker/issues" target="_blank" rel="noopener">Report it</a> — verified corrections ship in the next daily refresh.</li>
         </ul>
         <h3 style="margin-top:22px">Use the data</h3>
         <p>Version <span id="dataVersion">{{VERSION}}</span> · complete set across four ministries, data through <span id="dataThrough">{{DATA_THROUGH_MY}}</span> · CC BY 4.0.<br>Cite as: <em>Crashfree India, Road Safety in Parliament (<span id="citeYear">{{CITE_YEAR}}</span>)</em>.</p>
@@ -557,7 +559,7 @@ footer{border-top:1px solid var(--border);background:#fff}
       <img class="logo" src="data:image/svg+xml;base64,__LOGOBLUE__" alt="Crashfree India" width="200" height="40">
       <div class="tag-line" style="margin-top:12px">Systems work because we hold them accountable.</div>
     </div>
-    <div class="tag-line">Source: sansad.in · Data period <span id="ftPeriod">{{PERIOD}}</span> · Refreshed daily during sessions</div>
+    <div class="tag-line">Source: official Lok Sabha &amp; Rajya Sabha records via sansad.in · Data period <span id="ftPeriod">{{PERIOD}}</span> · Refreshed daily during sessions · Independently compiled in good faith — errors possible, corrections welcome · Not affiliated with the Parliament of India</div>
   </div>
 </footer>
 
@@ -1126,6 +1128,50 @@ function shareTextRS(e, st){
     ? `My MP — ${who} — has never asked a single road-safety question in Parliament. The record: ${url}`
     : `My MP — ${who} — has asked ${e.n} road-safety question${e.n===1?'':'s'} in Parliament. The record: ${url}`;
 }
+function mpMailto(e, st, cons, rs){
+  if(!e.em) return '';
+  const url = location.origin + location.pathname;
+  const intro = rs
+    ? (st==='Nominated'
+        ? 'I write to you as a citizen of India deeply concerned about road safety.'
+        : `I am a resident of ${st}, and I am writing to you about road safety.`)
+    : `I am a voter from ${cons} constituency, and I am writing to you about road safety.`;
+  const sign = rs
+    ? (st==='Nominated' ? 'A concerned citizen of India' : `A citizen from ${st}`)
+    : `A constituent from ${cons}`;
+  let subject, body;
+  if(e.n>0){
+    subject = 'Thank you for raising road safety in Parliament';
+    body = `Respected ${e.mp} ji,
+
+${intro}
+
+Public Parliament records (sansad.in) show that you have raised road safety in Parliament — ${e.n} question${e.n===1?'':'s'} on record. Thank you for giving this issue a voice.
+
+Road crashes claim more than 1.7 lakh lives in India every year — in every state and every constituency. Safer road design, stricter enforcement and better trauma care all need Parliament's sustained attention, and champions like you make that happen. I request you to keep raising it, session after session.
+
+I found your record on Road Safety in Parliament, a public dashboard by Crashfree India: ${url}
+
+Respectfully,
+${sign}`;
+  } else {
+    subject = rs ? "A citizen's request: please raise road safety in Parliament"
+                 : 'A request from your constituency: please raise road safety in Parliament';
+    body = `Respected ${e.mp} ji,
+
+${intro}
+
+India loses more than 1.7 lakh lives to road crashes every year — and no state or constituency is spared. Unsafe roads, weak enforcement and missing trauma care are problems we live with every day.
+
+Public records of parliamentary questions (sansad.in) do not yet show a road-safety question in your name. I request you to raise this issue in the coming session — one question can surface data, fix accountability and save lives. It would mean a great deal to people like me.
+
+Road Safety in Parliament, a public dashboard by Crashfree India, tracks every such question: ${url}
+
+Respectfully,
+${sign}`;
+  }
+  return `mailto:${esc(e.em)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
 function renderMPFind(st, cons){
   const e = (MPDIR[st]||[]).find(x=>x.c===cons);
   const box = $('mpFind');
@@ -1151,13 +1197,17 @@ function renderMPFind(st, cons){
       </div>
       ${e.t && e.t.length ? `<div class="mpf-meta">${e.t.map(t=>`<span class="qtag">${esc(t)}</span>`).join('')}</div>` : ''}
       <div class="mpf-actions">
-        <button class="btn btn-primary" type="button" id="mpfShare">Share card</button>
+        ${e.em ? `<a class="btn btn-primary btn-arrow" id="mpfWrite" href="${mpMailto(e,st,cons,false)}">Write to your MP</a>` : ''}
+        <button class="btn ${e.em?'btn-ghost':'btn-primary'}" type="button" id="mpfShare">Share card</button>
         <button class="btn btn-ghost" type="button" id="mpfDl">Download card</button>
         <a class="btn btn-ghost" id="mpfWa" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(shareText(e,st))}">WhatsApp</a>
         <a class="btn btn-ghost" id="mpfX" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText(e,st))}">Post on X</a>
         ${e.n>0 && e.ds ? `<button class="btn btn-ghost btn-arrow" type="button" id="mpfSee">See their questions</button>` : ''}
       </div>
-      <div class="mpf-note">Counts every question this MP asked across the 16th–18th Lok Sabhas in this database (four ministries, title-matched). Source: sansad.in.</div>
+      ${e.em
+        ? `<div class="mpf-note">“Write to your MP” opens a ready draft in your email app, addressed to this MP's official parliamentary email (${esc(e.em)}) — add your name and personalise it before sending. It goes from your inbox, in your voice.</div>`
+        : `<div class="mpf-note">sansad.in publishes no official email for this MP — you can still reach them via <a href="https://sansad.in/ls/members" target="_blank" rel="noopener">their official Lok Sabha profile</a>.</div>`}
+      <div class="mpf-note">Counts every question this MP asked across the 16th–18th Lok Sabhas in this database (four ministries, title-matched — a floor, not a verdict). Source: sansad.in.</div>
     </div>`;
   box.hidden = false;
   pcToURL(st, cons);
@@ -1191,13 +1241,17 @@ function renderRSMPFind(st, name){
         <span class="mpf-label">${verdictLabel}</span>
       </div>
       <div class="mpf-actions">
-        <button class="btn btn-primary" type="button" id="mpfShare">Share card</button>
+        ${e.em ? `<a class="btn btn-primary btn-arrow" id="mpfWrite" href="${mpMailto(e,st,'',true)}">Write to this MP</a>` : ''}
+        <button class="btn ${e.em?'btn-ghost':'btn-primary'}" type="button" id="mpfShare">Share card</button>
         <button class="btn btn-ghost" type="button" id="mpfDl">Download card</button>
         <a class="btn btn-ghost" id="mpfWa" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(shareTextRS(e,st))}">WhatsApp</a>
         <a class="btn btn-ghost" id="mpfX" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareTextRS(e,st))}">Post on X</a>
         ${e.n>0 && e.ds ? `<button class="btn btn-ghost btn-arrow" type="button" id="mpfSee">See their questions</button>` : ''}
       </div>
-      <div class="mpf-note">Counts every question this MP asked in this database, across every term served in either House (four ministries, title-matched).${e.exp?` Current term ends ${esc(e.exp)}.`:''} Source: sansad.in.</div>
+      ${e.em
+        ? `<div class="mpf-note">“Write to this MP” opens a ready draft in your email app, addressed to this MP's official parliamentary email (${esc(e.em)}) — add your name and personalise it before sending. It goes from your inbox, in your voice.</div>`
+        : `<div class="mpf-note">sansad.in publishes no official email for this MP — you can still reach them via <a href="https://sansad.in/rs/members" target="_blank" rel="noopener">their official Rajya Sabha profile</a>.</div>`}
+      <div class="mpf-note">Counts every question this MP asked in this database, across every term served in either House (four ministries, title-matched — a floor, not a verdict).${e.exp?` Current term ends ${esc(e.exp)}.`:''} Source: sansad.in.</div>
     </div>`;
   box.hidden = false;
   rsToURL(st, name);

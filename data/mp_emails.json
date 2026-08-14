@@ -1,0 +1,6894 @@
+{
+  "ls": [
+    {
+      "mpsno": 5814,
+      "name": "Mani A",
+      "state": "Tamil Nadu",
+      "const": "Dharmapuri",
+      "emails": [
+        "amani.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 344,
+      "name": "Raja A",
+      "state": "Tamil Nadu",
+      "const": "Nilgiris",
+      "emails": [
+        "araja@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5677,
+      "name": "Brijmohan Agrawal",
+      "state": "Chhattisgarh",
+      "const": "Raipur",
+      "emails": [
+        "bm.raipurmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5620,
+      "name": "Damodar Agrawal",
+      "state": "Rajasthan",
+      "const": "Bhilwara",
+      "emails": [
+        "damodar.agrawal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5782,
+      "name": "Narayandas Ahirwar",
+      "state": "Uttar Pradesh",
+      "const": "Jalaun",
+      "emails": [
+        "ahirwar.narayandas@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5781,
+      "name": "Mian Altaf Ahmad",
+      "state": "Jammu and Kashmir",
+      "const": "Anantnag-Rajouri",
+      "emails": [
+        "mp.kanganaltaf@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4944,
+      "name": "Sajda Ahmed",
+      "state": "West Bengal",
+      "const": "Uluberia",
+      "emails": [
+        "sajda.ahmed@mpls.sansad.in",
+        "sajda.admed@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5788,
+      "name": "Angomcha Bimol Akoijam",
+      "state": "Manipur",
+      "const": "Inner Manipur",
+      "emails": [
+        "bimol.akoijam@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3464,
+      "name": "Lovely Anand",
+      "state": "Bihar",
+      "const": "Sheohar",
+      "emails": [
+        "lovely.anandmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5528,
+      "name": "D M Kathir Anand",
+      "state": "Tamil Nadu",
+      "const": "Vellore",
+      "emails": [
+        "dmk.kathir@mpls.sansad.in",
+        "dmk.kathir@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4969,
+      "name": "C N Annadurai",
+      "state": "Tamil Nadu",
+      "const": "Tiruvannamalai",
+      "emails": [
+        "cn.annadurai@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4170,
+      "name": "Afzal Ansari",
+      "state": "Uttar Pradesh",
+      "const": "Ghazipur",
+      "emails": [
+        "afzalansari@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4571,
+      "name": "Anto Antony",
+      "state": "Kerala",
+      "const": "Pathanamthitta",
+      "emails": [
+        "anto.antony@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2664,
+      "name": "Tariq Anwar",
+      "state": "Bihar",
+      "const": "Katihar",
+      "emails": [
+        "tariq.anwar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5582,
+      "name": "Alfred Kanngam S Arthur",
+      "state": "Manipur",
+      "const": "Outer Manipur",
+      "emails": [
+        "alfred.arthur@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5703,
+      "name": "D K Aruna",
+      "state": "Telangana",
+      "const": "Mahbubnagar",
+      "emails": [
+        "kottam.aruna@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5684,
+      "name": "Bhumare Sandipanrao Asaram",
+      "state": "Maharashtra",
+      "const": "Aurangabad",
+      "emails": [
+        "sandipanbhumare.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4940,
+      "name": "Gurjeet Singh Aujla",
+      "state": "Punjab",
+      "const": "Amritsar",
+      "emails": [
+        "aujla.gs@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5608,
+      "name": "Ramesh Awasthi",
+      "state": "Uttar Pradesh",
+      "const": "Kanpur",
+      "emails": [
+        "ramesh.awasthi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4552,
+      "name": "Manickam Tagore B",
+      "state": "Tamil Nadu",
+      "const": "Virudhunagar",
+      "emails": [
+        "manickam.tagore@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 26,
+      "name": "T R Baalu",
+      "state": "Tamil Nadu",
+      "const": "Sriperumbudur",
+      "emails": [
+        "trbalu.1941@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5655,
+      "name": "M Mallesh Babu",
+      "state": "Karnataka",
+      "const": "Kolar",
+      "emails": [
+        "mallesh1.mbabu@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5714,
+      "name": "Patel Umeshbhai Babubhai",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "const": "Daman and Diu",
+      "emails": [
+        "umesh.babubhaipatel@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4433,
+      "name": "Harsimrat Kaur Badal",
+      "state": "Punjab",
+      "const": "Bathinda",
+      "emails": [
+        "harsimratk.badal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 31,
+      "name": "S  P Singh Baghel",
+      "state": "Uttar Pradesh",
+      "const": "Agra",
+      "emails": [
+        "spsingh.baghel@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5007,
+      "name": "Vijay Baghel",
+      "state": "Chhattisgarh",
+      "const": "Durg",
+      "emails": [
+        "vijay.baghel@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5722,
+      "name": "G M Harish Balayogi",
+      "state": "Andhra Pradesh",
+      "const": "Amalapuram",
+      "emails": [
+        "harish.ganti@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5557,
+      "name": "Anil Baluni",
+      "state": "Uttarakhand",
+      "const": "Garhwal",
+      "emails": [
+        "anil.baluni71@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5739,
+      "name": "Chavan Vasantrao Balwantrao",
+      "state": "Maharashtra",
+      "const": "Nanded",
+      "emails": [
+        "vasant.chavan699@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 5614,
+      "name": "Nimuben Jayantibhai Bambhaniya",
+      "state": "Gujarat",
+      "const": "Bhavnagar",
+      "emails": [
+        "nimuben.bambhania@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 38,
+      "name": "Sudip Bandyopadhyay",
+      "state": "West Bengal",
+      "const": "Kolkata Uttar",
+      "emails": [
+        "sudip@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4843,
+      "name": "Abhishek Banerjee",
+      "state": "West Bengal",
+      "const": "Diamond Harbour",
+      "emails": [
+        "abhishek.banerjee@mpls.sansad.in",
+        "abhishek.banerjee@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4498,
+      "name": "Kalyan Banerjee",
+      "state": "West Bengal",
+      "const": "Sreerampur",
+      "emails": [
+        "banerjee.kalyan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4583,
+      "name": "Prasun Banerjee",
+      "state": "West Bengal",
+      "const": "Howrah",
+      "emails": [
+        "prasun.banerjee@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5638,
+      "name": "Rachna Banerjee",
+      "state": "West Bengal",
+      "const": "Hooghly",
+      "emails": [
+        "banerjee.rachna@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5640,
+      "name": "Aashtikar Patil Nagesh Bapurao",
+      "state": "Maharashtra",
+      "const": "Hingoli",
+      "emails": [
+        "patil.nagesh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5611,
+      "name": "Shobhanaben Mahendrasinh Baraiya",
+      "state": "Gujarat",
+      "const": "Sabarkantha",
+      "emails": [
+        "shobha.bjp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4781,
+      "name": "Shrirang Appa Chandu Barne",
+      "state": "Maharashtra",
+      "const": "Maval",
+      "emails": [
+        "sc.barne@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4937,
+      "name": "Pradan Baruah",
+      "state": "Assam",
+      "const": "Lakhimpur",
+      "emails": [
+        "pradan.baruah@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5736,
+      "name": "Shyamkumar Daulat Barve",
+      "state": "Maharashtra",
+      "const": "Ramtek",
+      "emails": [
+        "shyam.kumarmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4561,
+      "name": "E T Mohammed Basheer",
+      "state": "Kerala",
+      "const": "Malappuram",
+      "emails": [
+        "basheer.et@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5548,
+      "name": "Joyanta Basumatary",
+      "state": "Assam",
+      "const": "Kokrajhar",
+      "emails": [
+        "basumatary.jayanta@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5833,
+      "name": "Jagadish Chandra Barma Basunia",
+      "state": "West Bengal",
+      "const": "Coochbehar",
+      "emails": [
+        "jagadish.chandra@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5124,
+      "name": "Benny Behanan",
+      "state": "Kerala",
+      "const": "Chalakudy",
+      "emails": [
+        "benny.behanan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5595,
+      "name": "Rabindra Narayan Behera",
+      "state": "Odisha",
+      "const": "Jajpur",
+      "emails": [
+        "rnbehera@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5205,
+      "name": "Hanuman Beniwal",
+      "state": "Rajasthan",
+      "const": "Nagaur",
+      "emails": [
+        "hanuman.beniwal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5762,
+      "name": "Ummeda Ram Beniwal",
+      "state": "Rajasthan",
+      "const": "Barmer",
+      "emails": [
+        "urb.mpbarmer@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4857,
+      "name": "Jaswantsinh Sumanbhai Bhabhor",
+      "state": "Gujarat",
+      "const": "Dahod",
+      "emails": [
+        "jasvantsinhs.bhabhor@mpls.sansad.in",
+        "jasvantsinhs.bhabhor@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5815,
+      "name": "Anand Bhadauria",
+      "state": "Uttar Pradesh",
+      "const": "Dhaurahra",
+      "emails": [
+        "anandbhadauria.29@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5741,
+      "name": "Bhaskar Murlidhar Bhagare",
+      "state": "Maharashtra",
+      "const": "Dindori",
+      "emails": [
+        "bhaskar.bhagare@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5742,
+      "name": "Sukhdeo Bhagat",
+      "state": "Jharkhand",
+      "const": "Lohardaga",
+      "emails": [
+        "bhagat.sukhdeo13@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5695,
+      "name": "Rajeev Bharadwaj",
+      "state": "Himachal Pradesh",
+      "const": "Kangra",
+      "emails": [
+        "rajeevbhardwaj.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5740,
+      "name": "Arun Bharti",
+      "state": "Bihar",
+      "const": "Jamui",
+      "emails": [
+        "arunbharti.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5824,
+      "name": "Misha Bharti",
+      "state": "Bihar",
+      "const": "Pataliputra",
+      "emails": [
+        "misha.bharti@mpls.sansad.in",
+        "misha.bharti@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5003,
+      "name": "Ajay Bhatt",
+      "state": "Uttarakhand",
+      "const": "Nainital-Udhamsingh Nagar",
+      "emails": [
+        "ajay.bhatt@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4389,
+      "name": "Udayanraje Pratapsinha Maharaj Bhonsle",
+      "state": "Maharashtra",
+      "const": "Satara",
+      "emails": [
+        "udayanraje.bhonsle@mpls.sansad.in",
+        "udayanraje.bhonsle@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5660,
+      "name": "Partha Bhowmick",
+      "state": "West Bengal",
+      "const": "Barrackpur",
+      "emails": [
+        "forever.partha@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5745,
+      "name": "Srinivasa Varma B J P Varma Bhupathiraju",
+      "state": "Andhra Pradesh",
+      "const": "Narsapuram",
+      "emails": [
+        "varma.bjp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5543,
+      "name": "Ramvir Singh Bidhuri",
+      "state": "NCT of Delhi",
+      "const": "South Delhi",
+      "emails": [
+        "ramvirsingh.bidhuri@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5607,
+      "name": "Vinod Kumar Bind",
+      "state": "Uttar Pradesh",
+      "const": "Bhadohi",
+      "emails": [
+        "binod.kumarbind@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4716,
+      "name": "Om Birla",
+      "state": "Rajasthan",
+      "const": "Kota",
+      "emails": [
+        "ls_speaker@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 5042,
+      "name": "Raju Bista",
+      "state": "West Bengal",
+      "const": "Darjeeling",
+      "emails": [
+        "rajubista@mpls.sansad.in",
+        "raju.bista@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5561,
+      "name": "Basavaraj Bommai",
+      "state": "Karnataka",
+      "const": "Haveri",
+      "emails": [
+        "bommai.basavaraj@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5108,
+      "name": "Pradyut Bordoloi",
+      "state": "Assam",
+      "const": "Nagaon",
+      "emails": [
+        "pradyut.bordoloi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5758,
+      "name": "Sunil Bose",
+      "state": "Karnataka",
+      "const": "Chamarajanagar",
+      "emails": [
+        "sunilbose.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5585,
+      "name": "Satpal Brahamchari",
+      "state": "Haryana",
+      "const": "Sonipat",
+      "emails": [
+        "satpal.brahmchari@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5629,
+      "name": "Robert Bruce C",
+      "state": "Tamil Nadu",
+      "const": "Tirunelveli",
+      "emails": [
+        "robert.bruce@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5779,
+      "name": "Raj Kumar Chabbewal",
+      "state": "Punjab",
+      "const": "Hoshiarpur",
+      "emails": [
+        "drrajkumar.chabbewal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5142,
+      "name": "Rajkumar Chahar",
+      "state": "Uttar Pradesh",
+      "const": "Fatehpur Sikri",
+      "emails": [
+        "rajkumar.chahar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5778,
+      "name": "Arup Chakraborty",
+      "state": "West Bengal",
+      "const": "Bankura",
+      "emails": [
+        "arupchakraborty.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3984,
+      "name": "Gaddigoudar Parvatagouda Chandanagouda",
+      "state": "Karnataka",
+      "const": "Bagalkot",
+      "emails": [
+        "pc.gaddigoudar@mpls.sansad.in",
+        "pc.gaddigoudar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5587,
+      "name": "Yogender Chandolia",
+      "state": "NCT of Delhi",
+      "const": "North West Delhi",
+      "emails": [
+        "yogender.chandolia@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5750,
+      "name": "Charanjit Singh Channi",
+      "state": "Punjab",
+      "const": "Jalandhar",
+      "emails": [
+        "mpls.channi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4597,
+      "name": "P P Chaudhary",
+      "state": "Rajasthan",
+      "const": "Pali",
+      "emails": [
+        "ppchaudhary@mpls.sansad.in",
+        "pp.chaudhary@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5803,
+      "name": "R K Chaudhary",
+      "state": "Uttar Pradesh",
+      "const": "Mohanlalganj",
+      "emails": [
+        "rk.chowdhary1954@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3261,
+      "name": "Ram Prasad Chaudhary",
+      "state": "Uttar Pradesh",
+      "const": "Basti",
+      "emails": [
+        "chaudhary.ramprasad@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5545,
+      "name": "Varun Chaudhry",
+      "state": "Haryana",
+      "const": "Ambala",
+      "emails": [
+        "varun.chaudhry@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5547,
+      "name": "Chandan Chauhan",
+      "state": "Uttar Pradesh",
+      "const": "Bijnor",
+      "emails": [
+        "chandanchauhan.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4858,
+      "name": "Devusinh Chauhan",
+      "state": "Gujarat",
+      "const": "Kheda",
+      "emails": [
+        "devu.sinh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5766,
+      "name": "Shahu Shahaji Chhatrapati",
+      "state": "Maharashtra",
+      "const": "Kolhapur",
+      "emails": [
+        "shahu.chhatrapatikol@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4859,
+      "name": "Chhotelal",
+      "state": "Uttar Pradesh",
+      "const": "Robertsganj",
+      "emails": [
+        "chhote.lal19@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4967,
+      "name": "Karti P Chidambaram",
+      "state": "Tamil Nadu",
+      "const": "Sivaganga",
+      "emails": [
+        "kartip.chidambaram@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5568,
+      "name": "Raj Bhushan Choudhary",
+      "state": "Bihar",
+      "const": "Muzaffarpur",
+      "emails": [
+        "drrajbhushan.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5795,
+      "name": "Iqra Choudhary",
+      "state": "Uttar Pradesh",
+      "const": "Kairana",
+      "emails": [
+        "choudhary.iqra1@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5203,
+      "name": "Bhagirath Choudhary",
+      "state": "Rajasthan",
+      "const": "Ajmer",
+      "emails": [
+        "bhagirath.choudhary@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5115,
+      "name": "Chandra Prakash Choudhary",
+      "state": "Jharkhand",
+      "const": "Giridih",
+      "emails": [
+        "cp.choudhary@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5613,
+      "name": "Darshan Singh Choudhary",
+      "state": "Madhya Pradesh",
+      "const": "Hoshangabad",
+      "emails": [
+        "darshan.choudhary@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5621,
+      "name": "Lumbaram Choudhary",
+      "state": "Rajasthan",
+      "const": "Jalore",
+      "emails": [
+        "lumbaram.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3479,
+      "name": "Pankaj Choudhary",
+      "state": "Uttar Pradesh",
+      "const": "Maharajganj",
+      "emails": [
+        "pankaj.chowdhary@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5707,
+      "name": "Roopkumari Choudhary",
+      "state": "Chhattisgarh",
+      "const": "Mahasamund",
+      "emails": [
+        "roopkumari.choudhary@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5834,
+      "name": "Isha Khan Choudhury",
+      "state": "West Bengal",
+      "const": "Maldaha Dakshin",
+      "emails": [
+        "isha.khan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5569,
+      "name": "Phani Bhusan Choudhury",
+      "state": "Assam",
+      "const": "Barpeta",
+      "emails": [
+        "phanibhusan.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 96,
+      "name": "Shivraj Singh Chouhan",
+      "state": "Madhya Pradesh",
+      "const": "Vidisha",
+      "emails": [
+        "chauhansr@mpls.sansad.in",
+        "chauhansr@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5663,
+      "name": "Anita Nagarsingh Chouhan",
+      "state": "Madhya Pradesh",
+      "const": "Ratlam",
+      "emails": [
+        "anita.nagarsingh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5627,
+      "name": "Captain Brijesh Chowta",
+      "state": "Karnataka",
+      "const": "Dakshina Kannada",
+      "emails": [
+        "captain.brijesh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4865,
+      "name": "Rajesh Naranbhai Chudasama",
+      "state": "Gujarat",
+      "const": "Junagadh",
+      "emails": [
+        "chudasamar.naranbhai@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 5817,
+      "name": "Malaiyarasan D",
+      "state": "Tamil Nadu",
+      "const": "Kallakurichi",
+      "emails": [
+        "malaiyarasan.dmk@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5024,
+      "name": "Bharatsinhji Shankarji Dabhi",
+      "state": "Gujarat",
+      "const": "Patan",
+      "emails": [
+        "bharatsinhji.dabhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5574,
+      "name": "Mukeshkumar Chandrakaant Dalal",
+      "state": "Gujarat",
+      "const": "Surat",
+      "emails": [
+        "mcdalal.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4489,
+      "name": "Kakoli Ghosh Dastidar",
+      "state": "West Bengal",
+      "const": "Barasat",
+      "emails": [
+        "kakoli.dastidar@mpls.sansad.in",
+        "kakoli.dastidar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5199,
+      "name": "Tatkare Sunil Dattatrey",
+      "state": "Maharashtra",
+      "const": "Raigad",
+      "emails": [
+        "sunil.tatkare55@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5671,
+      "name": "Biplab Kumar Deb",
+      "state": "Tripura",
+      "const": "Tripura West",
+      "emails": [
+        "biplabkumar.deb@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5575,
+      "name": "Kriti Devi Debbarman",
+      "state": "Tripura",
+      "const": "Tripura East",
+      "emails": [
+        "kriti.singh.debbarma@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 426,
+      "name": "Sangeeta Kumari Singh Deo",
+      "state": "Odisha",
+      "const": "Bolangir",
+      "emails": [
+        "sk.singhdeo@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5648,
+      "name": "Anil Yeshwant Desai",
+      "state": "Maharashtra",
+      "const": "Mumbai South Central",
+      "emails": [
+        "anil.desai@mpls.sansad.in",
+        "anil.desai@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5725,
+      "name": "Sanjay Uttamrao Deshmukh",
+      "state": "Maharashtra",
+      "const": "Yavatmal-Washim",
+      "emails": [
+        "sanjay.deshmukhmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4847,
+      "name": "Adhikari Deepak Dev",
+      "state": "West Bengal",
+      "const": "Ghatal",
+      "emails": [
+        "adhikari.deepak@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5096,
+      "name": "Lavu Sri Krishna Devarayalu",
+      "state": "Andhra Pradesh",
+      "const": "Narasaraopet",
+      "emails": [
+        "lavu.krishna14@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5116,
+      "name": "Annpurna Devi",
+      "state": "Jharkhand",
+      "const": "Kodarma",
+      "emails": [
+        "annpurnadevi.koderma@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5624,
+      "name": "Malvika Devi",
+      "state": "Odisha",
+      "const": "Kalahandi",
+      "emails": [
+        "malvikadevi.1@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5223,
+      "name": "Veena Devi",
+      "state": "Bihar",
+      "const": "Vaishali",
+      "emails": [
+        "mp.veenadevi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5577,
+      "name": "Vijaylakshmi Devi",
+      "state": "Bihar",
+      "const": "Siwan",
+      "emails": [
+        "vijaylakshmi.devi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5082,
+      "name": "Arvind Dharmapuri",
+      "state": "Telangana",
+      "const": "Nizamabad",
+      "emails": [
+        "arvind.dharmapuri@mpls.sansad.in",
+        "arvind.dharmapuri@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5562,
+      "name": "Anup Sanjay Dhotre",
+      "state": "Maharashtra",
+      "const": "Akola",
+      "emails": [
+        "dhotre.anup@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5773,
+      "name": "Bachhav Shobha Dinesh",
+      "state": "Maharashtra",
+      "const": "Dhule",
+      "emails": [
+        "dr.shobhataibachhav@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5657,
+      "name": "Jitendra Kumar Dohare",
+      "state": "Uttar Pradesh",
+      "const": "Etawah",
+      "emails": [
+        "jitender.doharey@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4324,
+      "name": "Nishikant Dubey",
+      "state": "Jharkhand",
+      "const": "Godda",
+      "emails": [
+        "nishikant.dubey@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5699,
+      "name": "Ashish Dubey",
+      "state": "Madhya Pradesh",
+      "const": "Jabalpur",
+      "emails": [
+        "ashishdubey.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5151,
+      "name": "Vijay Kumar Dubey",
+      "state": "Uttar Pradesh",
+      "const": "Kushi Nagar",
+      "emails": [
+        "vijaykumar.dubey@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5606,
+      "name": "Ranjit Dutta",
+      "state": "Assam",
+      "const": "Sonitpur",
+      "emails": [
+        "dutta.ranjit@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5125,
+      "name": "Hibi Eden",
+      "state": "Kerala",
+      "const": "Ernakulam",
+      "emails": [
+        "hibi.eden@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5710,
+      "name": "Captain Viriato Fernandes",
+      "state": "Goa",
+      "const": "South Goa",
+      "emails": [
+        "captain.viriato@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5071,
+      "name": "Anil Firojiya",
+      "state": "Madhya Pradesh",
+      "const": "Ujjain",
+      "emails": [
+        "anil.firojiya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4963,
+      "name": "Selvam G",
+      "state": "Tamil Nadu",
+      "const": "Kancheepuram",
+      "emails": [
+        "g.selvamdmk@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5771,
+      "name": "Vamsi Krishna Gaddam",
+      "state": "Telangana",
+      "const": "Peddapalle",
+      "emails": [
+        "vamsi.gaddam@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4923,
+      "name": "Nitin Jairam Gadkari",
+      "state": "Maharashtra",
+      "const": "Nagpur",
+      "emails": []
+    },
+    {
+      "mpsno": 5754,
+      "name": "Varsha Eknath Gaikwad",
+      "state": "Maharashtra",
+      "const": "Mumbai North Central",
+      "emails": [
+        "gaikwad.varsha3@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4676,
+      "name": "Dharamvira Gandhi",
+      "state": "Punjab",
+      "const": "Patiala",
+      "emails": [
+        "dharamv.gandhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4074,
+      "name": "Rahul Gandhi",
+      "state": "Uttar Pradesh",
+      "const": "Rae Bareli",
+      "emails": [
+        "rahul.gandhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5591,
+      "name": "Abhijit Gangopadhyay",
+      "state": "West Bengal",
+      "const": "Tamluk",
+      "emails": [
+        "abhijitgango.53@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5566,
+      "name": "Chhatrapal Singh Gangwar",
+      "state": "Uttar Pradesh",
+      "const": "Bareilly",
+      "emails": [
+        "dk.shivshakti@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3973,
+      "name": "Tapir Gao",
+      "state": "Arunachal Pradesh",
+      "const": "Arunachal East",
+      "emails": [
+        "tapirgao@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5549,
+      "name": "Atul Garg",
+      "state": "Uttar Pradesh",
+      "const": "Ghaziabad",
+      "emails": [
+        "atulgarg.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4603,
+      "name": "Satish Kumar Gautam",
+      "state": "Uttar Pradesh",
+      "const": "Aligarh",
+      "emails": [
+        "satish.gautam@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 138,
+      "name": "K. Francis George",
+      "state": "Kerala",
+      "const": "Kottayam",
+      "emails": [
+        "francis.george@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5785,
+      "name": "Sayani Ghosh",
+      "state": "West Bengal",
+      "const": "Jadavpur",
+      "emails": [
+        "sayani.ghosh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4432,
+      "name": "Sher Singh Ghubaya",
+      "state": "Punjab",
+      "const": "Firozpur",
+      "emails": [
+        "ss.ghubaya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4788,
+      "name": "Gaurav Gogoi",
+      "state": "Assam",
+      "const": "Jorhat",
+      "emails": [
+        "gaurav.gogoi@mpls.sansad.in",
+        "gourav.gogoi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5552,
+      "name": "Suresh Gopi",
+      "state": "Kerala",
+      "const": "Thrissur",
+      "emails": [
+        "suresh.gopi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5718,
+      "name": "K Gopinath",
+      "state": "Tamil Nadu",
+      "const": "Krishnagiri",
+      "emails": [
+        "k.gopinath005@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5564,
+      "name": "Arun Govil",
+      "state": "Uttar Pradesh",
+      "const": "Meerut",
+      "emails": [
+        "arungovil.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5551,
+      "name": "Piyush Vedprakash Goyal",
+      "state": "Maharashtra",
+      "const": "Mumbai North",
+      "emails": []
+    },
+    {
+      "mpsno": 4615,
+      "name": "Sudheer Gupta",
+      "state": "Madhya Pradesh",
+      "const": "Mandsour",
+      "emails": [
+        "sudhirgupta.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4629,
+      "name": "Krishan Pal Gurjar",
+      "state": "Haryana",
+      "const": "Faridabad",
+      "emails": [
+        "krishanpal.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5534,
+      "name": "Maddila Gurumoorthy",
+      "state": "Andhra Pradesh",
+      "const": "Tirupati",
+      "emails": [
+        "maddila.gurumoorthy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5774,
+      "name": "Bapi Haldar",
+      "state": "West Bengal",
+      "const": "Mathurapur",
+      "emails": [
+        "bapihaldar.04@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5808,
+      "name": "Mohmad Haneefa",
+      "state": "Ladakh",
+      "const": "Ladakh",
+      "emails": [
+        "m.haneefajan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4866,
+      "name": "Vijay Kumar Hansdak",
+      "state": "Jharkhand",
+      "const": "Rajmahal",
+      "emails": [
+        "vijay.rajmahal1@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5829,
+      "name": "Gurmeet Singh Meet Hayer",
+      "state": "Punjab",
+      "const": "Sangrur",
+      "emails": [
+        "meet.hayer@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5719,
+      "name": "K Rajashekar Basavaraj Hitnal",
+      "state": "Karnataka",
+      "const": "Koppal",
+      "emails": [
+        "rajuk.hitnal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4207,
+      "name": "Deepender Singh Hooda",
+      "state": "Haryana",
+      "const": "Rohtak",
+      "emails": [
+        "ds.hooda@mpls.sansad.in",
+        "ds.hooda@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5724,
+      "name": "Rakibul Hussain",
+      "state": "Assam",
+      "const": "Dhubri",
+      "emails": [
+        "rakibul.hussain@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5730,
+      "name": "Kuldeep Indora",
+      "state": "Rajasthan",
+      "const": "Ganganagar",
+      "emails": [
+        "kuldeep.indora@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4490,
+      "name": "Nurul Islam",
+      "state": "West Bengal",
+      "const": "Basirhat",
+      "emails": [
+        "mp.nurulislam@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5571,
+      "name": "Rajpalsinh Mahendrasinh Jadav",
+      "state": "Gujarat",
+      "const": "Panchmahal",
+      "emails": [
+        "rajpal.sinh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4373,
+      "name": "Prataprao Ganpatrao Jadhav",
+      "state": "Maharashtra",
+      "const": "Buldhana",
+      "emails": [
+        "prataprao.jadhav@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4735,
+      "name": "Sanjay Haribhau Jadhav",
+      "state": "Maharashtra",
+      "const": "Parbhani",
+      "emails": [
+        "jadhav.sanjay@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 157,
+      "name": "Dr. S Jagathratchakan",
+      "state": "Tamil Nadu",
+      "const": "Arakkonam",
+      "emails": [
+        "arakkonammp.2019@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4455,
+      "name": "Sanjay Jaiswal",
+      "state": "Bihar",
+      "const": "Paschim Champaran",
+      "emails": [
+        "dr.sanjayjaiswal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5673,
+      "name": "Manish Jaiswal",
+      "state": "Jharkhand",
+      "const": "Hazaribagh",
+      "emails": [
+        "manishjhzb.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5567,
+      "name": "S Supongmeren Jamir",
+      "state": "Nagaland",
+      "const": "Nagaland",
+      "emails": [
+        "ss.jamir@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5709,
+      "name": "Kamlesh Jangde",
+      "state": "Chhattisgarh",
+      "const": "Janjgir-Champa",
+      "emails": [
+        "kamlesh.jangde@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5831,
+      "name": "Priyanka Satish Jarkiholi",
+      "state": "Karnataka",
+      "const": "Chikkodi",
+      "emails": [
+        "priyanka.satish@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5734,
+      "name": "Bhajan Lal Jatav",
+      "state": "Rajasthan",
+      "const": "Karauli-Dholpur",
+      "emails": [
+        "jatav.bhajanlal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5690,
+      "name": "Sanjna Jatav",
+      "state": "Rajasthan",
+      "const": "Bharatpur",
+      "emails": [
+        "sanjna.official88@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5216,
+      "name": "Mohammad Jawed",
+      "state": "Bihar",
+      "const": "Kishanganj",
+      "emails": [
+        "mohammad.jawed@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 25,
+      "name": "Azad Kirti Jha",
+      "state": "West Bengal",
+      "const": "Bardhaman-Durgapur",
+      "emails": [
+        "kirti.azad@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 170,
+      "name": "Ramesh Chandappa Jigajinagi",
+      "state": "Karnataka",
+      "const": "Bijapur",
+      "emails": [
+        "rameshj@mpls.sansad.in",
+        "rameshj@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4041,
+      "name": "Naveen Jindal",
+      "state": "Haryana",
+      "const": "Kurukshetra",
+      "emails": [
+        "naveen.jindal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5570,
+      "name": "Hemang Joshi",
+      "state": "Gujarat",
+      "const": "Vadodara",
+      "emails": [
+        "drhemang.joshi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4671,
+      "name": "Chandra Prakash Joshi",
+      "state": "Rajasthan",
+      "const": "Chittorgarh",
+      "emails": [
+        "cpjoshi.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3982,
+      "name": "Pralhad Joshi",
+      "state": "Karnataka",
+      "const": "Dharwad",
+      "emails": [
+        "joshi.pralhad@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4981,
+      "name": "S Jothimani",
+      "state": "Tamil Nadu",
+      "const": "Karur",
+      "emails": [
+        "mp.jothimani@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5806,
+      "name": "Eswarasamy K",
+      "state": "Tamil Nadu",
+      "const": "Pollachi",
+      "emails": [
+        "eswarasamy.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4962,
+      "name": "Navaskani K",
+      "state": "Tamil Nadu",
+      "const": "Ramanathapuram",
+      "emails": [
+        "navaskani.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4086,
+      "name": "Subbarayan K",
+      "state": "Tamil Nadu",
+      "const": "Tiruppur",
+      "emails": [
+        "k.subbarayan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5554,
+      "name": "Vishweshwar Hegde Kageri",
+      "state": "Karnataka",
+      "const": "Uttara Kannada",
+      "emails": [
+        "vishweshwar.kageri@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5767,
+      "name": "Kalyan Vaijinathrao Kale",
+      "state": "Maharashtra",
+      "const": "Jalna",
+      "emails": [
+        "drkvkale.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5820,
+      "name": "Amar Sharadrao Kale",
+      "state": "Maharashtra",
+      "const": "Wardha",
+      "emails": [
+        "amarsharadraokale.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5746,
+      "name": "Shivaji Bandappa Kalge",
+      "state": "Maharashtra",
+      "const": "Latur",
+      "emails": [
+        "kalge.shivaji@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5697,
+      "name": "Appalanaidu Kalisetti",
+      "state": "Andhra Pradesh",
+      "const": "Vizianagaram",
+      "emails": [
+        "naidukalisetti.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5222,
+      "name": "Dileshwar Kamait",
+      "state": "Bihar",
+      "const": "Supaul",
+      "emails": [
+        "kamait.dileshwar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5721,
+      "name": "Malvinder Singh Kang",
+      "state": "Punjab",
+      "const": "Anandpur Sahib",
+      "emails": [
+        "malvinder.singh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4616,
+      "name": "Shobha Karandlaje",
+      "state": "Karnataka",
+      "const": "Bangalore North",
+      "emails": [
+        "karandlaje.shobha@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5559,
+      "name": "Govind Makthappa Karjol",
+      "state": "Karnataka",
+      "const": "Chitradurga",
+      "emails": [
+        "gm.karjol@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4960,
+      "name": "Kanimozhi Karunanidhi",
+      "state": "Tamil Nadu",
+      "const": "Thoothukkudi",
+      "emails": [
+        "kanimozhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5626,
+      "name": "Mahesh Kashyap",
+      "state": "Chhattisgarh",
+      "const": "Bastar",
+      "emails": [
+        "mahesh.kashyap@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5113,
+      "name": "Suresh Kumar Kashyap",
+      "state": "Himachal Pradesh",
+      "const": "Shimla",
+      "emails": [
+        "suresh.kumar15@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4654,
+      "name": "Rahul Kaswan",
+      "state": "Rajasthan",
+      "const": "Churu",
+      "emails": [
+        "rahul.kaswan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5783,
+      "name": "Kadiyam Kavya",
+      "state": "Telangana",
+      "const": "Warangal",
+      "emails": [
+        "drkadiyam.kavya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4722,
+      "name": "Raksha Nikhil Khadse",
+      "state": "Maharashtra",
+      "const": "Raver",
+      "emails": [
+        "nr.khadase@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5738,
+      "name": "Sarabjeet Singh Khalsa",
+      "state": "Punjab",
+      "const": "Faridkot",
+      "emails": [
+        "sarabjeet.84@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5052,
+      "name": "Abu Taher Khan",
+      "state": "West Bengal",
+      "const": "Murshidabad",
+      "emails": [
+        "abu.taher@mpls.sansad.in",
+        "abu.taher@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4875,
+      "name": "Saumitra Khan",
+      "state": "West Bengal",
+      "const": "Bishnupur",
+      "emails": [
+        "khan.saumitra@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5661,
+      "name": "Praveen Khandelwal",
+      "state": "NCT of Delhi",
+      "const": "Chandni Chowk",
+      "emails": [
+        "p.khandelwal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5791,
+      "name": "Sagar Eshwar Khandre",
+      "state": "Karnataka",
+      "const": "Bidar",
+      "emails": [
+        "sagar.khandre@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5825,
+      "name": "Kalipada Saren Kherwal",
+      "state": "West Bengal",
+      "const": "Jhargram",
+      "emails": [
+        "kalipada.saren@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5144,
+      "name": "Ravindra Shukla Alias Ravi Kishan",
+      "state": "Uttar Pradesh",
+      "const": "Gorakhpur",
+      "emails": [
+        "ravindra.shukla@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4720,
+      "name": "Jugal Kishore",
+      "state": "Jammu and Kashmir",
+      "const": "Jammu",
+      "emails": [
+        "j.kishore@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5185,
+      "name": "Amol Ramsing Kolhe",
+      "state": "Maharashtra",
+      "const": "Shirur",
+      "emails": [
+        "amolkolhe@mpls.sansad.in",
+        "amol.kolhe@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 207,
+      "name": "Faggan Singh Kulaste",
+      "state": "Madhya Pradesh",
+      "const": "Mandla",
+      "emails": [
+        "fskulaste@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5612,
+      "name": "Anand Kumar",
+      "state": "Uttar Pradesh",
+      "const": "Bahraich",
+      "emails": [
+        "dranandkumar.56@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4972,
+      "name": "D Ravi Kumar",
+      "state": "Tamil Nadu",
+      "const": "Viluppuram",
+      "emails": [
+        "ravikumar.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 515,
+      "name": "Virendra Kumar",
+      "state": "Madhya Pradesh",
+      "const": "Tikamgarh",
+      "emails": [
+        "vkumar@mpls.sansad.in",
+        "vkumar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5076,
+      "name": "Bandi Sanjay Kumar",
+      "state": "Telangana",
+      "const": "Karimnagar",
+      "emails": [
+        "njay.indian@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4467,
+      "name": "Kaushalendra Kumar",
+      "state": "Bihar",
+      "const": "Nalanda",
+      "emails": [
+        "kaushalendra.k@mpls.sansad.in",
+        "kaushalendra.k@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5578,
+      "name": "Manoj Kumar",
+      "state": "Bihar",
+      "const": "Sasaram",
+      "emails": [
+        "manojkumar.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5726,
+      "name": "Putta Mahesh Kumar",
+      "state": "Andhra Pradesh",
+      "const": "Eluru",
+      "emails": [
+        "mahesh.eluru@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5530,
+      "name": "Sunil Kumar",
+      "state": "Bihar",
+      "const": "Valmiki Nagar",
+      "emails": [
+        "sunilkumar.7jul@mpls.sansad.in",
+        "sunilkumar.7jul@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3711,
+      "name": "H D Kumaraswamy",
+      "state": "Karnataka",
+      "const": "Mandya",
+      "emails": [
+        "hd.kumaraswamy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3589,
+      "name": "Kumari Selja",
+      "state": "Haryana",
+      "const": "Sirsa",
+      "emails": [
+        "kumariselja.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5126,
+      "name": "Dean Kuriakose",
+      "state": "Kerala",
+      "const": "Idukki",
+      "emails": [
+        "dean.kuriakose@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5609,
+      "name": "Bharat Singh Kushwah",
+      "state": "Madhya Pradesh",
+      "const": "Gwalior",
+      "emails": [
+        "bharat.kushwah@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5635,
+      "name": "Babu Singh Kushwaha",
+      "state": "Uttar Pradesh",
+      "const": "Jaunpur",
+      "emails": [
+        "bs.kushwaha@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4741,
+      "name": "Chavda Vinod Lakhamshi",
+      "state": "Gujarat",
+      "const": "Kachchh",
+      "emails": [
+        "chavdav.lakhamashi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5584,
+      "name": "G Lakshminarayana",
+      "state": "Andhra Pradesh",
+      "const": "Anantapur",
+      "emails": [
+        "glakshmi.narayana@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5546,
+      "name": "Kishori Lal",
+      "state": "Uttar Pradesh",
+      "const": "Amethi",
+      "emails": [
+        "kishorilal.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5792,
+      "name": "Manohar Lal",
+      "state": "Haryana",
+      "const": "Karnal",
+      "emails": [
+        "manohar.lalmp2024@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5065,
+      "name": "Shankar Lalwani",
+      "state": "Madhya Pradesh",
+      "const": "Indore",
+      "emails": [
+        "shankar.lalwani1@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5821,
+      "name": "Nilesh Dnyandev Lanke",
+      "state": "Maharashtra",
+      "const": "Ahmednagar",
+      "emails": [
+        "nilesh.lanke333@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5784,
+      "name": "Ajendra Singh Lodhi",
+      "state": "Uttar Pradesh",
+      "const": "Hamirpur",
+      "emails": [
+        "ajendra.lodhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5689,
+      "name": "Rahul Singh Lodhi",
+      "state": "Madhya Pradesh",
+      "const": "Damoh",
+      "emails": [
+        "rahulsingh.lodhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5819,
+      "name": "Tharaniventhan M S",
+      "state": "Tamil Nadu",
+      "const": "Arani",
+      "emails": [
+        "tharaniventhan.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4751,
+      "name": "Poonamben Hematbhai Maadam",
+      "state": "Gujarat",
+      "const": "Jamnagar",
+      "emails": [
+        "poonam.maadam@mpls.sansad.in",
+        "poonam.maadam@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5809,
+      "name": "Utkarsh Verma Madhur",
+      "state": "Uttar Pradesh",
+      "const": "Kheri",
+      "emails": [
+        "utkarshverma.madhur@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5011,
+      "name": "Jyotsna Charandas Mahant",
+      "state": "Chhattisgarh",
+      "const": "Korba",
+      "emails": [
+        "jyotsna.mahant@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5702,
+      "name": "Chintamani Maharaj",
+      "state": "Chhattisgarh",
+      "const": "Surguja",
+      "emails": [
+        "chintamani.maharaj@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4705,
+      "name": "Bidyut Baran Mahato",
+      "state": "Jharkhand",
+      "const": "Jamshedpur",
+      "emails": [
+        "mp.bidyutmahato@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5664,
+      "name": "Dulu Mahato",
+      "state": "Jharkhand",
+      "const": "Dhanbad",
+      "emails": [
+        "dulu.mahto@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5053,
+      "name": "Jyotirmay Singh Mahato",
+      "state": "West Bengal",
+      "const": "Purulia",
+      "emails": [
+        "jyotirmay.singh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 225,
+      "name": "Bhartruhari Mahtab",
+      "state": "Odisha",
+      "const": "Cuttack",
+      "emails": [
+        "bmahtab@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4796,
+      "name": "Balabhadra Majhi",
+      "state": "Odisha",
+      "const": "Nabarangpur",
+      "emails": [
+        "balabhadra.majhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5672,
+      "name": "Naba Charan Majhi",
+      "state": "Odisha",
+      "const": "Mayurbhanj",
+      "emails": [
+        "nabacharan.majhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5827,
+      "name": "Joba Majhi",
+      "state": "Jharkhand",
+      "const": "Singhbhum",
+      "emails": [
+        "joba.majhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5035,
+      "name": "Sukanta Majumdar",
+      "state": "West Bengal",
+      "const": "Balurghat",
+      "emails": [
+        "sukanta.majumdar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5694,
+      "name": "Dineshbhai Makwana",
+      "state": "Gujarat",
+      "const": "Ahmedabad West",
+      "emails": [
+        "dinesh.makwana@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5040,
+      "name": "Asit Kumar Mal",
+      "state": "West Bengal",
+      "const": "Bolpur",
+      "emails": [
+        "asit.mal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5563,
+      "name": "Harsh Malhotra",
+      "state": "NCT of Delhi",
+      "const": "East Delhi",
+      "emails": [
+        "harshdeep.malhotra@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5816,
+      "name": "June Maliah",
+      "state": "West Bengal",
+      "const": "Medinipur",
+      "emails": [
+        "june.maliah@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5631,
+      "name": "Harendra Singh Malik",
+      "state": "Uttar Pradesh",
+      "const": "Muzaffarnagar",
+      "emails": [
+        "harendrasingh.malik@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4619,
+      "name": "Hema Malini",
+      "state": "Uttar Pradesh",
+      "const": "Mathura",
+      "emails": [
+        "h.malini@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5106,
+      "name": "Kripanath Mallah",
+      "state": "Assam",
+      "const": "Karimganj",
+      "emails": [
+        "kripanath.mallah@mpls.sansad.in",
+        "kripanath.mallah@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5753,
+      "name": "Prabha Mallikarjun",
+      "state": "Karnataka",
+      "const": "Davanagere",
+      "emails": [
+        "prabha.mallikarjun@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5170,
+      "name": "Ajay Kumar Mandal",
+      "state": "Bihar",
+      "const": "Bhagalpur",
+      "emails": [
+        "ajaykumar.mandal@mpls.sansad.in",
+        "ajaykumar.mandal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5214,
+      "name": "Ramprit Mandal",
+      "state": "Bihar",
+      "const": "Jhanjharpur",
+      "emails": [
+        "ramprit.mandal@sansad.nic",
+        "ramprit.mandal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5555,
+      "name": "Mansukh Mandaviya",
+      "state": "Gujarat",
+      "const": "Porbandar",
+      "emails": [
+        "mansukh.mandaviya@mpls.sansad.in",
+        "mansukh.mandaviya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5187,
+      "name": "Dhairyasheel Sambhajirao Mane",
+      "state": "Maharashtra",
+      "const": "Hatkanangle",
+      "emails": [
+        "mp.dsmane@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5688,
+      "name": "Shashank Mani",
+      "state": "Uttar Pradesh",
+      "const": "Deoria",
+      "emails": [
+        "shashank.mani@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5558,
+      "name": "Jitan Ram Manjhi",
+      "state": "Bihar",
+      "const": "Gaya",
+      "emails": [
+        "jrm.sansadgaya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5590,
+      "name": "C N Manjunath",
+      "state": "Karnataka",
+      "const": "Bangalore Rural",
+      "emails": [
+        "drcnmanjunath.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4144,
+      "name": "Dayanidhi Maran",
+      "state": "Tamil Nadu",
+      "const": "Chennai Central",
+      "emails": [
+        "dmaran.office@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5589,
+      "name": "Imran Masood",
+      "state": "Uttar Pradesh",
+      "const": "Saharanpur",
+      "emails": [
+        "imran.masood@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5623,
+      "name": "Sribharat Mathukumilli",
+      "state": "Andhra Pradesh",
+      "const": "Visakhapatnam",
+      "emails": [
+        "sribharat.m@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5637,
+      "name": "Neeraj Maurya",
+      "state": "Uttar Pradesh",
+      "const": "Aonla",
+      "emails": [
+        "neerajmaurya.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5603,
+      "name": "Bijuli Kalita Medhi",
+      "state": "Assam",
+      "const": "Guwahati",
+      "emails": [
+        "bijulikalita.medhi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4640,
+      "name": "Harish Chandra Meena",
+      "state": "Rajasthan",
+      "const": "Tonk-Sawai Madhopur",
+      "emails": [
+        "meena.harishchandra@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5717,
+      "name": "Murari Lal Meena",
+      "state": "Rajasthan",
+      "const": "Dausa",
+      "emails": [
+        "mlmeena.700@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4399,
+      "name": "Arjun Ram Meghwal",
+      "state": "Rajasthan",
+      "const": "Bikaner",
+      "emails": [
+        "ar.meghwal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5761,
+      "name": "Aga Syed Ruhullah Mehdi",
+      "state": "Jammu and Kashmir",
+      "const": "Srinagar",
+      "emails": [
+        "ruhullah.mehdi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5683,
+      "name": "Mahima Kumari Mewar",
+      "state": "Rajasthan",
+      "const": "Rajsamand",
+      "emails": [
+        "mahima.kumari@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5693,
+      "name": "Naresh Ganpat Mhaske",
+      "state": "Maharashtra",
+      "const": "Thane",
+      "emails": [
+        "nareshmhaske.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5644,
+      "name": "Balya Mama Suresh Gopinath Mhatre",
+      "state": "Maharashtra",
+      "const": "Bhiwandi",
+      "emails": [
+        "suresh.mhatre1701@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5579,
+      "name": "Rajesh Mishra",
+      "state": "Madhya Pradesh",
+      "const": "Sidhi",
+      "emails": [
+        "drrajesh.vedanti@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4728,
+      "name": "Janardan Mishra",
+      "state": "Madhya Pradesh",
+      "const": "Rewa",
+      "emails": [
+        "janardan.mishra@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5777,
+      "name": "Bag Mitali",
+      "state": "West Bengal",
+      "const": "Arambag",
+      "emails": [
+        "bag.mitali@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4589,
+      "name": "Narendra Modi",
+      "state": "Uttar Pradesh",
+      "const": "Varanasi",
+      "emails": []
+    },
+    {
+      "mpsno": 4321,
+      "name": "P C Mohan",
+      "state": "Karnataka",
+      "const": "Bangalore Central",
+      "emails": [
+        "pc.mohan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5536,
+      "name": "Delkar Kalaben Mohanbhai",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "const": "Dadra and Nagar Haveli",
+      "emails": [
+        "kalamohan.delkar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5705,
+      "name": "Murlidhar Mohol",
+      "state": "Maharashtra",
+      "const": "Pune",
+      "emails": [
+        "murlidhar.mohol@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5049,
+      "name": "Mahua Moitra",
+      "state": "West Bengal",
+      "const": "Krishnanagar",
+      "emails": [
+        "mahua.moitra@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4871,
+      "name": "Pratima Mondal",
+      "state": "West Bengal",
+      "const": "Jaynagar",
+      "emails": [
+        "pratima.mondal@mpls.sansad.in",
+        "pratima.mondal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5810,
+      "name": "Kali Charan Munda",
+      "state": "Jharkhand",
+      "const": "Khunti",
+      "emails": [
+        "kalicharan.munda@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5050,
+      "name": "Khagen Murmu",
+      "state": "West Bengal",
+      "const": "Maldaha Uttar",
+      "emails": [
+        "khagen.murmu@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5732,
+      "name": "Bhojraj Nag",
+      "state": "Chhattisgarh",
+      "const": "Kanker",
+      "emails": [
+        "bhojraj.nag01@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4702,
+      "name": "Rodmal Nagar",
+      "state": "Madhya Pradesh",
+      "const": "Rajgarh",
+      "emails": [
+        "rodmal.nagar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5601,
+      "name": "Bastipati Nagaraju",
+      "state": "Andhra Pradesh",
+      "const": "Kurnool",
+      "emails": [
+        "bastipati.nagaraju@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4804,
+      "name": "Godam Nagesh",
+      "state": "Telangana",
+      "const": "Adilabad",
+      "emails": [
+        "godam.nagesh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4771,
+      "name": "Kinjarapu Rammohan Naidu",
+      "state": "Andhra Pradesh",
+      "const": "Srikakulam",
+      "emails": [
+        "rammohannaidu.k@mpls.sansad.in",
+        "rammohannaidu.k@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5737,
+      "name": "G Kumar Naik",
+      "state": "Karnataka",
+      "const": "Raichur",
+      "emails": [
+        "kumar.raichur@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 273,
+      "name": "Shripad Yesso Naik",
+      "state": "Goa",
+      "const": "North Goa",
+      "emails": [
+        "shripad.naik@mpls.sansad.in",
+        "shripad.naik@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5727,
+      "name": "Kirsan Namdeo",
+      "state": "Maharashtra",
+      "const": "Gadchiroli-Chimur",
+      "emails": [
+        "nd.kirsan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 275,
+      "name": "Ananta Nayak",
+      "state": "Odisha",
+      "const": "Keonjhar",
+      "emails": [
+        "ananta.nayak@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5797,
+      "name": "Arun Nehru",
+      "state": "Tamil Nadu",
+      "const": "Perambalur",
+      "emails": [
+        "arun.nehru@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5813,
+      "name": "Laxmikant Pappu Nishad",
+      "state": "Uttar Pradesh",
+      "const": "Sant Kabir Nagar",
+      "emails": [
+        "laxmikantnishad.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5786,
+      "name": "Rambhual Nishad",
+      "state": "Uttar Pradesh",
+      "const": "Sultanpur",
+      "emails": [
+        "rambhual.nishad@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5720,
+      "name": "Brijendra Singh Ola",
+      "state": "Rajasthan",
+      "const": "Jhunjhunu",
+      "emails": [
+        "brijendra.ola@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 279,
+      "name": "Jual Oram",
+      "state": "Odisha",
+      "const": "Sundargarh",
+      "emails": [
+        "jualoram@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4091,
+      "name": "Asaduddin Owaisi",
+      "state": "Telangana",
+      "const": "Hyderabad",
+      "emails": [
+        "asad.owaisi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5807,
+      "name": "Ganapathy Rajkumar P",
+      "state": "Tamil Nadu",
+      "const": "Coimbatore",
+      "emails": [
+        "ganapathyrajkumar.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5760,
+      "name": "Gowaal Kagada Padavi",
+      "state": "Maharashtra",
+      "const": "Nandurbar",
+      "emails": [
+        "padavi.gowaal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5729,
+      "name": "Prashant Yadaorao Padole",
+      "state": "Maharashtra",
+      "const": "Bhandara-Gondiya",
+      "emails": [
+        "prashantpadole23.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4295,
+      "name": "Jagdambika Pal",
+      "state": "Uttar Pradesh",
+      "const": "Domariyaganj",
+      "emails": [
+        "jagdambika.pal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4422,
+      "name": "Baijayant Panda",
+      "state": "Odisha",
+      "const": "Kendrapara",
+      "emails": [
+        "bj.panda@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5580,
+      "name": "Sanatan Pandey",
+      "state": "Uttar Pradesh",
+      "const": "Ballia",
+      "emails": [
+        "sanatan.pandey@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5015,
+      "name": "Santosh Pandey",
+      "state": "Chhattisgarh",
+      "const": "Rajnandgaon",
+      "emails": [
+        "santosh.pandey666@mpls.sansad.in",
+        "santosh.pandey666@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5615,
+      "name": "Sukanta Kumar Panigrahi",
+      "state": "Odisha",
+      "const": "Kandhamal",
+      "emails": [
+        "skpanigrahi.od@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5708,
+      "name": "Pradeep Kumar Panigrahy",
+      "state": "Odisha",
+      "const": "Berhampur",
+      "emails": [
+        "pradeep.panigrahy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5805,
+      "name": "Rudra Narayan Pany",
+      "state": "Odisha",
+      "const": "Dhenkanal",
+      "emails": [
+        "rudranarayan.pany@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5698,
+      "name": "Shafi Parambil",
+      "state": "Kerala",
+      "const": "Vadakara",
+      "emails": [
+        "shafi.parambil@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5696,
+      "name": "Bharti Pardhi",
+      "state": "Madhya Pradesh",
+      "const": "Balaghat",
+      "emails": [
+        "bharti.pardhi1968@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3289,
+      "name": "Jai Parkash",
+      "state": "Haryana",
+      "const": "Hisar",
+      "emails": [
+        "jai.parkash54@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 292,
+      "name": "B K Parthasarathi",
+      "state": "Andhra Pradesh",
+      "const": "Hindupur",
+      "emails": [
+        "bk.parthasarathi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4777,
+      "name": "Chirag Paswan",
+      "state": "Bihar",
+      "const": "Hajipur",
+      "emails": [
+        "chirag.paswan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4303,
+      "name": "Kamlesh Paswan",
+      "state": "Uttar Pradesh",
+      "const": "Bansgaon",
+      "emails": [
+        "kamlesh.paswan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5643,
+      "name": "Shiv Pal Singh Patel",
+      "state": "Uttar Pradesh",
+      "const": "Pratapgarh",
+      "emails": [
+        "dr.spsinghpatel@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5665,
+      "name": "Dhaval Laxmanbhai Patel",
+      "state": "Gujarat",
+      "const": "Valsad",
+      "emails": [
+        "dhaval.valsadmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5067,
+      "name": "Gajendra  Singh Patel",
+      "state": "Madhya Pradesh",
+      "const": "Khargone",
+      "emails": [
+        "gs.patel@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5560,
+      "name": "Haribhai Patel",
+      "state": "Gujarat",
+      "const": "Mahesana",
+      "emails": [
+        "hari.patelmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5017,
+      "name": "Hasmukhbhai Somabhai Patel",
+      "state": "Gujarat",
+      "const": "Ahmedabad East",
+      "emails": [
+        "hasmukh.1160@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5018,
+      "name": "Miteshbhai Rameshbhai Patel",
+      "state": "Gujarat",
+      "const": "Anand",
+      "emails": [
+        "mp.anand@mpls.sansad.in",
+        "mp.anand@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5801,
+      "name": "Naresh Chandra Uttam Patel",
+      "state": "Uttar Pradesh",
+      "const": "Fatehpur",
+      "emails": [
+        "nareshchandra.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5583,
+      "name": "Praveen Patel",
+      "state": "Uttar Pradesh",
+      "const": "Phulpur",
+      "emails": [
+        "mppraveen.patel@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5751,
+      "name": "Shreyas M Patel",
+      "state": "Karnataka",
+      "const": "Hassan",
+      "emails": [
+        "shreyaspatel.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4662,
+      "name": "Anupriya Patel",
+      "state": "Uttar Pradesh",
+      "const": "Mirzapur",
+      "emails": [
+        "anupriyasingh.patel@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5594,
+      "name": "Krishna Devi Shivshankar Patel",
+      "state": "Uttar Pradesh",
+      "const": "Banda",
+      "emails": [
+        "krishnadevi.sp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4452,
+      "name": "Chandrakant Raghunath Patil",
+      "state": "Gujarat",
+      "const": "Navsari",
+      "emails": [
+        "cr.patil@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5535,
+      "name": "Gyaneshwar Patil",
+      "state": "Madhya Pradesh",
+      "const": "Khandwa",
+      "emails": [
+        "gyaneshwar.bjp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4393,
+      "name": "Sanjay Dina Patil",
+      "state": "Maharashtra",
+      "const": "Mumbai North East",
+      "emails": [
+        "sd.patil@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5756,
+      "name": "Vishaldada Prakashbapu Patil",
+      "state": "Maharashtra",
+      "const": "Sangli",
+      "emails": [
+        "vishalpatil.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5599,
+      "name": "Sambit Patra",
+      "state": "Odisha",
+      "const": "Puri",
+      "emails": [
+        "sambit.swaraj@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5691,
+      "name": "Kartick Chandra Paul",
+      "state": "West Bengal",
+      "const": "Raiganj",
+      "emails": [
+        "kartickpaul.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5636,
+      "name": "Chandra Sekhar Pemmasani",
+      "state": "Andhra Pradesh",
+      "const": "Guntur",
+      "emails": [
+        "dr.pemmasani@mpls.sansad.in",
+        "dr.pemmasani@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5711,
+      "name": "Kota Srinivasa Poojary",
+      "state": "Karnataka",
+      "const": "Udupi Chikmagalur",
+      "emails": [
+        "srinivasa.poojary@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4322,
+      "name": "Balram Naik Porika",
+      "state": "Telangana",
+      "const": "Mahabubabad",
+      "emails": [
+        "balram.naik@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3999,
+      "name": "Dharmendra Pradhan",
+      "state": "Odisha",
+      "const": "Sambalpur",
+      "emails": [
+        "d.pradhan@mpls.sansad.in",
+        "d.pradhan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5123,
+      "name": "Adoor Prakash",
+      "state": "Kerala",
+      "const": "Attingal",
+      "emails": [
+        "advadoor.prakash@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 159,
+      "name": "Jai Prakash",
+      "state": "Uttar Pradesh",
+      "const": "Hardoi",
+      "emails": [
+        "jaiprakash.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5770,
+      "name": "K E Prakash",
+      "state": "Tamil Nadu",
+      "const": "Erode",
+      "emails": [
+        "mp.erodeprakash@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4971,
+      "name": "M K Vishnu Prasad",
+      "state": "Tamil Nadu",
+      "const": "Cuddalore",
+      "emails": [
+        "dr.vishnuarani@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5780,
+      "name": "Awadhesh Prasad",
+      "state": "Uttar Pradesh",
+      "const": "Faizabad",
+      "emails": [
+        "awadheshprasad.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5219,
+      "name": "Ravi Shankar Prasad",
+      "state": "Bihar",
+      "const": "Patna Sahib",
+      "emails": []
+    },
+    {
+      "mpsno": 5641,
+      "name": "Sudama Prasad",
+      "state": "Bihar",
+      "const": "Arrah",
+      "emails": [
+        "sudama.prasad061@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4065,
+      "name": "Jitin Prasada",
+      "state": "Uttar Pradesh",
+      "const": "Pilibhit",
+      "emails": [
+        "prasada.jitin@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3754,
+      "name": "N K Premachandran",
+      "state": "Kerala",
+      "const": "Kollam",
+      "emails": [
+        "nk.premachandran@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5728,
+      "name": "Tanuj Punia",
+      "state": "Uttar Pradesh",
+      "const": "Barabanki",
+      "emails": [
+        "tanujpunia.67@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4022,
+      "name": "D. Purandeswari",
+      "state": "Andhra Pradesh",
+      "const": "Rajahmundry",
+      "emails": [
+        "purandeswari.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5668,
+      "name": "Pradeep Purohit",
+      "state": "Odisha",
+      "const": "Bargarh",
+      "emails": [
+        "pradeeppurohit.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5650,
+      "name": "Sudha R",
+      "state": "Tamil Nadu",
+      "const": "Mayiladuthurai",
+      "emails": [
+        "sudha.mayiladuthurai@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5628,
+      "name": "Sachithanantham R",
+      "state": "Tamil Nadu",
+      "const": "Dindigul",
+      "emails": [
+        "sachidgl.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5757,
+      "name": "Radhakrishna",
+      "state": "Karnataka",
+      "const": "Gulbarga",
+      "emails": [
+        "radhakrishna.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5812,
+      "name": "K Radhakrishnan",
+      "state": "Kerala",
+      "const": "Alathur",
+      "emails": [
+        "k.radhakrishnan64@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4560,
+      "name": "M K Raghavan",
+      "state": "Kerala",
+      "const": "Kozhikode",
+      "emails": [
+        "mk.raghavan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4570,
+      "name": "B Y Raghavendra",
+      "state": "Karnataka",
+      "const": "Shimoga",
+      "emails": [
+        "by.raghavendra@mpls.sansad.in",
+        "by.raghavendra@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5793,
+      "name": "Kunduru Raghuveer",
+      "state": "Telangana",
+      "const": "Nalgonda",
+      "emails": [
+        "kunduru.raghuveer@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5046,
+      "name": "Khalilur Rahaman",
+      "state": "West Bengal",
+      "const": "Jangipur",
+      "emails": [
+        "khalilur.rahaman@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4625,
+      "name": "Nityanand Rai",
+      "state": "Bihar",
+      "const": "Ujiarpur",
+      "emails": [
+        "nityanand.rai@mpls.sansad.in",
+        "nityanand.rai@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5769,
+      "name": "Rajeev Rai",
+      "state": "Uttar Pradesh",
+      "const": "Ghosi",
+      "emails": [
+        "rajeevrai.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4305,
+      "name": "Ramashankar  Vidharthi Rajbhar",
+      "state": "Uttar Pradesh",
+      "const": "Salempur",
+      "emails": [
+        "r.s.rajbhar03@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5731,
+      "name": "Eatala Rajender",
+      "state": "Telangana",
+      "const": "Malkajgiri",
+      "emails": [
+        "eatala.rajender@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5189,
+      "name": "Omprakash Bhupalsinh Alias Pavan Rajenimbalkar",
+      "state": "Maharashtra",
+      "const": "Osmanabad",
+      "emails": [
+        "op.rajenimbalkar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4666,
+      "name": "Mukesh Rajput",
+      "state": "Uttar Pradesh",
+      "const": "Farrukhabad",
+      "emails": [
+        "mukesh.rajput@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5649,
+      "name": "Mohite Patil Dhairyasheel Rajsinh",
+      "state": "Maharashtra",
+      "const": "Madha",
+      "emails": [
+        "d.mohitepatil@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5776,
+      "name": "Amra Ram",
+      "state": "Rajasthan",
+      "const": "Sikar",
+      "emails": [
+        "amraram.jpr@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4731,
+      "name": "Vishnu Dayal Ram",
+      "state": "Jharkhand",
+      "const": "Palamu",
+      "emails": [
+        "vishnudayal.ram@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5544,
+      "name": "C M Ramesh",
+      "state": "Andhra Pradesh",
+      "const": "Anakapalle",
+      "emails": [
+        "cm.ramesh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5652,
+      "name": "Kangna Ranaut",
+      "state": "Himachal Pradesh",
+      "const": "Mandi",
+      "emails": [
+        "kangna.ranaut@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5752,
+      "name": "Sukhjinder Singh Randhawa",
+      "state": "Punjab",
+      "const": "Gurdaspur",
+      "emails": [
+        "randhawa.sukhjinder@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5704,
+      "name": "Narayan Tatu Rane",
+      "state": "Maharashtra",
+      "const": "Ratnagiri-Sindhudurg",
+      "emails": [
+        "narayan.rane@mpls.sansad.in",
+        "narayan.rane@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5679,
+      "name": "Gumma Thanuja Rani",
+      "state": "Andhra Pradesh",
+      "const": "Araku",
+      "emails": [
+        "dr.thanujavinay@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 554,
+      "name": "Rajesh Ranjan",
+      "state": "Bihar",
+      "const": "Purnia",
+      "emails": [
+        "rajesh.ranjan19@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5670,
+      "name": "Daggumalla Prasada Rao",
+      "state": "Andhra Pradesh",
+      "const": "Chittoor",
+      "emails": [
+        "daggumalla.prasada@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5573,
+      "name": "Madhavaneni Raghunandan Rao",
+      "state": "Telangana",
+      "const": "Medak",
+      "emails": [
+        "mpmedak.24@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5678,
+      "name": "Radheshyam Rathiya",
+      "state": "Chhattisgarh",
+      "const": "Raigarh",
+      "emails": [
+        "radheshyam.rathiya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5743,
+      "name": "Rakesh Rathor",
+      "state": "Uttar Pradesh",
+      "const": "Sitapur",
+      "emails": [
+        "rakeshrathor.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5572,
+      "name": "Jashubhai Bhilubhai Rathva",
+      "state": "Gujarat",
+      "const": "Chhota Udaipur",
+      "emails": [
+        "jasubhai.99013@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3534,
+      "name": "Mallu Ravi",
+      "state": "Telangana",
+      "const": "Nagarkurnool",
+      "emails": [
+        "dr.malluravi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5622,
+      "name": "Manna Lal Rawat",
+      "state": "Rajasthan",
+      "const": "Udaipur",
+      "emails": [
+        "mannalal.rawat@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4096,
+      "name": "Ashok Kumar Rawat",
+      "state": "Uttar Pradesh",
+      "const": "Misrikh",
+      "emails": [
+        "ashok.rawat@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5556,
+      "name": "Trivendra Singh Rawat",
+      "state": "Uttarakhand",
+      "const": "Hardwar",
+      "emails": [
+        "tsrawat.bjp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2554,
+      "name": "Sougata Ray",
+      "state": "West Bengal",
+      "const": "Dum Dum",
+      "emails": [
+        "saugata.roy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 371,
+      "name": "Bishnu Pada Ray",
+      "state": "Andaman and Nicobar Islands",
+      "const": "Andaman and Nicobar Islands",
+      "emails": [
+        "bishnu.ray@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5058,
+      "name": "Sandhya Ray",
+      "state": "Madhya Pradesh",
+      "const": "Bhind",
+      "emails": [
+        "sandhya.ray@mpls.sansad.in",
+        "sandhya.ray@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5755,
+      "name": "Chamala Kiran Kumar Reddy",
+      "state": "Telangana",
+      "const": "Bhongir",
+      "emails": [
+        "chamala.kiran@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5084,
+      "name": "G Kishan Reddy",
+      "state": "Telangana",
+      "const": "Secunderabad",
+      "emails": [
+        "kishanreddy.g@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4800,
+      "name": "Konda Vishweshwar Reddy",
+      "state": "Telangana",
+      "const": "Chevella",
+      "emails": [
+        "kvishweshwar.reddy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3907,
+      "name": "Magunta Sreenivasulu Reddy",
+      "state": "Andhra Pradesh",
+      "const": "Ongole",
+      "emails": [
+        "reddy.magunta@mpls.sansad.in",
+        "reddy.magunta@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4688,
+      "name": "P V Midhun Reddy",
+      "state": "Andhra Pradesh",
+      "const": "Rajampet",
+      "emails": [
+        "midhun.reddy@mpls.sansad.in",
+        "midhun.reddy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5716,
+      "name": "Ramasahayam Raghuram Reddy",
+      "state": "Telangana",
+      "const": "Khammam",
+      "emails": [
+        "ramasahayam.reddy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4816,
+      "name": "Y S Avinash Reddy",
+      "state": "Andhra Pradesh",
+      "const": "Kadapa",
+      "emails": [
+        "ysavinash.reddy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5822,
+      "name": "Zia Ur Rehman",
+      "state": "Uttar Pradesh",
+      "const": "Sambhal",
+      "emails": [
+        "ziaurrehman.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3972,
+      "name": "Kiren Rijiju",
+      "state": "Arunachal Pradesh",
+      "const": "Arunachal West",
+      "emails": [
+        "kiren.rijiju@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5764,
+      "name": "Rajkumar Roat",
+      "state": "Rajasthan",
+      "const": "Banswara",
+      "emails": [
+        "roat.rajkumar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5045,
+      "name": "Jayanta Kumar Roy",
+      "state": "West Bengal",
+      "const": "Jalpaiguri",
+      "emails": [
+        "jayantakr.roy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5048,
+      "name": "Mala Roy",
+      "state": "West Bengal",
+      "const": "Kolkata Dakshin",
+      "emails": [
+        "malaroy.aitc@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4506,
+      "name": "Satabdi Roy",
+      "state": "West Bengal",
+      "const": "Birbhum",
+      "emails": [
+        "satabdi.roy@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 385,
+      "name": "Rajiv Pratap Rudy",
+      "state": "Bihar",
+      "const": "Saran",
+      "emails": [
+        "rudypr@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5598,
+      "name": "Parshottambhai Rupala",
+      "state": "Gujarat",
+      "const": "Rajkot",
+      "emails": [
+        "p.rupala@mpls.sansad.in",
+        "p.rupala@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5542,
+      "name": "Matheswaran V S",
+      "state": "Tamil Nadu",
+      "const": "Namakkal",
+      "emails": [
+        "vsmatheswaran.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5798,
+      "name": "Murasoli S",
+      "state": "Tamil Nadu",
+      "const": "Thanjavur",
+      "emails": [
+        "s.murasoli@mpls.sansad.in",
+        "s.murasoli@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5163,
+      "name": "Arun Kumar Sagar",
+      "state": "Uttar Pradesh",
+      "const": "Shahjahanpur",
+      "emails": [
+        "arunk.sagar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5666,
+      "name": "Bunty Vivek Sahu",
+      "state": "Madhya Pradesh",
+      "const": "Chhindwara",
+      "emails": [
+        "bunty.viveksahu@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5700,
+      "name": "Tokhan Sahu",
+      "state": "Chhattisgarh",
+      "const": "Bilaspur",
+      "emails": [
+        "tokhan.sahu@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5107,
+      "name": "Dilip Saikia",
+      "state": "Assam",
+      "const": "Darrang Udalguri",
+      "emails": [
+        "saikia.dilip@mpls.sansad.in",
+        "saikia.dilip@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3586,
+      "name": "Swami Sachidanand Hari Sakshi",
+      "state": "Uttar Pradesh",
+      "const": "Unnao",
+      "emails": [
+        "sakshi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5532,
+      "name": "M P Abdussamad Samadani",
+      "state": "Kerala",
+      "const": "Ponnani",
+      "emails": [
+        "samadani@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5553,
+      "name": "Saleng A Sangma",
+      "state": "Meghalaya",
+      "const": "Tura",
+      "emails": [
+        "saleng.sangma04@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5550,
+      "name": "Rajkumar Sangwan",
+      "state": "Uttar Pradesh",
+      "const": "Baghpat",
+      "emails": [
+        "drrajkumar.sangwan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4985,
+      "name": "Pratap Chandra Sarangi",
+      "state": "Odisha",
+      "const": "Balasore",
+      "emails": [
+        "pratap.sarangi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4988,
+      "name": "Aparajita Sarangi",
+      "state": "Odisha",
+      "const": "Bhubaneswar",
+      "emails": []
+    },
+    {
+      "mpsno": 5768,
+      "name": "Sharmila Sarkar",
+      "state": "West Bengal",
+      "const": "Bardhaman Purba",
+      "emails": [
+        "sharmila.sarkarmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5055,
+      "name": "Jagannath Sarkar",
+      "state": "West Bengal",
+      "const": "Ranaghat",
+      "emails": [
+        "jagannath.sarkar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5775,
+      "name": "Priya Saroj",
+      "state": "Uttar Pradesh",
+      "const": "Machhlishahr",
+      "emails": [
+        "sarojpriya.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3916,
+      "name": "Daroga Prasad Saroj",
+      "state": "Uttar Pradesh",
+      "const": "Lalganj",
+      "emails": [
+        "dpsaroj.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5804,
+      "name": "Pushpendra Saroj",
+      "state": "Uttar Pradesh",
+      "const": "Kaushambi",
+      "emails": [
+        "pushpendra.saroj25@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5669,
+      "name": "Hemant Vishnu Savara",
+      "state": "Maharashtra",
+      "const": "Palghar",
+      "emails": [
+        "hemant.savara@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4713,
+      "name": "Arvind Ganpat Sawant",
+      "state": "Maharashtra",
+      "const": "Mumbai South",
+      "emails": [
+        "arvind.sawant@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4349,
+      "name": "Muhammed Hamdullah Sayeed",
+      "state": "Lakshadweep",
+      "const": "Lakshadweep",
+      "emails": [
+        "hamdullah.sayeed@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3958,
+      "name": "Jyotiraditya M Scindia",
+      "state": "Madhya Pradesh",
+      "const": "Guna",
+      "emails": [
+        "jyotiraditya.scindia@mpls.sansad.in",
+        "jyotiraditya.scindia@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5565,
+      "name": "Kamaljeet Sehrawat",
+      "state": "NCT of Delhi",
+      "const": "West Delhi",
+      "emails": [
+        "kamaljeet.sehrawat@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 407,
+      "name": "Selvaganapathi T.M.",
+      "state": "Tamil Nadu",
+      "const": "Salem",
+      "emails": [
+        "tm.selvaganapathi@mpls.sansad.in",
+        "tm.selvaganapathi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5681,
+      "name": "Sasikanth Senthil",
+      "state": "Tamil Nadu",
+      "const": "Tiruvallur",
+      "emails": [
+        "s.kanth79@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5117,
+      "name": "Sanjay Seth",
+      "state": "Jharkhand",
+      "const": "Ranchi",
+      "emails": [
+        "seth.sanjay@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5610,
+      "name": "Avimanyu Sethi",
+      "state": "Odisha",
+      "const": "Bhadrak",
+      "emails": [
+        "avimanyu.sethi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5687,
+      "name": "Byreddy Shabari",
+      "state": "Andhra Pradesh",
+      "const": "Nandyal",
+      "emails": [
+        "byreddy.shabari@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5021,
+      "name": "Amit Shah",
+      "state": "Gujarat",
+      "const": "Gandhinagar",
+      "emails": [
+        "amitshah.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4582,
+      "name": "Mala Rajya Laxmi Shah",
+      "state": "Uttarakhand",
+      "const": "Tehri Garhwal",
+      "emails": [
+        "mala.laxmi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5656,
+      "name": "Devesh Shakya",
+      "state": "Uttar Pradesh",
+      "const": "Etah",
+      "emails": [
+        "devesh.shakya3333@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4642,
+      "name": "Mahesh Sharma",
+      "state": "Uttar Pradesh",
+      "const": "Gautam Buddha Nagar",
+      "emails": [
+        "dr.mahesh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5674,
+      "name": "Alok Sharma",
+      "state": "Madhya Pradesh",
+      "const": "Bhopal",
+      "emails": [
+        "aloksharma.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5148,
+      "name": "Anurag Sharma",
+      "state": "Uttar Pradesh",
+      "const": "Jhansi",
+      "emails": [
+        "anuragsharma.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5066,
+      "name": "Vishnu Datt Sharma",
+      "state": "Madhya Pradesh",
+      "const": "Khajuraho",
+      "emails": [
+        "vishnudatt.sharma@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5619,
+      "name": "Manju Sharma",
+      "state": "Rajasthan",
+      "const": "Jaipur",
+      "emails": [
+        "manju.bjp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5830,
+      "name": "Abdul Rashid Sheikh",
+      "state": "Jammu and Kashmir",
+      "const": "Baramulla",
+      "emails": [
+        "abdul.rashidsheikh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5647,
+      "name": "Chandra Shekhar",
+      "state": "Uttar Pradesh",
+      "const": "Nagina",
+      "emails": [
+        "chandra.shekharazad@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4670,
+      "name": "Gajendra Singh Shekhawat",
+      "state": "Rajasthan",
+      "const": "Jodhpur",
+      "emails": [
+        "g.shekhawat@mpls.sansad.in",
+        "g.shekhawat@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4523,
+      "name": "Suresh Kumar Shetkar",
+      "state": "Telangana",
+      "const": "Zahirabad",
+      "emails": [
+        "suresh.shetkar1960@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5733,
+      "name": "Jagadish Shettar",
+      "state": "Karnataka",
+      "const": "Belgaum",
+      "emails": [
+        "jagadish.shettarmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5617,
+      "name": "Chandubhai Chhaganbhai Shihora",
+      "state": "Gujarat",
+      "const": "Surendranagar",
+      "emails": [
+        "sihora.chandulal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4659,
+      "name": "Shrikant Eknath Shinde",
+      "state": "Maharashtra",
+      "const": "Kalyan",
+      "emails": [
+        "shrikant.shinde@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5759,
+      "name": "Praniti Sushilkumar Shinde",
+      "state": "Maharashtra",
+      "const": "Solapur",
+      "emails": [
+        "praniti.shinde@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5633,
+      "name": "Mohibbullah",
+      "state": "Uttar Pradesh",
+      "const": "Rampur",
+      "emails": [
+        "mohibbullah.nadvi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4638,
+      "name": "Janardan Singh Sigriwal",
+      "state": "Bihar",
+      "const": "Maharajganj",
+      "emails": [
+        "janardansingh.sigriwal@mpls.sansad.in",
+        "janardansingh.sigriwal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5169,
+      "name": "Amar Singh",
+      "state": "Punjab",
+      "const": "Fatehgarh Sahib",
+      "emails": [
+        "amarsingh.rs@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4605,
+      "name": "Bhola Singh",
+      "state": "Uttar Pradesh",
+      "const": "Bulandshahr",
+      "emails": [
+        "bholasingh.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4718,
+      "name": "Jitendra Singh",
+      "state": "Jammu and Kashmir",
+      "const": "Udhampur",
+      "emails": [
+        "jitendra.s@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5832,
+      "name": "Amritpal Singh",
+      "state": "Punjab",
+      "const": "Khadoor Sahib",
+      "emails": [
+        "amritpalsingh.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4664,
+      "name": "Devendra Singh Alias Bhole Singh",
+      "state": "Uttar Pradesh",
+      "const": "Akbarpur",
+      "emails": [
+        "devendra.singh19@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4647,
+      "name": "Dharambir Singh",
+      "state": "Haryana",
+      "const": "Bhiwani-Mahendragarh",
+      "emails": [
+        "dharambir.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4005,
+      "name": "Dushyant Singh",
+      "state": "Rajasthan",
+      "const": "Jhalawar-Baran",
+      "emails": [
+        "sdushyant@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3986,
+      "name": "Ganesh Singh",
+      "state": "Madhya Pradesh",
+      "const": "Satna",
+      "emails": [
+        "sganesh@mpls.sansad.in",
+        "sganesh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4641,
+      "name": "Giriraj Singh",
+      "state": "Bihar",
+      "const": "Begusarai",
+      "emails": [
+        "giriraj.singh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5618,
+      "name": "Kali Charan Singh",
+      "state": "Jharkhand",
+      "const": "Chatra",
+      "emails": [
+        "k.c.singh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5581,
+      "name": "Karan Bhushan Singh",
+      "state": "Uttar Pradesh",
+      "const": "Kaiserganj",
+      "emails": [
+        "karan.bhushan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3926,
+      "name": "Kirti Vardhan Singh",
+      "state": "Uttar Pradesh",
+      "const": "Gonda",
+      "emails": [
+        "kirtivardhan.singh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4459,
+      "name": "Pradeep Kumar Singh",
+      "state": "Bihar",
+      "const": "Araria",
+      "emails": [
+        "pradeepkrsingh.mp@mpls.sansad.in",
+        "pradeepkrsingh.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 451,
+      "name": "Radha Mohan Singh",
+      "state": "Bihar",
+      "const": "Purvi Champaran",
+      "emails": [
+        "rmsingh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5642,
+      "name": "Raja Ram Singh",
+      "state": "Bihar",
+      "const": "Karakat",
+      "emails": [
+        "rajaram.singh18@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4134,
+      "name": "Rajiv Ranjan Singh",
+      "state": "Bihar",
+      "const": "Munger",
+      "emails": [
+        "rrsingh@mpls.sansad.in",
+        "rrsingh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4268,
+      "name": "Rajnath Singh",
+      "state": "Uttar Pradesh",
+      "const": "Lucknow",
+      "emails": [
+        "rajnath@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3904,
+      "name": "Rao Inderjit Singh",
+      "state": "Haryana",
+      "const": "Gurgaon",
+      "emails": [
+        "rao.inderjit@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5632,
+      "name": "Rao Rajendra Singh",
+      "state": "Rajasthan",
+      "const": "Jaipur Rural",
+      "emails": [
+        "raorajendra.singh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5634,
+      "name": "Sudhakar Singh",
+      "state": "Bihar",
+      "const": "Buxar",
+      "emails": [
+        "singh.sudhakar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5749,
+      "name": "Ujjwal Raman Singh",
+      "state": "Uttar Pradesh",
+      "const": "Allahabad",
+      "emails": [
+        "ujjwalsingh.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5651,
+      "name": "Virendra Singh",
+      "state": "Uttar Pradesh",
+      "const": "Chandauli",
+      "emails": [
+        "virendrasingh.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5070,
+      "name": "Himadri Singh",
+      "state": "Madhya Pradesh",
+      "const": "Shahdol",
+      "emails": [
+        "himadrisingh.mp@mpls.sansad.in",
+        "himadrisingh.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5646,
+      "name": "Abhay Kumar Sinha",
+      "state": "Bihar",
+      "const": "Aurangabad",
+      "emails": [
+        "abhaykumar.sinha@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4468,
+      "name": "Shatrughan Prasad Sinha",
+      "state": "West Bengal",
+      "const": "Asansol",
+      "emails": [
+        "shatrugn@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5667,
+      "name": "Kesineni Sivanath",
+      "state": "Andhra Pradesh",
+      "const": "Vijayawada",
+      "emails": [
+        "kesineni.sivanath@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5685,
+      "name": "Shambhavi",
+      "state": "Bihar",
+      "const": "Samastipur",
+      "emails": [
+        "shambhavi.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5061,
+      "name": "Mahendra Singh Solanky",
+      "state": "Madhya Pradesh",
+      "const": "Dewas",
+      "emails": [
+        "mahendrasingh.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5625,
+      "name": "V Somanna",
+      "state": "Karnataka",
+      "const": "Tumkur",
+      "emails": [
+        "v.somanna@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4163,
+      "name": "Sarbananda Sonowal",
+      "state": "Assam",
+      "const": "Dibrugarh",
+      "emails": [
+        "sarbananda.sonowal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5645,
+      "name": "Bajrang Manohar Sonwane",
+      "state": "Maharashtra",
+      "const": "Beed",
+      "emails": [
+        "bajrangm.sonwane@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5826,
+      "name": "Nalin Soren",
+      "state": "Jharkhand",
+      "const": "Dumka",
+      "emails": [
+        "nalin.soren@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5659,
+      "name": "Adhikari Soumendu",
+      "state": "West Bengal",
+      "const": "Kanthi",
+      "emails": [
+        "adhikarisoumendu.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5128,
+      "name": "V K Sreekandan",
+      "state": "Kerala",
+      "const": "Palakkad",
+      "emails": [
+        "vk.sreekandan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5787,
+      "name": "Rani Srikumar",
+      "state": "Tamil Nadu",
+      "const": "Tenkasi",
+      "emails": [
+        "ranisrikumar.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5676,
+      "name": "Tangella Uday Srinivas",
+      "state": "Andhra Pradesh",
+      "const": "Kakinada",
+      "emails": [
+        "uday.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5111,
+      "name": "Indra Hang Subba",
+      "state": "Sikkim",
+      "const": "Sikkim",
+      "emails": [
+        "indrahang.subba@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5597,
+      "name": "Anita Subhadarshini",
+      "state": "Odisha",
+      "const": "Aska",
+      "emails": [
+        "anita.subhadarshini@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5602,
+      "name": "K Sudhakar",
+      "state": "Karnataka",
+      "const": "Chikkballapur",
+      "emails": [
+        "keshava.sudhakar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4558,
+      "name": "K Sudhakaran",
+      "state": "Kerala",
+      "const": "Kannur",
+      "emails": [
+        "ksudhakaran.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5675,
+      "name": "Parimal Suklabaidya",
+      "state": "Assam",
+      "const": "Silchar",
+      "emails": [
+        "parimalsukla.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4392,
+      "name": "Supriya Sule",
+      "state": "Maharashtra",
+      "const": "Baramati",
+      "emails": [
+        "supriya.sule@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5211,
+      "name": "Alok Kumar Suman",
+      "state": "Bihar",
+      "const": "Gopalganj",
+      "emails": [
+        "aloksuman.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 477,
+      "name": "Kodikunnil Suresh",
+      "state": "Kerala",
+      "const": "Mavelikkara",
+      "emails": [
+        "kodikunnil.suresh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5748,
+      "name": "Dhanorkar Pratibha Suresh",
+      "state": "Maharashtra",
+      "const": "Chandrapur",
+      "emails": [
+        "pratibhadhanorkar.06@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5182,
+      "name": "Tejasvi Surya",
+      "state": "Karnataka",
+      "const": "Bangalore South",
+      "emails": [
+        "tejasvi.surya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5616,
+      "name": "Bharatbhai Manubhai Sutariya",
+      "state": "Gujarat",
+      "const": "Amreli",
+      "emails": [
+        "bharat.sutariya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5588,
+      "name": "Bansuri Swaraj",
+      "state": "NCT of Delhi",
+      "const": "New Delhi",
+      "emails": [
+        "bansuri.swaraj@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5811,
+      "name": "Ricky Andrew J Syngkon",
+      "state": "Meghalaya",
+      "const": "Shillong",
+      "emails": [
+        "ricky.ajs@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5686,
+      "name": "Thanga Tamilselvan",
+      "state": "Tamil Nadu",
+      "const": "Theni",
+      "emails": [
+        "ttsmp.dmk@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4651,
+      "name": "Ajay Tamta",
+      "state": "Uttarakhand",
+      "const": "Almora",
+      "emails": [
+        "ajay.tamta@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4607,
+      "name": "Kanwar Singh Tanwar",
+      "state": "Uttar Pradesh",
+      "const": "Amroha",
+      "emails": [
+        "ks.tanwar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4423,
+      "name": "Bibhu Prasad Tarai",
+      "state": "Odisha",
+      "const": "Jagatsinghpur",
+      "emails": [
+        "bibhuprasad.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4739,
+      "name": "Kamakhya Prasad Tasa",
+      "state": "Assam",
+      "const": "Kaziranga",
+      "emails": [
+        "tasa.kamakhya@mpls.sansad.in",
+        "tasa.kamakhya@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5680,
+      "name": "Krishna Prasad Tenneti",
+      "state": "Andhra Pradesh",
+      "const": "Bapatla",
+      "emails": [
+        "mp.kp1080@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4430,
+      "name": "Manish Tewari",
+      "state": "Chandigarh",
+      "const": "Chandigarh",
+      "emails": [
+        "manish.tewari@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5744,
+      "name": "Geniben Nagaji Thakor",
+      "state": "Gujarat",
+      "const": "Banaskantha",
+      "emails": [
+        "geniben.thakor@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4249,
+      "name": "Anurag Singh Thakur",
+      "state": "Himachal Pradesh",
+      "const": "Hamirpur",
+      "emails": [
+        "anurags.thakur@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5662,
+      "name": "Devesh Chandra Thakur",
+      "state": "Bihar",
+      "const": "Sitamarhi",
+      "emails": [
+        "thakurdevesh.c@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5176,
+      "name": "Gopal Jee Thakur",
+      "state": "Bihar",
+      "const": "Darbhanga",
+      "emails": [
+        "gopaljee.thakur@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5036,
+      "name": "Shantanu Thakur",
+      "state": "West Bengal",
+      "const": "Bangaon",
+      "emails": [
+        "shantanu.thakur20@mpls.sansad.in",
+        "shantanu.thakur20@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5712,
+      "name": "Vivek Thakur",
+      "state": "Bihar",
+      "const": "Nawada",
+      "emails": [
+        "vivek.thakur@mpls.sansad.in",
+        "vivek.thakur@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4596,
+      "name": "Savitri Thakur",
+      "state": "Madhya Pradesh",
+      "const": "Dhar",
+      "emails": [
+        "savitri.thakur@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4961,
+      "name": "T Sumathy Alias Thamizhachi Thangapandian",
+      "state": "Tamil Nadu",
+      "const": "Chennai South",
+      "emails": [
+        "i.thamizhachi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4569,
+      "name": "Shashi Tharoor",
+      "state": "Kerala",
+      "const": "Thiruvananthapuram",
+      "emails": []
+    },
+    {
+      "mpsno": 4549,
+      "name": "Thirumaavalavan Tholkappiyan",
+      "state": "Tamil Nadu",
+      "const": "Chidambaram",
+      "emails": [
+        "tt.valavan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5596,
+      "name": "Manoj Tigga",
+      "state": "West Bengal",
+      "const": "Alipurduars",
+      "emails": [
+        "manojtigga.3215@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5658,
+      "name": "Amarsing Tisso",
+      "state": "Assam",
+      "const": "Diphu",
+      "emails": [
+        "amar.sing@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4606,
+      "name": "Manoj Tiwari",
+      "state": "NCT of Delhi",
+      "const": "North East Delhi",
+      "emails": [
+        "tiwari.manoj@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5604,
+      "name": "Shivmangal Singh Tomar",
+      "state": "Madhya Pradesh",
+      "const": "Morena",
+      "emails": [
+        "shiv.mangalmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5823,
+      "name": "E Tukaram",
+      "state": "Karnataka",
+      "const": "Bellary",
+      "emails": [
+        "e.tukarammp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5057,
+      "name": "Durgadas D D Uikey",
+      "state": "Madhya Pradesh",
+      "const": "Betul",
+      "emails": [
+        "durgadas.uikey@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 4996,
+      "name": "Saptagiri Sankar Ulaka",
+      "state": "Odisha",
+      "const": "Koraput",
+      "emails": [
+        "saptagiri.ulaka@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5127,
+      "name": "Rajmohan Unnithan",
+      "state": "Kerala",
+      "const": "Kasaragod",
+      "emails": [
+        "rajmohan.unnithan@mpls.sansad.in",
+        "rajmohan.unnithan@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5800,
+      "name": "Selvaraj V",
+      "state": "Tamil Nadu",
+      "const": "Nagapattinam",
+      "emails": [
+        "v.selvarajcpi@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5836,
+      "name": "Priyanka Gandhi Vadra",
+      "state": "Kerala",
+      "const": "Wayanad",
+      "emails": [
+        "priyankag.vadra@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5828,
+      "name": "Durai Vaiko",
+      "state": "Tamil Nadu",
+      "const": "Tiruchirappalli",
+      "emails": [
+        "durai.vaiko@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5120,
+      "name": "Ve Vaithilingam",
+      "state": "Puducherry",
+      "const": "Puducherry",
+      "emails": [
+        "ve.vaithilingam@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4021,
+      "name": "Balashowry Vallabhaneni",
+      "state": "Andhra Pradesh",
+      "const": "Machilipatnam",
+      "emails": [
+        "v.balashowry@mpls.sansad.in",
+        "v.balashowry@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5576,
+      "name": "Anoop Pradhan Valmiki",
+      "state": "Uttar Pradesh",
+      "const": "Hathras",
+      "emails": [
+        "anooppradhan.71@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5600,
+      "name": "Richard Vanlalhmangaiha",
+      "state": "Mizoram",
+      "const": "Mizoram",
+      "emails": [
+        "richie.vlh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5533,
+      "name": "Vijayakumar Alias Vijay Vasanth",
+      "state": "Tamil Nadu",
+      "const": "Kanniyakumari",
+      "emails": [
+        "vijayvasanth.39@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5835,
+      "name": "Chavan Ravindra Vasantrao",
+      "state": "Maharashtra",
+      "const": "Nanded",
+      "emails": [
+        "ravi.chavan699@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 501,
+      "name": "Mansukhbhai Dhanjibhai Vasava",
+      "state": "Gujarat",
+      "const": "Bharuch",
+      "emails": [
+        "md.vasava@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4757,
+      "name": "Parbhubhai Nagarbhai Vasava",
+      "state": "Gujarat",
+      "const": "Bardoli",
+      "emails": [
+        "prabhu.vasava23@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4959,
+      "name": "Kalanidhi Veeraswamy",
+      "state": "Tamil Nadu",
+      "const": "Chennai North",
+      "emails": [
+        "drkalanidhi.v@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5765,
+      "name": "Prabhakar Reddy Vemireddy",
+      "state": "Andhra Pradesh",
+      "const": "Nellore",
+      "emails": [
+        "vemireddy.prabhakar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4965,
+      "name": "S Venkatesan",
+      "state": "Tamil Nadu",
+      "const": "Madurai",
+      "emails": [
+        "suve.tpk@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4567,
+      "name": "K C Venugopal",
+      "state": "Kerala",
+      "const": "Alappuzha",
+      "emails": [
+        "kc.venugopal@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5794,
+      "name": "Lalji Verma",
+      "state": "Uttar Pradesh",
+      "const": "Ambedkar Nagar",
+      "emails": [
+        "laljiverma.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5605,
+      "name": "Rajesh Verma",
+      "state": "Bihar",
+      "const": "Khagaria",
+      "emails": [
+        "rajeshverma.mp@mpls.sansad.in",
+        "rajeshverma.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5164,
+      "name": "Ram Shiromani Verma",
+      "state": "Uttar Pradesh",
+      "const": "Shrawasti",
+      "emails": [
+        "ram.shiromani@mpls.sansad.in",
+        "ram.shiromani@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5706,
+      "name": "Ruchi Vira",
+      "state": "Uttar Pradesh",
+      "const": "Moradabad",
+      "emails": [
+        "ruchi.vira@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5682,
+      "name": "Yaduveer Wadiyar",
+      "state": "Karnataka",
+      "const": "Mysore",
+      "emails": [
+        "ykc.wadiyar@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5723,
+      "name": "Smita Uday Wagh",
+      "state": "Maharashtra",
+      "const": "Jalgaon",
+      "emails": [
+        "smita.udaywagh@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5701,
+      "name": "Ravindra Dattaram Waikar",
+      "state": "Maharashtra",
+      "const": "Mumbai North West",
+      "emails": [
+        "ravindrawaikar.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5790,
+      "name": "Rajabhau Parag Prakash Waje",
+      "state": "Maharashtra",
+      "const": "Nashik",
+      "emails": [
+        "rajabhauwaje.mpnsk@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4385,
+      "name": "Bhausaheb Rajaram Wakchaure",
+      "state": "Maharashtra",
+      "const": "Shirdi",
+      "emails": [
+        "br.wakchaure@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5713,
+      "name": "Balwant Baswant Wankhade",
+      "state": "Maharashtra",
+      "const": "Amravati",
+      "emails": [
+        "b.wankhade@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5692,
+      "name": "Lata Wankhede",
+      "state": "Madhya Pradesh",
+      "const": "Sagar",
+      "emails": [
+        "dr.latawankhede@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5747,
+      "name": "Amrinder Singh Raja Warring",
+      "state": "Punjab",
+      "const": "Ludhiana",
+      "emails": [
+        "rajawarring.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5802,
+      "name": "Aditya Yadav",
+      "state": "Uttar Pradesh",
+      "const": "Badaun",
+      "emails": [
+        "adityayadav.sp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 564,
+      "name": "Akhilesh Yadav",
+      "state": "Uttar Pradesh",
+      "const": "Kannauj",
+      "emails": [
+        "akhilesh.yadav@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4779,
+      "name": "Akshay Yadav",
+      "state": "Uttar Pradesh",
+      "const": "Firozabad",
+      "emails": [
+        "akshay.yadav@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5217,
+      "name": "Ashok Kumar Yadav",
+      "state": "Bihar",
+      "const": "Madhubani",
+      "emails": [
+        "ashokyadav.mp@mpls.sansad.in",
+        "ashokyadav.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5541,
+      "name": "Bhupender Yadav",
+      "state": "Rajasthan",
+      "const": "Alwar",
+      "emails": [
+        "bhupender.yadav@mpls.sansad.in",
+        "bhupender.yadav@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4206,
+      "name": "Dharmendra Yadav",
+      "state": "Uttar Pradesh",
+      "const": "Azamgarh",
+      "emails": [
+        "d.yadav@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 527,
+      "name": "Dinesh Chandra Yadav",
+      "state": "Bihar",
+      "const": "Madhepura",
+      "emails": [
+        "dc.yadavmp@mpls.sansad.in",
+        "dc.yadavmp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3830,
+      "name": "Giridhari Yadav",
+      "state": "Bihar",
+      "const": "Banka",
+      "emails": [
+        "giridhari.yadav@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 3955,
+      "name": "Surendra Prasad Yadav",
+      "state": "Bihar",
+      "const": "Jahanabad",
+      "emails": [
+        "spyadav.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4580,
+      "name": "Dimple Yadav",
+      "state": "Uttar Pradesh",
+      "const": "Mainpuri",
+      "emails": [
+        "dimple.yadav@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 5818,
+      "name": "Pathan Yusuf",
+      "state": "West Bengal",
+      "const": "Baharampur",
+      "emails": [
+        "yusufpathan.mp@mpls.sansad.in"
+      ]
+    }
+  ],
+  "rs": [
+    {
+      "mpsno": 1929,
+      "name": "Abdul Wahab, Shri",
+      "state": "Kerala",
+      "emails": [
+        "wahab.pv@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2556,
+      "name": "Agrawal, Dr. Radha Mohan Das",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "rmd.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2690,
+      "name": "Agrawal, Shri Rajneesh Kumar",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "rajneesh.4n@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2562,
+      "name": "Ahmad, Dr. Faiyaz",
+      "state": "Bihar",
+      "emails": [
+        "faiyaz.ahmad@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2628,
+      "name": "Ahmad, Dr. Sarfraz",
+      "state": "Jharkhand",
+      "emails": [
+        "sarfrazahmad.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2572,
+      "name": "Ali, Shri Gulam",
+      "state": "Nominated",
+      "emails": [
+        "gulam.ali@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2248,
+      "name": "Athawale, Shri Ramdas Bandu",
+      "state": "Maharashtra",
+      "emails": [
+        "ramdas@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2641,
+      "name": "Babu, Shri Sana Sathish",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "sathish.sana@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2586,
+      "name": "Baburao, Shri Golla",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "golla.baburao@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 1964,
+      "name": "Bachchan, Smt. Jaya Amitabh",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "jbachchan@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2064,
+      "name": "Baishya, Shri Birendra Prasad",
+      "state": "Assam",
+      "emails": [
+        "bbaishya@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2558,
+      "name": "Bajpai, Dr. Laxmi Kant",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "lkb.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2533,
+      "name": "Balmik, Smt. Sumitra",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "s.balmik@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2617,
+      "name": "Balwant, Dr. Sangeeta",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "mp.sbalwant@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2493,
+      "name": "Bansal, Shri Naresh",
+      "state": "Uttarakhand",
+      "emails": [
+        "nareshbansal.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2577,
+      "name": "Baraik, Shri Prakash Chik",
+      "state": "West Bengal",
+      "emails": [
+        "prakashcb.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2677,
+      "name": "Baral, Shri Babul Supriya",
+      "state": "West Bengal",
+      "emails": [
+        "babuls.2026@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2597,
+      "name": "Barala, Shri Subhash",
+      "state": "Haryana",
+      "emails": [
+        "subhash.barala@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2527,
+      "name": "Beedha, Shri Masthan Rao Yadav",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "bmr.yadav@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2631,
+      "name": "Beeran, Shri Haris",
+      "state": "Kerala",
+      "emails": [
+        "haris.beeran@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2600,
+      "name": "Bhandage, Shri Narayanasa K.",
+      "state": "Karnataka",
+      "emails": [
+        "nk.bhandage@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2667,
+      "name": "Bhatia, Shri Sanjay",
+      "state": "Haryana",
+      "emails": [
+        "s.bhatia67@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2618,
+      "name": "Bhatt, Shri Mahendra",
+      "state": "Uttarakhand",
+      "emails": [
+        "mahendra.bhatt@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2640,
+      "name": "Bhattacharjee, Shri Rajib",
+      "state": "Tripura",
+      "emails": [
+        "rajib.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2620,
+      "name": "Bhattacharya, Shri Samik",
+      "state": "West Bengal",
+      "emails": [
+        "samik.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2543,
+      "name": "Bonde, Dr. Anil Sukhdeorao",
+      "state": "Maharashtra",
+      "emails": [
+        "dranil.bonde@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2664,
+      "name": "Boro, Shri Pramod",
+      "state": "Assam",
+      "emails": [
+        "pramod.boro@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2666,
+      "name": "Boudh, Shri Karamvir Singh",
+      "state": "Haryana",
+      "emails": [
+        "karamvir.boudh@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2488,
+      "name": "Brij Lal, Shri",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "brijlal.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2498,
+      "name": "Brittas, Dr. John",
+      "state": "Kerala",
+      "emails": [
+        "john.brittas@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2522,
+      "name": "Chadha, Shri Raghav",
+      "state": "Punjab",
+      "emails": [
+        "raghavchadha.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2687,
+      "name": "Chakravarthy, Shri Praveen",
+      "state": "Tamil Nadu",
+      "emails": [
+        "praveen.chakravarthy@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2384,
+      "name": "Chandrashekhar, Shri G.C.",
+      "state": "Karnataka",
+      "emails": [
+        "gcchandru.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2551,
+      "name": "Chaudhary, Shri Jayant",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "jayant.rld@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2607,
+      "name": "Chavan, Shri Ashokrao Shankarrao",
+      "state": "Maharashtra",
+      "emails": [
+        "ashokchavan.009@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2343,
+      "name": "Chidambaram, Shri P.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "chidambaram@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2694,
+      "name": "Chintakayala, Shri Vijay",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "vijay.chintakayala@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 503,
+      "name": "Chowdhury, Smt. Renuka",
+      "state": "Telangana",
+      "emails": [
+        "chowdhury.renuka@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2691,
+      "name": "Chugh, Shri Tarun",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "tarun.chugh@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2477,
+      "name": "Dangi, Shri Neeraj",
+      "state": "Rajasthan",
+      "emails": [
+        "neeraj.dangi@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2541,
+      "name": "Deo, Smt. Sulata",
+      "state": "Odisha",
+      "emails": [
+        "sulata.deo@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2608,
+      "name": "Deora, Shri Milind Murli",
+      "state": "Maharashtra",
+      "emails": [
+        "mpmilind.deora@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2576,
+      "name": "Desai, Shri Babubhai Jesangbhai",
+      "state": "Gujarat",
+      "emails": [
+        "babubhai.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2507,
+      "name": "Dev, Ms. Sushmita",
+      "state": "West Bengal",
+      "emails": [
+        "sushmita.dev@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2695,
+      "name": "Devi, Smt. Adhikarimayum Sharda",
+      "state": "Manipur",
+      "emails": [
+        "sharda.adhikari@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2653,
+      "name": "Dhanapal, Dr. M.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "dr.dhanapal@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2537,
+      "name": "Dharmar, Shri R.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "dharmar.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2594,
+      "name": "Dholakia, Shri Govindbhai Laljibhai",
+      "state": "Gujarat",
+      "emails": [
+        "govind.dholakia@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2529,
+      "name": "Divakonda, Shri Damodar Rao",
+      "state": "Telangana",
+      "emails": [
+        "d.damodarrao@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2435,
+      "name": "Dubey, Shri Satish Chandra",
+      "state": "Bihar",
+      "emails": [
+        "satishchandra.dubey@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2490,
+      "name": "Dwivedi, Smt. Seema",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "seema.dwivedi@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2626,
+      "name": "Gandhi, Smt. Sonia",
+      "state": "Rajasthan",
+      "emails": [
+        "soniagandhi@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2624,
+      "name": "Garasiya, Shri Chunnilal",
+      "state": "Rajasthan",
+      "emails": [
+        "cl.garasiya@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2487,
+      "name": "Geeta alias Chandraprabha, Smt.",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "geeta.shakya@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2621,
+      "name": "Ghose, Smt. Sagarika",
+      "state": "West Bengal",
+      "emails": [
+        "ghose.sagarika@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2535,
+      "name": "Girirajan, Shri R.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "girirajan.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2606,
+      "name": "Gopchade, Dr. Ajeet Madhavrao",
+      "state": "Maharashtra",
+      "emails": [
+        "dr.agopchade@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2661,
+      "name": "Gowalla, Shri Terash",
+      "state": "Assam",
+      "emails": [
+        "terash.gowalla@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2589,
+      "name": "Gupta, Dr. Dharmshila",
+      "state": "Bihar",
+      "emails": [
+        "dharmshila.gupta@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2374,
+      "name": "Gupta, Shri Narain Dass",
+      "state": "National Capital Territory of Delhi",
+      "emails": [
+        "ndgupta.1945@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2654,
+      "name": "Gupta, Shri Rajinder",
+      "state": "Punjab",
+      "emails": [
+        "rgupta.1959@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2688,
+      "name": "Gurjar, Dr. Alka",
+      "state": "Rajasthan",
+      "emails": [
+        "alka.singh61@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2603,
+      "name": "Gurjar, Shri Banshilal",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "gurjar.banshilal@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2678,
+      "name": "Guruswamy, Dr. Menaka",
+      "state": "West Bengal",
+      "emails": [
+        "menaka.guruswamy74@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2649,
+      "name": "Haasan, Shri Kamal",
+      "state": "Tamil Nadu",
+      "emails": [
+        "kamal.haasan@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2609,
+      "name": "Handore, Shri Chandrakant Damodar",
+      "state": "Maharashtra",
+      "emails": [
+        "cdhandore.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2198,
+      "name": "Haque, Shri Mohammed Nadimul",
+      "state": "West Bengal",
+      "emails": [
+        "nadimul.haque@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2567,
+      "name": "Heggade, Dr. Dharmasthala Veerendra",
+      "state": "Nominated",
+      "emails": [
+        "veerendra.heggade@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2386,
+      "name": "Hussain, Dr. Syed Naseer",
+      "state": "Karnataka",
+      "emails": [
+        "dr.snhussain@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2566,
+      "name": "Ilaiyaraaja, Shri",
+      "state": "Nominated",
+      "emails": [
+        "ilaiya.raaja@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2652,
+      "name": "Inbadurai, Shri I.S.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "inbadurai.is@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2578,
+      "name": "Islam, Shri Samirul",
+      "state": "West Bengal",
+      "emails": [
+        "samirul.islam@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2660,
+      "name": "Ivnate, Smt. Maya Chintaman",
+      "state": "Maharashtra",
+      "emails": [
+        "mayatai.ivnate@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2538,
+      "name": "Jaggesh, Shri",
+      "state": "Karnataka",
+      "emails": [
+        "jaggesh.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2648,
+      "name": "Jain, Dr. Meenakshi",
+      "state": "Nominated",
+      "emails": [
+        "jain.meenakshi@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2613,
+      "name": "Jain, Shri Naveen",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "mpnaveen.jain@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2686,
+      "name": "Jain, Shri Rajendra Hiralal",
+      "state": "Maharashtra",
+      "emails": [
+        "rajendra.hjain@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2426,
+      "name": "Jaishankar, Shri S.",
+      "state": "Gujarat",
+      "emails": [
+        "s.jaishankar@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2379,
+      "name": "Jha, Prof. Manoj Kumar",
+      "state": "Bihar",
+      "emails": [
+        "jha.manojk@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2591,
+      "name": "Jha, Shri Sanjay Kumar",
+      "state": "Bihar",
+      "emails": [
+        "sanjaykjha.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2579,
+      "name": "Jhala, Shri Kesridevsinh",
+      "state": "Gujarat",
+      "emails": [
+        "kesridevsinh.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2534,
+      "name": "Kalyanasundaram, Shri S.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "sk.kumb24@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2700,
+      "name": "Kanzariya, Shri Jitendra Meghjibhai",
+      "state": "Gujarat",
+      "emails": [
+        "jitendram.kanzariya@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2704,
+      "name": "Kewat, Shri Mahesh",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "mahesh.kewat1@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2295,
+      "name": "Khan, Shri Javed Ali",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "javedali.khan@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2703,
+      "name": "Khan, Shri Mansoor Ali",
+      "state": "Karnataka",
+      "emails": [
+        "mansoor.ak@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2482,
+      "name": "Kharge, Shri Mallikarjun",
+      "state": "Karnataka",
+      "emails": [
+        "mallikarjun.kharge@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2702,
+      "name": "Khera, Shri Pawan",
+      "state": "Karnataka",
+      "emails": [
+        "pawan.khera@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2623,
+      "name": "Khuntia, Shri Subhasish",
+      "state": "Odisha",
+      "emails": [
+        "s.khuntiamp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2656,
+      "name": "Kichloo, Shri Sajjad Ahmad",
+      "state": "Jammu & Kashmir",
+      "emails": [
+        "sa.kichloo@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2516,
+      "name": "Konyak, Smt. S. Phangnon",
+      "state": "Nagaland",
+      "emails": [
+        "phangnon.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2528,
+      "name": "Krishnaiah, Shri Ryaga",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "ryaga.krishnaiah@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2605,
+      "name": "Kulkarni, Dr. Medha Vishram",
+      "state": "Maharashtra",
+      "emails": [
+        "mp.medha@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2512,
+      "name": "Kumar, Dr. Sikander",
+      "state": "Himachal Pradesh",
+      "emails": [
+        "sikanderkumar.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2555,
+      "name": "Kumar, Shri Mithlesh",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "mithilesh.katheriya@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2685,
+      "name": "Kumar, Shri Nitish",
+      "state": "Bihar",
+      "emails": [
+        "nitish.kumar1951@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2679,
+      "name": "Kumar, Shri Rajeev",
+      "state": "West Bengal",
+      "emails": [
+        "rajeev.kr66@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2684,
+      "name": "Kumar, Shri Shivesh",
+      "state": "Bihar",
+      "emails": [
+        "shivesh.kumar67@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2447,
+      "name": "Kumar, Shri Sujeet",
+      "state": "Odisha",
+      "emails": [
+        "sujeetkumar.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2168,
+      "name": "Kushwaha, Shri Upendra",
+      "state": "Bihar",
+      "emails": [
+        "upendra.kushwaha@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2705,
+      "name": "Laltluangkima, Shri Khiangte",
+      "state": "Mizoram",
+      "emails": []
+    },
+    {
+      "mpsno": 2557,
+      "name": "Laxman, Dr. K.",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "kova.laxman@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2584,
+      "name": "Lepcha, Shri Dorjee Tshering",
+      "state": "Sikkim",
+      "emails": [
+        "dtlepcha.01@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2544,
+      "name": "Mahadik, Shri Dhananjay Bhimrao",
+      "state": "Maharashtra",
+      "emails": [
+        "dhananjaymahadik.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2598,
+      "name": "Mahajan, Shri Harsh",
+      "state": "Himachal Pradesh",
+      "emails": [
+        "mahajan.harsh@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2561,
+      "name": "Mahto, Shri Khiru",
+      "state": "Bihar",
+      "emails": [
+        "khiru.mahto@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2565,
+      "name": "Maji, Smt. Mahua",
+      "state": "Jharkhand",
+      "emails": [
+        "mahua.maji@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2599,
+      "name": "Makan, Shri Ajay",
+      "state": "Karnataka",
+      "emails": [
+        "ajay.maken@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2582,
+      "name": "Maliwal, Ms. Swati",
+      "state": "National Capital Territory of Delhi",
+      "emails": [
+        "swati.maliwalmprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2610,
+      "name": "Mandadi, Shri Anil Kumar Yadav",
+      "state": "Telangana",
+      "emails": [
+        "anil.mandadi@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2540,
+      "name": "Mangaraj, Shri Manas Ranjan",
+      "state": "Odisha",
+      "emails": [
+        "manasmangaraj.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2416,
+      "name": "Mani, Shri Jose K.",
+      "state": "Kerala",
+      "emails": [
+        "jose.kmani@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2659,
+      "name": "Manickam, Shri Christopher",
+      "state": "Tamil Nadu",
+      "emails": [
+        "christopher.manickam@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2510,
+      "name": "Margherita, Shri Pabitra",
+      "state": "Assam",
+      "emails": [
+        "pabitra.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2646,
+      "name": "Master, Shri C. Sadanandan",
+      "state": "Nominated",
+      "emails": [
+        "sadanandan.master@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2513,
+      "name": "Mather Hisham, Smt. Jebi",
+      "state": "Kerala",
+      "emails": [
+        "jebi.mathermp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2611,
+      "name": "Maurya, Shri Amar Pal",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "maurya.amarpal@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2634,
+      "name": "Mishra, Shri Manan Kumar",
+      "state": "Bihar",
+      "emails": [
+        "mkmishra.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2673,
+      "name": "Misra, Dr. Santrupt",
+      "state": "Odisha",
+      "emails": [
+        "santrupt.misra@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2518,
+      "name": "Mittal, Dr. Ashok Kumar",
+      "state": "Punjab",
+      "emails": [
+        "ashok.mittalmprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2663,
+      "name": "Mohan, Shri Jogen",
+      "state": "Assam",
+      "emails": [
+        "jogen.mohan@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2585,
+      "name": "Murty, Smt. Sudha",
+      "state": "Nominated",
+      "emails": [
+        "sudha.murty@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2504,
+      "name": "Murugan, Dr. L.",
+      "state": "Madhya Pradesh",
+      "emails": []
+    },
+    {
+      "mpsno": 2683,
+      "name": "Nabin, Shri Nitin",
+      "state": "Bihar",
+      "emails": []
+    },
+    {
+      "mpsno": 2204,
+      "name": "Nadda, Shri Jagat Prakash",
+      "state": "Gujarat",
+      "emails": [
+        "jp.nadda@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2353,
+      "name": "Nagar, Shri Surendra Singh",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "surendranagar.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2701,
+      "name": "Nagaraja, Shri M.",
+      "state": "Karnataka",
+      "emails": [
+        "naga.rajam@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2604,
+      "name": "Naroliya, Smt. Maya",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "maya.naroliya@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2511,
+      "name": "Narzary, Shri Rwngwra",
+      "state": "Assam",
+      "emails": [
+        "rwngwra.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2596,
+      "name": "Nayak, Shri Mayankkumar",
+      "state": "Gujarat",
+      "emails": [
+        "maik.meh@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2460,
+      "name": "Netam, Smt. Phulo Devi",
+      "state": "Chhattisgarh",
+      "emails": [
+        "phulodevi.netam@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2645,
+      "name": "Nikam, Shri Ujjwal Deorao",
+      "state": "Nominated",
+      "emails": [
+        "ujjwal.nikam@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2288,
+      "name": "Nirmala Sitharaman, Smt.",
+      "state": "Karnataka",
+      "emails": []
+    },
+    {
+      "mpsno": 2554,
+      "name": "Nishad, Shri Baburam",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "baburamnishad.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2181,
+      "name": "O' Brien, Shri Derek",
+      "state": "West Bengal",
+      "emails": [
+        "derek.ob@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2658,
+      "name": "Oberoi, Shri Gurwinder Singh",
+      "state": "Jammu & Kashmir",
+      "emails": [
+        "shammi.oberoi@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2515,
+      "name": "P, Shri Sandosh Kumar",
+      "state": "Kerala",
+      "emails": [
+        "sandosh.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2081,
+      "name": "Parimal, Shri Nathwani",
+      "state": "Jharkhand",
+      "emails": [
+        "parimal.nathwani@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2699,
+      "name": "Parmar, Shri Mansingh Meraman",
+      "state": "Gujarat",
+      "emails": [
+        "mansingh.121@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 208,
+      "name": "Patel, Shri Praful",
+      "state": "Maharashtra",
+      "emails": [
+        "praful@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2563,
+      "name": "Patel, Shri Shambhu Sharan",
+      "state": "Bihar",
+      "emails": [
+        "shambhu.spatel@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2521,
+      "name": "Pathak, Dr. Sandeep Kumar",
+      "state": "Punjab",
+      "emails": [
+        "sandeeppathak.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2532,
+      "name": "Patidar, Dr. Kavita",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "kavitapatidar.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2638,
+      "name": "Patil, Shri Nitin Laxmanrao Jadhav",
+      "state": "Maharashtra",
+      "emails": [
+        "nitinjadhav.patil@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2423,
+      "name": "Patra, Dr. Sasmit",
+      "state": "Odisha",
+      "emails": [
+        "sasmit.patra@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2669,
+      "name": "Pawar, Shri Parth Ajit",
+      "state": "Maharashtra",
+      "emails": [
+        "parthajit.pawar@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2251,
+      "name": "Pawar, Shri Sharadchandra",
+      "state": "Maharashtra",
+      "emails": [
+        "pawars@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2706,
+      "name": "Poonia, Dr. Satish",
+      "state": "Rajasthan",
+      "emails": [
+        "satish.poonia@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2564,
+      "name": "Prasad, Shri Aditya",
+      "state": "Jharkhand",
+      "emails": [
+        "adityaprasad.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2569,
+      "name": "Prasad, Shri V. Vijayendra",
+      "state": "Nominated",
+      "emails": [
+        "vijayendra.prasad@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2542,
+      "name": "Pratapgarhi, Shri Imran",
+      "state": "Maharashtra",
+      "emails": [
+        "imran.pratapgarhi@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2371,
+      "name": "Puri, Shri Hardeep Singh",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "hardeep.spuri@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2644,
+      "name": "Purkayastha, Shri Kanad",
+      "state": "Assam",
+      "emails": [
+        "kanad.purkayastha@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2514,
+      "name": "Rahim, Shri A. A.",
+      "state": "Kerala",
+      "emails": [
+        "aa.rahim@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2506,
+      "name": "Rajeshkumar, Shri K.R.N.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "krn.rajeshkumar@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2707,
+      "name": "Ram, Shri Baidyanath",
+      "state": "Jharkhand",
+      "emails": [
+        "baidyanath.ram@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2692,
+      "name": "Rama Krishna, Shri Bhashyam",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "bhashyam.rk@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 1949,
+      "name": "Ramadoss, Dr. Anbumani",
+      "state": "Tamil Nadu",
+      "emails": [
+        "anbumani@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 1935,
+      "name": "Ramesh, Shri Jairam",
+      "state": "Karnataka",
+      "emails": [
+        "jairam@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2693,
+      "name": "Ramesh, Shri Lingamaneni",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "lingamaneni.ramesh@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2489,
+      "name": "Ramji, Shri",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "ramji.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2655,
+      "name": "Ramzan, Shri Chowdry Mohammad",
+      "state": "Jammu & Kashmir",
+      "emails": [
+        "chowdry.ramzan@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2531,
+      "name": "Ranjan, Smt. Ranjeet",
+      "state": "Chhattisgarh",
+      "emails": [
+        "ranjeet.ranjanmp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2625,
+      "name": "Rathore, Shri Madan",
+      "state": "Rajasthan",
+      "emails": [
+        "m.rathoremp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2698,
+      "name": "Rathwa, Dr. Mukeshbhai J.",
+      "state": "Gujarat",
+      "emails": [
+        "mp.mukesh2026@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 1945,
+      "name": "Raut, Shri Sanjay",
+      "state": "Maharashtra",
+      "emails": [
+        "s.raut@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2672,
+      "name": "Ravindran, Shri Constandine",
+      "state": "Tamil Nadu",
+      "emails": [
+        "prof.constandine@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 236,
+      "name": "Ray, Shri Dilip Kumar",
+      "state": "Odisha",
+      "emails": [
+        "dk.ray@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2580,
+      "name": "Ray, Shri Nagendra",
+      "state": "West Bengal",
+      "emails": [
+        "nagendra.ray58@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2184,
+      "name": "Ray, Shri Sukhendu Sekhar",
+      "state": "West Bengal",
+      "emails": [
+        "sukhendu.sekhar@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2530,
+      "name": "Reddy, Shri B. Parthasaradhi",
+      "state": "Telangana",
+      "emails": [
+        "bps.reddy@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2587,
+      "name": "Reddy, Shri Meda Raghunadha",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "meda.reddy@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2526,
+      "name": "Reddy, Shri S Niranjan",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "snr.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2682,
+      "name": "Reddy, Shri Vem Narendar",
+      "state": "Telangana",
+      "emails": [
+        "vem.rs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2588,
+      "name": "Reddy, Shri Yerram Venkata Subba",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "yvsr.1960@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2546,
+      "name": "Sahney, Dr. Vikramjit Singh",
+      "state": "Punjab",
+      "emails": [
+        "vikram.sahney@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2560,
+      "name": "Saini, Dr. Kalpana",
+      "state": "Uttarakhand",
+      "emails": [
+        "kalpanasaini.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2595,
+      "name": "Salamsinh, Dr. Parmar Jashvantsinh",
+      "state": "Gujarat",
+      "emails": [
+        "jashvantsinh.p@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 174,
+      "name": "Samal, Shri Manmohan",
+      "state": "Odisha",
+      "emails": [
+        "manmohan.samal@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2622,
+      "name": "Samantaray, Shri Debashish",
+      "state": "Odisha",
+      "emails": [
+        "debashish.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2583,
+      "name": "Sandhu, Shri Satnam Singh",
+      "state": "Nominated",
+      "emails": [
+        "satnam.sandhu@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2689,
+      "name": "Sangma, Shri James Pangsang Kongkal",
+      "state": "Meghalaya",
+      "emails": [
+        "james.pksangma@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2643,
+      "name": "Satyanarayana, Shri Paka Venkata",
+      "state": "Andhra Pradesh",
+      "emails": [
+        "paka.satyanarayana@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2508,
+      "name": "Selvaganabathy, Shri S.",
+      "state": "Puducherry",
+      "emails": [
+        "jc.selva@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2307,
+      "name": "Sen, Ms. Dola",
+      "state": "West Bengal",
+      "emails": [
+        "dola.sen@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2351,
+      "name": "Seth, Shri Sanjay",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "sanjay.seth@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2581,
+      "name": "Sharma, Dr. Dinesh",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "drdinesh.sharma@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2668,
+      "name": "Sharma, Shri Anurag",
+      "state": "Himachal Pradesh",
+      "emails": [
+        "anurag.sharma0013@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2571,
+      "name": "Sharma, Shri Kartikeya",
+      "state": "Haryana",
+      "emails": [
+        "kartikeyasharma.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2657,
+      "name": "Sharma, Shri Sat Paul",
+      "state": "Jammu & Kashmir",
+      "emails": [
+        "ssa.jammu@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2642,
+      "name": "Sharma, Smt. Rekha",
+      "state": "Haryana",
+      "emails": [
+        "sharmarekha.63@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2297,
+      "name": "Shekhar, Shri Neeraj",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "neeraj.shekhar@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2269,
+      "name": "Shri Harivansh",
+      "state": "Nominated",
+      "emails": [
+        "hari.vansh@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2647,
+      "name": "Shringla, Shri Harsh Vardhan",
+      "state": "Nominated",
+      "emails": [
+        "shringla.harsh@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 175,
+      "name": "Shukla, Shri Rajeev",
+      "state": "Chhattisgarh",
+      "emails": [
+        "rajivs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2697,
+      "name": "Shukla, Shri Rajesh Parmanand",
+      "state": "Gujarat",
+      "emails": [
+        "rajeshp.shukla@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 74,
+      "name": "Sibal, Shri Kapil",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "ksibal@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2590,
+      "name": "Singh, Dr. Bhim",
+      "state": "Bihar",
+      "emails": [
+        "dr.bhimsingh@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2377,
+      "name": "Singh, Shri Akhilesh Prasad",
+      "state": "Bihar",
+      "emails": [
+        "dr.akhileshpdsingh@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2437,
+      "name": "Singh, Shri Arun",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "arun.singhbjp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2601,
+      "name": "Singh, Shri Ashok",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "ashok.singhmp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2593,
+      "name": "Singh, Shri Devendra Pratap",
+      "state": "Chhattisgarh",
+      "emails": [
+        "kumar.dp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2520,
+      "name": "Singh, Shri Harbhajan",
+      "state": "Punjab",
+      "emails": [
+        "harbhajansingh.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2614,
+      "name": "Singh, Shri Ratanjit Pratap Narain",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "rpn.singhmprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2372,
+      "name": "Singh, Shri Sanjay",
+      "state": "National Capital Territory of Delhi",
+      "emails": [
+        "mp.sanjaysingh@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2545,
+      "name": "Singh, Shri Sant Balbir",
+      "state": "Punjab",
+      "emails": [
+        "santbalbir.singh@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2612,
+      "name": "Singh, Shri Tejveer",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "tejveer.singhmp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2553,
+      "name": "Singh, Smt. Darshana",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "darshanasingh.76@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2616,
+      "name": "Singh, Smt. Sadhna",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "mp.sadhna@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2029,
+      "name": "Singhvi, Dr. Abhishek Manu",
+      "state": "Telangana",
+      "emails": [
+        "a.singhvi@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2681,
+      "name": "Sinha (Rahul Sinha), Shri Biswajit",
+      "state": "West Bengal",
+      "emails": [
+        "b.sinha@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2539,
+      "name": "Siroya, Shri Lahar Singh",
+      "state": "Karnataka",
+      "emails": [
+        "laharsingh.siroya@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 177,
+      "name": "Siva, Shri Tiruchi",
+      "state": "Tamil Nadu",
+      "emails": [
+        "tiruchi.siva@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2499,
+      "name": "Sivadasan, Dr. V.",
+      "state": "Kerala",
+      "emails": [
+        "v.sivadasan@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2651,
+      "name": "Sivalingam, Shri S.R.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "s.lingam@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2650,
+      "name": "Smt. Rajathi",
+      "state": "Tamil Nadu",
+      "emails": [
+        "rajathi.salma@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2676,
+      "name": "Sudhish, Shri L. K.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "lk.sudhish@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2615,
+      "name": "Suman, Shri Ramji Lal",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "ramjilal.suman@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2630,
+      "name": "Suneer, Shri P. P.",
+      "state": "Kerala",
+      "emails": [
+        "pp.suneer@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2548,
+      "name": "Surjewala, Shri Randeep Singh",
+      "state": "Rajasthan",
+      "emails": [
+        "rs.surjewala@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2696,
+      "name": "Tagak, Shri Tai",
+      "state": "Arunachal Pradesh",
+      "emails": [
+        "taga.tai@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2575,
+      "name": "Tanavade, Shri Sadanand mhalu shet",
+      "state": "Goa",
+      "emails": [
+        "sadanand.shet@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2333,
+      "name": "Tankha, Shri Vivek K.",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "vivektankha.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2662,
+      "name": "Tawde, Shri Vinod Shridhar",
+      "state": "Maharashtra",
+      "emails": [
+        "vinod.stawde@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2268,
+      "name": "Thakur, Shri Ram Nath",
+      "state": "Bihar",
+      "emails": [
+        "ramnath.thakur@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2619,
+      "name": "Thakur, Smt. Mamata",
+      "state": "West Bengal",
+      "emails": [
+        "mamata.thakurmprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2451,
+      "name": "Thambi Durai, Dr. M.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "m.thambidurai@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2547,
+      "name": "Tiwari, Shri Ghanshyam",
+      "state": "Rajasthan",
+      "emails": [
+        "gtiwari.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2245,
+      "name": "Tiwari, Shri Pramod",
+      "state": "Rajasthan",
+      "emails": [
+        "pramodtiwari.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2436,
+      "name": "Trivedi, Dr. Sudhanshu",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "trivedi.sudhanshu@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2602,
+      "name": "Umeshnath, Shri Balyogi",
+      "state": "Madhya Pradesh",
+      "emails": [
+        "mpbalyogi.umeshnath@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2568,
+      "name": "Usha, Smt. P. T.",
+      "state": "Nominated",
+      "emails": [
+        "ptusha.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2524,
+      "name": "Vaddiraju, Shri Ravi Chandra",
+      "state": "Telangana",
+      "emails": [
+        "ravi.chandramp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2425,
+      "name": "Vaishnaw, Shri Ashwini",
+      "state": "Odisha",
+      "emails": [
+        "av.odisha@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2627,
+      "name": "Varma, Shri Pradip Kumar",
+      "state": "Jharkhand",
+      "emails": [
+        "pkv.bjp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2491,
+      "name": "Verma, Shri B.L.",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "blverma.mp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2665,
+      "name": "Verma, Smt. Laxmi",
+      "state": "Chhattisgarh",
+      "emails": [
+        "laxmi.verma66@mprs.sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2670,
+      "name": "Wadkute, Dr. Ramrao Sakharam",
+      "state": "Maharashtra",
+      "emails": [
+        "rs.wadkute@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2671,
+      "name": "Waghmare, Dr. Jyoti Nagnath",
+      "state": "Maharashtra",
+      "emails": [
+        "jyoti.savitri@mprs.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 2549,
+      "name": "Wasnik, Shri Mukul",
+      "state": "Rajasthan",
+      "emails": [
+        "mwasnik.mprs@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2431,
+      "name": "Wilson, Shri P.",
+      "state": "Tamil Nadu",
+      "emails": [
+        "p.wilsonmp@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 109,
+      "name": "Yadav, Prof. Ram Gopal",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "ramgopal.yadav@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2592,
+      "name": "Yadav, Shri Sanjay",
+      "state": "Bihar",
+      "emails": [
+        "sanjayyadav.84@sansad.nic.in"
+      ]
+    },
+    {
+      "mpsno": 2559,
+      "name": "Yadav, Smt. Sangeeta",
+      "state": "Uttar Pradesh",
+      "emails": [
+        "sangeetayadav.mprs@sansad.nic.in"
+      ]
+    }
+  ]
+}
