@@ -1,0 +1,123 @@
+name: Verify roster
+
+# Monthly reconciliation of ENRICH.mpDir/rsDir against the live sansad.in
+# rosters - bypoll entrants, resignations, deaths, nominations. Deliberately NOT
+# part of the daily refresh: House turnover is slow, and the check costs ~12
+# roster API calls that must never block a publish. REPORT-ONLY: roster repairs
+# (party changes, defections, question-history matching) need human
+# verification - on 15 Aug 2026 sansad's surprising party data was RIGHT and
+# prior knowledge wrong - so findings file an issue and nothing is ever
+# auto-written.
+#
+# NOTE the issue title is "Tracker roster needs attention", NOT the daily
+# workflow's "Tracker needs attention": the daily run dedups AND self-heals
+# (auto-closes) open issues matching that phrase in:title, so reusing the
+# phrase would get roster findings closed by the next clean daily run.
+
+on:
+  schedule:
+    - cron: '15 8 3 * *'   # 3rd of the month, 08:15 UTC = 13:45 IST, clear of the daily window
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: verify-roster
+  cancel-in-progress: false
+
+jobs:
+  roster:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # stdlib + curl only - nothing to install.
+      # rc=0 clean, rc=1 findings (issue step's job), rc=2 fetch failure (retry
+      # once, then fail the job so the failure step pages).
+      - name: Reconcile directories vs live rosters
+        id: audit
+        run: |
+          set +e
+          python3 pipeline/verify_roster.py 2>&1 | tee /tmp/roster.txt
+          RC=${PIPESTATUS[0]}
+          if [ "$RC" -eq 2 ]; then
+            echo "--- fetch failed (rc=2); sansad may have blipped, retrying in 60s ---"
+            sleep 60
+            python3 pipeline/verify_roster.py 2>&1 | tee /tmp/roster.txt
+            RC=${PIPESTATUS[0]}
+          fi
+          echo "rc=$RC" >> "$GITHUB_OUTPUT"
+          if [ "$RC" -eq 2 ]; then exit 2; fi
+          exit 0
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Roster reconciliation"
+            echo '```'
+            tail -60 /tmp/roster.txt 2>/dev/null || echo 'no output captured'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: File issue on findings
+        if: steps.audit.outputs.rc == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="Tracker roster needs attention"
+          NUM=$(gh issue list --state open \
+            --search "\"$TITLE\" in:title author:app/github-actions" \
+            --json number --jq '.[0].number' || true)
+          {
+            echo "Monthly reconciliation found drift between ENRICH.mpDir/rsDir and the live sansad.in rosters."
+            echo
+            echo '```'
+            grep -E '^   (MISSING|DEPARTED|UNMATCHED|DRIFT)' /tmp/roster.txt | head -40
+            echo '```'
+            echo
+            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo
+            echo "REPORT-ONLY by design - nothing was changed. Repairs are manual: verify party/defection data before writing (15 Aug 2026: sansad's surprising TMC->BJP party labels were RIGHT and prior knowledge wrong). Follow the repair notes in pipeline/verify_roster.py - setdefault for previously-vacant rsDir states, keep sitting/never counts three-way consistent, rerun fetch_rs_photos.py + fetch_mp_emails.py after turnover - then close this issue."
+          } > /tmp/roster_issue.txt
+          if [ -n "$NUM" ] && [ "$NUM" != "null" ]; then
+            gh issue comment "$NUM" --body-file /tmp/roster_issue.txt
+          else
+            gh issue create --title "$TITLE" --body-file /tmp/roster_issue.txt
+          fi
+
+      - name: Close roster issue when clean
+        if: steps.audit.outputs.rc == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          NUM=$(gh issue list --state open \
+            --search "\"Tracker roster needs attention\" in:title author:app/github-actions" \
+            --json number --jq '.[0].number' || true)
+          if [ -n "$NUM" ] && [ "$NUM" != "null" ]; then
+            gh issue close "$NUM" --comment "Roster reconciliation clean on this month's run - closing automatically."
+          fi
+
+      - name: Notify on audit failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="Roster audit FAILED"
+          NUM=$(gh issue list --state open \
+            --search "\"$TITLE\" in:title author:app/github-actions" \
+            --json number --jq '.[0].number' || true)
+          BODY=$(printf 'Roster reconciliation could not complete (fetch failed twice, 60s apart) - the sansad member APIs may be down or changed shape.\n\nRun: %s/%s/actions/runs/%s\n\n```\n%s\n```\n\nRe-run the workflow once sansad recovers; if the shape changed, fix pipeline/verify_roster.py.' \
+            "${{ github.server_url }}" "${{ github.repository }}" "${{ github.run_id }}" "$(tail -20 /tmp/roster.txt 2>/dev/null)")
+          if [ -n "$NUM" ] && [ "$NUM" != "null" ]; then
+            gh issue comment "$NUM" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi
