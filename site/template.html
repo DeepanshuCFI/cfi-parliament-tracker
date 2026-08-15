@@ -466,6 +466,7 @@ footer{border-top:1px solid var(--border);background:#fff}
         <select id="pcSel" class="statesel" disabled><option value="">— pick a state first —</option></select>
       </div>
     </div>
+    <p class="mpf-note" id="rsNomHint" hidden>Looking for a nominated member — Sudha Murty, P.T. Usha, Satnam Singh Sandhu, Ilaiyaraaja? The President's 12 nominees sit under <strong>“Nominated by the President”</strong> at the top of the state list, not under their home state.</p>
     <div id="mpFind" class="mpfind" hidden></div>
     <div id="statePanel" class="state-panel" hidden></div>
   </div>
@@ -949,8 +950,9 @@ let rsHemiBuilt = false;
 function buildStateOptions(){
   const sel = $('stateSel');
   if(HOUSE==='RS'){
-    const names = Object.keys(RSDIR).sort();
-    sel.innerHTML = `<option value="">— choose a state —</option>` +
+    const names = Object.keys(RSDIR).filter(s=>s!=='Nominated').sort();
+    const nom = RSDIR['Nominated'] ? `<option value="Nominated">Nominated by the President (${RSDIR['Nominated'].length})</option>` : '';
+    sel.innerHTML = `<option value="">— choose a state —</option>` + nom +
       names.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');
   }else{
     const S = ENRICH.states || {};
@@ -969,6 +971,7 @@ function setHouse(h){
   $('hemiBlockRS').hidden = !rs;
   if(rs && !rsHemiBuilt){ buildRSHemicycle(); rsHemiBuilt = true; }
   $('pcLabel').textContent = rs ? 'Your state’s Rajya Sabha members' : 'Your Lok Sabha constituency';
+  $('rsNomHint').hidden = !rs;
   const cur = $('stateSel').value;
   buildStateOptions();
   const keep = cur && [...$('stateSel').options].some(o=>o.value===cur);
