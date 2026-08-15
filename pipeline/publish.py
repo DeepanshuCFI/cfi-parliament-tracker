@@ -60,7 +60,6 @@ def write_csv(path):
 
 write_csv(DATA / 'road-safety-in-parliament.csv')
 (SITE / 'data').mkdir(exist_ok=True)
-write_csv(SITE / 'data' / 'road-safety-in-parliament.csv')
 
 save_json(DATA / 'stats.json', {'records': len(dataset['records']),
                                 'previous': prev.get('records'),

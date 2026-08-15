@@ -535,7 +535,7 @@ footer{border-top:1px solid var(--border);background:#fff}
 <section class="bg-lite" id="data">
   <div class="wrap sec-pad">
     <span class="eyebrow">Methodology &amp; data</span>
-    <h2>Open data.<br><span class="accent">Take it, use it, cite it.</span></h2>
+    <h2>Built on the record.<br><span class="accent">Checked, cited, refreshed daily.</span></h2>
     <div class="meth-grid">
       <div class="card meth-card">
         <h3>How this was built — and checked</h3>
@@ -551,10 +551,7 @@ footer{border-top:1px solid var(--border);background:#fff}
           <li><strong>Accuracy.</strong> Everything here is compiled by automated pipelines from the official records of the Lok Sabha and Rajya Sabha published on sansad.in, and checked continuously — but discrepancies, in the source records or in our matching, are possible. We present a good-faith reflection of the official record, not a claim of perfection, and no count here should by itself be read as a judgment of any MP. Spotted an error? Write to <a href="mailto:info@crashfreeindia.org">info@crashfreeindia.org</a> (or <a href="https://github.com/DeepanshuCFI/cfi-parliament-tracker/issues" target="_blank" rel="noopener">report it on GitHub</a>) — verified corrections ship in the next daily refresh.</li>
         </ul>
         <h3 style="margin-top:22px">Use the data</h3>
-        <p>Version <span id="dataVersion">{{VERSION}}</span> · complete set across four ministries, data through <span id="dataThrough">{{DATA_THROUGH_MY}}</span> · CC BY 4.0.<br>Cite as: <em>Crashfree India, Road Safety in Parliament (<span id="citeYear">{{CITE_YEAR}}</span>)</em>.</p>
-        <div class="cta-row" style="margin-top:16px">
-          <button class="btn btn-primary btn-arrow" id="dl" type="button">Download CSV</button>
-        </div>
+        <p>Version <span id="dataVersion">{{VERSION}}</span> · complete set across four ministries, data through <span id="dataThrough">{{DATA_THROUGH_MY}}</span>.<br>Cite as: <em>Crashfree India, Road Safety in Parliament (<span id="citeYear">{{CITE_YEAR}}</span>)</em>.<br>Researchers and journalists: write to <a href="mailto:info@crashfreeindia.org">info@crashfreeindia.org</a> for the full dataset.</p>
       </div>
     </div>
   </div>
@@ -1397,17 +1394,6 @@ function renderStatePanel(st){
   });
   $('spAll').onclick=()=>{ freshView(); state.geo=st; refreshChips(); render(); goExplorer(); };
 }
-
-// ---------- CSV download ----------
-$('dl').addEventListener('click', ()=>{
-  const head='House,Chamber No,Session,Q No,Type,Date,MPs,Subject,Tags,Answer PDF\n';
-  const csv=head+R.map(r=>[r.h,r.l,r.s,r.q,r.t==='S'?'Starred':'Unstarred',r.d,r.m.join('; '),r.j,r.g.map(g=>TAGS[g]).join('; '),r.u]
-    .map(v=>{ let s=String(v); if(/^[=+\-@\t\r]/.test(s)) s="'"+s; return `"${s.replace(/"/g,'""')}"`; }).join(',')).join('\n');
-  const a=document.createElement('a');
-  a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
-  a.download=`crashfree-india_road-safety-in-parliament_v${DATA.version||'3.1'}.csv`;
-  a.click();
-});
 
 // ---------- data-driven prose & stats (static text is the no-JS fallback, baked at build time) ----------
 function setTxt(id, v){ const el=$(id); if(el) el.textContent=v; }

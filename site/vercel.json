@@ -55,6 +55,11 @@
       "source": "/rti/(.*)",
       "destination": "/",
       "permanent": false
+    },
+    {
+      "source": "/data/road-safety-in-parliament.csv",
+      "destination": "/",
+      "permanent": false
     }
   ],
   "rewrites": [
