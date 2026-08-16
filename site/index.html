@@ -72,6 +72,10 @@ header{position:sticky;top:0;z-index:60;border-bottom:1px solid var(--border);ba
 }
 section[id]{scroll-margin-top:80px}
 @media(max-width:760px){section[id]{scroll-margin-top:52px}}
+.totop{position:fixed;right:20px;bottom:20px;z-index:70;width:48px;height:48px;border-radius:999px;background:#fff;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--dark);cursor:pointer;box-shadow:0 6px 20px rgba(26,28,28,.14);transition:border-color .15s,color .15s}
+.totop:hover{border-color:var(--brand);color:var(--brand)}
+.totop[hidden]{display:none}
+.totop svg{width:20px;height:20px}
 .hd{display:flex;align-items:center;justify-content:space-between;height:64px}
 .logo{display:block;width:auto;height:auto}
 .hd .logo{width:188px;height:auto}
@@ -375,6 +379,7 @@ footer{border-top:1px solid var(--border);background:#fff}
 </style>
 
 <a class="skip" href="#explorer">Skip to the database</a>
+<button class="totop" id="toTop" type="button" aria-label="Back to top" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg></button>
 
 <header>
   <div class="wrap hd">
@@ -1701,11 +1706,17 @@ applyDynamicNumbers(); buildSessionStrip(); buildAnswerQuality();
       else a.removeAttribute('aria-current');
     });
   }
+  const toTop = document.getElementById('toTop');
+  toTop.addEventListener('click', ()=>{ window.scrollTo({top:0}); });
+  function onScroll(){
+    spy();
+    toTop.hidden = window.scrollY < 1400;
+  }
   window.addEventListener('scroll', ()=>{
     if(pending) return;
-    pending = setTimeout(()=>{ pending = null; spy(); }, 120);
+    pending = setTimeout(()=>{ pending = null; onScroll(); }, 120);
   }, {passive:true});
-  spy();
+  onScroll();
   // right-edge fade on the mobile chip row: hidden once scrolled to the end
   const pnav = document.querySelector('.pagenav'), pn = pnav && pnav.querySelector('.pn');
   if(pn){
