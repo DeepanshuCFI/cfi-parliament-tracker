@@ -1,14 +1,63 @@
 {
- "version": 1,
- "rubric": 1,
  "grades": {
+  "LS|18|Health|5|U|3312": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Standardising training dodged: 'Public Health is a state subject and State Governments are primarily responsible for ... recruitment'",
+   "sd": true
+  },
+  "LS|18|Health|6|U|2240": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "196-TCF list given; no scheme/State-wise funds; 'Health is a state subject', patient details 'maintained at state level'",
+   "sd": true
+  },
+  "LS|18|Health|6|U|928": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Facility list + AP funds only; no countrywide funds, no patient data - 'Health is a state subject ... maintained at state level'",
+   "sd": true
+  },
+  "LS|18|Health|7|U|1236": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Only RML Hospital funds/participants for FY24-25 & 25-26 plus CoE trainee counts; no 5-year, State/UT-wise fund or trainee data"
+  },
+  "LS|18|Health|7|U|1355": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'Health is a State subject. Functioning of TCFs are maintained by respective States' stands in for steps to ensure functioning",
+   "sd": true
+  },
+  "LS|18|Health|7|U|2530": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'As Health is a State subject, the primary responsibility for ... ambulance services lies with the respective State/UT Governments'",
+   "sd": true
+  },
+  "LS|18|Health|7|U|4817": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Chandauli trauma centre ask deflected to State NHM PIP proposals; 'Public Health and hospital being a state subject'",
+   "sd": true
+  },
   "LS|18|Health|8|S|292": {
    "da": true,
    "dg": "p",
-   "sd": true,
-   "note": "No mortality details or timeline for district-HQ centres; 'Health is a State subject' — Bihar's notified network cited instead.",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "No mortality details or timeline for district-HQ centres; 'Health is a State subject' — Bihar's notified network cited instead.",
+   "sd": true
   },
   "LS|18|Health|8|U|2156": {
    "da": false,
@@ -18,9 +67,9 @@
   "LS|18|Health|8|U|2221": {
    "da": true,
    "dg": "p",
-   "note": "PPP operation via HLL Lifecare reported; no staffing/equipment status and no timeline for operationalisation.",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "PPP operation via HLL Lifecare reported; no staffing/equipment status and no timeline for operationalisation."
   },
   "LS|18|Health|8|U|2256": {
    "da": false,
@@ -30,24 +79,454 @@
   "LS|18|Health|8|U|3373": {
    "da": true,
    "dg": "p",
-   "sd": true,
-   "note": "Lists 13 TCFs (none new in 5 yrs); no fund amounts or district-wise gaps — 'Health is a State subject.'",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "Lists 13 TCFs (none new in 5 yrs); no fund amounts or district-wise gaps — 'Health is a State subject.'",
+   "sd": true
+  },
+  "LS|18|Heavy|6|U|269": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|5|S|410": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|5|U|3178": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|5|U|4614": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|5|U|4734": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|S|168": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|S|68": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|1882": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|1915": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|1928": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|1962": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Tamil Nadu state totals for pothole accidents 2021-24 only; no Dharmapuri district figures and no district-wise compensation data"
+  },
+  "LS|18|MoRTH|6|U|1974": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "NCRB cause table given; HTCC clause answered with national 196 TCFs only - no State-wise sanctioned/operational numbers"
+  },
+  "LS|18|MoRTH|6|U|1991": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|3007": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|3018": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Pilot totals only (6,833 requests, 5,480 treated); no State-wise beneficiary numbers and no impact data on fatalities/injuries"
+  },
+  "LS|18|MoRTH|6|U|3056": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|3072": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|746": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|748": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|838": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Year-wise Telangana crash table given; hotspot list and funds utilised omitted (only '2.21% to 15% of project cost')."
+  },
+  "LS|18|MoRTH|6|U|856": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|863": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|894": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|6|U|905": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "State-wise empanelment table given, but beneficiaries and MVAF disbursal reported only as national totals."
+  },
+  "LS|18|MoRTH|7|S|190": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|S|394": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "NH accident/fatality annexures given; NHAI liability cases unanswered; hit-and-run payouts substituted for NHAI compensation."
+  },
+  "LS|18|MoRTH|7|S|398": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|1008": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No rollout date: scheme 'would be launched when substantive number of District Collectors ... are onboarded on PFMS'."
+  },
+  "LS|18|MoRTH|7|U|1009": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|1010": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Neither rollout timeline nor budgetary allocation given; launch tied to District Collectors' PFMS onboarding."
+  },
+  "LS|18|MoRTH|7|U|1023": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|1024": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|1032": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|1060": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|1077": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|1124": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Blackspot annexure given; expenditure, timelines and reduction targets replaced by '2.21% to 15% of total project cost'."
+  },
+  "LS|18|MoRTH|7|U|1128": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Baghpat blackspot counts by NH given; locations, reasons for their formation and location-wise corrective details not provided."
+  },
+  "LS|18|MoRTH|7|U|124": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|139": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|205": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|2151": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|2153": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'There is no specific Road Safety Fund at the Central level'; State-wise collection/utilisation replaced by MoRTH scheme releases.",
+   "sd": true
+  },
+  "LS|18|MoRTH|7|U|2166": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|2172": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Enforcement 'comes under the purview of State Governments/UT Administrations'; road-rage case count in (c) not given.",
+   "sd": true
+  },
+  "LS|18|MoRTH|7|U|2175": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No count of pothole complaints or average rectification time (c); pothole crash annexure and M&R funds otherwise given."
+  },
+  "LS|18|MoRTH|7|U|2216": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|2222": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|2259": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Beneficiary numbers given only as national totals (6,833 requests, 5,480 treated); no State/UT-wise breakdown as asked."
+  },
+  "LS|18|MoRTH|7|U|2263": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|2266": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|2271": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|3230": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Only national figures (36,112 empanelled hospitals); no State/UT- or district-wise data, no denial/delay beneficiary data."
+  },
+  "LS|18|MoRTH|7|U|3251": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|3272": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|3331": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|3351": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|3372": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|3388": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "State-wise annexure given but no district-wise (Kakinada) data, no state-wise cause data; no central road safety fund figures."
+  },
+  "LS|18|MoRTH|7|U|3393": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No district-wise Rajasthan accident data, only state totals; action on non-NH roads left to 'respective government entity'.",
+   "sd": true
+  },
+  "LS|18|MoRTH|7|U|4463": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|4505": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "National year-wise table 2004-2024 only; no Rajasthan-specific figures and no 2025 data as asked."
+  },
+  "LS|18|MoRTH|7|U|4564": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|4579": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|6270": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|6401": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'A decision on formation of a Road Safety Force would fall within the jurisdiction of the State/UT Governments.'",
+   "sd": true
+  },
+  "LS|18|MoRTH|7|U|6419": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|66": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Annexure gives only state-wise black-spot totals at identification; no year-wise or location-wise data as asked."
+  },
+  "LS|18|MoRTH|7|U|9": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "New Churu black spot given only as 'on NH-11'; no place name and no repair timeline provided."
+  },
+  "LS|18|MoRTH|7|U|964": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|978": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|999": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
   },
   "LS|18|MoRTH|8|S|169": {
    "da": true,
    "dg": "p",
-   "note": "State-wise fatality tables annexed; no footpath/crossing counts and no state-wise financial assistance figures.",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "State-wise fatality tables annexed; no footpath/crossing counts and no state-wise financial assistance figures."
   },
   "LS|18|MoRTH|8|U|1878": {
    "da": true,
    "dg": "p",
-   "note": "State/district blackspot counts and NH funds annexed; no per-spot location/status or project-wise rectification numbers.",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "State/district blackspot counts and NH funds annexed; no per-spot location/status or project-wise rectification numbers."
   },
   "LS|18|MoRTH|8|U|1912": {
    "da": true,
@@ -57,10 +536,10 @@
   },
   "LS|18|MoRTH|8|U|1932": {
    "da": false,
-   "sd": true,
-   "note": "Enforcement 'comes under the sole jurisdiction of the respective State Governments'; no assessment of modification-linked accidents.",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "Enforcement 'comes under the sole jurisdiction of the respective State Governments'; no assessment of modification-linked accidents.",
+   "sd": true
   },
   "LS|18|MoRTH|8|U|1939": {
    "da": true,
@@ -71,9 +550,9 @@
   "LS|18|MoRTH|8|U|1965": {
    "da": true,
    "dg": "p",
-   "note": "NH accident and age-group tables given; PM-RAHAT claims annexure (state-wise benefits/amounts) referenced but absent from text.",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "NH accident and age-group tables given; PM-RAHAT claims annexure (state-wise benefits/amounts) referenced but absent from text."
   },
   "LS|18|MoRTH|8|U|1981": {
    "da": true,
@@ -102,10 +581,10 @@
   "LS|18|MoRTH|8|U|3078": {
    "da": true,
    "dg": "y",
-   "sd": true,
-   "note": "MV Act 2019 assessment dodged: enforcement 'comes under the sole jurisdiction of State Governments/UT Administrations.'",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "MV Act 2019 assessment dodged: enforcement 'comes under the sole jurisdiction of State Governments/UT Administrations.'",
+   "sd": true
   },
   "LS|18|MoRTH|8|U|3089": {
    "da": true,
@@ -116,9 +595,9 @@
   "LS|18|MoRTH|8|U|3115": {
    "da": true,
    "dg": "p",
-   "note": "District-wise list of identified corridors annexed; no rectification status — 'rectification of black spots is a continuous process'",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "District-wise list of identified corridors annexed; no rectification status — 'rectification of black spots is a continuous process'"
   },
   "LS|18|MoRTH|8|U|3116": {
    "da": true,
@@ -135,31 +614,31 @@
   "LS|18|MoRTH|8|U|3136": {
    "da": true,
    "dg": "p",
-   "note": "(d) campaigns answered generically, no State/district-wise figures; RSA details State-wise annexures only, no AP district-wise",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "(d) campaigns answered generically, no State/district-wise figures; RSA details State-wise annexures only, no AP district-wise"
   },
   "LS|18|MoRTH|8|U|3169": {
    "da": true,
    "dg": "p",
-   "sd": true,
-   "note": "Delays clause dodged — fire/police/health 'sole jurisdiction of respective State Governments'; trauma detail = 196 TCFs nationally",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "Delays clause dodged — fire/police/health 'sole jurisdiction of respective State Governments'; trauma detail = 196 TCFs nationally",
+   "sd": true
   },
   "LS|18|MoRTH|8|U|3171": {
    "da": true,
    "dg": "p",
-   "note": "AP district-wise annexures provided; no all-India State-wise figures; no avg settlement time or delayed-claim count for (e)",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "AP district-wise annexures provided; no all-India State-wise figures; no avg settlement time or delayed-claim count for (e)"
   },
   "LS|18|MoRTH|8|U|3173": {
    "da": true,
    "dg": "p",
-   "note": "NH-66 asked stretch-wise; given only all-NH Kerala totals. Project-status annexures for (e) complete",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "NH-66 asked stretch-wise; given only all-NH Kerala totals. Project-status annexures for (e) complete"
   },
   "LS|18|MoRTH|8|U|728": {
    "da": true,
@@ -170,17 +649,17 @@
   "LS|18|MoRTH|8|U|791": {
    "da": true,
    "dg": "y",
-   "sd": true,
-   "note": "'Police'/'Public Order' are State subjects; Road Safety Force decision 'would fall within the jurisdiction of the State/UT Governments'",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "'Police'/'Public Order' are State subjects; Road Safety Force decision 'would fall within the jurisdiction of the State/UT Governments'",
+   "sd": true
   },
   "LS|18|MoRTH|8|U|809": {
    "da": true,
    "dg": "p",
-   "note": "No review findings, only generic 4E annexure; funds = MP/CG NH totals — no project names/status, no State/UT- or district-wise detail",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "No review findings, only generic 4E annexure; funds = MP/CG NH totals — no project names/status, no State/UT- or district-wise detail"
   },
   "LS|18|MoRTH|8|U|818": {
    "da": false,
@@ -195,9 +674,9 @@
   "LS|18|MoRTH|8|U|886": {
    "da": true,
    "dg": "p",
-   "note": "District-wise corridor list given; (b) no rectified/pending status or Shimla split; (c) HP NH allocation totals, not per-spot works/funds",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "District-wise corridor list given; (b) no rectified/pending status or Shimla split; (c) HP NH allocation totals, not per-spot works/funds"
   },
   "LS|18|MoRTH|8|U|914": {
    "da": true,
@@ -207,8 +686,469 @@
   },
   "LS|18|Urban|8|U|3035": {
    "da": false,
-   "sd": true,
+   "g": "2026-08-16",
+   "m": "fable-5",
    "note": "Urban planning/footpaths 'a function of ULBs'; States/ULBs 'responsible for assessing local mobility conditions' — stands in for (a)/(d)",
+   "sd": true
+  },
+  "RS||Health|270|S|344": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Health is a State subject; gap analysis left to States' PIPs. Annexure covers NHM ambulances only; no requirement or gap figures.",
+   "sd": true
+  },
+  "RS||Health|270|S|345": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||Health|270|U|2048": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Annexure lists 196 sanctioned TCFs State-wise, but no functionality status, doctors, beds or ambulances for Bihar as asked."
+  },
+  "RS||Health|270|U|2813": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "AIIMS sanctioned strength given; no district-wise GMC faculty/vacancy data, and the new-GMC clause for Kishtwar/Ramban/Poonch is unanswered."
+  },
+  "RS||Health|271|U|2656": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "fable-5",
+   "note": "Vacancy tables given; 'Health is a state subject' - trauma centre expansion left to State Government proposals",
+   "sd": true
+  },
+  "RS||MoRTH|268|U|3131": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|268|U|3138": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'No separate data is maintained' on NH accidents caused by poor road design or structural problems; State-wise break-up not given."
+  },
+  "RS||MoRTH|268|U|3141": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|268|U|3146": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|1217": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'Health services fall within the domain of the States & UTs'; no response-time or trauma-facility data for accident-prone stretches.",
+   "sd": true
+  },
+  "RS||MoRTH|269|U|1225": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|1227": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|1229": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|2008": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|2014": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "National totals only - 6,833 requests, 5,480 eligible; the State-wise beneficiary break-up asked for is not given."
+  },
+  "RS||MoRTH|269|U|2018": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|2024": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Annexure gives scheme-wise national BE/expenditure only; no State-wise break-up and no Uttar Pradesh figure as asked."
+  },
+  "RS||MoRTH|269|U|2026": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|2035": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No timelines or outcomes for HFZ mitigation works; only 'monitored for next three years'."
+  },
+  "RS||MoRTH|269|U|2040": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Audit clause (d) met only with 'periodic assessment of buses through fitness test comes under the purview of the concerned State/UT'.",
+   "sd": true
+  },
+  "RS||MoRTH|269|U|2041": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Telangana technical-support clause met with 'roads other than NHs are within the jurisdiction of respective States/UTs'.",
+   "sd": true
+  },
+  "RS||MoRTH|269|U|431": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|432": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|434": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "DPR only awarded; 'difficult to indicate the timeline at this stage'."
+  },
+  "RS||MoRTH|269|U|438": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|439": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|441": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "(a) no timeline, only that audit guidelines are issued; ATMS corridor list annexed for (b)."
+  },
+  "RS||MoRTH|270|S|272": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|S|281": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No count of FASTag-equipped plazas ('all Fee plazas on NHs'); 6.05 crore active FASTags given for (b)."
+  },
+  "RS||MoRTH|270|S|48": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Non-NH roads left to States under CMVR 166; no step stated on West Bengal's colour-scheme deviation.",
+   "sd": true
+  },
+  "RS||MoRTH|270|U|1337": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|1363": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|1364": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No count or location list of trauma centres; 'Public Health is a subject allocated to States as per list II'.",
+   "sd": true
+  },
+  "RS||MoRTH|270|U|1365": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|1384": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "ITS corridors named but no coverage figures or quantifiable accident-reduction impact; NRSM outcomes partly given."
+  },
+  "RS||MoRTH|270|U|1387": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2172": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "(e) refused: reward disbursement is States' responsibility, 'Union Government does not maintain data on the time taken'.",
+   "sd": true
+  },
+  "RS||MoRTH|270|U|2173": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2174": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2177": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Only aggregate 98 bus fires plus deaths for 2 states; no year-wise AC-sleeper counts; (b) compensation/action not given."
+  },
+  "RS||MoRTH|270|U|2178": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2187": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2192": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2963": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2976": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2978": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2982": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Annexure gives blackspot counts by series with rectification status, not the location-wise details asked."
+  },
+  "RS||MoRTH|270|U|2983": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'Too early to assess' golden-hour outcome; blackspot figures cumulative not 3-year; iRAP star rating not addressed."
+  },
+  "RS||MoRTH|270|U|2989": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|2991": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No case numbers given; pivots to PM-RAHAT; says implementation/enforcement falls within jurisdiction of respective States/UTs.",
+   "sd": true
+  },
+  "RS||MoRTH|270|U|2993": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Annexures cover all roads, not NHs; no fog-prone corridor list, stretch-wise infra or expenditure; (d) answered with total e-challans."
+  },
+  "RS||MoRTH|270|U|3755": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No state/city-wise AI list or impact assessment; funds only via SASCI/ITS; implementation said to be under purview of State Governments.",
+   "sd": true
+  },
+  "RS||MoRTH|270|U|3759": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No data on cases where NHAI was held liable; compensation figures given only for the hit-and-run scheme, FY 2022-23 to 2025-26."
+  },
+  "RS||MoRTH|270|U|3764": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|3765": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|3766": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'The constitution of the Board is under process' - no date given for full operationalisation."
+  },
+  "RS||MoRTH|270|U|3771": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Implementation-status clause answered by saying enforcement of the Act and Rules rests with respective States/UT administrations.",
+   "sd": true
+  },
+  "RS||MoRTH|270|U|3777": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "GRO annexure and registered-case counts given; no budgetary allocation figure for MVAF hit-and-run cases."
+  },
+  "RS||MoRTH|270|U|4240": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|4247": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|4249": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'The information regarding accidents caused by stray buffaloes and cattle on National Highways is not separately available.'"
+  },
+  "RS||MoRTH|270|U|4258": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Accident and black-spot numbers given; funds clause answered only as 2.21%-15% of project cost, no Kerala allocation figures."
+  },
+  "RS||MoRTH|270|U|4260": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|574": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "1087 GPS ambulances and ~20-min average given; no count of concessionaire non-compliance instances or case-wise action."
+  },
+  "RS||MoRTH|270|U|576": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|577": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "No state-wise/highway-wise prioritisation; only 'High Fatality Corridors' identified with generic remedial measures."
+  },
+  "RS||MoRTH|270|U|581": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "'Compliance of the directions of the Supreme Court is substantially required at the level of States/UTs'; directions forwarded to States.",
+   "sd": true
+  },
+  "RS||MoRTH|270|U|582": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|584": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|270|U|587": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Only NH figures for Patna district - 35 accidents, 32 fatalities across three years, not year-wise or district-wide."
+  },
+  "RS||MoRTH|270|U|590": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||MoRTH|271|S|182": {
+   "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
   },
@@ -220,58 +1160,52 @@
   "RS||MoRTH|271|S|268": {
    "da": true,
    "dg": "p",
-   "note": "Annexure covers contractual penalties, not S.198A complaints/prosecutions; nothing on amounts credited to MVAF",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "Annexure covers contractual penalties, not S.198A complaints/prosecutions; nothing on amounts credited to MVAF"
   },
-  "RS||MoRTH|271|U|2820": {
+  "RS||MoRTH|271|U|1216": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "fable-5",
+   "note": "79 proof-checks and penal-action annexure given; no count of quality audits after failures nor audit findings"
+  },
+  "RS||MoRTH|271|U|1224": {
    "da": false,
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|U|2817": {
-   "da": true,
-   "dg": "p",
-   "note": "Black spot counts given in full (1716/731/567); no timeline - completion 'depends upon' land, clearances, site conditions",
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|U|2809": {
-   "da": true,
-   "dg": "p",
-   "note": "6,358 corridors identified, state list annexed; no State-wise rectified counts for the last two years",
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||Health|271|U|2656": {
-   "da": true,
-   "dg": "y",
-   "sd": true,
-   "note": "Vacancy tables given; 'Health is a state subject' - trauma centre expansion left to State Government proposals",
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||Urban|271|U|2449": {
-   "da": true,
-   "dg": "p",
-   "sd": true,
-   "note": "No city-wise lane length - urban roads under State/ULB purview; only AMRUT aggregate and SCM project annexure given",
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|S|182": {
-   "da": false,
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|U|2015": {
-   "da": true,
-   "dg": "p",
-   "note": "471 distressed bridges, 159 done, rest by Dec 2028; no inspected count, no bridge list or construction years",
    "g": "2026-08-16",
    "m": "fable-5"
   },
   "RS||MoRTH|271|U|2011": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "fable-5"
+  },
+  "RS||MoRTH|271|U|2013": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "fable-5",
+   "note": "Black spot annexure given, but overloading data dodged - States 'empowered to take enforcement action'; no WIM/penalty figures",
+   "sd": true
+  },
+  "RS||MoRTH|271|U|2015": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "fable-5",
+   "note": "471 distressed bridges, 159 done, rest by Dec 2028; no inspected count, no bridge list or construction years"
+  },
+  "RS||MoRTH|271|U|2019": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "fable-5",
+   "note": "Challan tables given in full; recovery and implementation placed on States - 'Police' and 'Public Order' are State subjects",
+   "sd": true
+  },
+  "RS||MoRTH|271|U|2025": {
    "da": true,
    "dg": "y",
    "g": "2026-08-16",
@@ -283,57 +1217,31 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
-  "RS||MoRTH|271|U|2019": {
-   "da": true,
-   "dg": "y",
-   "sd": true,
-   "note": "Challan tables given in full; recovery and implementation placed on States - 'Police' and 'Public Order' are State subjects",
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|U|2013": {
+  "RS||MoRTH|271|U|2809": {
    "da": true,
    "dg": "p",
-   "sd": true,
-   "note": "Black spot annexure given, but overloading data dodged - States 'empowered to take enforcement action'; no WIM/penalty figures",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "6,358 corridors identified, state list annexed; no State-wise rectified counts for the last two years"
   },
-  "RS||MoRTH|271|U|2025": {
-   "da": true,
-   "dg": "y",
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||Urban|271|U|1662": {
-   "da": true,
-   "dg": "n",
-   "sd": true,
-   "note": "'Public order' is a State subject - audits deflected; no funds figures, metro safety costs 'not sanctioned separately'",
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|U|1216": {
+  "RS||MoRTH|271|U|2817": {
    "da": true,
    "dg": "p",
-   "note": "79 proof-checks and penal-action annexure given; no count of quality audits after failures nor audit findings",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "Black spot counts given in full (1716/731/567); no timeline - completion 'depends upon' land, clearances, site conditions"
   },
-  "RS||MoRTH|271|U|1224": {
+  "RS||MoRTH|271|U|2820": {
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
   },
-  "RS||Urban|271|U|873": {
-   "da": false,
+  "RS||MoRTH|271|U|416": {
+   "da": true,
+   "dg": "p",
    "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|U|436": {
-   "da": false,
-   "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "No separate black-spot fund to States; overall NH allocation/expenditure table given instead"
   },
   "RS||MoRTH|271|U|418": {
    "da": false,
@@ -343,24 +1251,11 @@
   "RS||MoRTH|271|U|419": {
    "da": true,
    "dg": "p",
-   "note": "6,358 corridors and 37,164 fatalities given; number rectified not stated, only generic rectification measures",
    "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|U|416": {
-   "da": true,
-   "dg": "p",
-   "note": "No separate black-spot fund to States; overall NH allocation/expenditure table given instead",
-   "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "6,358 corridors and 37,164 fatalities given; number rectified not stated, only generic rectification measures"
   },
   "RS||MoRTH|271|U|430": {
-   "da": true,
-   "dg": "y",
-   "g": "2026-08-16",
-   "m": "fable-5"
-  },
-  "RS||MoRTH|271|U|433": {
    "da": true,
    "dg": "y",
    "g": "2026-08-16",
@@ -377,6 +1272,54 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|271|U|433": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "fable-5"
+  },
+  "RS||MoRTH|271|U|436": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "fable-5"
+  },
+  "RS||Urban|269|U|872": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-08-16",
+   "m": "opus-5"
+  },
+  "RS||Urban|270|U|3432": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "opus-5",
+   "note": "Urban planning called a ULB function; only national AMRUT aggregates (43 km cycle track), no city/State-wise lengths, proposals or funds.",
+   "sd": true
+  },
+  "RS||Urban|271|U|1662": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-08-16",
+   "m": "fable-5",
+   "note": "'Public order' is a State subject - audits deflected; no funds figures, metro safety costs 'not sanctioned separately'",
+   "sd": true
+  },
+  "RS||Urban|271|U|2449": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-08-16",
+   "m": "fable-5",
+   "note": "No city-wise lane length - urban roads under State/ULB purview; only AMRUT aggregate and SCM project annexure given",
+   "sd": true
+  },
+  "RS||Urban|271|U|873": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "fable-5"
   }
- }
+ },
+ "rubric": 1,
+ "version": 1
 }
