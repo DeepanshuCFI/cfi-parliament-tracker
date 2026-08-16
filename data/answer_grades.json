@@ -4621,7 +4621,8 @@
    "m": "fable-5"
   },
   "RS||Health|235|S|96": {
-   "da": false,
+   "da": true,
+   "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
   },
@@ -4725,9 +4726,11 @@
    "m": "fable-5"
   },
   "RS||Health|246|S|145": {
-   "da": false,
+   "da": true,
+   "dg": "p",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "Headline counts given; Annexures I-III with TCF and funds-released details referenced but not included in text"
   },
   "RS||Health|246|U|2331": {
    "da": true,
@@ -4751,8 +4754,7 @@
    "m": "fable-5"
   },
   "RS||Health|251|S|248": {
-   "da": true,
-   "dg": "y",
+   "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
   },
@@ -5034,11 +5036,9 @@
    "m": "fable-5"
   },
   "RS||MoRTH|232|S|198": {
-   "da": true,
-   "dg": "p",
+   "da": false,
    "g": "2026-08-16",
-   "m": "fable-5",
-   "note": "(b) scheme-wise allocation/utilisation 'maintained by the Ministries/Department concerned' — not provided; collection tables given."
+   "m": "fable-5"
   },
   "RS||MoRTH|232|S|83": {
    "da": false,
@@ -5165,9 +5165,10 @@
   },
   "RS||MoRTH|233|S|104": {
    "da": true,
-   "dg": "y",
+   "dg": "p",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "(d) State/UT-wise accidents & deaths 2011-13 referred to Annexure-I; annexure not included in answer text"
   },
   "RS||MoRTH|233|S|17": {
    "da": true,
@@ -5276,7 +5277,8 @@
    "note": "World-comparison figures given inline; state-wise deaths 'annexed' but annexure not present in text"
   },
   "RS||MoRTH|234|S|73": {
-   "da": false,
+   "da": true,
+   "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
   },
@@ -5451,8 +5453,7 @@
    "m": "fable-5"
   },
   "RS||MoRTH|237|S|2": {
-   "da": true,
-   "dg": "y",
+   "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
   },
@@ -5536,7 +5537,8 @@
    "sd": true
   },
   "RS||MoRTH|238|S|171": {
-   "da": false,
+   "da": true,
+   "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
   },
@@ -5553,14 +5555,17 @@
    "m": "fable-5"
   },
   "RS||MoRTH|239|S|152": {
-   "da": false,
+   "da": true,
+   "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
   },
   "RS||MoRTH|239|S|82": {
-   "da": false,
+   "da": true,
+   "dg": "p",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "(b) State/UT-wise figures 'annexed' but annexure absent from text; national year-wise table 2010-14 given in-text"
   },
   "RS||MoRTH|239|U|106": {
    "da": false,
@@ -5715,9 +5720,11 @@
    "m": "fable-5"
   },
   "RS||MoRTH|241|S|278": {
-   "da": false,
+   "da": true,
+   "dg": "p",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "(c) State-wise details of roads approved for NH declaration only 'as annexed'; annexure not present in text"
   },
   "RS||MoRTH|241|U|1381": {
    "da": false,
@@ -5990,7 +5997,7 @@
    "dg": "p",
    "g": "2026-08-16",
    "m": "fable-5",
-   "note": "State-wise figures relegated to Annexures I-IV, not included in reply text; national totals given in-text"
+   "note": "State-wise details in Annexures I-III not included in text; national totals for 2014-16 given in-text"
   },
   "RS||MoRTH|245|U|1047": {
    "da": true,
@@ -6209,7 +6216,8 @@
    "note": "National pothole totals given; State-wise (Annex I-III) and maintenance budget (Annex IV) referenced but missing."
   },
   "RS||MoRTH|247|S|259": {
-   "da": false,
+   "da": true,
+   "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
   },
@@ -6365,14 +6373,12 @@
    "m": "fable-5"
   },
   "RS||MoRTH|249|S|151": {
-   "da": true,
-   "dg": "y",
+   "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
   },
   "RS||MoRTH|249|S|302": {
-   "da": true,
-   "dg": "y",
+   "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
   },
@@ -6555,16 +6561,16 @@
    "m": "fable-5"
   },
   "RS||MoRTH|250|S|213": {
+   "da": false,
+   "g": "2026-08-16",
+   "m": "fable-5"
+  },
+  "RS||MoRTH|250|S|81": {
    "da": true,
    "dg": "p",
    "g": "2026-08-16",
    "m": "fable-5",
-   "note": "No State-wise earmarking of funds; national scheme-wise expenditure table given instead"
-  },
-  "RS||MoRTH|250|S|81": {
-   "da": false,
-   "g": "2026-08-16",
-   "m": "fable-5"
+   "note": "No list of states that reduced penalties; only cites S.200 powers and says no state reported non-implementation"
   },
   "RS||MoRTH|250|U|119": {
    "da": true,
@@ -8449,7 +8455,9 @@
   "RS||Urban|251|S|193": {
    "da": false,
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "Clause (a): footpaths are 'State subjects' under purview of Urban Local Bodies; Centre offers technical support",
+   "sd": true
   },
   "RS||Urban|252|U|1193": {
    "da": true,
