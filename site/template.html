@@ -1439,11 +1439,15 @@ function drawMPCard(e, st, rs){
   cv.width=W; cv.height=H;
   const x=cv.getContext('2d');
   const PAD=80, zero=e.n===0;
+  // shrink font size until txt fits maxW; leaves x.font set, returns nothing
+  const fitFont=(txt, weight, size, maxW, fam='Montserrat')=>{
+    for(let s=size; s>=20; s--){ x.font=`${weight} ${s}px ${fam}`; if(x.measureText(txt).width<=maxW) break; }
+  };
   x.fillStyle='#F3F1FF'; x.fillRect(0,0,W,H);
-  // logo (same-origin data URI already loaded in the header)
+  // logo (same-origin data URI already loaded in the header) — keep its intrinsic ratio
   const logo=document.querySelector('.hd .logo');
   if(logo && logo.complete){
-    const lw=300, lh=lw*(232/1159);
+    const lw=300, lh=lw*(logo.naturalWidth>0 ? logo.naturalHeight/logo.naturalWidth : 262/1894);
     x.drawImage(logo, PAD, PAD, lw, lh);
   }
   x.fillStyle='#4736FE';
@@ -1452,14 +1456,18 @@ function drawMPCard(e, st, rs){
   const kick='ROAD SAFETY IN PARLIAMENT';
   let kx=PAD; for(const ch of kick){ x.fillText(ch,kx,PAD+105); kx+=x.measureText(ch).width+4.5; }
   x.restore();
+  // header block must clear the RS initials disc on the right; LS gets the full width
+  const headW = rs ? W-PAD*2-168 : W-PAD*2;
   // constituency line (RS members have no constituency — they sit for the whole state)
-  x.fillStyle='#777589'; x.font='500 30px Geist, sans-serif';
-  x.fillText(rs ? `${st === 'Nominated' ? 'Nominated by the President' : st} · Rajya Sabha` : `${e.c} · ${st}`, PAD, 320);
+  const consLn = rs ? `${st === 'Nominated' ? 'Nominated by the President' : st} · Rajya Sabha` : `${e.c} · ${st}`;
+  x.fillStyle='#777589'; fitFont(consLn,'500',30,headW,'Geist, sans-serif');
+  x.fillText(consLn, PAD, 320);
   // MP name
-  x.fillStyle='#1a1c1c'; x.font='700 52px Montserrat';
+  x.fillStyle='#1a1c1c'; fitFont(e.mp,'700',52,headW);
   x.fillText(`${e.mp}`, PAD, 385);
-  x.fillStyle='#777589'; x.font='500 30px Geist, sans-serif';
-  x.fillText(`${e.p} · Sitting MP, ${rs?'Rajya Sabha':'18th Lok Sabha'}`, PAD, 432);
+  const partyLn = `${e.p} · Sitting MP, ${rs?'Rajya Sabha':'18th Lok Sabha'}`;
+  x.fillStyle='#777589'; fitFont(partyLn,'500',30,headW,'Geist, sans-serif');
+  x.fillText(partyLn, PAD, 432);
   // RS: initials avatar on a brand-blue disc (no photo pipeline for RS — never fetch)
   if(rs){
     x.save();

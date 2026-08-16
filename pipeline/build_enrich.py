@@ -161,7 +161,7 @@ for r in new:
                 hit['n'] = hit.get('n', 0) + 1
                 if yr:
                     yrs = [int(x) for x in re.findall(r'\d{4}', str(hit.get('y') or ''))] + [yr]
-                    hit['y'] = f'{min(yrs)}–{max(yrs)}'
+                    hit['y'] = str(yrs[0]) if min(yrs) == max(yrs) else f'{min(yrs)}–{max(yrs)}'
                 tl = hit.setdefault('t', [])
                 for gi in r['g']:
                     if TAGS[gi] not in tl:
