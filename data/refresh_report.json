@@ -14,5 +14,9 @@
   "new_candidates": 0,
   "rollover_alert": null,
   "failing_streaks": {},
+  "session_totals": {
+    "ls_total": 4500,
+    "rs_total": 3325
+  },
   "keyword_included": 0
 }
