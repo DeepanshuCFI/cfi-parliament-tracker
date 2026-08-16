@@ -6,7 +6,7 @@ Recreates the previously unscripted post-processing step that produced the
 published v3.1 files (record IDs, name merges, meta, CSV expansion).
 """
 import csv, sys
-from common import DATA, SITE, TAGS, MIN_FULL, record_id, load_json, save_json
+from common import DATA, SITE, TAGS, MIN_FULL, record_id, record_key, load_json, save_json
 
 dataset = load_json(DATA / 'dataset.json')
 sessions = load_json(DATA / 'sessions.json')
@@ -44,6 +44,34 @@ if totals.get('label') == cur['label'] and \
         all(isinstance(totals.get(k), int) and totals[k] > 0 for k in ('ls_total', 'rs_total')):
     dataset['session']['ls_total'] = totals['ls_total']
     dataset['session']['rs_total'] = totals['rs_total']
+
+# ---- answer-quality aggregates (drives the "How government answers" section) ----
+# Grades come from the LOCAL grading pass (pipeline/GRADING.md); absent file =
+# section stays hidden, so this is a no-op in CI until grades are merged.
+ag = load_json(DATA / 'answer_grades.json', {}).get('grades', {})
+if ag:
+    key_to_rec = {record_key(r): r for r in dataset['records']}
+    for k, v in ag.items():
+        r = key_to_rec.get(k)
+        if r:  # compact stamp: dg letter ('-' when no data ask) + 'S' when deflected
+            r['ag'] = (v.get('dg') or '-') + ('S' if v.get('sd') else '')
+    graded = [k for k in ag if k in key_to_rec]
+    da = [k for k in graded if ag[k].get('da')]
+    sd = [k for k in graded if ag[k].get('sd')]
+    examples = []
+    for k in sorted(sd, key=lambda k: key_to_rec[k].get('d') or '', reverse=True):
+        if ag[k].get('note'):
+            examples.append({'j': key_to_rec[k]['j'], 'u': key_to_rec[k].get('u') or '',
+                             'note': ag[k]['note']})
+        if len(examples) == 3:
+            break
+    dataset['answer_quality'] = {
+        'graded': len(graded), 'da': len(da), 'sd': len(sd),
+        'full': sum(1 for k in da if ag[k].get('dg') == 'y'),
+        'partial': sum(1 for k in da if ag[k].get('dg') == 'p'),
+        'none': sum(1 for k in da if ag[k].get('dg') == 'n'),
+        'examples': examples,
+    }
 
 dataset['records'].sort(key=lambda r: r['d'] or '0', reverse=True)
 save_json(DATA / 'dataset.json', dataset, compact=True)
