@@ -192,8 +192,8 @@ section[id]{scroll-margin-top:80px}
 .statesel:disabled{opacity:.5;cursor:not-allowed}
 
 /* hemicycle */
-.hemi-block{margin-top:44px;max-width:880px}
-.hemi-head{display:flex;gap:24px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.hemi-block{margin:44px auto 0;max-width:880px}
+.hemi-head{display:flex;gap:24px;flex-wrap:wrap;justify-content:center;font-size:14px;color:var(--muted)}
 .hemi-head b{font-family:var(--head);color:var(--dark);font-variant-numeric:tabular-nums}
 .hdot{width:12px;height:12px;border-radius:50%;display:inline-block;margin-right:8px;vertical-align:-1px}
 .hdot.asked{background:var(--brand)}
@@ -204,9 +204,9 @@ section[id]{scroll-margin-top:80px}
 #hemi circle.asked,#rsHemi circle.asked{fill:var(--brand)}
 #hemi circle.never,#rsHemi circle.never{fill:var(--danger);fill-opacity:.88}
 #hemi circle:hover,#rsHemi circle:hover{opacity:.6}
-.hemi-cap{margin-top:12px;font-size:12.5px;color:var(--muted);max-width:640px;line-height:1.55}
+.hemi-cap{margin:12px auto 0;font-size:12.5px;color:var(--muted);max-width:640px;line-height:1.55;text-align:center}
 /* house toggle (Lok Sabha / Rajya Sabha) */
-.house-toggle{margin-top:36px;display:inline-flex;gap:4px;padding:4px;border:1px solid var(--border);border-radius:999px;background:#fff}
+.house-toggle{margin:36px auto 0;display:flex;justify-content:center;max-width:max-content;gap:4px;padding:4px;border:1px solid var(--border);border-radius:999px;background:#fff}
 .htg-btn{border:none;background:transparent;color:var(--muted);font-family:var(--head);font-size:14px;font-weight:600;line-height:1;min-height:38px;padding:10px 22px;border-radius:999px;cursor:pointer;transition:all .12s}
 .htg-btn:hover{color:var(--brand)}
 .htg-btn[aria-pressed="true"]{background:var(--brand);color:#fff}
