@@ -1568,7 +1568,7 @@ function buildAnswerQuality(){
     const u = safeUrl(e.u);
     return `<div class="aq-rc"><div class="t">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.j)}<span class="ext" aria-hidden="true">↗</span></a>` : esc(e.j)}</div><div class="n">${esc(e.note)}</div></div>`;
   }).join('');
-  $('aqMethod').innerHTML = `Answers are graded against a <a href="https://github.com/DeepanshuCFI/cfi-parliament-tracker/blob/main/pipeline/GRADING.md" target="_blank" rel="noopener">published rubric</a> — does the answer provide the data the question asked for, and does it place the subject with the states? Borderline answers are graded in the government's favour. ${fmt(AQ.graded)} of ${fmt(TOTAL)} answers graded so far; figures describe graded answers only, and grading of the full record back to 2014 is in progress. Small strip segments carry a minimum width for visibility.`;
+  $('aqMethod').innerHTML = `Answers are graded against a <a href="https://github.com/DeepanshuCFI/cfi-parliament-tracker/blob/main/pipeline/GRADING.md" target="_blank" rel="noopener">published rubric</a> — does the answer provide the data the question asked for, and does it place the subject with the states? Borderline answers are graded in the government's favour. ${fmt(AQ.graded)} of ${fmt(TOTAL)} answers graded; the rest have no retrievable answer document on sansad.in (mostly 2014–15), and newly answered questions are graded within a day. Figures describe graded answers only. Small strip segments carry a minimum width for visibility.`;
   sec.hidden = false;
 }
 
