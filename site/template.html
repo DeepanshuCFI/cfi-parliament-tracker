@@ -66,6 +66,8 @@ header{position:sticky;top:0;z-index:60;border-bottom:1px solid var(--border);ba
   .pagenav{display:block;position:sticky;top:0;z-index:60;background:#fff;border-bottom:1px solid var(--border)}
   .pagenav .pn{display:flex;gap:2px;overflow-x:auto;padding:6px 16px;scrollbar-width:none}
   .pagenav .pn::-webkit-scrollbar{display:none}
+  .pagenav::after{content:"";position:absolute;top:0;right:0;bottom:0;width:44px;background:linear-gradient(to left,#fff 20%,rgba(255,255,255,0));pointer-events:none;opacity:1;transition:opacity .15s}
+  .pagenav.pn-end::after{opacity:0}
   .pagenav a{font-size:12.5px;padding:8px 10px}
 }
 section[id]{scroll-margin-top:80px}
@@ -1704,6 +1706,14 @@ applyDynamicNumbers(); buildSessionStrip(); buildAnswerQuality();
     pending = setTimeout(()=>{ pending = null; spy(); }, 120);
   }, {passive:true});
   spy();
+  // right-edge fade on the mobile chip row: hidden once scrolled to the end
+  const pnav = document.querySelector('.pagenav'), pn = pnav && pnav.querySelector('.pn');
+  if(pn){
+    const edge = ()=>{ pnav.classList.toggle('pn-end', pn.scrollLeft + pn.clientWidth >= pn.scrollWidth - 4); };
+    pn.addEventListener('scroll', edge, {passive:true});
+    window.addEventListener('resize', edge, {passive:true});
+    edge();
+  }
 })();
 buildChips(); buildYearChart(); buildGapChart(); buildLeaderboards(); buildStateSection(); buildHemicycle(); render();
 syncStateSel();
