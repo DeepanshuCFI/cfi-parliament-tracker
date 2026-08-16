@@ -98,12 +98,14 @@ for r in todo:
     text = src = None
     if r['h'] == 'RS':
         q = rs_by_session.get(r['s'], {}).get((r['q'], r['t'], RS_MIN[r['min']]))
-        api_text = scrub(q.get('ans_text')) if q else ''
+        ans = scrub(q.get('ans_text')) if q else ''
         # Starred stubs ("A statement is laid on the Table of the House") carry
         # neither question nor answer - the statement itself is in the PDF.
-        stub = len(api_text) < 400 and re.search(r'statement is (being )?laid on the table', api_text, re.I)
-        if api_text and not stub:
-            text, src = api_text, 'rs_api'
+        stub = len(ans) < 400 and re.search(r'statement is (being )?laid on the table', ans, re.I)
+        if ans and not stub:
+            # prepend qn_text: grading needs the question clauses, and the
+            # rs_api ans_text (unlike the PDFs) does not restate them
+            text, src = scrub((q.get('qn_text') or '') + ' ' + q.get('ans_text', '')), 'rs_api'
         elif r.get('u'):                       # RS fallback: answer PDF
             text, src = fetch_pdf_text(r['u']), 'rs_pdf'
             time.sleep(0.3)

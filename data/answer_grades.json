@@ -4754,9 +4754,11 @@
    "m": "fable-5"
   },
   "RS||Health|251|S|248": {
-   "da": false,
+   "da": true,
+   "dg": "p",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "Stretch accidents given (101 in 2018-19); trauma-centre count answered with Bihar-wide list of 9 approved TCFs, not NH-31-specific"
   },
   "RS||Health|252|U|269": {
    "da": false,
@@ -6373,12 +6375,15 @@
    "m": "fable-5"
   },
   "RS||MoRTH|249|S|151": {
-   "da": false,
+   "da": true,
+   "dg": "n",
    "g": "2026-08-16",
-   "m": "fable-5"
+   "m": "fable-5",
+   "note": "No accident figures given; Yamuna Expressway 'is not a National Highway constructed and managed by NHAI or this Ministry'"
   },
   "RS||MoRTH|249|S|302": {
-   "da": false,
+   "da": true,
+   "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
   },
