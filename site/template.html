@@ -77,6 +77,7 @@ header{border-bottom:1px solid var(--border);background:#fff}
 
 /* ongoing-session strip */
 .sess-dot{width:9px;height:9px;border-radius:50%;background:var(--brand);display:inline-block;margin-right:10px;position:relative;vertical-align:1px}
+.sess-dot[hidden]{display:none}
 .sess-dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid var(--brand);animation:sesspulse 1.8s ease-out infinite}
 @keyframes sesspulse{0%{transform:scale(.55);opacity:.8}75%{transform:scale(1.5);opacity:0}100%{transform:scale(1.5);opacity:0}}
 @media (prefers-reduced-motion:reduce){.sess-dot::after{animation:none;content:none}}
@@ -377,7 +378,7 @@ footer{border-top:1px solid var(--border);background:#fff}
     <h2 id="sessHead"></h2>
     <p class="lead" id="sessLead"></p>
     <div class="sess-stats" id="sessStats" hidden>
-      <div class="stat"><b id="sessN">0</b><i>road-safety questions answered this session</i></div>
+      <div class="stat"><b id="sessN">0</b><i id="sessNNote">road-safety questions answered this session</i></div>
       <div class="stat sess-houses"><span class="sh"><b id="sessLS">—</b><i>Lok Sabha</i></span><span class="sh"><b id="sessRS">—</b><i>Rajya Sabha</i></span></div>
       <div class="stat"><b id="sessLatest">—</b><i>latest answer in this database · checked {{LAST_CHECKED}}</i></div>
     </div>
@@ -1544,6 +1545,10 @@ function buildSessionStrip(){
   }
   if(n>0){
     setTxt('sessN', fmt(n));
+    const den = (+SESS.ls_total||0) + (+SESS.rs_total||0);
+    if(SESS.ls_total>0 && SESS.rs_total>0 && n<=den){
+      setTxt('sessNNote', `road-safety questions answered this session — ${(n/den*100).toFixed(2)}% of all ${fmt(den)} questions`);
+    }
     setTxt('sessLS', fmt(nLS));
     setTxt('sessRS', fmt(nRS));
     const latest = recs.find(r=>r.d);

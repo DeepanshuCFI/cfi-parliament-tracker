@@ -37,6 +37,13 @@ cur = sessions['current']
 dataset['session'] = {'label': cur['label'], 'start': cur['start'], 'end': cur['end'],
                       'sittings': cur['sittings'], 'ls_lk': cur['ls_lk'],
                       'ls_session': cur['ls_session'], 'rs_session': cur['rs_session']}
+# whole-session question totals (all ministries), fetched by delta_refresh; the
+# strip's attention-share line needs BOTH houses or the denominator understates
+totals = load_json(DATA / 'session_totals.json', {})
+if totals.get('label') == cur['label'] and \
+        all(isinstance(totals.get(k), int) and totals[k] > 0 for k in ('ls_total', 'rs_total')):
+    dataset['session']['ls_total'] = totals['ls_total']
+    dataset['session']['rs_total'] = totals['rs_total']
 
 dataset['records'].sort(key=lambda r: r['d'] or '0', reverse=True)
 save_json(DATA / 'dataset.json', dataset, compact=True)

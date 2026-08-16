@@ -133,6 +133,28 @@ for label, ls_code, rs_code, keep in MINISTRIES:
             pending.append({'record': rec, 'keyword_verdict': bool(keep(title))})
     time.sleep(0.2)
 
+# ---- whole-session denominators (all ministries) for the attention-share stat ----
+# LS: pageSize=1 with no ministryCode returns an envelope carrying totalRecordSize.
+# RS: no count endpoint exists - the unfiltered ses_no pull IS the count (one ~4MB
+# call; we len() it and drop the body). Failures keep the previous totals on file.
+totals = load_json(DATA / 'session_totals.json', {})
+if totals.get('label') != cur['label']:
+    totals = {'label': cur['label']}
+t = get(f"https://sansad.in/api_ls/question/qetFilteredQuestionsAns?loksabhaNo={cur['ls_lk']}"
+        f"&sessionNumber={cur['ls_session']}&locale=en&pageSize=1&pageNo=1")
+if isinstance(t, list) and t and isinstance(t[0], dict) and isinstance(t[0].get('totalRecordSize'), int) \
+        and t[0]['totalRecordSize'] > 0:
+    totals['ls_total'] = t[0]['totalRecordSize']
+else:
+    report['api_failures'].append('LS session total')
+t = get(f"https://rsdoc.nic.in/Question/Search_Questions?whereclause=ses_no={cur['rs_session']}")
+if isinstance(t, list) and len(t) > 0:
+    totals['rs_total'] = len(t)
+else:
+    report['api_failures'].append('RS session total')
+save_json(DATA / 'session_totals.json', totals)
+report['session_totals'] = {k: v for k, v in totals.items() if k != 'label'}
+
 # dedupe within the staged batch itself
 seen = {}
 for p in pending:
