@@ -150,6 +150,22 @@ header{border-bottom:1px solid var(--border);background:#fff}
 .dstrip .ds{background:var(--brand);display:flex;align-items:center;justify-content:center;font-family:var(--head);font-weight:700;color:#fff;font-size:14px;min-width:64px}
 .dlegend{display:flex;gap:24px;margin-top:16px;font-size:13.5px;color:var(--muted);flex-wrap:wrap}
 .dlegend b{color:var(--dark)}
+/* how-government-answers */
+.aq-strip{display:flex;gap:2px;height:56px;border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff}
+.aq-strip .seg{display:flex;align-items:center;justify-content:center;font-family:var(--head);font-weight:700;font-size:14px;min-width:10px;white-space:nowrap}
+.aq-strip .aqy{background:var(--brand);color:#fff}
+.aq-strip .aqp{background:#A89CFF;color:var(--dark)}
+.aq-strip .aqn{background:var(--danger);color:#fff}
+.aq-rh{margin-top:40px;font-family:var(--head);font-size:11px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:var(--muted)}
+.aq-receipts{margin-top:14px;display:grid;gap:14px}
+@media(min-width:900px){.aq-receipts{grid-template-columns:repeat(3,1fr)}}
+.aq-rc{border:1px solid var(--border);border-radius:14px;background:#fff;padding:18px 20px}
+.aq-rc .t{font-size:14.5px;font-weight:600;line-height:1.45}
+.aq-rc .t a{color:var(--brand);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:rgba(71,54,254,.35)}
+.aq-rc .n{margin-top:8px;font-size:13px;color:var(--muted);line-height:1.55}
+.aq-method{margin-top:28px;font-size:13px;color:var(--muted);max-width:760px;line-height:1.6}
+.aq-method a{color:var(--brand)}
+.qtag.qsd,.qtag.qnd{border-color:rgba(241,0,21,.3);color:#D00012;background:#fff}
 
 /* state section */
 .pick-row{margin-top:36px;display:grid;grid-template-columns:1fr;gap:16px;max-width:680px}
@@ -441,6 +457,30 @@ footer{border-top:1px solid var(--border);background:#fff}
   </div>
 </section>
 
+<section class="bg-lite" id="answers" hidden>
+  <div class="wrap sec-pad">
+    <span class="eyebrow">How government answers</span>
+    <h2>Asking is step one.<br><span class="accent">The answer is the test.</span></h2>
+    <p class="lead" id="aqLead"></p>
+    <div class="sess-stats" id="aqStats">
+      <div class="stat"><b id="aqFullPct">—</b><i>of data-seeking questions got the full data asked for</i></div>
+      <div class="stat"><b id="aqPartPct">—</b><i>got partial data — the answer covers one clause and skips another</i></div>
+      <div class="stat"><b id="aqSd">—</b><i>answers place the subject with the State Governments</i></div>
+    </div>
+    <div class="debate" style="margin-top:34px">
+      <div class="aq-strip" id="aqStrip" role="img"></div>
+      <div class="dlegend">
+        <span><b>Full</b> — the data asked for, provided</span>
+        <span><b>Partial</b> — some clauses answered, others not</span>
+        <span><b>None</b> — data refused, ignored or "not maintained"</span>
+      </div>
+    </div>
+    <h3 class="aq-rh" id="aqRh" hidden>From the record — answers that point elsewhere</h3>
+    <div class="aq-receipts" id="aqReceipts"></div>
+    <p class="aq-method" id="aqMethod"></p>
+  </div>
+</section>
+
 <section id="state" tabindex="-1" style="outline:none">
   <div class="wrap sec-pad">
     <span class="eyebrow">Road safety in your state</span>
@@ -712,7 +752,7 @@ function render(){
       <div>
         <div class="qsubj">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(r.j)}</a>` : esc(r.j)}</div>
         <div class="qmps">${r.m.map(m=>`<button type="button" data-mp="${esc(m)}" aria-label="Profile of ${esc(m)}">${esc(m)}</button>`).join(' · ')}</div>
-        <div class="qtags"><span class="qtag qmin" title="Answering ministry">${esc(MINF[r.min]||'MoRTH')}</span>${r.g.map(g=>`<span class="qtag">${esc(TAGS[g])}</span>`).join('')}</div>
+        <div class="qtags"><span class="qtag qmin" title="Answering ministry">${esc(MINF[r.min]||'MoRTH')}</span>${r.g.map(g=>`<span class="qtag">${esc(TAGS[g])}</span>`).join('')}${r.ag&&r.ag.indexOf('S')>=0?'<span class="qtag qsd" title="The answer places this subject with the State Governments">answer → states</span>':''}${r.ag&&r.ag[0]==='n'?'<span class="qtag qnd" title="The question asked for data; the answer did not provide it">data not given</span>':''}</div>
       </div>
       <div>${u ? `<a class="qpdf" href="${esc(u)}" target="_blank" rel="noopener" aria-label="Official answer PDF: ${esc(r.j)}">Answer PDF ↗</a>` : '<span class="qpdf na">PDF unavailable</span>'}</div>
     </li>`;}).join('');
@@ -1508,6 +1548,30 @@ function applyDynamicNumbers(){
   }
 }
 
+// ---------- how-government-answers ----------
+function buildAnswerQuality(){
+  const AQ = DATA.answer_quality, sec = $('answers');
+  if(!sec || !AQ || !AQ.graded || !AQ.da || !AQ.sd) return;
+  const pct = x => Math.round(x / AQ.da * 100);
+  $('aqLead').textContent = `Most road-safety questions ask the government for specific numbers — crash counts, funds, timelines, status. We read every answer against its question and grade what came back. Of the ${fmt(AQ.graded)} answers graded so far, ${fmt(AQ.da)} asked for data.`;
+  $('aqFullPct').textContent = pct(AQ.full) + '%';
+  $('aqPartPct').textContent = pct(AQ.partial) + '%';
+  $('aqSd').textContent = '1 in ' + Math.max(2, Math.round(AQ.graded / AQ.sd));
+  const floor = AQ.da * 0.032;
+  const segs = [['aqy', AQ.full, 'full data'], ['aqp', AQ.partial, 'partial'], ['aqn', AQ.none, 'none']].filter(s => s[1] > 0);
+  $('aqStrip').innerHTML = segs.map(([c, nn, lb]) =>
+    `<div class="seg ${c}" style="flex:${Math.max(nn, floor)}">${nn > AQ.da * 0.12 ? `${fmt(nn)} ${lb}` : fmt(nn)}</div>`).join('');
+  $('aqStrip').setAttribute('aria-label',
+    `Of ${AQ.da} data-seeking questions graded: ${AQ.full} answered with full data, ${AQ.partial} with partial data, ${AQ.none} with none`);
+  if((AQ.examples||[]).length) $('aqRh').hidden = false;
+  $('aqReceipts').innerHTML = (AQ.examples || []).map(e => {
+    const u = safeUrl(e.u);
+    return `<div class="aq-rc"><div class="t">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.j)}<span class="ext" aria-hidden="true">↗</span></a>` : esc(e.j)}</div><div class="n">${esc(e.note)}</div></div>`;
+  }).join('');
+  $('aqMethod').innerHTML = `Answers are graded against a <a href="https://github.com/DeepanshuCFI/cfi-parliament-tracker/blob/main/pipeline/GRADING.md" target="_blank" rel="noopener">published rubric</a> — does the answer provide the data the question asked for, and does it place the subject with the states? Borderline answers are graded in the government's favour. ${fmt(AQ.graded)} of ${fmt(TOTAL)} answers graded; the rest have no retrievable answer document on sansad.in (mostly 2014–15), and newly answered questions are graded within a day. Figures describe graded answers only. Small strip segments carry a minimum width for visibility.`;
+  sec.hidden = false;
+}
+
 // ---------- ongoing-session strip ----------
 function buildSessionStrip(){
   const sec = $('session');
@@ -1578,7 +1642,7 @@ function buildSessionStrip(){
 const hadURLState = stateFromURL();
 $('q').value = state.q;
 $('sort').value = state.sort;
-applyDynamicNumbers(); buildSessionStrip();
+applyDynamicNumbers(); buildSessionStrip(); buildAnswerQuality();
 buildChips(); buildYearChart(); buildGapChart(); buildLeaderboards(); buildStateSection(); buildHemicycle(); render();
 syncStateSel();
 if(state.geo) renderStatePanel(state.geo);
