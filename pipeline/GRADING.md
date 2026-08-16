@@ -35,6 +35,26 @@ Deep's call, 16 Aug 2026) — never in CI, never with API keys.
  }}}
 ```
 
+## File serialisation (keep diffs readable)
+
+No pipeline script writes `data/answer_grades.json` — the grading session does,
+by hand. So the format is a convention, not something code enforces: write it
+back with exactly this call, or every run reshuffles the whole file and the
+diff stops showing which grades actually changed.
+
+```python
+json.dump(g, open(path, 'w'), ensure_ascii=False, indent=1, sort_keys=True)
+open(path, 'a').write('\n')   # trailing newline
+```
+
+- `sort_keys=True` — keys sorted at every level, so a batch appends in place
+  instead of reordering; also makes the per-grade fields a fixed order
+  (`da, dg, g, m, note, sd`).
+- `ensure_ascii=False` — answer text quoted in notes is Devanagari-heavy;
+  escaping it makes notes unreadable in review.
+- `indent=1` — one record per few lines, cheap line-level diffs.
+- Trailing newline — keeps `git diff` from flagging the last line every run.
+
 ## Judgment calls (keep these stable)
 
 - `da` is about the QUESTION, graded from the question clauses in the same
