@@ -35,7 +35,7 @@ section{border-top:1px solid var(--border)}
 @media(min-width:1024px){.sec-pad{padding-top:128px;padding-bottom:128px}}
 .eyebrow{font-family:var(--head);font-size:11px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:var(--brand);display:inline-block}
 h1,h2,h3{font-family:var(--head);letter-spacing:-.01em;text-wrap:balance}
-h1{font-size:clamp(34px,6vw,62px);font-weight:700;line-height:1.06;margin-top:22px;max-width:860px}
+h1{font-size:clamp(34px,5.2vw,56px);font-weight:700;line-height:1.06;margin-top:20px;max-width:820px}
 h2{font-size:clamp(28px,4.5vw,44px);font-weight:700;line-height:1.08;margin-top:22px;max-width:780px}
 .accent{color:var(--brand)}
 .lead{margin-top:22px;max-width:660px;font-size:16.5px;color:var(--muted);line-height:1.65}
@@ -50,7 +50,25 @@ h2{font-size:clamp(28px,4.5vw,44px);font-weight:700;line-height:1.08;margin-top:
 .skip:focus{left:0}
 
 /* header */
-header{border-bottom:1px solid var(--border);background:#fff}
+header{position:sticky;top:0;z-index:60;border-bottom:1px solid var(--border);background:#fff}
+.hd-left{display:flex;align-items:center;gap:16px;min-width:0}
+.hd-left .hd-label{border-left:1px solid var(--border);padding-left:16px}
+.hnav{display:flex;align-items:center;gap:2px}
+.hnav a,.pagenav a{font-family:var(--head);font-size:13px;font-weight:600;color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:999px;white-space:nowrap;transition:color .12s,background .12s}
+.hnav a:hover,.pagenav a:hover{color:var(--brand);text-decoration:none}
+.hnav a[aria-current="true"],.pagenav a[aria-current="true"]{color:var(--brand);background:rgba(71,54,254,.08)}
+.pagenav{display:none}
+@media(max-width:1150px){.hd-left .hd-label{display:none}}
+@media(max-width:760px){
+  header{position:static}
+  .hd .hnav{display:none}
+  .pagenav{display:block;position:sticky;top:0;z-index:60;background:#fff;border-bottom:1px solid var(--border)}
+  .pagenav .pn{display:flex;gap:2px;overflow-x:auto;padding:6px 16px;scrollbar-width:none}
+  .pagenav .pn::-webkit-scrollbar{display:none}
+  .pagenav a{font-size:12.5px;padding:8px 10px}
+}
+section[id]{scroll-margin-top:80px}
+@media(max-width:760px){section[id]{scroll-margin-top:52px}}
 .hd{display:flex;align-items:center;justify-content:space-between;height:64px}
 .logo{display:block;width:auto;height:auto}
 .hd .logo{width:188px;height:auto}
@@ -63,10 +81,10 @@ header{border-bottom:1px solid var(--border);background:#fff}
 /* hero */
 .hero{position:relative;overflow:hidden}
 .hero-glow{position:absolute;inset:0;background:radial-gradient(circle at 15% 12%,rgba(71,54,254,.12),transparent 55%);pointer-events:none}
-.hero-inner{position:relative;padding-top:96px;padding-bottom:64px}
-@media(min-width:1024px){.hero-inner{padding-top:128px;padding-bottom:80px}}
+.hero-inner{position:relative;padding-top:56px;padding-bottom:48px}
+@media(min-width:1024px){.hero-inner{padding-top:72px;padding-bottom:56px}}
 .cta-row{margin-top:32px;display:flex;gap:12px;flex-wrap:wrap}
-.statrow{margin-top:56px;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.statrow{margin-top:36px;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 @media(min-width:800px){.statrow{grid-template-columns:repeat(4,1fr);gap:16px}}
 .stat{border:1px solid var(--border);border-radius:16px;background:#fff;padding:18px 20px}
 .stat b{display:block;font-family:var(--head);font-size:clamp(26px,3.4vw,38px);font-weight:700;color:var(--brand);line-height:1.05;font-variant-numeric:tabular-nums}
@@ -357,10 +375,30 @@ footer{border-top:1px solid var(--border);background:#fff}
 
 <header>
   <div class="wrap hd">
-    <img class="logo" src="data:image/svg+xml;base64,__LOGOBLUE__" alt="Crashfree India" width="188" height="26">
-    <div style="display:flex;align-items:center;gap:18px"><div class="hd-label">Parliament Watch</div></div>
+    <div class="hd-left">
+      <img class="logo" src="data:image/svg+xml;base64,__LOGOBLUE__" alt="Crashfree India" width="188" height="26">
+      <div class="hd-label">Parliament Watch</div>
+    </div>
+    <nav class="hnav" aria-label="Page sections">
+      <a href="#session" data-nav="session" hidden>This session</a>
+      <a href="#gap" data-nav="gap">The gap</a>
+      <a href="#answers" data-nav="answers" hidden>Answers</a>
+      <a href="#state" data-nav="state">Your MP</a>
+      <a href="#explorer" data-nav="explorer">Explore</a>
+      <a href="#data" data-nav="data">Method</a>
+    </nav>
   </div>
 </header>
+<nav class="pagenav" aria-label="Page sections">
+  <div class="wrap pn">
+    <a href="#session" data-nav="session" hidden>This session</a>
+    <a href="#gap" data-nav="gap">The gap</a>
+    <a href="#answers" data-nav="answers" hidden>Answers</a>
+    <a href="#state" data-nav="state">Your MP</a>
+    <a href="#explorer" data-nav="explorer">Explore</a>
+    <a href="#data" data-nav="data">Method</a>
+  </div>
+</nav>
 
 <main>
 <div class="hero">
@@ -1643,6 +1681,29 @@ const hadURLState = stateFromURL();
 $('q').value = state.q;
 $('sort').value = state.sort;
 applyDynamicNumbers(); buildSessionStrip(); buildAnswerQuality();
+// header nav: reveal links whose sections exist, then keep the current one highlighted
+(function(){
+  ['session','answers'].forEach(id=>{
+    const s = document.getElementById(id);
+    if(s && !s.hidden) document.querySelectorAll('[data-nav="'+id+'"]').forEach(a=>{ a.hidden = false; });
+  });
+  const KEYS = ['session','gap','answers','state','explorer','data'];
+  let pending = null;
+  function spy(){
+    let cur = '';
+    const y = window.scrollY + 130;
+    KEYS.forEach(k=>{ const el = document.getElementById(k); if(el && !el.hidden && el.offsetTop <= y) cur = k; });
+    document.querySelectorAll('[data-nav]').forEach(a=>{
+      if(a.dataset.nav === cur) a.setAttribute('aria-current','true');
+      else a.removeAttribute('aria-current');
+    });
+  }
+  window.addEventListener('scroll', ()=>{
+    if(pending) return;
+    pending = setTimeout(()=>{ pending = null; spy(); }, 120);
+  }, {passive:true});
+  spy();
+})();
 buildChips(); buildYearChart(); buildGapChart(); buildLeaderboards(); buildStateSection(); buildHemicycle(); render();
 syncStateSel();
 if(state.geo) renderStatePanel(state.geo);
