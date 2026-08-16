@@ -4,8 +4,8 @@ Every road-safety question asked in the Lok Sabha and Rajya Sabha since 2014, ac
 ministries (MoRTH, Health, Heavy Industries, Housing & Urban Affairs), refreshed **daily
 during live sessions** by GitHub Actions and deployed to Vercel.
 
-**Live:** https://road-safety-parliament.vercel.app (final home: crashfreeindia.org/parliament)
-**RTI Watch:** https://road-safety-parliament.vercel.app/rti (static sibling page, deployed from `site/rti/`)
+**Live:** https://parliament.crashfreeindia.org (road-safety-parliament.vercel.app is the underlying Vercel deployment)
+**RTI Watch:** archived to `archive/rti-watch/` ahead of launch (OCR figures pending a human verification pass); `/rti` redirects to the home page
 
 A Crashfree India (Vision Zero Trust) public dataset. License: CC BY 4.0.
 
