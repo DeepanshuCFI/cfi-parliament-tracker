@@ -74,22 +74,24 @@
       ]
     },
     {
+      "mpsno": 5528,
+      "name": "D M Kathir Anand",
+      "state": "Tamil Nadu",
+      "const": "Vellore",
+      "emails": [
+        "dmk.kathir@mpls.sansad.in"
+      ],
+      "domainless": [
+        "dmk.kathir"
+      ]
+    },
+    {
       "mpsno": 3464,
       "name": "Lovely Anand",
       "state": "Bihar",
       "const": "Sheohar",
       "emails": [
         "lovely.anandmp@mpls.sansad.in"
-      ]
-    },
-    {
-      "mpsno": 5528,
-      "name": "D M Kathir Anand",
-      "state": "Tamil Nadu",
-      "const": "Vellore",
-      "emails": [
-        "dmk.kathir@mpls.sansad.in",
-        "dmk.kathir@mpls.sansad.in"
       ]
     },
     {
@@ -926,6 +928,7 @@
       "state": "Tripura",
       "const": "Tripura West",
       "emails": [
+        "biplabkumar.deb@mpls.sansad.in",
         "biplabkumar.deb@mpls.sansad.in"
       ]
     },
@@ -1673,17 +1676,9 @@
       "name": "Govind Makthappa Karjol",
       "state": "Karnataka",
       "const": "Chitradurga",
-      "emails": [
-        "gm.karjol@mpls.sansad.in"
-      ]
-    },
-    {
-      "mpsno": 4960,
-      "name": "Kanimozhi Karunanidhi",
-      "state": "Tamil Nadu",
-      "const": "Thoothukkudi",
-      "emails": [
-        "kanimozhi@mpls.sansad.in"
+      "emails": [],
+      "domainless": [
+        "gm.karjol"
       ]
     },
     {
@@ -1884,8 +1879,9 @@
       "name": "Putta Mahesh Kumar",
       "state": "Andhra Pradesh",
       "const": "Eluru",
-      "emails": [
-        "mahesh.eluru@mpls.sansad.in"
+      "emails": [],
+      "domainless": [
+        "mahesh.eluru"
       ]
     },
     {
@@ -2093,8 +2089,9 @@
       "name": "Bhartruhari Mahtab",
       "state": "Odisha",
       "const": "Cuttack",
-      "emails": [
-        "bmahtab@mpls.sansad.in"
+      "emails": [],
+      "domainless": [
+        "bmahtab"
       ]
     },
     {
@@ -3054,8 +3051,9 @@
       "name": "Pradeep Purohit",
       "state": "Odisha",
       "const": "Bargarh",
-      "emails": [
-        "pradeeppurohit.mp@mpls.sansad.in"
+      "emails": [],
+      "domainless": [
+        "pradeeppurohit.mp"
       ]
     },
     {
@@ -3148,6 +3146,15 @@
       "const": "Ghosi",
       "emails": [
         "rajeevrai.mp@mpls.sansad.in"
+      ]
+    },
+    {
+      "mpsno": 4960,
+      "name": "Kanimozhi Rajathi Karunanidhi",
+      "state": "Tamil Nadu",
+      "const": "Thoothukkudi",
+      "emails": [
+        "kanimozhi@mpls.sansad.in"
       ]
     },
     {
@@ -3815,6 +3822,13 @@
       ]
     },
     {
+      "mpsno": 5837,
+      "name": "Devasish Sharma",
+      "state": "Assam",
+      "const": "Nagaon",
+      "emails": []
+    },
+    {
       "mpsno": 5066,
       "name": "Vishnu Datt Sharma",
       "state": "Madhya Pradesh",
@@ -4185,8 +4199,9 @@
       "name": "V Somanna",
       "state": "Karnataka",
       "const": "Tumkur",
-      "emails": [
-        "v.somanna@mpls.sansad.in"
+      "emails": [],
+      "domainless": [
+        "v.somanna"
       ]
     },
     {
@@ -4949,7 +4964,7 @@
     {
       "mpsno": 1929,
       "name": "Abdul Wahab, Shri",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "wahab.pv@sansad.nic.in"
       ]
@@ -5101,7 +5116,7 @@
     {
       "mpsno": 2631,
       "name": "Beeran, Shri Haris",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "haris.beeran@sansad.nic.in"
       ]
@@ -5181,7 +5196,7 @@
     {
       "mpsno": 2498,
       "name": "Brittas, Dr. John",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "john.brittas@sansad.nic.in"
       ]
@@ -5817,6 +5832,14 @@
       ]
     },
     {
+      "mpsno": 2680,
+      "name": "Mallick, Smt. Rukmini",
+      "state": "West Bengal",
+      "emails": [
+        "rukmini.mallick@mprs.sansad.in"
+      ]
+    },
+    {
       "mpsno": 2610,
       "name": "Mandadi, Shri Anil Kumar Yadav",
       "state": "Telangana",
@@ -5835,7 +5858,7 @@
     {
       "mpsno": 2416,
       "name": "Mani, Shri Jose K.",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "jose.kmani@sansad.nic.in"
       ]
@@ -5867,7 +5890,7 @@
     {
       "mpsno": 2513,
       "name": "Mather Hisham, Smt. Jebi",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "jebi.mathermp@sansad.nic.in"
       ]
@@ -5919,12 +5942,6 @@
       "emails": [
         "sudha.murty@sansad.nic.in"
       ]
-    },
-    {
-      "mpsno": 2504,
-      "name": "Murugan, Dr. L.",
-      "state": "Madhya Pradesh",
-      "emails": []
     },
     {
       "mpsno": 2683,
@@ -6029,7 +6046,7 @@
     {
       "mpsno": 2515,
       "name": "P, Shri Sandosh Kumar",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "sandosh.mprs@sansad.nic.in"
       ]
@@ -6149,7 +6166,7 @@
     {
       "mpsno": 2371,
       "name": "Puri, Shri Hardeep Singh",
-      "state": "Uttar Pradesh",
+      "state": "Madhya Pradesh",
       "emails": [
         "hardeep.spuri@sansad.nic.in"
       ]
@@ -6165,7 +6182,7 @@
     {
       "mpsno": 2514,
       "name": "Rahim, Shri A. A.",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "aa.rahim@sansad.nic.in"
       ]
@@ -6427,14 +6444,6 @@
       ]
     },
     {
-      "mpsno": 2581,
-      "name": "Sharma, Dr. Dinesh",
-      "state": "Uttar Pradesh",
-      "emails": [
-        "drdinesh.sharma@sansad.nic.in"
-      ]
-    },
-    {
       "mpsno": 2668,
       "name": "Sharma, Shri Anurag",
       "state": "Himachal Pradesh",
@@ -6645,7 +6654,7 @@
     {
       "mpsno": 2499,
       "name": "Sivadasan, Dr. V.",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "v.sivadasan@sansad.nic.in"
       ]
@@ -6685,7 +6694,7 @@
     {
       "mpsno": 2630,
       "name": "Suneer, Shri P. P.",
-      "state": "Kerala",
+      "state": "Keralam",
       "emails": [
         "pp.suneer@sansad.nic.in"
       ]

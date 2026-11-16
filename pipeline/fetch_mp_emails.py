@@ -94,6 +94,14 @@ def main():
         rec = {'mpsno': m['mpsno'], 'name': (m.get('mpFirstLastName') or '').strip(),
                'state': m.get('stateName') or '', 'const': m.get('constName') or '',
                'emails': emails}
+        # Since Oct 2026 some edited LS records carry the official address with its
+        # domain cut off ("gm.karjol" for gm.karjol@mpls.sansad.in). A bare local
+        # part proves nothing by itself and is never turned into an address here;
+        # it is only kept so an address stamped earlier is not dropped (see below).
+        bare = sorted({e.strip().lower() for e in (m.get('email') or [])
+                       if e and '@' not in e and re.fullmatch(r"[A-Za-z0-9._%+\-']+", e.strip())})
+        if bare:
+            rec['domainless'] = bare
         audit['ls'].append(rec)
         u = UUID_RE.search(m.get('imageUrl') or '')
         if u:
@@ -102,7 +110,7 @@ def main():
         # homonym guard: a colliding (state, tokens) key is poisoned, not first-wins
         by_name[key] = None if key in by_name else rec
 
-    stamped_ls = missing_ls = unmatched_ls = 0
+    stamped_ls = missing_ls = unmatched_ls = kept_ls = 0
     for st, entries in enrich['mpDir'].items():
         for x in entries:
             rec = by_uuid.get(x.get('img') or '')
@@ -115,6 +123,12 @@ def main():
             if rec['emails']:
                 x['em'] = rec['emails'][0]
                 stamped_ls += 1
+            elif (x.get('em') and 'sansad' in x['em'].split('@', 1)[1]
+                  and x['em'].split('@', 1)[0] in rec.get('domainless', [])):
+                # sansad still lists the same mailbox, minus its domain: keep the
+                # official address verified on an earlier run instead of dropping it
+                stamped_ls += 1
+                kept_ls += 1
             else:
                 x.pop('em', None)
                 missing_ls += 1
@@ -148,7 +162,8 @@ def main():
     n_ls = sum(len(v) for v in enrich['mpDir'].values())
     n_rs = sum(len(v) for v in enrich.get('rsDir', {}).values())
     print(f'fetch_mp_emails: LS {stamped_ls}/{n_ls} stamped '
-          f'({missing_ls} no official email, {unmatched_ls} unmatched) | '
+          f'({missing_ls} no official email, {unmatched_ls} unmatched, '
+          f'{kept_ls} kept from an earlier run because sansad now lists the address without its domain) | '
           f'RS {stamped_rs}/{n_rs} stamped '
           f'({missing_rs} no official email, {unmatched_rs} unmatched)')
     if dry:
