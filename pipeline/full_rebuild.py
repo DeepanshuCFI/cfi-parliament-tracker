@@ -127,6 +127,15 @@ MINISTRIES = [
     ('Urban',  60,110, is_urban_safety),
     ('Home',   33, 33, is_home_safety),
 ]
+# MINISTRY CODES ARE NOT STABLE (found Nov 2026). The registry above holds the codes
+# of the CURRENT Lok Sabha and Rajya Sabha, which is all the daily delta needs. A
+# rebuild across 2014-onwards must use the codes each House used at the time, or it
+# silently skips whole ministries for whole terms: the original baseline never pulled
+# Urban Affairs for the 16th and 17th Lok Sabha, Heavy Industries for the 17th, or
+# Rajya Sabha Urban before session 243.
+LS_CODES = {'Urban': {16: [31, 45], 17: [64], 18: [60]},   # Urban Development + HUPA, then Housing & Urban Affairs
+            'Heavy': {16: [9], 17: [70], 18: [9]}}
+RS_CODES = {'Urban': [49, 93, 110]}                        # Urban Development, HUPA (sessions 232-242), then Housing & Urban Affairs
 MIN_FULL = {'MoRTH':'Road Transport & Highways','Health':'Health & Family Welfare',
             'Heavy':'Heavy Industries','Urban':'Housing & Urban Affairs','Home':'Home Affairs'}
 
@@ -194,8 +203,11 @@ for label, ls_code, rs_code, keep in MINISTRIES:
     # ----- RS via rsdoc -----
     rs_kept = 0
     for ses in range(232, int(os.environ.get('RS_MAX_SESSION', '280'))):
-        d = get(f"https://rsdoc.nic.in/Question/Search_Questions?whereclause=ses_no={ses}%20and%20min_code=%27{rs_code}%27")
-        if not d: print(f'  [{label}] RS ses {ses} FAILED'); continue
+        d = []
+        for rc in RS_CODES.get(label, [rs_code]):
+            x = get(f"https://rsdoc.nic.in/Question/Search_Questions?whereclause=ses_no={ses}%20and%20min_code=%27{rc}%27")
+            if isinstance(x, list): d += x
+        if not d: print(f'  [{label}] RS ses {ses}: no rows'); continue
         for q in d:
             title = (q.get('qtitle') or '').strip()
             if not keep(title): continue
@@ -210,13 +222,16 @@ for label, ls_code, rs_code, keep in MINISTRIES:
     ls_kept = 0
     for lk in (16,17,18):
         for sn in sorted(lk_sessions.get(lk) or set(range(1,18))):
-            base = f"https://sansad.in/api_ls/question/qetFilteredQuestionsAns?loksabhaNo={lk}&sessionNumber={sn}&ministryCode={ls_code}&locale=en&pageSize=100&pageNo="
-            first = get(base+'1')
-            if not first or not first[0].get('listOfQuestions'): continue
-            total = first[0]['totalRecordSize']; rows = list(first[0]['listOfQuestions'])
-            for p in range(2, (total+99)//100+1):
-                dd = get(base+str(p)); time.sleep(0.1)
-                if dd and dd[0].get('listOfQuestions'): rows += dd[0]['listOfQuestions']
+            rows = []
+            for lc in LS_CODES.get(label, {}).get(lk, [ls_code]):
+                base = f"https://sansad.in/api_ls/question/qetFilteredQuestionsAns?loksabhaNo={lk}&sessionNumber={sn}&ministryCode={lc}&locale=en&pageSize=100&pageNo="
+                first = get(base+'1')
+                if not first or not first[0].get('listOfQuestions'): continue
+                total = first[0]['totalRecordSize']; rows += list(first[0]['listOfQuestions'])
+                for p in range(2, (total+99)//100+1):
+                    dd = get(base+str(p)); time.sleep(0.1)
+                    if dd and dd[0].get('listOfQuestions'): rows += dd[0]['listOfQuestions']
+            if not rows: continue
             for q in rows:
                 title = (q.get('subjects') or '').strip()
                 if not keep(title): continue
