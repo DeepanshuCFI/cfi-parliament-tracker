@@ -1115,11 +1115,15 @@ function buildStateSection(){
   // picking from the state lists is a top-of-page action: the card answers there
   ['stateSel','pcSel'].forEach(id=>$(id).addEventListener('change', ()=>placeCard('top')));
   // the state figures sit folded under the card; show the fold only when there is a state to show
-  new MutationObserver(()=>{
+  // ...and open it by itself only while no MP card is showing (a state was picked, not yet a member)
+  const syncFold = ()=>{
     const p = $('statePanel'), st = $('stateSel').value;
     $('stateWrap').hidden = p.hidden;
+    $('stateWrap').open = !p.hidden && $('mpFind').hidden;
     $('stateWrapSum').textContent = st ? st + ' at a glance' : 'Your state at a glance';
-  }).observe($('statePanel'), {attributes:true, attributeFilter:['hidden'], childList:true});
+  };
+  new MutationObserver(syncFold).observe($('statePanel'), {attributes:true, attributeFilter:['hidden'], childList:true});
+  new MutationObserver(syncFold).observe($('mpFind'), {attributes:true, attributeFilter:['hidden']});
   $('stateSel').addEventListener('change', e=>{
     const st = e.target.value;
     buildMemberSel(st);
@@ -1787,7 +1791,7 @@ const hadPC = !!(_pcs && MPDIR[_pcs]);
 if(hadPC){
   $('stateSel').value = _pcs; buildPCSel(_pcs); renderStatePanel(_pcs);
   if(_pc && (MPDIR[_pcs]||[]).some(x=>x.c===_pc)){ $('pcSel').value = _pc; renderMPFind(_pcs, _pc); }
-  setTimeout(()=>{ window.scrollTo({top:$('state').offsetTop, behavior:'instant'}); }, 80);
+  setTimeout(()=>{ window.scrollTo({top:$('find').offsetTop, behavior:'instant'}); }, 80);
 }
 // Rajya Sabha deep link (?rss=State&rsm=Member name)
 const _rss = _pp.get('rss'), _rsm = _pp.get('rsm');
@@ -1796,7 +1800,7 @@ if(hadRS){
   setHouse('RS');
   $('stateSel').value = _rss; buildRSSel(_rss); renderStatePanel(_rss);
   if(_rsm && (RSDIR[_rss]||[]).some(x=>x.mp===_rsm)){ $('pcSel').value = _rsm; renderRSMPFind(_rss, _rsm); }
-  setTimeout(()=>{ window.scrollTo({top:$('state').offsetTop, behavior:'instant'}); }, 80);
+  setTimeout(()=>{ window.scrollTo({top:$('find').offsetTop, behavior:'instant'}); }, 80);
 }
 if(hadURLState && !hadPC && !hadRS){ setTimeout(()=>{ window.scrollTo({top:$('explorer').offsetTop, behavior:'instant'}); }, 60); }
 </script>
