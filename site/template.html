@@ -100,6 +100,9 @@ section[id]{scroll-margin-top:80px}
 .finder-browse summary{cursor:pointer;font-family:var(--head);font-size:14px;font-weight:600;color:var(--brand);padding:8px 0;list-style-position:inside}
 .finder-browse .house-toggle{margin:14px 0 0}
 .finder-browse .pick-row{margin-top:16px}
+.state-wrap{margin-top:14px}
+.state-wrap summary{cursor:pointer;font-family:var(--head);font-size:14px;font-weight:600;color:var(--brand);padding:8px 0;list-style-position:inside}
+.card-slot-chart{max-width:680px;margin:0 auto}
 .inline-link{color:var(--brand);font-weight:600;text-decoration:underline;text-decoration-color:rgba(71,54,254,.35);text-underline-offset:3px;white-space:nowrap}
 .statrow{margin-top:36px;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 @media(min-width:800px){.statrow{grid-template-columns:repeat(4,1fr);gap:16px}}
@@ -450,8 +453,11 @@ footer{border-top:1px solid var(--border);background:#fff}
     </div>
       </details>
     <p class="mpf-note" id="rsNomHint" hidden>Looking for a nominated member — Sudha Murty, P.T. Usha, Satnam Singh Sandhu, Ilaiyaraaja? The President's 12 nominees sit under <strong>“Nominated by the President”</strong> at the top of the state list, not under their home state.</p>
-    <div id="mpFind" class="mpfind" hidden></div>
-    <div id="statePanel" class="state-panel" hidden></div>
+    <div id="cardSlotTop"><div id="mpFind" class="mpfind" hidden></div></div>
+    <details class="state-wrap" id="stateWrap" hidden>
+      <summary id="stateWrapSum">Your state at a glance</summary>
+      <div id="statePanel" class="state-panel" hidden></div>
+    </details>
     </div>
     <p class="lead">Built on all <span id="dynTotalLead">{{TOTAL}}</span> road-safety questions put to five ministries since 2014, checked against Parliament's own records. <a class="inline-link" href="#explorer">Explore all <span id="dynTotalCta">{{TOTAL}}</span> questions</a></p>
     <div class="statrow">
@@ -587,6 +593,7 @@ footer{border-top:1px solid var(--border);background:#fff}
       <div class="hemi-wrap"><svg id="rsHemi" viewBox="0 0 1000 545" role="img"></svg></div>
       <p class="hemi-cap">The Rajya Sabha, seat by seat — every dot is a sitting member. Select a dot for that member's record. <span id="rsHemiVacant">1 of the 245 seats is currently vacant.</span> Counts cover every term each member has served, in either House.</p>
     </div>
+    <div id="cardSlotChart" class="card-slot-chart"></div>
   </div>
 </section>
 
@@ -1105,6 +1112,14 @@ function buildStateSection(){
   $('htgLS').addEventListener('click', ()=>setHouse('LS'));
   $('htgRS').addEventListener('click', ()=>setHouse('RS'));
   document.querySelectorAll('[data-htg]').forEach(b=>b.addEventListener('click', ()=>setHouse(b.dataset.htg)));
+  // picking from the state lists is a top-of-page action: the card answers there
+  ['stateSel','pcSel'].forEach(id=>$(id).addEventListener('change', ()=>placeCard('top')));
+  // the state figures sit folded under the card; show the fold only when there is a state to show
+  new MutationObserver(()=>{
+    const p = $('statePanel'), st = $('stateSel').value;
+    $('stateWrap').hidden = p.hidden;
+    $('stateWrapSum').textContent = st ? st + ' at a glance' : 'Your state at a glance';
+  }).observe($('statePanel'), {attributes:true, attributeFilter:['hidden'], childList:true});
   $('stateSel').addEventListener('change', e=>{
     const st = e.target.value;
     buildMemberSel(st);
@@ -1175,6 +1190,7 @@ function buildHemicycle(){
     const st=c.dataset.st, pc=c.dataset.c;
     $('stateSel').value=st; buildPCSel(st); renderStatePanel(st);
     $('pcSel').value=pc; renderMPFind(st, pc);
+    placeCard('chart');
     $('mpFind').scrollIntoView({behavior:'smooth', block:'center'});
   });
 }
@@ -1219,6 +1235,7 @@ function buildRSHemicycle(){
     const st=c.dataset.st, mp=c.dataset.mp;
     $('stateSel').value=st; buildRSSel(st); renderStatePanel(st);
     $('pcSel').value=mp; renderRSMPFind(st, mp);
+    placeCard('chart');
     $('mpFind').scrollIntoView({behavior:'smooth', block:'center'});
   });
 }
@@ -1290,7 +1307,15 @@ function buildMPIndex(){
   MPIDX.sort((a, b) => a.mp.localeCompare(b.mp));
 }
 function hideMPRes(){ const r = $('mpSearchRes'); r.hidden = true; r.innerHTML = ''; $('mpSearch').setAttribute('aria-expanded', 'false'); }
+// The verdict card lives in one of two slots: under the search (default) or under
+// the seat chart when the reader picked a dot there, so the page never jumps away
+// from where they clicked.
+function placeCard(where){
+  const slot = $(where==='chart' ? 'cardSlotChart' : 'cardSlotTop'), card = $('mpFind');
+  if(card.parentNode !== slot) slot.appendChild(card);
+}
 function mpSearchGo(hit){
+  placeCard('top');
   $('mpSearch').value = '';
   hideMPRes();
   setHouse(hit.house);
