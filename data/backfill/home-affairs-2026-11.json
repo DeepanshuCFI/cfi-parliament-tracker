@@ -1,6 +1,6 @@
 {
  "source": "editor backfill, Home Affairs added Nov 2026",
- "note": "Every Home Affairs question since July 2014 (11,805: LS 6,041, RS 5,764; LS ministryCode 33, RS min_code 33) was enumerated from Parliament's question APIs on 23 Nov 2026 and curated by title against the approved scope. borderline=true marks inclusions the editor may want to drop.",
+ "note": "Every Home Affairs question since July 2014 (11,805: LS 6,041, RS 5,764; LS ministryCode 33, RS min_code 33) was enumerated from Parliament's question APIs on 23 Nov 2026 and curated by title against the approved scope. borderline=true marks inclusions the editor may want to drop. 23 Nov 2026: the editor confirmed the footpath-encroachment, road-divider visibility and un-challaned-vehicles questions; their borderline flags were cleared.",
  "records": [
   {
    "h": "LS",
@@ -127,8 +127,7 @@
    ],
    "j": "Change of colour on dividers on roads in NDMC area",
    "u": "https://sansad.in/getFile/annex/233/?source=pqars",
-   "min": "Home",
-   "borderline": true
+   "min": "Home"
   },
   {
    "h": "LS",
@@ -170,8 +169,7 @@
    ],
    "j": "Racket in connivance with Delhi Traffic Police",
    "u": "https://sansad.in/getFile/annex/233/?source=pqars",
-   "min": "Home",
-   "borderline": true
+   "min": "Home"
   },
   {
    "h": "LS",
@@ -185,8 +183,7 @@
    ],
    "j": "COLOUR NORM FOR ROAD DIVIDERS",
    "u": "",
-   "min": "Home",
-   "borderline": true
+   "min": "Home"
   },
   {
    "h": "RS",
@@ -200,8 +197,7 @@
    ],
    "j": "Encroachment on footpaths in Delhi",
    "u": "https://sansad.in/getFile/annex/234/Au223.docx?source=pqars",
-   "min": "Home",
-   "borderline": true
+   "min": "Home"
   },
   {
    "h": "LS",
@@ -372,8 +368,7 @@
    ],
    "j": "Encroachment on Footpaths",
    "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU3559.docx?source=lsapps",
-   "min": "Home",
-   "borderline": true
+   "min": "Home"
   },
   {
    "h": "LS",
