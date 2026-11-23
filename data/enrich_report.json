@@ -1,73 +1,9 @@
 {
-  "new_records_applied": 164,
+  "new_records_applied": 0,
   "unmatched_new_askers": [],
   "unresolved_askers_outstanding": [
     "M. Thambidurai"
   ],
   "healed_this_run": [],
-  "left_never_asked_list": [
-    {
-      "official": "Roopkumari Choudhary",
-      "dataset_name": "Roopkumari Choudhary",
-      "state": "Chhattisgarh"
-    },
-    {
-      "official": "Narayan Tatu Rane",
-      "dataset_name": "Narayan Tatu Rane",
-      "state": "Maharashtra"
-    },
-    {
-      "official": "Arun Bharti",
-      "dataset_name": "Arun Bharti",
-      "state": "Bihar"
-    },
-    {
-      "official": "Arun Singh",
-      "dataset_name": "Arun Singh",
-      "state": "Uttar Pradesh",
-      "house": "RS"
-    },
-    {
-      "official": "K Radhakrishnan",
-      "dataset_name": "K Radhakrishnan",
-      "state": "Kerala"
-    },
-    {
-      "official": "Dola Sen",
-      "dataset_name": "Dola Sen",
-      "state": "West Bengal",
-      "house": "RS"
-    },
-    {
-      "official": "Yogender Chandolia",
-      "dataset_name": "Yogender Chandolia",
-      "state": "Delhi"
-    },
-    {
-      "official": "Jayanta Kumar Roy",
-      "dataset_name": "Jayanta Kumar Roy",
-      "state": "West Bengal"
-    },
-    {
-      "official": "Thirumaavalavan Tholkappiyan",
-      "dataset_name": "Thirumaa Valavan Thol",
-      "state": "Tamil Nadu"
-    },
-    {
-      "official": "Manoj Tiwari",
-      "dataset_name": "Manoj Kumar Tiwari",
-      "state": "Delhi"
-    },
-    {
-      "official": "Mala Roy",
-      "dataset_name": "Mala Roy",
-      "state": "West Bengal"
-    },
-    {
-      "official": "Neeraj Shekhar",
-      "dataset_name": "Neeraj Shekhar",
-      "state": "Uttar Pradesh",
-      "house": "RS"
-    }
-  ]
+  "left_never_asked_list": []
 }
