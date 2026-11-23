@@ -4470,10 +4470,10 @@
     "source": "keyword+claude-haiku-4-5"
   },
   "LS|18|MoRTH|8|U|3077": {
-    "include": false,
+    "include": true,
     "title": "Implementation of Cashless Treatment Scheme",
     "ministry": "MoRTH",
-    "source": "keyword+claude-haiku-4-5"
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
   },
   "LS|18|MoRTH|8|U|3067": {
     "include": false,
@@ -6424,5 +6424,743 @@
     "title": "Traffic Challans issued in Chandigarh",
     "ministry": "Home",
     "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|MoRTH|2|U|5196": {
+    "include": true,
+    "title": "HIGHWAY PATROLLING",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|3|U|4149": {
+    "include": true,
+    "title": "BAN ON USE OF EARPHONE WHILE WALKING",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|Health|3|U|4534": {
+    "include": true,
+    "title": "TREATMENT TO ROAD ACCIDENT VICTIMS AND WOMEN IN LABOUR",
+    "ministry": "Health",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|4|U|498": {
+    "include": true,
+    "title": "HIGHWAY POLICING",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|4|U|520": {
+    "include": true,
+    "title": "FITNESS OF VEHICLES",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|4|U|600": {
+    "include": true,
+    "title": "MEDICAL SERVICES AT NATIONL HIGHWAYS",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|4|U|1775": {
+    "include": true,
+    "title": "FOG WARNING SYSTEM AT HIGHWAYS",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|Home|4|U|3266": {
+    "include": true,
+    "title": "PROTECTION OF BYSTANDERS",
+    "ministry": "Home",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|4|U|4908": {
+    "include": true,
+    "title": "BAN ON LIQUOR ON NHS",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|5|S|246": {
+    "include": true,
+    "title": "Driving Training Centres",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|5|U|2800": {
+    "include": true,
+    "title": "Driving Training Institutes in Odisha",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|5|U|3963": {
+    "include": true,
+    "title": "RADMS",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|5|U|3998": {
+    "include": true,
+    "title": "Cashless Treatment",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|5|U|4025": {
+    "include": true,
+    "title": "Speed Breakers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|5|U|4052": {
+    "include": true,
+    "title": "Rules for Traffic Violators",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|6|U|848": {
+    "include": true,
+    "title": "Signboards",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|6|U|895": {
+    "include": true,
+    "title": "NRSTMB",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|Heavy|6|U|1482": {
+    "include": true,
+    "title": "Recall of Faulty Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|6|U|1980": {
+    "include": true,
+    "title": "Capping of Third Party Insurance Claims",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|6|U|3172": {
+    "include": true,
+    "title": "Building of Footpath along Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|7|U|235": {
+    "include": true,
+    "title": "Potholes on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|7|U|340": {
+    "include": true,
+    "title": "Installation of Video Cameras and Black Box for Commercial Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|7|U|454": {
+    "include": true,
+    "title": "Provision of CCTV Cameras on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|7|U|1227": {
+    "include": true,
+    "title": "Strict Provisions for Offenders",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|7|U|1367": {
+    "include": true,
+    "title": "Fine on Rule's Violators",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|7|U|2256": {
+    "include": true,
+    "title": "Star Ratings for Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|8|U|729": {
+    "include": true,
+    "title": "Graduated Drivers' Licensing System (GDLS)",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|8|U|767": {
+    "include": true,
+    "title": "Lane System for Traffic",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|8|U|793": {
+    "include": true,
+    "title": "Driving-cum-Fitness Training Centres",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|8|U|1913": {
+    "include": true,
+    "title": "Fitness and Pollution Centres",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|8|U|2003": {
+    "include": true,
+    "title": "Safe Traffic System Design",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|8|U|2029": {
+    "include": true,
+    "title": "Removal of Speed Breakers on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|9|U|841": {
+    "include": true,
+    "title": "Removal of Liquor Shops on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|9|U|1864": {
+    "include": true,
+    "title": "Anti-Lock Braking System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|9|U|1870": {
+    "include": true,
+    "title": "Fake Licences",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|9|U|2030": {
+    "include": true,
+    "title": "Medical Care Facilities on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|9|U|3024": {
+    "include": true,
+    "title": "Encroachment on Footpaths",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|9|U|4179": {
+    "include": true,
+    "title": "Fitness Certificates for Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|9|U|4235": {
+    "include": true,
+    "title": "Speed Breakers and Signages",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|10|S|140": {
+    "include": true,
+    "title": "Medical Insurance for Road Users",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|10|U|2592": {
+    "include": true,
+    "title": "Highway Patrol Squads",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|10|U|3880": {
+    "include": true,
+    "title": "Installation of Hydraulic Gates for Speedy Rescue",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|10|U|4744": {
+    "include": true,
+    "title": "Rash Driving on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|11|U|111": {
+    "include": true,
+    "title": "Foot Overbridges on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|11|U|1356": {
+    "include": true,
+    "title": "Underpasses, Flyovers and Foot Over Bridges",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|11|S|136": {
+    "include": true,
+    "title": "Speed on e-ways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|11|U|1412": {
+    "include": true,
+    "title": "Medical Insurance to Road Users",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|11|U|2492": {
+    "include": true,
+    "title": "Removal of Liquor Shops on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|11|U|3559": {
+    "include": true,
+    "title": "Driving Discipline",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|12|S|71": {
+    "include": true,
+    "title": "Speed Breakers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|12|U|852": {
+    "include": true,
+    "title": "Faulty Design of NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|12|U|1922": {
+    "include": true,
+    "title": "Driving Competence Tests",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|12|U|1935": {
+    "include": true,
+    "title": "Construction of Foot Overbridge on NH1",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|12|S|272": {
+    "include": true,
+    "title": "Graduated Drivers Licensing System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|Health|14|U|50": {
+    "include": true,
+    "title": "Road Traffic Injury Patients",
+    "ministry": "Health",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|16|MoRTH|17|U|839": {
+    "include": true,
+    "title": "Driving Training and Research Institutes",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|1|U|2080": {
+    "include": true,
+    "title": "CCTV Cameras on Highways to Oversee Driving",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|1|U|2102": {
+    "include": true,
+    "title": "Requirement of Trained Drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|1|U|5439": {
+    "include": true,
+    "title": "Training for Safe Driving",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|Urban|2|U|891": {
+    "include": true,
+    "title": "The Delhi Cyclewalk",
+    "ministry": "Urban",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|2|U|2870": {
+    "include": true,
+    "title": "Standard Brightness Level of Lights in Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|2|U|3918": {
+    "include": true,
+    "title": "Global New Car Assessment Programme",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|2|U|4008": {
+    "include": true,
+    "title": "Transportation of School Children",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|2|U|4126": {
+    "include": true,
+    "title": "Institute of Driving Training and Research",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|Heavy|3|U|293": {
+    "include": true,
+    "title": "Crash Test of Cars",
+    "ministry": "Heavy",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|3|U|702": {
+    "include": true,
+    "title": "Construction of Foot Over Bridge",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|3|U|768": {
+    "include": true,
+    "title": "Implementation of Automatic Headlamp On (AHO) Rule",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|3|U|894": {
+    "include": true,
+    "title": "Issue of Fitness Certificate for Commercial Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|3|U|2307": {
+    "include": true,
+    "title": "Recall Policy for Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|4|U|2005": {
+    "include": true,
+    "title": "Compensation to NoKs of Migrants Died on NHsduring Lockdown",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|5|U|1803": {
+    "include": true,
+    "title": "Driving Schools",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|5|U|3696": {
+    "include": true,
+    "title": "Recall Policy for Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|5|U|4945": {
+    "include": true,
+    "title": "Construction of Footpath along NH",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|5|U|5050": {
+    "include": true,
+    "title": "Ambulances at Toll Plazas",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|6|U|594": {
+    "include": true,
+    "title": "Maintenance of Ambulances at Toll Plazas",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|6|U|1699": {
+    "include": true,
+    "title": "Training to Drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|Heavy|7|U|2733": {
+    "include": true,
+    "title": "Air Bags for Cars",
+    "ministry": "Heavy",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|8|U|2586": {
+    "include": true,
+    "title": "Star Rating System for Cars",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|9|U|755": {
+    "include": true,
+    "title": "Institute of Driving Training and Research",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|9|U|817": {
+    "include": true,
+    "title": "Bharat New Car Assessment Programme",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|9|U|1876": {
+    "include": true,
+    "title": "Emergency Facilities on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|9|U|1953": {
+    "include": true,
+    "title": "Transportation of School Children",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|Heavy|9|U|2537": {
+    "include": true,
+    "title": "Safety of Electric Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|9|U|3008": {
+    "include": true,
+    "title": "Institute of Driving Training and Research",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|9|U|3090": {
+    "include": true,
+    "title": "Bharat New Car Assessment Programme",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|Health|9|S|281": {
+    "include": true,
+    "title": "Critical Care/Emergency Centres along National Highways",
+    "ministry": "Health",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|10|U|2755": {
+    "include": true,
+    "title": "Electronic Monitoring System on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|11|U|224": {
+    "include": true,
+    "title": "Availability of Ambulances at Toll Plazas",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|11|U|2624": {
+    "include": true,
+    "title": "Construction of Foot Over Bridge",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|11|U|3729": {
+    "include": true,
+    "title": "Road Traffic Injuries",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|11|U|3840": {
+    "include": true,
+    "title": "Construction of Underpasses/Foot Over Bridges on NH-44",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|12|U|1309": {
+    "include": true,
+    "title": "Regional Driving Training Centres",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|12|U|2306": {
+    "include": true,
+    "title": "Lane Violations",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|12|U|2390": {
+    "include": true,
+    "title": "CCTV on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|12|U|2428": {
+    "include": true,
+    "title": "Hospitals along National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|Health|12|U|2707": {
+    "include": true,
+    "title": "Financial Support for Critical Care/Emergency Centres",
+    "ministry": "Health",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|14|U|1853": {
+    "include": true,
+    "title": "Audit of Tunnels",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|17|MoRTH|14|U|1912": {
+    "include": true,
+    "title": "Bharat New Car Assessment Programme",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|2|S|149": {
+    "include": true,
+    "title": "Renewal of Driving Licences",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|3|U|596": {
+    "include": true,
+    "title": "Foot Over Bridge in Kannur",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|3|U|1830": {
+    "include": true,
+    "title": "Data on Road Incidents",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|3|U|2890": {
+    "include": true,
+    "title": "Cashless Treatment",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|3|U|3937": {
+    "include": true,
+    "title": "Status of Driving Training Institutes in Andhra Pradesh",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|3|U|4052": {
+    "include": true,
+    "title": "Commercial Vehicles driven by LMV License holders",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|4|S|43": {
+    "include": true,
+    "title": "Regional Driving Training Centres",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|4|U|500": {
+    "include": true,
+    "title": "Reduction in Number of Blind Spots",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|4|S|134": {
+    "include": true,
+    "title": "Speed Monitoring on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|4|U|2437": {
+    "include": true,
+    "title": "Working Hours Limit and Rest Provisions for Drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|4|U|3335": {
+    "include": true,
+    "title": "Cameras on NHAI Roads",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|4|U|3424": {
+    "include": true,
+    "title": "Electronic Monitoring of National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|4|U|4420": {
+    "include": true,
+    "title": "Inspections of Load and Freight-Bearing Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|4|S|464": {
+    "include": true,
+    "title": "Setting up of Driving Training Centres",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|5|U|1936": {
+    "include": true,
+    "title": "Deep Potholes on NH-966",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|5|U|4751": {
+    "include": true,
+    "title": "Cashless Treatment Scheme",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|5|U|4774": {
+    "include": true,
+    "title": "Electronic Monitoring on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|6|U|3214": {
+    "include": true,
+    "title": "Mandatory Implementation of ADAS",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|7|U|1089": {
+    "include": true,
+    "title": "Implementation of Speed Management Guidelines",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|Health|7|U|1370": {
+    "include": true,
+    "title": "Free Treatment to Accident Victims and Cancer Patients",
+    "ministry": "Health",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|7|U|2140": {
+    "include": true,
+    "title": "Guidelines for Geometric Design in Hilly Terrains",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|7|U|2178": {
+    "include": true,
+    "title": "Rah-Veer Scheme",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|7|U|2237": {
+    "include": true,
+    "title": "Emergency Care Facilities on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|7|U|3389": {
+    "include": true,
+    "title": "Automated Vehicle Testing Stations",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
+  },
+  "LS|18|MoRTH|7|U|6340": {
+    "include": true,
+    "title": "Vehicle-to-Vehicle Communication System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, eLibrary full-text audit Nov 2026"
   }
 }

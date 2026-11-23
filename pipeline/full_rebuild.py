@@ -38,6 +38,20 @@ INC = re.compile('|'.join([
     r'road rage', r'speed governor', r'speed limit', r'safe.*road',
     r'traffic (rule|violation|law|enforcement|police|signal|safety|calming|discipline|offen)',
     r'enforcement of traffic', r'violation of traffic',
+    # Added after the Nov 2026 eLibrary audit: 124 in-scope Lok Sabha titles used
+    # phrasings this list did not know.
+    r'foot ?paths?', r'foot[- ]?over', r'cashless treatment', r'traffic violator',
+    r'driving[- ](training|schools?|tests?|competence|discipline|cum)', r'training (to|of|for) drivers?',
+    r'safe driving', r'trained drivers',
+    r'drivers?. licensing', r'fake licen[cs]', r'fitness (certificate|of vehicles|and pollution)',
+    r'vehicle testing station', r'speed (breaker|monitor|management)', r'speed on', r'recall policy',
+    r'recall of', r'signages', r'sign ?boards?', r'car assessment', r'star rating', r'rah[- ]?veer',
+    r'fog warning', r'highway patrol', r'highway policing', r'pothole', r'electronic monitoring',
+    r'rash driving', r'lane violation', r'blind spot', r'liquor', r'earphone',
+    r'(medical|emergency|hospitals?|critical care)[a-z /]* (on|along|at) (nhs?|national highways?|highways)',
+    r'cameras? on (nhs?|nhai|national highways?|highways)', r'cctv on (nhs?|national highways?)',
+    r'anti-?lock brak', r'\badas\b', r'headlamp', r'school children', r'third party insurance claims',
+    r'faulty design', r'geometric design', r'road (traffic )?injur', r'road incident',
 ]), re.I)
 # hard excludes: title matches an include term but is genuinely off-topic (trade / tax / pure counts)
 EXC = re.compile('|'.join([
@@ -47,7 +61,7 @@ EXC = re.compile('|'.join([
 ]), re.I)
 def is_safety(title):
     t = title or ''
-    if EXC.search(t) and not re.search(r'\bsafety\b|accident|fatal|crash|black ?spot|pedestrian|helmet|trauma|hit and run', t, re.I):
+    if EXC.search(t) and not re.search(r'\bsafety\b|accident|fatal|crash|black ?spot|pedestrian|helmet|trauma|hit and run|ambulance', t, re.I):
         return False
     return bool(INC.search(t))
 

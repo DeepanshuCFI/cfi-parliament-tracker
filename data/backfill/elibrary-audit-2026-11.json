@@ -1,0 +1,1994 @@
+{
+ "source": "editor backfill, eLibrary full-text audit Nov 2026",
+ "note": "124 Lok Sabha questions (16th-18th) whose titles are in scope but which the baseline keyword list missed, found by the audit against eLibrary Sansad (see the elibrary-audit branch, data/audit/elibrary-2026-11/REPORT.md). The editor approved applying all 124 on 23 Nov 2026. Titles, names, dates and answer links are from the Lok Sabha question API; 2 Heavy Industries records could not be located on the API and carry the archive's data with no answer link. One of the 124, 'Implementation of Cashless Treatment Scheme' (6 Aug 2026), had been excluded by the automated curation pass; this backfill overrides that.",
+ "records": [
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "2",
+   "q": "5196",
+   "t": "U",
+   "d": "2014-08-14",
+   "m": [
+    "Mamtaz Sanghamita"
+   ],
+   "j": "HIGHWAY PATROLLING",
+   "u": "",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1115635"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "4149",
+   "t": "U",
+   "d": "2014-12-18",
+   "m": [
+    "Sunil Baliram Gaikwad"
+   ],
+   "j": "BAN ON USE OF EARPHONE WHILE WALKING",
+   "u": "https://sansad.in/getFile/Annexture_New/lsq16/3/au4149.htm?source=loksabhadocs",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1221348"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "4534",
+   "t": "U",
+   "d": "2014-12-19",
+   "m": [
+    "Ashok Shankarrao Chavan"
+   ],
+   "j": "TREATMENT TO ROAD ACCIDENT VICTIMS AND WOMEN IN LABOUR",
+   "u": "",
+   "min": "Health",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1184455"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "498",
+   "t": "U",
+   "d": "2015-02-26",
+   "m": [
+    "P. Kumar"
+   ],
+   "j": "HIGHWAY POLICING",
+   "u": "",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1290493"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "520",
+   "t": "U",
+   "d": "2015-02-26",
+   "m": [
+    "Ponguleti Srinivasa Reddy"
+   ],
+   "j": "FITNESS OF VEHICLES",
+   "u": "",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/762318"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "600",
+   "t": "U",
+   "d": "2015-02-26",
+   "m": [
+    "Jagdambika Pal",
+    "B.V. Nayak",
+    "Rajesh Verma",
+    "Mekapati Rajamohan Reddy"
+   ],
+   "j": "MEDICAL SERVICES AT NATIONL HIGHWAYS",
+   "u": "",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/316636"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "1775",
+   "t": "U",
+   "d": "2015-03-05",
+   "m": [
+    "Gajanan Chandrakant Kirtikar",
+    "Ashok Shankarrao Chavan",
+    "Kunwar Haribansh Singh",
+    "Sudheer Gupta"
+   ],
+   "j": "FOG WARNING SYSTEM AT HIGHWAYS",
+   "u": "",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/541903"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "3266",
+   "t": "U",
+   "d": "2015-03-17",
+   "m": [
+    "Santosh Ahlawat"
+   ],
+   "j": "PROTECTION OF BYSTANDERS",
+   "u": "",
+   "min": "Home",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/762444"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "4908",
+   "t": "U",
+   "d": "2015-04-23",
+   "m": [
+    "Ravneet Singh",
+    "CH. Malla Reddy",
+    "Suresh Kodikunnil",
+    "Santosh Ahlawat",
+    "Asaduddin Owaisi",
+    "A. Arunmozhithevan"
+   ],
+   "j": "BAN ON LIQUOR ON NHS",
+   "u": "",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1431770"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "246",
+   "t": "S",
+   "d": "2015-08-06",
+   "m": [
+    "Balabhadra Majhi"
+   ],
+   "j": "Driving Training Centres",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AS246.docx?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/762633"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "2800",
+   "t": "U",
+   "d": "2015-08-06",
+   "m": [
+    "Baijayant \"jay\" Panda"
+   ],
+   "j": "Driving Training Institutes in Odisha",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU2800.docx?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/246151"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "3963",
+   "t": "U",
+   "d": "2015-08-13",
+   "m": [
+    "R.K. Bharathi Mohan"
+   ],
+   "j": "RADMS",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU3963.doc?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/797733"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "3998",
+   "t": "U",
+   "d": "2015-08-13",
+   "m": [
+    "Ashok Shankarrao Chavan",
+    "Sunil Baliram Gaikwad",
+    "Kunwar Haribansh Singh",
+    "Gajanan Chandrakant Kirtikar",
+    "Sudheer Gupta",
+    "M. Udhayakumar"
+   ],
+   "j": "Cashless Treatment",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU3998.doc?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/542305"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "4025",
+   "t": "U",
+   "d": "2015-08-13",
+   "m": [
+    "Bharati Dhirubhai Shiyal"
+   ],
+   "j": "Speed Breakers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU4025.docx?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/542307"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "4052",
+   "t": "U",
+   "d": "2015-08-13",
+   "m": [
+    "CH. Malla Reddy",
+    "P.R. Sundaram"
+   ],
+   "j": "Rules for Traffic Violators",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU4052.docx?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/542308"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "6",
+   "q": "848",
+   "t": "U",
+   "d": "2015-12-03",
+   "m": [
+    "Ramesh Chander Kaushik",
+    "R. Gopalakrishnan"
+   ],
+   "j": "Signboards",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/6/AU848.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/762729"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "6",
+   "q": "895",
+   "t": "U",
+   "d": "2015-12-03",
+   "m": [
+    "Kamal Nath",
+    "Jyotiraditya Madhavrao Scindia",
+    "P.R. Sundaram",
+    "Nanabhau Falgunrao Patole"
+   ],
+   "j": "NRSTMB",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/6/AU895.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/542385"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "6",
+   "q": "1482",
+   "t": "U",
+   "d": "2015-12-08",
+   "m": [
+    "K.R.P. Prabakaran"
+   ],
+   "j": "Recall of Faulty Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/6/AU1482.pdf?source=lsapps",
+   "min": "Heavy",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1220225"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "6",
+   "q": "1980",
+   "t": "U",
+   "d": "2015-12-10",
+   "m": [
+    "A.P. Jithender Reddy",
+    "A.T. (nana) Patil"
+   ],
+   "j": "Capping of Third Party Insurance Claims",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/6/AU1980.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/246319"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "6",
+   "q": "3172",
+   "t": "U",
+   "d": "2015-12-17",
+   "m": [
+    "Meenakashi Lekhi",
+    "Rahul Ramesh Shewale",
+    "Shrikant Eknath Shinde",
+    "Vinayak Bhaurao Raut"
+   ],
+   "j": "Building of Footpath along Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/6/AU3172.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/938703"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "235",
+   "t": "U",
+   "d": "2016-02-25",
+   "m": [
+    "Ram Charitra"
+   ],
+   "j": "Potholes on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AU235.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/868168"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "340",
+   "t": "U",
+   "d": "2016-02-25",
+   "m": [
+    "Nityanand Rai"
+   ],
+   "j": "Installation of Video Cameras and Black Box for Commercial Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AU340.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1079762"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "454",
+   "t": "U",
+   "d": "2016-02-25",
+   "m": [
+    "Sushil Kumar Singh"
+   ],
+   "j": "Provision of CCTV Cameras on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AU454.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/396973"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "1227",
+   "t": "U",
+   "d": "2016-03-03",
+   "m": [
+    "K. Ashok Kumar"
+   ],
+   "j": "Strict Provisions for Offenders",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AU1227.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/246470"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "1367",
+   "t": "U",
+   "d": "2016-03-03",
+   "m": [
+    "Chandu Lal Sahu",
+    "Om Birla"
+   ],
+   "j": "Fine on Rule's Violators",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AU1367.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1044434"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "2256",
+   "t": "U",
+   "d": "2016-03-10",
+   "m": [
+    "Vijaysinh Mohite Patil",
+    "T. Radhakrishnan",
+    "G. Hari"
+   ],
+   "j": "Star Ratings for Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AU2256.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/586983"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "8",
+   "q": "729",
+   "t": "U",
+   "d": "2016-04-28",
+   "m": [
+    "Rabindra Kumar Jena"
+   ],
+   "j": "Graduated Drivers' Licensing System (GDLS)",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/8/AU729.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/868321"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "8",
+   "q": "767",
+   "t": "U",
+   "d": "2016-04-28",
+   "m": [
+    "P.P. Chaudhary"
+   ],
+   "j": "Lane System for Traffic",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/8/AU767.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/692775"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "8",
+   "q": "793",
+   "t": "U",
+   "d": "2016-04-28",
+   "m": [
+    "Hariom Singh Rathore",
+    "C.R. Chaudhary"
+   ],
+   "j": "Driving-cum-Fitness Training Centres",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/8/AU793.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/692776"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "8",
+   "q": "1913",
+   "t": "U",
+   "d": "2016-05-05",
+   "m": [
+    "Ponnusamy Venugopal"
+   ],
+   "j": "Fitness and Pollution Centres",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/8/AU1913.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/868367"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "8",
+   "q": "2003",
+   "t": "U",
+   "d": "2016-05-05",
+   "m": [
+    "Parayamparanbil Kuttappan Biju"
+   ],
+   "j": "Safe Traffic System Design",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/8/AU2003.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/973937"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "8",
+   "q": "2029",
+   "t": "U",
+   "d": "2016-05-05",
+   "m": [
+    "Gajanan Chandrakant Kirtikar",
+    "K C Venugopal",
+    "Sudheer Gupta",
+    "Bidyut Baran Mahato",
+    "Kunwar Haribansh Singh",
+    "K. Ashok Kumar",
+    "Shrikant Eknath Shinde",
+    "Vinayak Bhaurao Raut",
+    "Jayakumar Jayavardhan",
+    "Vijay Kumar S.R.",
+    "Sunil Kumar Singh",
+    "P.P. Chaudhary",
+    "Geetha Kothapalli",
+    "Asaduddin Owaisi",
+    "Arjun Ram Meghwal",
+    "Rahul Ramesh Shewale"
+   ],
+   "j": "Removal of Speed Breakers on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/8/AU2029.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1255968"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "9",
+   "q": "841",
+   "t": "U",
+   "d": "2016-07-21",
+   "m": [
+    "Manoj Rajoria"
+   ],
+   "j": "Removal of Liquor Shops on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/9/AU841.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/798170"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "9",
+   "q": "1864",
+   "t": "U",
+   "d": "2016-07-28",
+   "m": [
+    "(retd) Bhuwan Chandra Khanduri Avsm"
+   ],
+   "j": "Anti-Lock Braking System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/9/AU1864.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/939055"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "9",
+   "q": "1870",
+   "t": "U",
+   "d": "2016-07-28",
+   "m": [
+    "Dushyant Chautala"
+   ],
+   "j": "Fake Licences",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/9/AU1870.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/211053"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "9",
+   "q": "2030",
+   "t": "U",
+   "d": "2016-07-28",
+   "m": [
+    "P.k.sreemathi Teacher"
+   ],
+   "j": "Medical Care Facilities on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/9/AU2030.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/487318"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "9",
+   "q": "3024",
+   "t": "U",
+   "d": "2016-08-04",
+   "m": [
+    "Ramachandran Mullappally"
+   ],
+   "j": "Encroachment on Footpaths",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/9/AU3024.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1150610"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "9",
+   "q": "4179",
+   "t": "U",
+   "d": "2016-08-11",
+   "m": [
+    "A.T. (nana) Patil",
+    "Renuka Butta"
+   ],
+   "j": "Fitness Certificates for Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/9/AU4179.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1150651"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "9",
+   "q": "4235",
+   "t": "U",
+   "d": "2016-08-11",
+   "m": [
+    "Rekha Arun Verma"
+   ],
+   "j": "Speed Breakers and Signages",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/9/AU4235.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/543295"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "10",
+   "q": "140",
+   "t": "S",
+   "d": "2016-11-24",
+   "m": [
+    "Jay Prakash Narayan Yadav"
+   ],
+   "j": "Medical Insurance for Road Users",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/10/AS140.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/587350"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "10",
+   "q": "2592",
+   "t": "U",
+   "d": "2016-12-01",
+   "m": [
+    "V. Sathyabama"
+   ],
+   "j": "Highway Patrol Squads",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/10/AU2592.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1432630"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "10",
+   "q": "3880",
+   "t": "U",
+   "d": "2016-12-08",
+   "m": [
+    "Bidyut Baran Mahato",
+    "Sudheer Gupta",
+    "Gajanan Chandrakant Kirtikar",
+    "Sunil Baliram Gaikwad",
+    "Vijay Kumar S.R.",
+    "Kunwar Haribansh Singh",
+    "T. Radhakrishnan"
+   ],
+   "j": "Installation of Hydraulic Gates for Speedy Rescue",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/10/AU3880.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1256339"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "10",
+   "q": "4744",
+   "t": "U",
+   "d": "2016-12-15",
+   "m": [
+    "Heena Vijaykumar Gavit",
+    "Supriya Sadanand Sule",
+    "Jayakumar Jayavardhan",
+    "Anto Antony",
+    "Vijaysinh Mohite Patil",
+    "Dhananjay Bhimrao Mahadik",
+    "Bharatendra Singh"
+   ],
+   "j": "Rash Driving on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/10/AU4744.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/974309"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "111",
+   "t": "U",
+   "d": "2017-02-02",
+   "m": [
+    "Prem Singh Chandumajra"
+   ],
+   "j": "Foot Overbridges on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU111.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/868759"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "1356",
+   "t": "U",
+   "d": "2017-02-09",
+   "m": [
+    "C.S. Puttaraju",
+    "S.P. Muddahanumegowda"
+   ],
+   "j": "Underpasses, Flyovers and Foot Over Bridges",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU1356.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/904148"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "136",
+   "t": "S",
+   "d": "2017-03-09",
+   "m": [
+    "Prem Singh Chandumajra",
+    "Shrirang Appa Barne"
+   ],
+   "j": "Speed on e-ways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AS136.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/693274"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "1412",
+   "t": "U",
+   "d": "2017-03-09",
+   "m": [
+    "Ram Charitra"
+   ],
+   "j": "Medical Insurance to Road Users",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU1412.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/282483"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "2492",
+   "t": "U",
+   "d": "2017-03-16",
+   "m": [
+    "Mansukhbhai Dhanjibhai Vasava",
+    "Laxmi Narayan Yadav",
+    "Nagarajan P."
+   ],
+   "j": "Removal of Liquor Shops on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU2492.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/798592"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "3559",
+   "t": "U",
+   "d": "2017-03-23",
+   "m": [
+    "Geetha Kothapalli",
+    "Suresh Kodikunnil",
+    "Sisir Kumar Adhikari"
+   ],
+   "j": "Driving Discipline",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU3559.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/763582"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "71",
+   "t": "S",
+   "d": "2017-07-20",
+   "m": [
+    "Rajeev Shankarrao Satav",
+    "P.R. Sundaram"
+   ],
+   "j": "Speed Breakers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AS71.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1327049"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "852",
+   "t": "U",
+   "d": "2017-07-20",
+   "m": [
+    "Sanjay(kaka) Ramchandra Patil"
+   ],
+   "j": "Faulty Design of NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AU852.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1151111"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "1922",
+   "t": "U",
+   "d": "2017-07-27",
+   "m": [
+    "Kirit Premjibhai Solanki"
+   ],
+   "j": "Driving Competence Tests",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AU1922.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1186008"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "1935",
+   "t": "U",
+   "d": "2017-07-27",
+   "m": [
+    "Ramesh Chander Kaushik"
+   ],
+   "j": "Construction of Foot Overbridge on NH1",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AU1935.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/623194"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "272",
+   "t": "S",
+   "d": "2017-08-03",
+   "m": [
+    "Rabindra Kumar Jena",
+    "K. Maragatham"
+   ],
+   "j": "Graduated Drivers Licensing System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AS272.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/400646"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "14",
+   "q": "50",
+   "t": "U",
+   "d": "2018-02-02",
+   "m": [
+    "Ram Charitra"
+   ],
+   "j": "Road Traffic Injury Patients",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/14/AU50.pdf?source=lsapps",
+   "min": "Health",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1010424"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "17",
+   "q": "839",
+   "t": "U",
+   "d": "2019-02-07",
+   "m": [
+    "Vijaysinh Mohite Patil",
+    "Heena Vijaykumar Gavit",
+    "Dhananjay Bhimrao Mahadik",
+    "Rajeev Shankarrao Satav",
+    "Jayakumar Jayavardhan",
+    "Supriya Sadanand Sule"
+   ],
+   "j": "Driving Training and Research Institutes",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/17/AU839.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1222297"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "1",
+   "q": "2080",
+   "t": "U",
+   "d": "2019-07-04",
+   "m": [
+    "H. Vasanthakumar"
+   ],
+   "j": "CCTV Cameras on Highways to Oversee Driving",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/171/AU2080.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1401155"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "1",
+   "q": "2102",
+   "t": "U",
+   "d": "2019-07-04",
+   "m": [
+    "Rodmal Nagar",
+    "P.P. Chaudhary",
+    "Ravi Kishan Shukla",
+    "Lallu Singh",
+    "Sumedhanand Saraswati"
+   ],
+   "j": "Requirement of Trained Drivers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/171/AU2102.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1295523"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "1",
+   "q": "5439",
+   "t": "U",
+   "d": "2019-07-25",
+   "m": [
+    "Dhanush M Kumar",
+    "Heena Vijaykumar Gavit",
+    "Amol Ramsing Kolhe",
+    "Supriya Sadanand Sule",
+    "Subhash Ramrao Bhamre",
+    "Kuldeep Rai Sharma"
+   ],
+   "j": "Training for Safe Driving",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/171/AU5439.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/837421"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "2",
+   "q": "891",
+   "t": "U",
+   "d": "2019-11-21",
+   "m": [
+    "Sukanta Majumdar",
+    "Vinod Kumar Sonkar",
+    "Bhola Singh",
+    "Raja Amareshwara Naik",
+    "Bhagwanth Khuba"
+   ],
+   "j": "The Delhi Cyclewalk",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/172/AU891.pdf?source=lsapps",
+   "min": "Urban",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/549782"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "2",
+   "q": "2870",
+   "t": "U",
+   "d": "2019-12-05",
+   "m": [
+    "Ram Swaroop Sharma"
+   ],
+   "j": "Standard Brightness Level of Lights in Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/172/AU2870.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/837506"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "2",
+   "q": "3918",
+   "t": "U",
+   "d": "2019-12-12",
+   "m": [
+    "Devusinh Jesingbhai Chauhan"
+   ],
+   "j": "Global New Car Assessment Programme",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/172/AU3918.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/494943"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "2",
+   "q": "4008",
+   "t": "U",
+   "d": "2019-12-12",
+   "m": [
+    "Kirron Kher"
+   ],
+   "j": "Transportation of School Children",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/172/AU4008.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/321829"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "2",
+   "q": "4126",
+   "t": "U",
+   "d": "2019-12-12",
+   "m": [
+    "Shyam Yadav Singh",
+    "Ganesan Selvam",
+    "Dhanush M Kumar",
+    "Soyam Babu Rao"
+   ],
+   "j": "Institute of Driving Training and Research",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/172/AU4126.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/626874"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "3",
+   "q": "293",
+   "t": "U",
+   "d": "2020-02-04",
+   "m": [
+    "Devusinh Jesingbhai Chauhan"
+   ],
+   "j": "Crash Test of Cars",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/173/AU293.pdf?source=lsapps",
+   "min": "Heavy",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/286806"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "3",
+   "q": "702",
+   "t": "U",
+   "d": "2020-02-06",
+   "m": [
+    "Darshana Vikram Jardosh"
+   ],
+   "j": "Construction of Foot Over Bridge",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/173/AU702.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/591996"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "3",
+   "q": "768",
+   "t": "U",
+   "d": "2020-02-06",
+   "m": [
+    "Raksha Nikhil Khadse"
+   ],
+   "j": "Implementation of Automatic Headlamp On (AHO) Rule",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/173/AU768.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/733003"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "3",
+   "q": "894",
+   "t": "U",
+   "d": "2020-02-06",
+   "m": [
+    "D. Ravikumar"
+   ],
+   "j": "Issue of Fitness Certificate for Commercial Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/173/AU894.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/215950"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "3",
+   "q": "2307",
+   "t": "U",
+   "d": "2020-03-05",
+   "m": [
+    "Manoj Kishorbhai Kotak"
+   ],
+   "j": "Recall Policy for Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/173/AU2307.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1120150"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "4",
+   "q": "2005",
+   "t": "U",
+   "d": "2020-09-22",
+   "m": [
+    "Manish Tewari"
+   ],
+   "j": "Compensation to NoKs of Migrants Died on NHsduring Lockdown",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/174/AU2005.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/732841"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "5",
+   "q": "1803",
+   "t": "U",
+   "d": "2021-02-11",
+   "m": [
+    "Mukesh Rajput",
+    "Basanta Kumar Panda"
+   ],
+   "j": "Driving Schools",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/175/AU1803.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1437767"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "5",
+   "q": "3696",
+   "t": "U",
+   "d": "2021-03-18",
+   "m": [
+    "Poonam (Mahajan) Vajendla Rao",
+    "Gowdar Mallikarjunappa Siddeshwara"
+   ],
+   "j": "Recall Policy for Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/175/AU3696.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/496925"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "5",
+   "q": "4945",
+   "t": "U",
+   "d": "2021-03-25",
+   "m": [
+    "Ajay Kumar Mandal"
+   ],
+   "j": "Construction of Footpath along NH",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/175/AU4945.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/551309"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "5",
+   "q": "5050",
+   "t": "U",
+   "d": "2021-03-25",
+   "m": [
+    "Geeta Kora",
+    "Dileshwar Kamait",
+    "Jugal Kishore Sharma"
+   ],
+   "j": "Ambulances at Toll Plazas",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/175/AU5050.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1085261"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "6",
+   "q": "594",
+   "t": "U",
+   "d": "2021-07-22",
+   "m": [
+    "Geeta Kora",
+    "Jugal Kishore Sharma"
+   ],
+   "j": "Maintenance of Ambulances at Toll Plazas",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/176/AU594.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/250502"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "6",
+   "q": "1699",
+   "t": "U",
+   "d": "2021-07-29",
+   "m": [
+    "Sudhakar Tukaram Shrangre"
+   ],
+   "j": "Training to Drivers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/176/AU1699.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1295124"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "7",
+   "q": "2733",
+   "t": "U",
+   "d": "2021-12-14",
+   "m": [
+    "Upendra Singh Rawat"
+   ],
+   "j": "Air Bags for Cars",
+   "u": "",
+   "min": "Heavy",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/767980"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "8",
+   "q": "2586",
+   "t": "U",
+   "d": "2022-03-17",
+   "m": [
+    "Vijayakumar Alias Vijay Vasanth"
+   ],
+   "j": "Star Rating System for Cars",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/178/AU2586.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/697986"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "755",
+   "t": "U",
+   "d": "2022-07-21",
+   "m": [
+    "Sunil Kumar Soni",
+    "Arun Sao",
+    "Vijay Baghel"
+   ],
+   "j": "Institute of Driving Training and Research",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU755.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1122558"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "817",
+   "t": "U",
+   "d": "2022-07-21",
+   "m": [
+    "Rahul Ramesh Shewale",
+    "Girish Bhalchandra Bapat",
+    "Chandra Sekhar Sahu"
+   ],
+   "j": "Bharat New Car Assessment Programme",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU817.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/253518"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "1876",
+   "t": "U",
+   "d": "2022-07-28",
+   "m": [
+    "Bharatiben Dhirubhai Shyal"
+   ],
+   "j": "Emergency Facilities on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU1876.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/594199"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "1953",
+   "t": "U",
+   "d": "2022-07-28",
+   "m": [
+    "Rajeshbhai Naranbhai Chudasama"
+   ],
+   "j": "Transportation of School Children",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU1953.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/980874"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "2537",
+   "t": "U",
+   "d": "2022-08-02",
+   "m": [
+    "Sanjay(kaka) Ramchandra Patil"
+   ],
+   "j": "Safety of Electric Vehicles",
+   "u": "",
+   "min": "Heavy",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1298351"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "3008",
+   "t": "U",
+   "d": "2022-08-04",
+   "m": [
+    "C.N. Annadurai",
+    "Dhanush M Kumar",
+    "Manjulata Mandal",
+    "Ganesan Selvam",
+    "Supriya Sadanand Sule",
+    "Kuldeep Rai Sharma",
+    "Sunil Dattatray Tatkare",
+    "Dnv Senthilkumar. S.",
+    "Gautham Sigamani Pon",
+    "Amol Ramsing Kolhe",
+    "Subhash Ramrao Bhamre",
+    "Gajanan Chandrakant Kirtikar"
+   ],
+   "j": "Institute of Driving Training and Research",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU3008.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1368858"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "3090",
+   "t": "U",
+   "d": "2022-08-04",
+   "m": [
+    "Pallab Lochan Das",
+    "S. Ramalingam",
+    "Pradan Baruah"
+   ],
+   "j": "Bharat New Car Assessment Programme",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU3090.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/840163"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "281",
+   "t": "S",
+   "d": "2022-08-05",
+   "m": [
+    "Anurag Sharma"
+   ],
+   "j": "Critical Care/Emergency Centres along National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AS281.pdf?source=lsapps",
+   "min": "Health",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1479961"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "10",
+   "q": "2755",
+   "t": "U",
+   "d": "2022-12-22",
+   "m": [
+    "Rajkumar Chahar"
+   ],
+   "j": "Electronic Monitoring System on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1710/AU2755.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/743587"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "11",
+   "q": "224",
+   "t": "U",
+   "d": "2023-02-02",
+   "m": [
+    "Ajay Kumar Mandal",
+    "Ramesh Chander Kaushik",
+    "Locket Chatterjee",
+    "Sunil Kumar Pintu"
+   ],
+   "j": "Availability of Ambulances at Toll Plazas",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1711/AU224.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/778838"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "11",
+   "q": "2624",
+   "t": "U",
+   "d": "2023-03-16",
+   "m": [
+    "Sanjay Bhatia"
+   ],
+   "j": "Construction of Foot Over Bridge",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1711/AU2624.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1349757"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "11",
+   "q": "3729",
+   "t": "U",
+   "d": "2023-03-23",
+   "m": [
+    "Sanjeev Kumar Singari"
+   ],
+   "j": "Road Traffic Injuries",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1711/AU3729.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/997081"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "11",
+   "q": "3840",
+   "t": "U",
+   "d": "2023-03-23",
+   "m": [
+    "Sanjay Bhatia"
+   ],
+   "j": "Construction of Underpasses/Foot Over Bridges on NH-44",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1711/AU3840.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/715873"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "1309",
+   "t": "U",
+   "d": "2023-07-27",
+   "m": [
+    "Ramdas Chandrabhanji Tadas"
+   ],
+   "j": "Regional Driving Training Centres",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AU1309.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1422369"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "2306",
+   "t": "U",
+   "d": "2023-08-03",
+   "m": [
+    "Sunil Kumar Singh",
+    "Sudhakar Tukaram Shrangre",
+    "Naranbhai Bhikhabhai Kachhadiya",
+    "Devji Mansingram Patel",
+    "Saikia Dilip",
+    "Ranjeetsingh Naik Nimbalkar",
+    "Gitaben Vajesingbhai Rathva",
+    "Durga Das Uikey"
+   ],
+   "j": "Lane Violations",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AU2306.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/470781"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "2390",
+   "t": "U",
+   "d": "2023-08-03",
+   "m": [
+    "Vivek Narayan Shejwalkar"
+   ],
+   "j": "CCTV on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AU2390.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/788203"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "2428",
+   "t": "U",
+   "d": "2023-08-03",
+   "m": [
+    "Malook Nagar"
+   ],
+   "j": "Hospitals along National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AU2428.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1422321"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "2707",
+   "t": "U",
+   "d": "2023-08-04",
+   "m": [
+    "Rajashree Mallick"
+   ],
+   "j": "Financial Support for Critical Care/Emergency Centres",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AU2707.pdf?source=lsapps",
+   "min": "Health",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/928891"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "14",
+   "q": "1853",
+   "t": "U",
+   "d": "2023-12-14",
+   "m": [
+    "Sambhajirao Mane Dhairyasheel",
+    "Sanjay Sadashivrao Mandlik",
+    "Shrirang Appa Barne",
+    "Aparupa Poddar",
+    "Prataprao Jadhav",
+    "Sudheer Gupta"
+   ],
+   "j": "Audit of Tunnels",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1714/AU1853.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/261221"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "14",
+   "q": "1912",
+   "t": "U",
+   "d": "2023-12-14",
+   "m": [
+    "Su Thirunavukkarasar",
+    "Ravneet Singh"
+   ],
+   "j": "Bharat New Car Assessment Programme",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1714/AU1912.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/707352"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "2",
+   "q": "149",
+   "t": "S",
+   "d": "2024-08-01",
+   "m": [
+    "Giridhari Yadav"
+   ],
+   "j": "Renewal of Driving Licences",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/182/AS149_vvUMMD.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1317292"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "3",
+   "q": "596",
+   "t": "U",
+   "d": "2024-11-28",
+   "m": [
+    "K Sudhakaran"
+   ],
+   "j": "Foot Over Bridge in Kannur",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU596_QWCh6f.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1516946"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "3",
+   "q": "1830",
+   "t": "U",
+   "d": "2024-12-05",
+   "m": [
+    "Kaushalendra Kumar"
+   ],
+   "j": "Data on Road Incidents",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU1830_1Xpqjc.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1513810"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "3",
+   "q": "2890",
+   "t": "U",
+   "d": "2024-12-12",
+   "m": [
+    "Iqra Choudhary"
+   ],
+   "j": "Cashless Treatment",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU2890_vRwmaw.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1514870"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "3",
+   "q": "3937",
+   "t": "U",
+   "d": "2024-12-19",
+   "m": [
+    "G Lakshminarayana",
+    "Appalanaidu Kalisetti",
+    "Sribharat Mathukumilli"
+   ],
+   "j": "Status of Driving Training Institutes in Andhra Pradesh",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU3937_pSCSgC.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1515917"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "3",
+   "q": "4052",
+   "t": "U",
+   "d": "2024-12-19",
+   "m": [
+    "Balashowry Vallabhaneni"
+   ],
+   "j": "Commercial Vehicles driven by LMV License holders",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU4052_1Lag7I.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1516032"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "43",
+   "t": "S",
+   "d": "2025-02-06",
+   "m": [
+    "Daggumalla Prasada Rao"
+   ],
+   "j": "Regional Driving Training Centres",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AS43_eDLHWo.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1517792"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "500",
+   "t": "U",
+   "d": "2025-02-06",
+   "m": [
+    "Ramvir Singh Bidhuri"
+   ],
+   "j": "Reduction in Number of Blind Spots",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AU500_60GSPe.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1519589"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "134",
+   "t": "S",
+   "d": "2025-02-13",
+   "m": [
+    "Arun Nehru"
+   ],
+   "j": "Speed Monitoring on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AS134_U4yJlW.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1517943"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "2437",
+   "t": "U",
+   "d": "2025-03-13",
+   "m": [
+    "Asaduddin Owaisi"
+   ],
+   "j": "Working Hours Limit and Rest Provisions for Drivers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AU2437_glbjVS.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1523721"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "3335",
+   "t": "U",
+   "d": "2025-03-20",
+   "m": [
+    "Tanuj Punia"
+   ],
+   "j": "Cameras on NHAI Roads",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AU3335_yKKPQ0.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1522194"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "3424",
+   "t": "U",
+   "d": "2025-03-20",
+   "m": [
+    "Rajkumar Chahar"
+   ],
+   "j": "Electronic Monitoring of National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AU3424_a1ZEuC.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1522283"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "4420",
+   "t": "U",
+   "d": "2025-03-27",
+   "m": [
+    "Bachhav Shobha Dinesh"
+   ],
+   "j": "Inspections of Load and Freight-Bearing Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AU4420_mjM16f.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1523049"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "464",
+   "t": "S",
+   "d": "2025-04-03",
+   "m": [
+    "Manickam Tagore B",
+    "Vijayakumar Alias Vijay Vasanth"
+   ],
+   "j": "Setting up of Driving Training Centres",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AS464_AdgpaN.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1517733"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "5",
+   "q": "1936",
+   "t": "U",
+   "d": "2025-07-31",
+   "m": [
+    "V K Sreekandan"
+   ],
+   "j": "Deep Potholes on NH-966",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU1936_18XoRT.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1512765"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "5",
+   "q": "4751",
+   "t": "U",
+   "d": "2025-08-21",
+   "m": [
+    "G Lakshminarayana",
+    "Byreddy Shabari"
+   ],
+   "j": "Cashless Treatment Scheme",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU4751_QK7Bbv.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1510981"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "5",
+   "q": "4774",
+   "t": "U",
+   "d": "2025-08-21",
+   "m": [
+    "Rajkumar Chahar"
+   ],
+   "j": "Electronic Monitoring on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU4774_UquT2Z.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1511004"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "6",
+   "q": "3214",
+   "t": "U",
+   "d": "2025-12-18",
+   "m": [
+    "Dhanorkar Pratibha Suresh"
+   ],
+   "j": "Mandatory Implementation of ADAS",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/186/AU3214_wQhP2I.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1526925"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "1089",
+   "t": "U",
+   "d": "2026-02-05",
+   "m": [
+    "Mohammad Jawed"
+   ],
+   "j": "Implementation of Speed Management Guidelines",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU1089_i3Jnxv.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1528588"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "1370",
+   "t": "U",
+   "d": "2026-02-06",
+   "m": [
+    "Lalji Verma"
+   ],
+   "j": "Free Treatment to Accident Victims and Cancer Patients",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU1370_ZDH4nb.pdf?source=lsapps",
+   "min": "Health",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1529222"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "2140",
+   "t": "U",
+   "d": "2026-02-12",
+   "m": [
+    "Anurag Singh Thakur"
+   ],
+   "j": "Guidelines for Geometric Design in Hilly Terrains",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU2140_nciH3L.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1530687"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "2178",
+   "t": "U",
+   "d": "2026-02-12",
+   "m": [
+    "G M Harish Balayogi"
+   ],
+   "j": "Rah-Veer Scheme",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU2178_BBEFhK.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1530725"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "2237",
+   "t": "U",
+   "d": "2026-02-12",
+   "m": [
+    "Magunta Sreenivasulu Reddy"
+   ],
+   "j": "Emergency Care Facilities on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU2237_yj8vuk.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1530784"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "3389",
+   "t": "U",
+   "d": "2026-03-12",
+   "m": [
+    "Brijendra Singh Ola"
+   ],
+   "j": "Automated Vehicle Testing Stations",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU3389_uH9MV2.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1532313"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "6340",
+   "t": "U",
+   "d": "2026-04-02",
+   "m": [
+    "Adoor Prakash"
+   ],
+   "j": "Vehicle-to-Vehicle Communication System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU6340_WxPn2N.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1535595"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "8",
+   "q": "3077",
+   "t": "U",
+   "d": "2026-08-06",
+   "m": [
+    "Iqra Choudhary"
+   ],
+   "j": "Implementation of Cashless Treatment Scheme",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU3077_hHaMmx.pdf?source=lsapps",
+   "min": "MoRTH",
+   "elibrary": "https://elibrary.sansad.in/handle/123456789/1541732"
+  }
+ ]
+}
