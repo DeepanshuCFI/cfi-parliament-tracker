@@ -320,7 +320,12 @@ section[id]{scroll-margin-top:80px}
 .chip[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:#fff}
 .chip .n{font-size:11.5px;margin-left:4px;color:var(--muted);font-variant-numeric:tabular-nums}
 .chip[aria-pressed="true"] .n{color:rgba(255,255,255,.95)}
-.tagchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;padding-top:16px;border-top:1px solid var(--border)}
+.tagchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.morefilters{margin-top:16px;padding-top:14px;border-top:1px solid var(--border)}
+.morefilters summary{cursor:pointer;font-family:var(--head);font-size:13.5px;font-weight:600;color:var(--brand);padding:6px 0;list-style-position:inside}
+.morefilters .fgroups{margin-top:12px}
+.mf-count{margin-left:10px;font-family:var(--body);font-size:12px;font-weight:500;color:var(--brand);background:rgba(71,54,254,.08);border:1px solid rgba(71,54,254,.25);border-radius:999px;padding:3px 9px}
+.mf-count:empty{display:none}
 .meta-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:24px}
 .meta-count{font-size:14px;color:var(--muted)}
 .meta-count b{color:var(--dark);font-variant-numeric:tabular-nums}
@@ -631,9 +636,14 @@ footer{border-top:1px solid var(--border);background:#fff}
       </div>
       <div class="fgroups">
         <div class="fgroup" role="group" aria-label="Filter by House" id="houseChips"><span class="flabel">House</span></div>
-        <div class="fgroup" role="group" aria-label="Filter by question type" id="typeChips"><span class="flabel">Type</span></div>
       </div>
-      <div class="tagchips" role="group" aria-label="Filter by topic" id="tagChips"></div>
+      <details class="morefilters" id="moreFilters">
+        <summary>Filter by topic or question type<span class="mf-count" id="moreFiltersCount"></span></summary>
+        <div class="fgroups">
+          <div class="fgroup" role="group" aria-label="Filter by question type" id="typeChips"><span class="flabel">Type</span></div>
+        </div>
+        <div class="tagchips" role="group" aria-label="Filter by topic" id="tagChips"></div>
+      </details>
     </div>
 
     <div class="meta-row">
@@ -839,6 +849,9 @@ function renderPills(){
   if(state.geo) p.push(`<button class="pill-x" type="button" data-clear="geo">State: ${esc(state.geo)} ✕</button>`);
   if(state.year) p.push(`<button class="pill-x" type="button" data-clear="year">Year: ${esc(state.year)} ✕</button>`);
   if(state.session && SESS) p.push(`<button class="pill-x" type="button" data-clear="session">Session: ${esc(SESS.label||'Current session')} ✕</button>`);
+  // topic and type now sit in a fold, so an active one must also show here, removable
+  if(state.tag>=0) p.push(`<button class="pill-x" type="button" data-clear="tag">Topic: ${esc(TAGS[state.tag])} ✕</button>`);
+  if(state.type) p.push(`<button class="pill-x" type="button" data-clear="type">Type: ${state.type==='S'?'Starred':'Unstarred'} ✕</button>`);
   $('pills').innerHTML = p.join('');
 }
 function resetShown(){ state.shown = 10; }
@@ -861,6 +874,9 @@ function refreshChips(){
   document.querySelectorAll('.chip[data-key]').forEach(b=>{
     b.setAttribute('aria-pressed', chipPressed(b) ? 'true':'false');
   });
+  // the folded filters say how many of them are on, so a closed fold never hides an active filter
+  const mc = $('moreFiltersCount');
+  if(mc){ const n = (state.tag>=0?1:0) + (state.type?1:0); mc.textContent = n ? n + ' active' : ''; }
 }
 function chipGroup(el, opts, key){
   opts.forEach(o=>{
@@ -888,6 +904,8 @@ function buildChips(){
   chipGroup($('typeChips'), [{v:'S',label:'Starred',n:CNT.S},{v:'U',label:'Unstarred',n:CNT.U}], 'type');
   chipGroup($('tagChips'), TAGS.map((t,i)=>({v:i,label:t,n:TAG_COUNTS[i]})).sort((a,b)=>b.n-a.n), 'tag');
   refreshChips();
+  // a link that arrives with a topic or type filter set must not hide the control that set it
+  if(state.tag>=0 || state.type) $('moreFilters').open = true;
 }
 
 // ---------- events ----------
@@ -905,7 +923,7 @@ $('list').addEventListener('click', e=>{
 });
 $('pills').addEventListener('click', e=>{
   const b=e.target.closest('button[data-clear]');
-  if(b){ const k=b.dataset.clear; state[k==='geo'?'geo':k]=(k==='tag'?-1:''); resetShown(); render(); if(k==='geo') syncStateSel(); $('list').focus({preventScroll:true}); }
+  if(b){ const k=b.dataset.clear; state[k==='geo'?'geo':k]=(k==='tag'?-1:''); resetShown(); refreshChips(); render(); if(k==='geo') syncStateSel(); $('list').focus({preventScroll:true}); }
 });
 $('copylink').addEventListener('click', ()=>{
   const url=location.href.split('#')[0];
