@@ -102,7 +102,26 @@ section[id]{scroll-margin-top:80px}
 .finder-browse .pick-row{margin-top:16px}
 .state-wrap{margin-top:14px}
 .state-wrap summary{cursor:pointer;font-family:var(--head);font-size:14px;font-weight:600;color:var(--brand);padding:8px 0;list-style-position:inside}
-.card-slot-chart{max-width:680px;margin:0 auto}
+.card-slot-chart{max-width:680px;margin:0 auto;scroll-margin-top:110px}
+.card-slot-chart .mpfind{scroll-margin-top:110px}
+.seat-list,.seat-list-hint{display:none}
+@media(max-width:760px){
+  .seat-list-hint{display:block;margin-top:22px;font-size:14px;color:var(--muted)}
+  .seat-list{display:block;margin-top:10px}
+  .sl-state{border:1px solid var(--border);border-radius:12px;background:#fff;margin-top:8px}
+  .sl-state summary{display:grid;grid-template-columns:1fr auto;gap:8px 10px;align-items:center;padding:12px 14px;min-height:48px;cursor:pointer;list-style:none}
+  .sl-state summary::-webkit-details-marker{display:none}
+  .sl-name{font-family:var(--head);font-weight:600;font-size:14.5px;color:var(--dark)}
+  .sl-num{font-size:12.5px;color:var(--muted);white-space:nowrap}
+  .sl-bar{grid-column:1/-1;display:block;height:6px;border-radius:999px;background:var(--brand);overflow:hidden}
+  .sl-bar i{display:block;height:100%;background:var(--danger)}
+  .sl-mps{padding:2px 10px 12px;display:grid;gap:6px}
+  .sl-mp{display:flex;align-items:center;gap:6px;width:100%;text-align:left;border:1px solid var(--border);background:#fff;border-radius:10px;padding:10px 12px;min-height:46px;font-family:var(--body);font-size:14px;color:var(--dark);cursor:pointer}
+  .sl-who{flex:1;min-width:0}
+  .sl-c{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+  .sl-n{font-family:var(--head);font-weight:700;font-size:15px;color:var(--brand);font-variant-numeric:tabular-nums}
+  .sl-mp.never .sl-n{color:var(--danger)}
+}
 .inline-link{color:var(--brand);font-weight:600;text-decoration:underline;text-decoration-color:rgba(71,54,254,.35);text-underline-offset:3px;white-space:nowrap}
 .statrow{margin-top:36px;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 @media(min-width:800px){.statrow{grid-template-columns:repeat(4,1fr);gap:16px}}
@@ -599,6 +618,8 @@ footer{border-top:1px solid var(--border);background:#fff}
       <p class="hemi-cap">The Rajya Sabha, seat by seat — every dot is a sitting member. Select a dot for that member's record. <span id="rsHemiVacant">1 of the 245 seats is currently vacant.</span> Counts cover every term each member has served, in either House.</p>
     </div>
     <div id="cardSlotChart" class="card-slot-chart"></div>
+    <p class="seat-list-hint">The dots are small on a phone. Pick a state to see its members.</p>
+    <div class="seat-list" id="seatList"></div>
   </div>
 </section>
 
@@ -1124,12 +1145,36 @@ function setHouse(h){
   clearMPFind();
   buildMemberSel($('stateSel').value);
   renderStatePanel($('stateSel').value);
+  buildSeatList();
+}
+// Phone alternative to the seat chart: a 6px dot is not a tap target, so below
+// 760px the same members are listed state by state, each row a full-size button.
+function buildSeatList(){
+  const rs = HOUSE==='RS', dir = (rs ? ENRICH.rsDir : ENRICH.mpDir) || {};
+  const states = Object.keys(dir).sort((a,b)=>a.localeCompare(b));
+  $('seatList').innerHTML = states.map(st=>{
+    const ms = dir[st].slice().sort((a,b)=>String(a.mp).localeCompare(String(b.mp)));
+    const nv = ms.filter(m=>!m.n).length;
+    return `<details class="sl-state"><summary><span class="sl-name">${esc(st)}</span><span class="sl-num">${nv} of ${ms.length} never asked</span><span class="sl-bar" aria-hidden="true"><i style="width:${Math.round(100*nv/ms.length)}%"></i></span></summary><div class="sl-mps">`
+      + ms.map(m=>`<button type="button" class="sl-mp ${m.n?'asked':'never'}" data-st="${esc(st)}" data-k="${esc(rs ? m.mp : m.c)}"><span class="hdot ${m.n?'asked':'never'}"></span><span class="sl-who">${esc(m.mp)}${rs ? '' : `<span class="sl-c">${esc(m.c)}</span>`}</span><span class="sl-n">${m.n||0}</span></button>`).join('')
+      + `</div></details>`;
+  }).join('');
 }
 function buildStateSection(){
   buildStateOptions();
   $('htgLS').addEventListener('click', ()=>setHouse('LS'));
   $('htgRS').addEventListener('click', ()=>setHouse('RS'));
   document.querySelectorAll('[data-htg]').forEach(b=>b.addEventListener('click', ()=>setHouse(b.dataset.htg)));
+  buildSeatList();
+  $('seatList').addEventListener('click', ev=>{
+    const b = ev.target.closest('button.sl-mp'); if(!b) return;
+    const st = b.dataset.st, k = b.dataset.k;
+    $('stateSel').value = st;
+    if(HOUSE==='RS'){ buildRSSel(st); renderStatePanel(st); $('pcSel').value = k; renderRSMPFind(st, k); }
+    else { buildPCSel(st); renderStatePanel(st); $('pcSel').value = k; renderMPFind(st, k); }
+    placeCard('chart');
+    $('mpFind').scrollIntoView({behavior:'smooth', block:'start'});
+  });
   // picking from the state lists is a top-of-page action: the card answers there
   ['stateSel','pcSel'].forEach(id=>$(id).addEventListener('change', ()=>placeCard('top')));
   // the state figures sit folded under the card; show the fold only when there is a state to show
