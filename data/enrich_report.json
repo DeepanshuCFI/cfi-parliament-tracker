@@ -1,60 +1,9 @@
 {
-  "new_records_applied": 189,
+  "new_records_applied": 0,
   "unmatched_new_askers": [],
   "unresolved_askers_outstanding": [
     "M. Thambidurai"
   ],
   "healed_this_run": [],
-  "left_never_asked_list": [
-    {
-      "official": "Dhanorkar Pratibha Suresh",
-      "dataset_name": "Dhanorkar Pratibha Suresh",
-      "state": "Maharashtra"
-    },
-    {
-      "official": "Tanuj Punia",
-      "dataset_name": "Tanuj Punia",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "official": "Arun Nehru",
-      "dataset_name": "Arun Nehru",
-      "state": "Tamil Nadu"
-    },
-    {
-      "official": "Balashowry Vallabhaneni",
-      "dataset_name": "Balashowry Vallabhaneni",
-      "state": "Andhra Pradesh"
-    },
-    {
-      "official": "Durgadas D D Uikey",
-      "dataset_name": "Durga Das Uikey",
-      "state": "Madhya Pradesh"
-    },
-    {
-      "official": "Pradan Baruah",
-      "dataset_name": "Pradan Baruah",
-      "state": "Assam"
-    },
-    {
-      "official": "Mukesh Rajput",
-      "dataset_name": "Mukesh Rajput",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "official": "D Ravi Kumar",
-      "dataset_name": "D. Ravikumar",
-      "state": "Tamil Nadu"
-    },
-    {
-      "official": "Arjun Ram Meghwal",
-      "dataset_name": "Arjun Ram Meghwal",
-      "state": "Rajasthan"
-    },
-    {
-      "official": "Balabhadra Majhi",
-      "dataset_name": "Balabhadra Majhi",
-      "state": "Odisha"
-    }
-  ]
+  "left_never_asked_list": []
 }

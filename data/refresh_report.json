@@ -9,7 +9,9 @@
     "RS/Heavy": 24,
     "LS/Heavy": 57,
     "RS/Urban": 116,
-    "LS/Urban": 96
+    "LS/Urban": 96,
+    "RS/Home": 80,
+    "LS/Home": 71
   },
   "new_candidates": 0,
   "rollover_alert": null,
