@@ -70,6 +70,29 @@ open(path, 'a').write('\n')   # trailing newline
   every published claim must survive an adversarial read (same rule as the
   never-asked framing).
 
+## Addendum, 23 Nov 2026 (same rubric, no regrade)
+
+Applied from the batch graded on 23 Nov 2026 onward; earlier grades stand.
+
+- **Annexure missing from OUR copy.** Many 2014-16 Lok Sabha texts are body-only
+  captures: the answer says "at Annexure-I" and the annexure is simply not in
+  the text we hold (not truncated at 12,000 characters, just absent). When a
+  `p` would rest on that alone, do not grade the record: list its key in
+  `data/grading_held.json`. A "partial" we cannot show came from the
+  Government, rather than from our copy, does not survive an adversarial read.
+  A `p` with an independent reason (a clause ignored, "data not maintained")
+  still stands.
+- **Texts truncated at 12,000 characters.** An annexure cited before the cut is
+  treated as provided.
+- **A lone "time by which" clause is not a data ask** (`da=false`), matching
+  the existing grades. Timelines count as data only alongside another explicit
+  data ask.
+- **Premise denied.** "No, Sir / Does not arise" to a conditional data clause
+  is `da=true, dg=y`: nothing was withheld (precedent `LS|16|MoRTH|13|U|1025`).
+- **Sources.** Besides `ls_pdf`, `rs_api` and `rs_pdf`, the cache may carry
+  `elibrary_txt`: the Lok Sabha Secretariat archive's text copy of the same
+  answer PDF, used where Parliament's feed has no working link.
+
 ## Consistency protocol
 
 - Grade in batches; re-read this file at the start of every session.
