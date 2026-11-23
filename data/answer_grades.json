@@ -344,6 +344,13 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|16|Heavy|4|U|5527": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(b) to (e): 'No such data is maintained.'"
+  },
   "LS|16|Heavy|5|U|1226": {
    "da": false,
    "g": "2026-11-23",
@@ -369,6 +376,13 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|16|Heavy|9|U|2557": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Ministry 'does not maintain' data on deaths due to lack of vehicle safety standards; testing agencies listed, no proposals pending."
   },
   "LS|16|Home|10|U|1124": {
    "da": true,
@@ -532,6 +546,13 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|16|MoRTH|10|S|328": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Customer care numbers for app-based cabs 'comes in the domain of respective State Governments / UTs'; the 'whether' is not answered.",
+   "sd": true
+  },
   "LS|16|MoRTH|10|U|1386": {
    "da": true,
    "dg": "n",
@@ -570,6 +591,11 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Gives 2013-15 accident counts; financial assistance described only as MACT-ordered compensation under MV Act, no amounts."
+  },
+  "LS|16|MoRTH|10|U|247": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|16|MoRTH|10|U|2587": {
    "da": true,
@@ -776,6 +802,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|16|MoRTH|11|U|1598": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|16|MoRTH|11|U|1609": {
    "da": true,
    "dg": "y",
@@ -881,6 +912,13 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|16|MoRTH|11|U|4608": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Only all-India totals plus Maharashtra, no State-wise break-up; number of surveys asked in (d) not given."
+  },
   "LS|16|MoRTH|11|U|4690": {
    "da": false,
    "g": "2026-08-16",
@@ -904,6 +942,11 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|16|MoRTH|11|U|5378": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|16|MoRTH|11|U|5430": {
    "da": false,
@@ -961,6 +1004,11 @@
    "note": "\"does not maintain centralised data about testing of drivers\"; implementation \"under the purview of State Transport Departments\".",
    "sd": true
   },
+  "LS|16|MoRTH|12|S|346": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|16|MoRTH|12|S|71": {
    "da": true,
    "dg": "y",
@@ -984,6 +1032,11 @@
    "m": "fable-5.2"
   },
   "LS|16|MoRTH|12|U|1935": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|MoRTH|12|U|1990": {
    "da": false,
    "g": "2026-11-23",
    "m": "fable-5.2"
@@ -1020,6 +1073,22 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|16|MoRTH|12|U|3979": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|MoRTH|12|U|4101": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|MoRTH|12|U|708": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|16|MoRTH|12|U|779": {
    "da": false,
@@ -1485,6 +1554,17 @@
    "m": "fable-5",
    "note": "No time given for establishment; answer points to NRSTMB provision in pending MV (Amendment) Bill plus generic steps."
   },
+  "LS|16|MoRTH|16|U|463": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|MoRTH|16|U|528": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|16|MoRTH|16|U|545": {
    "da": false,
    "g": "2026-08-16",
@@ -1621,6 +1701,13 @@
    "note": "Implementation of MV Act and CMVRs 'comes under the purview of State Transport Departments'; no reply on irregularities noticed.",
    "sd": true
   },
+  "LS|16|MoRTH|3|U|2992": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Describes training for State transport officials (50 programmes in 2014-15); no University-wise details of campus programmes."
+  },
   "LS|16|MoRTH|3|U|3123": {
    "da": false,
    "g": "2026-11-23",
@@ -1739,6 +1826,11 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|16|MoRTH|4|U|593": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|16|MoRTH|4|U|600": {
    "da": false,
    "g": "2026-11-23",
@@ -1773,6 +1865,11 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|16|MoRTH|4|U|6120": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|16|MoRTH|4|U|6765": {
    "da": false,
    "g": "2026-11-23",
@@ -1795,6 +1892,11 @@
    "m": "fable-5.2"
   },
   "LS|16|MoRTH|5|U|2800": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|MoRTH|5|U|2910": {
    "da": false,
    "g": "2026-11-23",
    "m": "fable-5.2"
@@ -1853,6 +1955,13 @@
    "m": "fable-5.2",
    "note": "State-wise accident details 'are annexed' but no annexure in the answer text; compensation paid to victims not addressed."
   },
+  "LS|16|MoRTH|6|U|1893": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(c) on overlapping agency roles met only with: traffic management 'comes within the purview of the State Governments'.",
+   "sd": true
+  },
   "LS|16|MoRTH|6|U|1980": {
    "da": true,
    "dg": "n",
@@ -1885,6 +1994,13 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|16|MoRTH|6|U|3170": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(a)-(b): cites Rule 10, then 'Implementations of provisions of Motor Vehicles Act... come under the purview of State Government.'",
+   "sd": true
   },
   "LS|16|MoRTH|6|U|3172": {
    "da": false,
@@ -1936,6 +2052,18 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Avg annual accidental-death rate not given; (b)-(e) met only with 'finalizing the Road Transport and Safety Bill' in consultation"
+  },
+  "LS|16|MoRTH|7|S|114": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|MoRTH|7|S|199": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(d) steps: cites Rule 120(2), then 'Implementation of the Central Motor Vehicles Rules, 1989 lies with the State Government'.",
+   "sd": true
   },
   "LS|16|MoRTH|7|S|22": {
    "da": true,
@@ -2228,6 +2356,14 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|16|Urban|10|U|4507": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "No Ministry scheme: 'Urban Transport' is 'a State subject'; PBS planning and implementation 'taken up by the States/UTs/ULBs'",
+   "sd": true
+  },
   "LS|17|Health|10|U|1705": {
    "da": true,
    "dg": "y",
@@ -2310,6 +2446,13 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|17|Health|14|U|2243": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "National 108/102 network described ('available in 35 States/UTs'); no State/UT-wise details as asked in (d)."
   },
   "LS|17|Health|15|U|122": {
    "da": true,
@@ -2519,6 +2662,30 @@
    "m": "fable-5",
    "note": "State-wise TCF counts annexed; district-wise and NH-wise breakdowns not given; no new TCFs beyond 12th FYP."
   },
+  "LS|17|Heavy|10|U|2076": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|17|Heavy|11|U|4559": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Names five electric two-wheeler makers with reported fires; gives no number of incidents or deaths."
+  },
+  "LS|17|Heavy|12|U|2032": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|17|Heavy|14|U|1534": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Names five e-two-wheeler makers with fire incidents; no incident count, no deaths, no State/UT-wise figures."
+  },
   "LS|17|Heavy|1|U|444": {
    "da": false,
    "g": "2026-08-16",
@@ -2531,6 +2698,12 @@
   },
   "LS|17|Heavy|7|U|2733": {
    "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|17|Heavy|9|U|234": {
+   "da": true,
+   "dg": "y",
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
@@ -2592,6 +2765,11 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Pothole deaths given state-wise for all road categories; NH-specific data 'not separately maintained'"
+  },
+  "LS|17|MoRTH|10|U|2573": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|17|MoRTH|10|U|2598": {
    "da": true,
@@ -2752,6 +2930,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|17|MoRTH|11|U|2702": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|17|MoRTH|11|U|3685": {
    "da": true,
    "dg": "y",
@@ -2801,6 +2984,12 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "'No centralized details with respect to compensation cases paid/denied/pending'; state-wise accident data annexed"
+  },
+  "LS|17|MoRTH|12|S|306": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|17|MoRTH|12|S|4": {
    "da": true,
@@ -3045,6 +3234,13 @@
    "m": "fable-5",
    "note": "Rescue agencies listed but expenses not given — 'NHIDCL has not yet received demand regarding expenses incurred'"
   },
+  "LS|17|MoRTH|14|U|3185": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "State/NH-wise places with lighting not given, only IRC guideline location types; high-mast count (17) and UP proposals given."
+  },
   "LS|17|MoRTH|14|U|3188": {
    "da": true,
    "dg": "p",
@@ -3070,6 +3266,12 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|17|MoRTH|14|U|763": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|17|MoRTH|14|U|837": {
    "da": true,
@@ -3224,6 +3426,16 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|17|MoRTH|1|U|4114": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|17|MoRTH|1|U|4152": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|17|MoRTH|1|U|5279": {
    "da": true,
    "dg": "y",
@@ -3271,6 +3483,13 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|17|MoRTH|1|U|908": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(a) to (c): 'Transportation by Road is a State Subject... State Governments are primarily responsible'.",
+   "sd": true
   },
   "LS|17|MoRTH|2|S|149": {
    "da": true,
@@ -3423,6 +3642,11 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|17|MoRTH|2|U|867": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|17|MoRTH|2|U|868": {
    "da": true,
@@ -3597,6 +3821,11 @@
    "m": "fable-5"
   },
   "LS|17|MoRTH|3|U|768": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|17|MoRTH|3|U|834": {
    "da": false,
    "g": "2026-11-23",
    "m": "fable-5.2"
@@ -3893,6 +4122,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|17|MoRTH|6|U|1759": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|17|MoRTH|6|U|1830": {
    "da": true,
    "dg": "y",
@@ -3929,6 +4163,12 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|17|MoRTH|6|U|500": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|17|MoRTH|6|U|531": {
    "da": true,
@@ -3967,10 +4207,24 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|17|MoRTH|7|U|1938": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "No State/NH-wise list, only IRC norms; thefts: 'State Governments look after the law and order situation... including theft'",
+   "sd": true
+  },
   "LS|17|MoRTH|7|U|1987": {
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|17|MoRTH|7|U|2015": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|17|MoRTH|7|U|2040": {
    "da": true,
@@ -4229,6 +4483,13 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|17|MoRTH|9|U|1885": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Expenditure 'would vary from project to project'; only one figure given (Eastern Peripheral Expressway ATMS, Rs. 187 crore)."
+  },
   "LS|17|MoRTH|9|U|1888": {
    "da": true,
    "dg": "p",
@@ -4292,6 +4553,13 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|17|MoRTH|9|U|3027": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "No State/NH-wise list of lit NHs, only IRC guideline location types; proposals clause answered (none from Maharashtra, Tamil Nadu)."
+  },
   "LS|17|MoRTH|9|U|3090": {
    "da": false,
    "g": "2026-11-23",
@@ -4349,8 +4617,20 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|17|Urban|11|U|1239": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|17|Urban|2|U|891": {
    "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|17|Urban|4|U|1963": {
+   "da": true,
+   "dg": "y",
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
@@ -4363,6 +4643,12 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|18|Health|2|U|740": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|18|Health|2|U|806": {
    "da": false,
@@ -4524,6 +4810,11 @@
    "note": "Lists 13 TCFs (none new in 5 yrs); no fund amounts or district-wise gaps — 'Health is a State subject.'",
    "sd": true
   },
+  "LS|18|Heavy|4|U|2895": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|18|Heavy|6|U|269": {
    "da": true,
    "dg": "y",
@@ -4560,6 +4851,13 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "LS|18|MoRTH|2|U|1746": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "'Urban planning is a State Subject'; traffic management for critical services 'done by respective State Governments/ULBs'.",
+   "sd": true
   },
   "LS|18|MoRTH|2|U|1757": {
    "da": true,
@@ -4633,6 +4931,12 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "No drowsiness/fatigue fatality figures; annexure gives overall car-accident data 2018-22; no DDAWS rollout timeline"
+  },
+  "LS|18|MoRTH|3|U|1706": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|18|MoRTH|3|U|1743": {
    "da": false,
@@ -5127,6 +5431,12 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|18|MoRTH|5|U|709": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|18|MoRTH|5|U|717": {
    "da": true,
    "dg": "y",
@@ -5139,6 +5449,12 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Counts given (48 spots, 14 for flyovers) but no specific locations or approval timeline"
+  },
+  "LS|18|MoRTH|5|U|754": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|18|MoRTH|5|U|818": {
    "da": true,
@@ -5224,6 +5540,12 @@
    "g": "2026-08-16",
    "m": "opus-5"
   },
+  "LS|18|MoRTH|6|U|3187": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|18|MoRTH|6|U|3214": {
    "da": false,
    "g": "2026-11-23",
@@ -5290,6 +5612,11 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|S|91": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|18|MoRTH|7|U|1008": {
    "da": true,
@@ -5374,6 +5701,12 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "opus-5"
+  },
+  "LS|18|MoRTH|7|U|2110": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|18|MoRTH|7|U|2140": {
    "da": false,
@@ -5529,6 +5862,13 @@
    "g": "2026-08-16",
    "m": "opus-5",
    "note": "National year-wise table 2004-2024 only; no Rajasthan-specific figures and no 2025 data as asked."
+  },
+  "LS|18|MoRTH|7|U|4543": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Funds given (Rs. 3,000 crore, 144.87 crore released); outcome figures absent: enforcement 'is in initial stage of implementation'."
   },
   "LS|18|MoRTH|7|U|4564": {
    "da": false,
@@ -5828,6 +6168,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||Health|234|U|2211": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||Health|234|U|945": {
    "da": true,
    "dg": "y",
@@ -6079,6 +6424,12 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||Health|262|U|249": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||Health|262|U|287": {
    "da": true,
    "dg": "n",
@@ -6221,15 +6572,38 @@
    "note": "Vacancy tables given; 'Health is a state subject' - trauma centre expansion left to State Government proposals",
    "sd": true
   },
+  "RS||Heavy|232|U|1727": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "APRAD format 'does not separately capture data regarding number of car fires... Therefore, no such data is available.'"
+  },
   "RS||Heavy|238|U|205": {
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||Heavy|239|U|502": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||Heavy|239|U|506": {
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||Heavy|240|U|2665": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||Heavy|241|U|836": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||Heavy|243|U|368": {
    "da": false,
@@ -6250,6 +6624,19 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||Heavy|263|U|104": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "EV-specific accident data 'is not collected by TRW, MoRTH'; annexure gives all accidents by impacting vehicle type instead"
+  },
+  "RS||Heavy|267|U|3268": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||Home|232|U|2214": {
    "da": false,
@@ -6490,11 +6877,24 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|232|U|3483": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|232|U|3490": {
    "da": true,
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|232|U|588": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Licensing 'covered under Excise Policy of the States'; advisories issued; no State/UT-wise implementation status given.",
+   "sd": true
   },
   "RS||MoRTH|232|U|590": {
    "da": false,
@@ -6571,6 +6971,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|233|U|103": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|233|U|106": {
    "da": true,
    "dg": "p",
@@ -6609,6 +7014,18 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|233|U|2460": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|233|U|2466": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Hit-and-run given for 2012 and 2013 only, no action taken; child-accident details 'are being collected from Delhi Police'"
+  },
   "RS||MoRTH|233|U|3252": {
    "da": true,
    "dg": "p",
@@ -6641,6 +7058,12 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|233|U|888": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|233|U|95": {
    "da": true,
@@ -6678,6 +7101,16 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|234|U|1224": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|234|U|1230": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|234|U|1235": {
    "da": false,
    "g": "2026-08-16",
@@ -6693,6 +7126,13 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|234|U|2025": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(a)-(c) answered only with the draft Road Transport & Safety Bill 2015; no allocated, sanctioned or spent amounts."
   },
   "RS||MoRTH|234|U|2035": {
    "da": true,
@@ -6711,6 +7151,11 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|234|U|741": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|234|U|742": {
    "da": false,
@@ -6734,12 +7179,22 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|235|U|1638": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|235|U|1643": {
    "da": true,
    "dg": "n",
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "APRAD format 'does not include' BPL category - killed/injured BPL figures not compiled"
+  },
+  "RS||MoRTH|235|U|1646": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|235|U|1647": {
    "da": true,
@@ -6748,10 +7203,22 @@
    "m": "fable-5",
    "note": "Year-wise black-spot fatality details at Annexures I & II - annexures not present in text"
   },
+  "RS||MoRTH|235|U|1658": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "'The Central Government do not centrally maintain the data of pending applications for fitness certificates of personal vehicles.'"
+  },
   "RS||MoRTH|235|U|1660": {
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|235|U|372": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|235|U|378": {
    "da": false,
@@ -6847,6 +7314,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|237|U|106": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|237|U|107": {
    "da": false,
    "g": "2026-08-16",
@@ -6878,6 +7350,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|237|U|2517": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|237|U|899": {
    "da": false,
    "g": "2026-08-16",
@@ -6888,6 +7365,11 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|237|U|900": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|237|U|907": {
    "da": true,
@@ -6937,6 +7419,11 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|238|U|1877": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|239|S|152": {
    "da": true,
@@ -6996,6 +7483,16 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|239|U|885": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|239|U|889": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|239|U|89": {
    "da": true,
    "dg": "p",
@@ -7009,6 +7506,11 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Data on incidence of road rage 'are not collected'; road rage termed a criminal offence dealt with under existing law"
+  },
+  "RS||MoRTH|239|U|900": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|239|U|902": {
    "da": false,
@@ -7037,6 +7539,20 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|240|U|101": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(a): 'Data on liquor shops is not compiled in the Ministry being under the State Government.'",
+   "sd": true
+  },
+  "RS||MoRTH|240|U|1593": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|240|U|1605": {
    "da": false,
@@ -7103,6 +7619,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|240|U|94": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|241|S|278": {
    "da": true,
    "dg": "p",
@@ -7153,6 +7674,13 @@
    "note": "DLs issued by States/UTs, hence 'details of shortage are not centrally maintained'.",
    "sd": true
   },
+  "RS||MoRTH|241|U|2991": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "School-transport accident data 'not centrally maintained'; hit-and-run figure for 2015 only (2,042), not the three years asked."
+  },
   "RS||MoRTH|241|U|577": {
    "da": true,
    "dg": "p",
@@ -7194,6 +7722,17 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|242|U|2008": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|242|U|2012": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|242|U|2013": {
    "da": false,
@@ -7281,16 +7820,46 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|242|U|4255": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|242|U|426": {
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|242|U|4262": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|242|U|4268": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|242|U|4269": {
    "da": true,
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|242|U|4275": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "'pothole data is not maintained by Ministry'; pothole accidents given for 2014 and 2015, 2016 'not compiled'."
+  },
+  "RS||MoRTH|242|U|4276": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(b) where shops relocated: 'Implementation of the orders of the Hon’ble Supreme Court is the responsibility of States/UTs.'",
+   "sd": true
   },
   "RS||MoRTH|242|U|4277": {
    "da": true,
@@ -7313,6 +7882,11 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|243|U|1679": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|243|U|1688": {
    "da": false,
@@ -7351,6 +7925,16 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|243|U|94": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|244|U|1528": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|244|U|1529": {
    "da": true,
    "dg": "p",
@@ -7376,12 +7960,22 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|244|U|264": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|245|S|253": {
    "da": true,
    "dg": "p",
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "State-wise details in Annexures I-III not included in text; national totals for 2014-16 given in-text"
+  },
+  "RS||MoRTH|245|S|372": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|245|U|1047": {
    "da": true,
@@ -7411,6 +8005,11 @@
    "m": "fable-5",
    "note": "Clause (c) met only with 'provisions are implemented by the State government/UTs'",
    "sd": true
+  },
+  "RS||MoRTH|245|U|1058": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|245|U|1838": {
    "da": true,
@@ -7489,6 +8088,12 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|245|U|3455": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|245|U|3456": {
    "da": false,
    "g": "2026-08-16",
@@ -7518,6 +8123,17 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|245|U|3927": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|245|U|3933": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|245|U|3943": {
    "da": true,
    "dg": "y",
@@ -7528,6 +8144,11 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|246|U|2168": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|246|U|2172": {
    "da": true,
@@ -7626,12 +8247,26 @@
    "m": "fable-5",
    "note": "National totals 2015-17 given; State/UT-wise figures 'Annexed-1' but annexure not in text."
   },
+  "RS||MoRTH|247|U|1541": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Steps listed nationally, not State-wise; no State-wise CCTV plan, only the SC Committee's direction to States to acquire CCTV."
+  },
   "RS||MoRTH|247|U|2013": {
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "(a)-(e): 'No such information is available in the Ministry as Law and Order is a State Subject'.",
    "sd": true
+  },
+  "RS||MoRTH|247|U|2015": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Black spot counts given; funds spent not stated: expenditure 'incurred from the overall allocation' for NH development."
   },
   "RS||MoRTH|247|U|2019": {
    "da": true,
@@ -7651,6 +8286,16 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|247|U|2805": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|247|U|2808": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|247|U|2810": {
    "da": false,
@@ -7716,6 +8361,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|248|U|828": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|248|U|832": {
    "da": true,
    "dg": "y",
@@ -7755,6 +8405,11 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|248|U|99": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|249|S|151": {
    "da": true,
@@ -7921,6 +8576,17 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|249|U|3293": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|249|U|3303": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|249|U|3304": {
    "da": true,
    "dg": "y",
@@ -7965,6 +8631,13 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "State-wise drunken-driving accident data 2016-18 wholly referred to Annexure-1, not included in text."
+  },
+  "RS||MoRTH|250|U|124": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "'does not maintain centralised data' on fake licences; only national 2015 totals, no State-wise licences issued"
   },
   "RS||MoRTH|250|U|126": {
    "da": false,
@@ -8124,6 +8797,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|251|U|1261": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|251|U|1266": {
    "da": true,
    "dg": "y",
@@ -8143,6 +8821,11 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|251|U|141": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|251|U|2532": {
    "da": true,
@@ -8184,6 +8867,12 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|251|U|3342": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|251|U|919": {
    "da": true,
    "dg": "y",
@@ -8215,6 +8904,11 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "(a) data 'placed at Annexure-I and Annexure-II' but annexures not included in the answer text."
+  },
+  "RS||MoRTH|251|U|932": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|251|U|933": {
    "da": false,
@@ -8284,6 +8978,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|253|S|279": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|253|U|1572": {
    "da": true,
    "dg": "p",
@@ -8340,6 +9039,23 @@
    "note": "(c) answered partly with 'implementation... comes under the purview of State Governments and Union Territories'.",
    "sd": true
   },
+  "RS||MoRTH|254|S|70": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|254|U|128": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|254|U|136": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Lists 26 sanctioned fitness (I&C) centres; number of scrapping centres not given, only the March 2021 scrapping-facility rules cited."
+  },
   "RS||MoRTH|254|U|139": {
    "da": false,
    "g": "2026-08-16",
@@ -8374,6 +9090,21 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|254|U|777": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "'Government does not collect data on removal of liquor shops as this is a state subject.'",
+   "sd": true
+  },
+  "RS||MoRTH|254|U|778": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Hit-and-run totals 2017-19 given; number of school-transport accidents in Delhi not given, only challan and impound counts."
   },
   "RS||MoRTH|254|U|781": {
    "da": false,
@@ -8465,11 +9196,21 @@
    "m": "fable-5",
    "note": "(d) compensation paid: 'No centralized details... is available with the Ministry'; current-year figures also absent"
   },
+  "RS||MoRTH|256|S|288": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|256|S|362": {
    "da": true,
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|256|U|1675": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|256|U|1677": {
    "da": false,
@@ -8493,6 +9234,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|256|U|1693": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|256|U|2320": {
    "da": true,
    "dg": "y",
@@ -8503,6 +9249,12 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|256|U|3126": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|256|U|3136": {
    "da": true,
@@ -8523,6 +9275,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|256|U|3916": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|256|U|3918": {
    "da": true,
    "dg": "y",
@@ -8534,6 +9291,11 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|256|U|3929": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|256|U|3935": {
    "da": true,
@@ -8595,6 +9357,12 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|257|U|2001": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|257|U|2006": {
    "da": true,
@@ -8659,6 +9427,12 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Fatality-rate table 2016–20 given; compensation year-wise: 'No centralized details... available with the Ministry'"
+  },
+  "RS||MoRTH|258|U|883": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|258|U|884": {
    "da": false,
@@ -8729,6 +9503,13 @@
    "m": "fable-5",
    "note": "Award amount given (Rs 5,000/incident) but non-implementing states not named; only '21 States/UTs have sent proposal'"
   },
+  "RS||MoRTH|259|U|1689": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "(a) names 'some cities... and more'; no amount spent or functional dates. Challan statistics annexed for (b)-(c)."
+  },
   "RS||MoRTH|259|U|2447": {
    "da": true,
    "dg": "p",
@@ -8741,6 +9522,20 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|259|U|2483": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|259|U|2488": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Licensing 'rest with the State/UT'; Ministry 'does not maintain details' of driving schools or staff. Closure premise denied.",
+   "sd": true
   },
   "RS||MoRTH|259|U|3284": {
    "da": true,
@@ -8772,6 +9567,13 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "State-wise yearly funds asked; reply: 'State-wise separate funds were not allocated', only Rs 395.89 cr national total for 5 years."
+  },
+  "RS||MoRTH|259|U|725": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "No State/UT-wise details; only that street lights are 'being provided in built up areas, at major junctions, toll plazas'."
   },
   "RS||MoRTH|260|U|1521": {
    "da": false,
@@ -8816,6 +9618,16 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|260|U|2335": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|260|U|2351": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|260|U|729": {
    "da": true,
@@ -8915,6 +9727,13 @@
    "m": "fable-5",
    "note": "(c) asked accidents on Expressways specifically; only combined NH (incl. NE) figures given."
   },
+  "RS||MoRTH|263|U|582": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "NH accidents from traffic violations given State-wise and year-wise (Annexure-I), not National Highway-wise as asked."
+  },
   "RS||MoRTH|265|S|176": {
    "da": false,
    "g": "2026-08-16",
@@ -8936,6 +9755,13 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|265|U|1852": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Describes the 2021 e-enforcement rules and ATMS on expressways; no figure for funds earmarked or released."
   },
   "RS||MoRTH|265|U|1855": {
    "da": true,
@@ -8999,6 +9825,12 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|266|U|1846": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|266|U|1850": {
    "da": true,
    "dg": "p",
@@ -9012,6 +9844,13 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Funds released Annexure-III referenced but not in text; utilisation year-wise not shown"
+  },
+  "RS||MoRTH|266|U|1859": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Asked highway fog accidents for last three years and 2024; given all-road national totals for 2019-2022 only."
   },
   "RS||MoRTH|266|U|1860": {
    "da": true,
@@ -9031,6 +9870,11 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|266|U|262": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|266|U|2644": {
    "da": true,
@@ -9087,6 +9931,18 @@
    "m": "fable-5",
    "note": "Pothole-attributed deaths not given; all-cause year/State-wise fatality totals substituted"
   },
+  "RS||MoRTH|267|U|1535": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||MoRTH|267|U|1538": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "No timeline: 'a continuous process' (5,036 of 13,795 rectified); (e) total complaints addressed not given."
+  },
   "RS||MoRTH|267|U|1540": {
    "da": true,
    "dg": "y",
@@ -9129,6 +9985,13 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Challan/revenue data covers only 6 States/UTs from e-challan portal; accidents given State-wise only, district-wise not provided"
+  },
+  "RS||MoRTH|267|U|2976": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Names three ATMS corridors (Delhi-Meerut Expressway, Trans-Haryana, Eastern Peripheral 'etc.'); no State/UT-wise rollout."
   },
   "RS||MoRTH|267|U|2979": {
    "da": false,
@@ -9184,6 +10047,13 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|268|U|2023": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Guidelines clause unanswered; enforcement 'is essentially in the domain of State Governments/UT Administrations'.",
+   "sd": true
+  },
   "RS||MoRTH|268|U|2024": {
    "da": false,
    "g": "2026-08-16",
@@ -9201,11 +10071,23 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|268|U|2032": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|268|U|2034": {
    "da": true,
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|268|U|2041": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|268|U|2042": {
    "da": true,
@@ -9296,6 +10178,11 @@
    "note": "Part (d) answered only with 'training of emergency responders is generally managed by the State Governments'",
    "sd": true
   },
+  "RS||MoRTH|269|U|1213": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|269|U|1217": {
    "da": true,
    "dg": "p",
@@ -9350,6 +10237,14 @@
    "da": false,
    "g": "2026-08-16",
    "m": "opus-5"
+  },
+  "RS||MoRTH|269|U|2031": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "'Police and Public Order are State subjects'; no State with a highway patrol force is named for (b)-(c).",
+   "sd": true
   },
   "RS||MoRTH|269|U|2035": {
    "da": true,
@@ -9641,6 +10536,13 @@
    "g": "2026-08-16",
    "m": "opus-5"
   },
+  "RS||MoRTH|270|U|4284": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "NH-wise asked; ATMS length and accidents, deaths, injuries given State/UT-wise (Annexures I, III-V)."
+  },
   "RS||MoRTH|270|U|574": {
    "da": true,
    "dg": "p",
@@ -9829,6 +10731,13 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||Urban|242|S|158": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "1279 parks 'taken up' (Rs. 1005 crore) and plan allocations given; no count of cycling zones, no figure of funds spent."
+  },
   "RS||Urban|249|U|1338": {
    "da": false,
    "g": "2026-08-16",
@@ -9865,6 +10774,13 @@
    "m": "fable-5",
    "note": "'Urban Planning is a State subject'; Centre has 'only advisory role', cites guidelines in lieu of legislation",
    "sd": true
+  },
+  "RS||Urban|259|U|2952": {
+   "da": true,
+   "dg": "p",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "Only 'more than 50 Smart Cities' stated; challan data 'not maintained at the Central level'; no city-wise amounts or dates"
   },
   "RS||Urban|262|U|1657": {
    "da": true,
