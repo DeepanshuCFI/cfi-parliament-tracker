@@ -11,6 +11,7 @@ through here instead:
 
 Backfill file: {"source": "<who decided, when>", "note": "...",
                 "records": [{h, l, s, q, t, d, m, j, u, min}, ...]}
+A record may carry "g" (topic tag indexes) to override the title-based tagging.
 
 What it does, idempotently:
   - appends each record not already present to data/dataset.json
@@ -63,7 +64,8 @@ def main():
         rec = {'h': raw['h'], 'l': str(raw.get('l') or ''), 's': str(raw['s']), 'q': str(raw['q']),
                't': 'S' if raw.get('t') == 'S' else 'U', 'd': raw.get('d') or '',
                'm': [merges.get(n, n) for n in (clean_mp(m) for m in raw.get('m', []) if m)],
-               'j': title, 'g': tag_for(title, raw['min']), 'u': safe_u(raw.get('u')), 'min': raw['min']}
+               'j': title, 'g': raw.get('g') or tag_for(title, raw['min']),
+               'u': safe_u(raw.get('u')), 'min': raw['min']}
         k = record_key(rec)
         decisions[k] = {'include': True, 'title': title, 'ministry': rec['min'], 'source': spec['source']}
         if k in existing:

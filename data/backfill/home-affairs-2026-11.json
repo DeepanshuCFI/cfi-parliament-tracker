@@ -1,6 +1,6 @@
 {
  "source": "editor backfill, Home Affairs added Nov 2026",
- "note": "Every Home Affairs question since July 2014 (11,805: LS 6,041, RS 5,764; LS ministryCode 33, RS min_code 33) was enumerated from Parliament's question APIs on 23 Nov 2026 and curated by title against the approved scope. borderline=true marks inclusions the editor may want to drop. 23 Nov 2026: the editor confirmed the footpath-encroachment, road-divider visibility and un-challaned-vehicles questions; their borderline flags were cleared.",
+ "note": "Every Home Affairs question since July 2014 (11,805: LS 6,041, RS 5,764; LS ministryCode 33, RS min_code 33) was enumerated from Parliament's question APIs on 23 Nov 2026 and curated by title against the approved scope. The editor reviewed the list the same day: confirmed the footpath-encroachment, road-divider visibility, un-challaned-vehicles, traffic-police corruption and traffic-police strength questions; dropped 'Traffic Challan to COVID-19 Warriors' (pandemic relief, not enforcement); added 'Encroachment of spaces outside Metro Stations in Delhi' (its text is about pedestrians), tagged Pedestrian Safety by hand since the title has no pedestrian word.",
  "records": [
   {
    "h": "LS",
@@ -240,8 +240,7 @@
    ],
    "j": "CORRUPTION IN DELHI TRAFFIC POLICE",
    "u": "https://sansad.in/getFile/Annexture_New/lsq16/4/au4511.htm?source=loksabhadocs",
-   "min": "Home",
-   "borderline": true
+   "min": "Home"
   },
   {
    "h": "RS",
@@ -650,8 +649,7 @@
    ],
    "j": "Police force deployed on traffic duty in Delhi",
    "u": "https://sansad.in/getFile/annex/244/Au1050.docx?source=pqars",
-   "min": "Home",
-   "borderline": true
+   "min": "Home"
   },
   {
    "h": "RS",
@@ -845,19 +843,21 @@
    "min": "Home"
   },
   {
-   "h": "LS",
-   "l": "17",
-   "s": "4",
-   "q": "1507",
+   "h": "RS",
+   "l": "",
+   "s": "251",
+   "q": "2770",
    "t": "U",
-   "d": "2020-09-20",
+   "d": "2020-03-18",
    "m": [
-    "Rahul Ramesh Shewale"
+    "Ramkumar Verma"
    ],
-   "j": "Traffic Challan to COVID-19 Warriors",
-   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/174/AU1507.pdf?source=lsapps",
+   "j": "Encroachment of spaces outside Metro Stations in Delhi",
+   "u": "https://sansad.in/getFile/annex/251/AU2770.docx?source=pqars",
    "min": "Home",
-   "borderline": true
+   "g": [
+    6
+   ]
   },
   {
    "h": "LS",
