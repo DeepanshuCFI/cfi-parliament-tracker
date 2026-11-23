@@ -442,6 +442,12 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|16|Home|3|U|1456": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|16|Home|3|U|2536": {
    "da": false,
    "g": "2026-11-23",
@@ -475,6 +481,11 @@
    "note": "'Police' and 'Public Order' are State subjects; never says whether any proposal to change the law exists.",
    "sd": true
   },
+  "LS|16|Home|3|U|4880": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|16|Home|4|U|3266": {
    "da": false,
    "g": "2026-11-23",
@@ -490,6 +501,12 @@
    "note": "(b) to (d): No such data is maintained centrally. Only total road accident cases for 2011-2013 given."
   },
   "LS|16|Home|4|U|3431": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|Home|4|U|6314": {
    "da": true,
    "dg": "y",
    "g": "2026-11-23",
@@ -2379,6 +2396,12 @@
    "m": "fable-5.2",
    "note": "No Ministry scheme: 'Urban Transport' is 'a State subject'; PBS planning and implementation 'taken up by the States/UTs/ULBs'",
    "sd": true
+  },
+  "LS|16|Urban|3|U|1635": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|17|Health|10|U|1705": {
    "da": true,
@@ -6178,6 +6201,12 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||Health|232|U|2901": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||Health|233|S|228": {
    "da": false,
    "g": "2026-08-16",
@@ -7087,6 +7116,12 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||MoRTH|233|U|3264": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|233|U|3274": {
    "da": false,
    "g": "2026-08-16",
@@ -7498,6 +7533,12 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Glare-death figures 'not compiled' in APRAD format; overall 2014 cause-wise deaths given instead; (c) no information available"
+  },
+  "RS||MoRTH|239|U|1691": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|239|U|1693": {
    "da": false,
@@ -8797,6 +8838,12 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|250|U|2383": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|250|U|919": {
    "da": true,
@@ -10814,12 +10861,48 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "RS||Urban|232|U|1031": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||Urban|233|U|1368": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "'Removing encroachments on pavements is the responsibility of State Government and Local Bodies. Government of India has no data'",
+   "sd": true
+  },
+  "RS||Urban|235|U|84": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "'does not maintain any State wise record of fully pedestrianized urban space'; pedestrianisation left to State Governments",
+   "sd": true
+  },
+  "RS||Urban|236|U|467": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "RS||Urban|238|U|1570": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||Urban|242|S|158": {
    "da": true,
    "dg": "p",
    "g": "2026-11-23",
    "m": "fable-5.2",
    "note": "1279 parks 'taken up' (Rs. 1005 crore) and plan allocations given; no count of cycling zones, no figure of funds spent."
+  },
+  "RS||Urban|242|U|143": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||Urban|249|U|1338": {
    "da": false,

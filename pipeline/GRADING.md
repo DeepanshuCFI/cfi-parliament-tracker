@@ -90,7 +90,8 @@ Applied from the batch graded on 23 Nov 2026 onward; earlier grades stand.
 - **Premise denied.** "No, Sir / Does not arise" to a conditional data clause
   is `da=true, dg=y`: nothing was withheld (precedent `LS|16|MoRTH|13|U|1025`).
 - **Sources.** Besides `ls_pdf`, `rs_api` and `rs_pdf`, the cache may carry
-  `elibrary_txt`: the Lok Sabha Secretariat archive's text copy of the same
+  `elibrary_pdf` (the archive's copy of the answer PDF, fetched by
+  fetch_answers.py when sansad.in has no working link) and `elibrary_txt`: the Lok Sabha Secretariat archive's text copy of the same
   answer PDF, used where Parliament's feed has no working link.
 
 ## Consistency protocol

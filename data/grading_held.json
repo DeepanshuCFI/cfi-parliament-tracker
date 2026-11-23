@@ -1,10 +1,11 @@
 {
- "note": "Records left ungraded on purpose: the only basis for a \"partial\" would be an annexure the answer cites but which is missing from our text copy of the document. Grade them once the full PDF (with annexures) can be read.",
+ "note": "Records left ungraded on purpose: the only basis for a 'partial' would be an annexure the answer cites but which is missing from every copy we can reach (sansad.in has no working file and the Lok Sabha Secretariat's archive holds a one-page, body-only PDF). All are 16th Lok Sabha answers from 2014-16. Grade them if the annexures ever surface.",
  "since": "2026-11-23",
  "keys": [
   "LS|16|Health|4|U|3955",
   "LS|16|Health|4|U|711",
   "LS|16|Health|4|U|764",
+  "LS|16|Home|4|U|4511",
   "LS|16|Home|5|U|2358",
   "LS|16|MoRTH|2|U|1132",
   "LS|16|MoRTH|2|U|2206",
@@ -13,10 +14,6 @@
   "LS|16|MoRTH|4|U|2751",
   "LS|16|MoRTH|4|U|616",
   "LS|16|MoRTH|5|S|251",
-  "LS|16|MoRTH|5|U|545",
-  "RS||Health|232|U|2901",
-  "RS||MoRTH|233|U|3264",
-  "RS||MoRTH|239|U|1691",
-  "RS||MoRTH|250|U|2383"
+  "LS|16|MoRTH|5|U|545"
  ]
 }

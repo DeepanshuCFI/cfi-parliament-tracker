@@ -57,10 +57,18 @@ def fetch_pdf_text(url):
     try:
         out = subprocess.run(['curl', '-sL', '--max-time', '60', '-A', UA, url],
                              capture_output=True, timeout=70).stdout
-        if not out or not out.startswith(b'%PDF'):
+        # Older Rajya Sabha answer files are Word documents (.docx, a zip that
+        # starts with 'PK'), not PDFs; PyMuPDF reads both.
+        if not out:
+            return None
+        if out.startswith(b'%PDF'):
+            ftype = 'pdf'
+        elif out.startswith(b'PK'):
+            ftype = 'docx'
+        else:
             return None
         import fitz
-        with fitz.open(stream=out, filetype='pdf') as doc:
+        with fitz.open(stream=out, filetype=ftype) as doc:
             return scrub(' '.join(pg.get_text() for pg in doc))
     except Exception:
         return None
@@ -76,6 +84,41 @@ print(f"fetch_answers: {len(recs)} in scope, {len(todo)} to fetch")
 # MoRTH starred 151 and Defence unstarred 151). Key by (qno, S/U, min_code);
 # a bare-qno dict silently served 28 starred records another ministry's answer.
 RS_MIN = {label: str(rs_code) for label, _ls, rs_code, _fn in MINISTRIES}
+# Ministry codes changed over time: Rajya Sabha Urban was 49 (Urban Development)
+# and 93 (HUPA) until session 242. A record must be looked up under every code
+# its ministry has carried, or older answers are silently reported unavailable.
+RS_MIN_ALT = {'Urban': ['110', '49', '93']}
+
+def rs_lookup(rows, r):
+    for code in RS_MIN_ALT.get(r['min'], [RS_MIN[r['min']]]):
+        q = rows.get((r['q'], r['t'], code))
+        if q:
+            return q
+    return None
+
+def elibrary_pdf_text(r):
+    """Lok Sabha fallback: the Lok Sabha Secretariat's archive (eLibrary Sansad)
+    holds the answer PDF for questions whose sansad.in link is missing or dead.
+    Matched by title within the Lok Sabha, then confirmed on session, number
+    and type, so a namesake title can never supply the wrong answer."""
+    try:
+        import audit_elibrary as EL
+        want = EL.key_of(r['l'], r['s'], r['q'], r['t'])
+        for rec in EL.search('dc.title:"%s"' % r['j'].replace('"', ''), r['l']):
+            if EL.key_of(rec['l'], rec['s'], rec['q'], rec['type']) != want:
+                continue
+            d = EL.curl_json(f"/core/items/{rec['uuid']}", {'embed': 'bundles/bitstreams'})
+            for b in d.get('_embedded', {}).get('bundles', {}).get('_embedded', {}).get('bundles', []):
+                if b['name'] != 'ORIGINAL':
+                    continue
+                st = b.get('_embedded', {}).get('bitstreams', {}).get('_embedded', {}).get('bitstreams', [])
+                en = [x for x in st if 'hindi' not in x['name'].lower()] or st
+                if en:
+                    return fetch_pdf_text(en[0]['_links']['content']['href'])
+            return None
+    except Exception:
+        return None
+    return None
 
 def rs_row_key(q):
     qno = str(q.get('qno') or '').replace('.0', '').strip()
@@ -97,7 +140,7 @@ for r in todo:
     k, sh = record_key(r), shard(r)
     text = src = None
     if r['h'] == 'RS':
-        q = rs_by_session.get(r['s'], {}).get((r['q'], r['t'], RS_MIN[r['min']]))
+        q = rs_lookup(rs_by_session.get(r['s'], {}), r)
         ans = scrub(q.get('ans_text')) if q else ''
         # Starred stubs ("A statement is laid on the Table of the House") carry
         # neither question nor answer - the statement itself is in the PDF.
@@ -106,12 +149,25 @@ for r in todo:
             # prepend qn_text: grading needs the question clauses, and the
             # rs_api ans_text (unlike the PDFs) does not restate them
             text, src = scrub((q.get('qn_text') or '') + ' ' + q.get('ans_text', '')), 'rs_api'
+            # The API text never carries annexures. When the answer cites one,
+            # the PDF is the complete record: use it if it holds more.
+            # Keep the API text (it has the question and the reply) and append
+            # the file, because some files hold ONLY the annexure.
+            if r.get('u') and re.search(r'annex', ans, re.I):
+                pdf = fetch_pdf_text(r['u'])
+                time.sleep(0.3)
+                if pdf:
+                    text, src = scrub(text + ' [ANSWER FILE] ' + pdf), 'rs_api+file'
         elif r.get('u'):                       # RS fallback: answer PDF
             text, src = fetch_pdf_text(r['u']), 'rs_pdf'
             time.sleep(0.3)
-    elif r.get('u'):
-        text, src = fetch_pdf_text(r['u']), 'ls_pdf'
-        time.sleep(0.4)
+    else:
+        if r.get('u'):
+            text, src = fetch_pdf_text(r['u']), 'ls_pdf'
+            time.sleep(0.4)
+        if not text:                           # LS fallback: the Secretariat's archive
+            text, src = elibrary_pdf_text(r), 'elibrary_pdf'
+            time.sleep(0.4)
     if text:
         sh[k] = {'t': text, 'src': src, 'j': r['j']}
         done += 1
