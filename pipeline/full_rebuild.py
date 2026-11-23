@@ -86,15 +86,35 @@ def is_urban_safety(title):
     t = title or ''
     return bool(UUCTX.search(t)) and not UUXC.search(t)
 
+# Home Affairs: road crashes, hit-and-run, drink-driving and traffic policing
+# (Home answers for Delhi Police and the criminal codes). "Accident" alone is not
+# enough here - Home also answers for rail, fire, disaster and custody deaths -
+# so the net is road/traffic-specific, and pure congestion or parking stays out.
+HMCTX = re.compile('|'.join([
+    r'road accident', r'traffic accident', r'vehicle accident', r'motor ?vehicle accident',
+    r'motor ?bike accident', r'accidents? (involving|caused)', r'road crash', r'road safety',
+    r'hit[- ]and[- ]run', r'drunk', r'drink[- ]?driv', r'negligent driving', r'rash driving',
+    r'road rage', r'helmet', r'while driving', r'driving licen[cs]', r'under ?age driv',
+    r'\bchallan', r'e-?challan', r'speed (violation|breaker|limit)', r'over[- ]?speed',
+    r'traffic (rule|violation|violator|offen|law|enforcement|police|signal|challan|duty)',
+    r'traffic signal', r'road sign', r'signage', r'good samaritan', r'pedestrian',
+    r'footpath', r'pelican signal', r'road divider', r'dividers on road',
+]), re.I)
+HMXC = re.compile(r'trafficking|bullet ?proof|fake e-?challan|cyber', re.I)
+def is_home_safety(title):
+    t = title or ''
+    return bool(HMCTX.search(t)) and not HMXC.search(t)
+
 # ministry registry: label -> (LS ministryCode, RS min_code, keep-fn)
 MINISTRIES = [
     ('MoRTH',  55, 65, is_safety),
     ('Health', 32, 32, is_health_safety),
     ('Heavy',   9, 45, is_heavy_safety),
     ('Urban',  60,110, is_urban_safety),
+    ('Home',   33, 33, is_home_safety),
 ]
 MIN_FULL = {'MoRTH':'Road Transport & Highways','Health':'Health & Family Welfare',
-            'Heavy':'Heavy Industries','Urban':'Housing & Urban Affairs'}
+            'Heavy':'Heavy Industries','Urban':'Housing & Urban Affairs','Home':'Home Affairs'}
 
 # ---------- topic tagging (title-based, multi-label) ----------
 TAGS = ['Accidents & Fatalities','Road Safety (General)','Road Safety Policy','Trauma Care & Compensation',

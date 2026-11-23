@@ -6034,5 +6034,395 @@
     "title": "Impact of heavy rainfall on National Highways",
     "ministry": "MoRTH",
     "source": "keyword+claude-haiku-4-5"
+  },
+  "LS|16|Home|2|U|715": {
+    "include": true,
+    "title": "TRAFFIC ACCIDENTS",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|232|U|2214": {
+    "include": true,
+    "title": "Protection of good Samaritans from legal hassles",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|2|U|4754": {
+    "include": true,
+    "title": "FAILURE OF TRAFFIC SIGNALS",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|233|U|356": {
+    "include": true,
+    "title": "Protection to those who help road accident victims",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|3|U|1456": {
+    "include": true,
+    "title": "POLICE PERSONNEL KILLED IN ROAD RAGE",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|3|U|2536": {
+    "include": true,
+    "title": "ROAD ACCIDENT VICTIMS",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|3|U|2614": {
+    "include": true,
+    "title": "NON FUNCTIONAL TRAFFIC SIGNALS",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|3|U|2758": {
+    "include": true,
+    "title": "HIT AND RUN CASES",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|233|U|1909": {
+    "include": true,
+    "title": "Change of colour on dividers on roads in NDMC area",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|3|U|3692": {
+    "include": true,
+    "title": "ROAD ACCIDENTS",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|3|U|3698": {
+    "include": true,
+    "title": "TRAFFIC OFFENCES",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|233|U|2717": {
+    "include": true,
+    "title": "Racket in connivance with Delhi Traffic Police",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|3|U|4880": {
+    "include": true,
+    "title": "COLOUR NORM FOR ROAD DIVIDERS",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|234|U|223": {
+    "include": true,
+    "title": "Encroachment on footpaths in Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|4|U|3430": {
+    "include": true,
+    "title": "ROAD ACCIDENTS",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|4|U|3431": {
+    "include": true,
+    "title": "USE OF HELMET",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|4|U|4511": {
+    "include": true,
+    "title": "CORRUPTION IN DELHI TRAFFIC POLICE",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|235|U|645": {
+    "include": true,
+    "title": "Digital device for challaning traffic offenders by Delhi Police",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|235|U|679": {
+    "include": true,
+    "title": "Traffic rule violation by DTC buses",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|4|U|6314": {
+    "include": true,
+    "title": "TRAFFIC SIGNAL",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|235|U|1945": {
+    "include": true,
+    "title": "Norms for construction of speed breakers in Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|235|U|1952": {
+    "include": true,
+    "title": "Road signages in Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|5|U|2358": {
+    "include": true,
+    "title": "Accidents involving by School Vehicles",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|5|U|2379": {
+    "include": true,
+    "title": "Good Samaritans Protection",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|236|U|1824": {
+    "include": true,
+    "title": "Drunk women drivers in NCT of Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|5|U|3559": {
+    "include": true,
+    "title": "Encroachment on Footpaths",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|6|U|1558": {
+    "include": true,
+    "title": "Use of Mobile Phone while Driving",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|238|U|72": {
+    "include": true,
+    "title": "Digital devices in Delhi Police cars to capture traffic violations",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|7|U|1656": {
+    "include": true,
+    "title": "Good Samaritans",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|7|U|2854": {
+    "include": true,
+    "title": "Vehicle Challan",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|239|U|400": {
+    "include": true,
+    "title": "Impounding of licences of traffic violations by Delhi Traffic Police",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|8|U|1546": {
+    "include": true,
+    "title": "Traffic Signals",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|8|U|2690": {
+    "include": true,
+    "title": "Pelican Signaling System",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|239|U|1994": {
+    "include": true,
+    "title": "Steps taken by Delhi Traffic Police to ensure following of signages by residents",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|239|U|1998": {
+    "include": true,
+    "title": "Steps taken to check accidental deaths in Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|240|U|333": {
+    "include": true,
+    "title": "Accidents involving four wheelers in Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|240|U|2684": {
+    "include": true,
+    "title": "Devices installed by Delhi Police to capture traffic violators",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|241|U|70": {
+    "include": true,
+    "title": "Illegal speed breakers in Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|10|U|1124": {
+    "include": true,
+    "title": "Road Rage and Robbery on Roads",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|11|U|706": {
+    "include": true,
+    "title": "Vehicle Accidents",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|11|U|782": {
+    "include": true,
+    "title": "SOPs for Good Samaritans",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|242|U|3721": {
+    "include": true,
+    "title": "Harsher punishment in cases of drunk and negligent driving",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|243|U|1196": {
+    "include": true,
+    "title": "Road accidents and deaths by under age drivers",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|12|U|3597": {
+    "include": true,
+    "title": "Road Rage",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|244|U|542": {
+    "include": true,
+    "title": "Strict law on road rage",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|244|U|1050": {
+    "include": true,
+    "title": "Police force deployed on traffic duty in Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|244|U|1830": {
+    "include": true,
+    "title": "Motor vehicle accidents in the country",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|14|U|606": {
+    "include": true,
+    "title": "Traffic Signal Management System",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|245|U|524": {
+    "include": true,
+    "title": "Driving licences suspended by Delhi Police",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|14|U|1728": {
+    "include": true,
+    "title": "Road Rage",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|245|U|3745": {
+    "include": true,
+    "title": "SSB losing troops in motorbike accidents",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|247|U|2302": {
+    "include": true,
+    "title": "Road rage incidents in Delhi",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|16|Home|17|U|274": {
+    "include": true,
+    "title": "Accidents caused due to Traffic Rules",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|17|Home|1|U|636": {
+    "include": true,
+    "title": "Road Accidents",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|17|Home|1|U|1654": {
+    "include": true,
+    "title": "Issuance of Challans by Delhi Police",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|17|Home|2|U|273": {
+    "include": true,
+    "title": "Challaning of Vehicles",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|250|S|33": {
+    "include": true,
+    "title": "Punishment for drunken driving",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|250|U|2611": {
+    "include": true,
+    "title": "Amount collected from traffic violations",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|17|Home|3|U|2030": {
+    "include": true,
+    "title": "Monitoring of Speed Violations in Delhi/NCR",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|17|Home|4|U|1507": {
+    "include": true,
+    "title": "Traffic Challan to COVID-19 Warriors",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|17|Home|12|U|717": {
+    "include": true,
+    "title": "Challans issued by Delhi Traffic Police",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|17|Home|12|U|718": {
+    "include": true,
+    "title": "Traffic Rule Enforcement by Delhi Police",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|18|Home|4|U|1216": {
+    "include": true,
+    "title": "Traffic Violations",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||Home|267|U|3598": {
+    "include": true,
+    "title": "Glitches in the E-Challan Web page of Delhi Police",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "LS|18|Home|5|U|1528": {
+    "include": true,
+    "title": "Traffic Challans issued in Chandigarh",
+    "ministry": "Home",
+    "source": "editor backfill, Home Affairs added Nov 2026"
   }
 }

@@ -14,11 +14,13 @@ Road safety is answered by more than one ministry, so we enumerate every questio
 
 **Independently reconciled.** The original pass was an automated scrape of MoRTH alone; it was checked question-by-question against the official API and extended across the other two ministries: 0 spurious records, ~520 missed questions added. **Selection is title-based** — a question raising road safety under an unrelated title is not captured; treat counts as a near-complete floor, not an absolute ceiling. Ministry codes: LS `ministryCode` 55/32/9/60, RS `min_code` 65/32/45/110.
 
+**Home Affairs added (November 2026).** Home Affairs answers for traffic policing in Delhi and for the criminal law on hit-and-run, drink-driving and rash driving. All 11,805 Home Affairs questions since July 2014 (Lok Sabha 6,041, Rajya Sabha 5,764) were enumerated from Parliament's question APIs and curated by title against the same scope: 65 kept (crashes, hit-and-run, drink-driving, challans and traffic enforcement, traffic signals and signage, Good Samaritan protection). Left out: congestion, parking, vehicle theft, crime on highways, VIP movement, and the general accidental-deaths-and-suicides report. The curated list is in `data/backfill/home-affairs-2026-11.json`.
+
 ## Columns
 
 | Column | Description |
 |---|---|
-| `ministry` | Answering ministry: Road Transport & Highways, Health & Family Welfare, Heavy Industries, or Housing & Urban Affairs. |
+| `ministry` | Answering ministry: Road Transport & Highways, Health & Family Welfare, Heavy Industries, Housing & Urban Affairs, or Home Affairs. |
 | `record_id` | Stable unique ID: `LS{lok_sabha}-S{session}-{type}{qno}` for Lok Sabha, `RS-S{session}-{type}{qno}` for Rajya Sabha. Type letter: S = starred, U = unstarred. Starred and unstarred questions have separate numbering series, so the type letter is required for uniqueness. |
 | `house` | `LS` (Lok Sabha) or `RS` (Rajya Sabha) |
 | `lok_sabha_no` | 16, 17 or 18 for LS records; empty for RS |

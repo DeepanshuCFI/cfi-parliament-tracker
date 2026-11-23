@@ -1,7 +1,7 @@
 # Road Safety in Parliament — auto-refreshing tracker
 
-Every road-safety question asked in the Lok Sabha and Rajya Sabha since 2014, across four
-ministries (MoRTH, Health, Heavy Industries, Housing & Urban Affairs), refreshed **daily
+Every road-safety question asked in the Lok Sabha and Rajya Sabha since 2014, across five
+ministries (MoRTH, Health, Heavy Industries, Housing & Urban Affairs, Home Affairs), refreshed **daily
 during live sessions** by GitHub Actions and deployed to Vercel.
 
 **Live:** https://parliament.crashfreeindia.org (road-safety-parliament.vercel.app is the underlying Vercel deployment)

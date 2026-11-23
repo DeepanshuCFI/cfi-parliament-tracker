@@ -96,7 +96,14 @@ def in_session(r):
     return ((r['h'] == 'LS' and r['l'] == cur.get('ls_lk') and r['s'] == cur.get('ls_session'))
             or (r['h'] == 'RS' and r['s'] == cur.get('rs_session')))
 
-new = [r for r in dataset['records'] if in_session(r) and record_key(r) not in counted]
+# Historical backfill: the blob only ever advances by current-session records, so
+# records added for EARLIER sessions (a new ministry, an audit's missed questions)
+# must be named in data/backfill_keys.json to be folded in. Each key is applied
+# once (tracked in counted_keys like any other record); the file stays as the
+# provenance of what was backfilled.
+backfill = set(load_json(DATA / 'backfill_keys.json', []))
+new = [r for r in dataset['records'] if record_key(r) not in counted
+       and (in_session(r) or record_key(r) in backfill)]
 unmatched, removed_from_never = [], []
 
 # token-set index of the never list: the roster fallback returns comma-flipped
@@ -245,5 +252,5 @@ print(f'build_enrich: applied {len(new)} new records | never-asked now {enrich["
       f'| unmatched new askers: {len(unmatched)}')
 if removed_from_never:
     for x in removed_from_never:
-        print(f"  STORY: {x['official']} ({x['state']}) asked their FIRST road-safety question")
+        print(f"  LEFT NEVER-ASKED: {x['official']} ({x['state']}) now has a road-safety question on record")
 sys.exit(0)

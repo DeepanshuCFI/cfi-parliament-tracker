@@ -68,7 +68,7 @@ if sess_meta:
             f" | LS shows Lok Sabha {max_lk} session {max_sn}; sessions.json has "
             f"LS{cur['ls_lk']} session {cur['ls_session']} - update data/sessions.json")
 
-# ---- pull the current session, both houses, all four ministries ----------------
+# ---- pull the current session, both houses, every tracked ministry ----------------
 pending = []
 for label, ls_code, rs_code, keep in MINISTRIES:
     # RS: single unpaginated call per ministry. NIC error responses are JSON

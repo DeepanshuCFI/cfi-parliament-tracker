@@ -1,0 +1,938 @@
+{
+ "source": "editor backfill, Home Affairs added Nov 2026",
+ "note": "Every Home Affairs question since July 2014 (11,805: LS 6,041, RS 5,764; LS ministryCode 33, RS min_code 33) was enumerated from Parliament's question APIs on 23 Nov 2026 and curated by title against the approved scope. borderline=true marks inclusions the editor may want to drop.",
+ "records": [
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "2",
+   "q": "715",
+   "t": "U",
+   "d": "2014-07-15",
+   "m": [
+    "Saugata Roy"
+   ],
+   "j": "TRAFFIC ACCIDENTS",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "232",
+   "q": "2214",
+   "t": "U",
+   "d": "2014-07-30",
+   "m": [
+    "T.N. Seema"
+   ],
+   "j": "Protection of good Samaritans from legal hassles",
+   "u": "https://sansad.in/getFile/annex/232/?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "2",
+   "q": "4754",
+   "t": "U",
+   "d": "2014-08-12",
+   "m": [
+    "Sadhu Singh"
+   ],
+   "j": "FAILURE OF TRAFFIC SIGNALS",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "356",
+   "t": "U",
+   "d": "2014-11-26",
+   "m": [
+    "Wansuk Syiem"
+   ],
+   "j": "Protection to those who help road accident victims",
+   "u": "https://sansad.in/getFile/annex/233/?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "1456",
+   "t": "U",
+   "d": "2014-12-02",
+   "m": [
+    "P C Mohan"
+   ],
+   "j": "POLICE PERSONNEL KILLED IN ROAD RAGE",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "2536",
+   "t": "U",
+   "d": "2014-12-09",
+   "m": [
+    "Asaduddin Owaisi"
+   ],
+   "j": "ROAD ACCIDENT VICTIMS",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "2614",
+   "t": "U",
+   "d": "2014-12-09",
+   "m": [
+    "Bhagwant Mann"
+   ],
+   "j": "NON FUNCTIONAL TRAFFIC SIGNALS",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "2758",
+   "t": "U",
+   "d": "2014-12-09",
+   "m": [
+    "Sanjay Shamrao Dhotre",
+    "Prataprao Ganpatrao Jadhav"
+   ],
+   "j": "HIT AND RUN CASES",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "1909",
+   "t": "U",
+   "d": "2014-12-10",
+   "m": [
+    "Kanak Lata Singh"
+   ],
+   "j": "Change of colour on dividers on roads in NDMC area",
+   "u": "https://sansad.in/getFile/annex/233/?source=pqars",
+   "min": "Home",
+   "borderline": true
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "3692",
+   "t": "U",
+   "d": "2014-12-16",
+   "m": [
+    "Ganesh Singh"
+   ],
+   "j": "ROAD ACCIDENTS",
+   "u": "https://sansad.in/getFile/Annexture_New/lsq16/3/au3692.htm?source=loksabhadocs",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "3698",
+   "t": "U",
+   "d": "2014-12-16",
+   "m": [
+    "Nalin Kumar Kateel"
+   ],
+   "j": "TRAFFIC OFFENCES",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "2717",
+   "t": "U",
+   "d": "2014-12-17",
+   "m": [
+    "Mahendra Singh Mahra"
+   ],
+   "j": "Racket in connivance with Delhi Traffic Police",
+   "u": "https://sansad.in/getFile/annex/233/?source=pqars",
+   "min": "Home",
+   "borderline": true
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "4880",
+   "t": "U",
+   "d": "2014-12-23",
+   "m": [
+    "Anto Antony"
+   ],
+   "j": "COLOUR NORM FOR ROAD DIVIDERS",
+   "u": "",
+   "min": "Home",
+   "borderline": true
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "234",
+   "q": "223",
+   "t": "U",
+   "d": "2015-02-25",
+   "m": [
+    "Ram Kumar Kashyap"
+   ],
+   "j": "Encroachment on footpaths in Delhi",
+   "u": "https://sansad.in/getFile/annex/234/Au223.docx?source=pqars",
+   "min": "Home",
+   "borderline": true
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "3430",
+   "t": "U",
+   "d": "2015-03-17",
+   "m": [
+    "Devji Mansingram Patel"
+   ],
+   "j": "ROAD ACCIDENTS",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "3431",
+   "t": "U",
+   "d": "2015-03-17",
+   "m": [
+    "Rajan Baburao Vichare"
+   ],
+   "j": "USE OF HELMET",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "4511",
+   "t": "U",
+   "d": "2015-04-21",
+   "m": [
+    "Ram Tahal Choudhary",
+    "Laxman Giluwa"
+   ],
+   "j": "CORRUPTION IN DELHI TRAFFIC POLICE",
+   "u": "https://sansad.in/getFile/Annexture_New/lsq16/4/au4511.htm?source=loksabhadocs",
+   "min": "Home",
+   "borderline": true
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "645",
+   "t": "U",
+   "d": "2015-04-29",
+   "m": [
+    "Salim Ansari"
+   ],
+   "j": "Digital device for challaning traffic offenders by Delhi Police",
+   "u": "https://sansad.in/getFile/annex/235/Au645.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "679",
+   "t": "U",
+   "d": "2015-04-29",
+   "m": [
+    "Ram Kumar Kashyap"
+   ],
+   "j": "Traffic rule violation by DTC buses",
+   "u": "https://sansad.in/getFile/annex/235/Au679.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "6314",
+   "t": "U",
+   "d": "2015-05-05",
+   "m": [
+    "Udit Raj"
+   ],
+   "j": "TRAFFIC SIGNAL",
+   "u": "",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "1945",
+   "t": "U",
+   "d": "2015-05-13",
+   "m": [
+    "Ram Kumar Kashyap"
+   ],
+   "j": "Norms for construction of speed breakers in Delhi",
+   "u": "https://sansad.in/getFile/annex/235/Au1945.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "1952",
+   "t": "U",
+   "d": "2015-05-13",
+   "m": [
+    "Salim Ansari"
+   ],
+   "j": "Road signages in Delhi",
+   "u": "https://sansad.in/getFile/annex/235/Au1952.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "2358",
+   "t": "U",
+   "d": "2015-08-04",
+   "m": [
+    "P.R. Sundaram",
+    "CH. Malla Reddy"
+   ],
+   "j": "Accidents involving by School Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU2358.docx?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "2379",
+   "t": "U",
+   "d": "2015-08-04",
+   "m": [
+    "Shashi Tharoor"
+   ],
+   "j": "Good Samaritans Protection",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU2379.docx?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "236",
+   "q": "1824",
+   "t": "U",
+   "d": "2015-08-05",
+   "m": [
+    "Rajkumar Dhoot"
+   ],
+   "j": "Drunk women drivers in NCT of Delhi",
+   "u": "https://sansad.in/getFile/annex/236/Au1824.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "3559",
+   "t": "U",
+   "d": "2015-08-11",
+   "m": [
+    "Yogi Adityanath"
+   ],
+   "j": "Encroachment on Footpaths",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU3559.docx?source=lsapps",
+   "min": "Home",
+   "borderline": true
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "6",
+   "q": "1558",
+   "t": "U",
+   "d": "2015-12-08",
+   "m": [
+    "Keshav Prasad Maurya"
+   ],
+   "j": "Use of Mobile Phone while Driving",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/6/AU1558.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "238",
+   "q": "72",
+   "t": "U",
+   "d": "2016-02-24",
+   "m": [
+    "Salim Ansari"
+   ],
+   "j": "Digital devices in Delhi Police cars to capture traffic violations",
+   "u": "https://sansad.in/getFile/annex/238/Au72.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "1656",
+   "t": "U",
+   "d": "2016-03-08",
+   "m": [
+    "Santosh Ahlawat"
+   ],
+   "j": "Good Samaritans",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AU1656.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "2854",
+   "t": "U",
+   "d": "2016-03-15",
+   "m": [
+    "Lallu Singh"
+   ],
+   "j": "Vehicle Challan",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AU2854.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "239",
+   "q": "400",
+   "t": "U",
+   "d": "2016-04-27",
+   "m": [
+    "MOHD. Ali Khan"
+   ],
+   "j": "Impounding of licences of traffic violations by Delhi Traffic Police",
+   "u": "https://sansad.in/getFile/annex/239/Au400.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "8",
+   "q": "1546",
+   "t": "U",
+   "d": "2016-05-03",
+   "m": [
+    "C.S. Puttaraju"
+   ],
+   "j": "Traffic Signals",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/8/AU1546.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "8",
+   "q": "2690",
+   "t": "U",
+   "d": "2016-05-10",
+   "m": [
+    "Arjunlal Meena"
+   ],
+   "j": "Pelican Signaling System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/8/AU2690.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "239",
+   "q": "1994",
+   "t": "U",
+   "d": "2016-05-11",
+   "m": [
+    "Salim Ansari"
+   ],
+   "j": "Steps taken by Delhi Traffic Police to ensure following of signages by residents",
+   "u": "https://sansad.in/getFile/annex/239/Au1994.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "239",
+   "q": "1998",
+   "t": "U",
+   "d": "2016-05-11",
+   "m": [
+    "Ram Kumar Kashyap"
+   ],
+   "j": "Steps taken to check accidental deaths in Delhi",
+   "u": "https://sansad.in/getFile/annex/239/Au1998.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "240",
+   "q": "333",
+   "t": "U",
+   "d": "2016-07-20",
+   "m": [
+    "Shantaram Naik"
+   ],
+   "j": "Accidents involving four wheelers in Delhi",
+   "u": "https://sansad.in/getFile/annex/240/Au333.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "240",
+   "q": "2684",
+   "t": "U",
+   "d": "2016-08-10",
+   "m": [
+    "Balwinder Singh Bhunder"
+   ],
+   "j": "Devices installed by Delhi Police to capture traffic violators",
+   "u": "https://sansad.in/getFile/annex/240/Au2684.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "241",
+   "q": "70",
+   "t": "U",
+   "d": "2016-11-16",
+   "m": [
+    "Ram Kumar Kashyap"
+   ],
+   "j": "Illegal speed breakers in Delhi",
+   "u": "https://sansad.in/getFile/annex/241/?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "10",
+   "q": "1124",
+   "t": "U",
+   "d": "2016-11-22",
+   "m": [
+    "Harish Dwivedi",
+    "Kirit Premjibhai Solanki"
+   ],
+   "j": "Road Rage and Robbery on Roads",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/10/AU1124.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "706",
+   "t": "U",
+   "d": "2017-02-07",
+   "m": [
+    "Sadashiv Kisan Lokhande"
+   ],
+   "j": "Vehicle Accidents",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU706.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "782",
+   "t": "U",
+   "d": "2017-02-07",
+   "m": [
+    "Baijayant \"jay\" Panda"
+   ],
+   "j": "SOPs for Good Samaritans",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU782.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "3721",
+   "t": "U",
+   "d": "2017-04-05",
+   "m": [
+    "Motilal Vora"
+   ],
+   "j": "Harsher punishment in cases of drunk and negligent driving",
+   "u": "https://sansad.in/getFile/annex/242/Au3721.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "243",
+   "q": "1196",
+   "t": "U",
+   "d": "2017-07-26",
+   "m": [
+    "Naresh Gujral"
+   ],
+   "j": "Road accidents and deaths by under age drivers",
+   "u": "https://sansad.in/getFile/annex/243/Au1196.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "3597",
+   "t": "U",
+   "d": "2017-08-08",
+   "m": [
+    "Ramesh Chander Kaushik",
+    "Sanganna Amarappa Karadi"
+   ],
+   "j": "Road Rage",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AU3597.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "244",
+   "q": "542",
+   "t": "U",
+   "d": "2017-12-20",
+   "m": [
+    "Rajkumar Dhoot"
+   ],
+   "j": "Strict law on road rage",
+   "u": "https://sansad.in/getFile/annex/244/Au542.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "244",
+   "q": "1050",
+   "t": "U",
+   "d": "2017-12-27",
+   "m": [
+    "Naresh Gujral"
+   ],
+   "j": "Police force deployed on traffic duty in Delhi",
+   "u": "https://sansad.in/getFile/annex/244/Au1050.docx?source=pqars",
+   "min": "Home",
+   "borderline": true
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "244",
+   "q": "1830",
+   "t": "U",
+   "d": "2018-01-03",
+   "m": [
+    "C.P. Narayanan"
+   ],
+   "j": "Motor vehicle accidents in the country",
+   "u": "https://sansad.in/getFile/annex/244/Au1830.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "14",
+   "q": "606",
+   "t": "U",
+   "d": "2018-02-06",
+   "m": [
+    "Naranbhai Kachhadia",
+    "Gajanan Chandrakant Kirtikar",
+    "Kunwar Haribansh Singh",
+    "Ashok Shankarrao Chavan",
+    "Sudheer Gupta",
+    "Sunil Baliram Gaikwad",
+    "T. Radhakrishnan",
+    "Vijay Kumar S.R.",
+    "Bidyut Baran Mahato"
+   ],
+   "j": "Traffic Signal Management System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/14/AU606.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "245",
+   "q": "524",
+   "t": "U",
+   "d": "2018-02-07",
+   "m": [
+    "Balwinder Singh Bhunder"
+   ],
+   "j": "Driving licences suspended by Delhi Police",
+   "u": "https://sansad.in/getFile/annex/245/Au524.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "14",
+   "q": "1728",
+   "t": "U",
+   "d": "2018-03-06",
+   "m": [
+    "Rattan Lal Kataria"
+   ],
+   "j": "Road Rage",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/14/AU1728.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "245",
+   "q": "3745",
+   "t": "U",
+   "d": "2018-03-28",
+   "m": [
+    "K. R. Arjunan"
+   ],
+   "j": "SSB losing troops in motorbike accidents",
+   "u": "https://sansad.in/getFile/annex/245/Au3745.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "247",
+   "q": "2302",
+   "t": "U",
+   "d": "2019-01-02",
+   "m": [
+    "Vishambhar Prasad Nishad"
+   ],
+   "j": "Road rage incidents in Delhi",
+   "u": "https://sansad.in/getFile/annex/247/Au2302.pdf?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "17",
+   "q": "274",
+   "t": "U",
+   "d": "2019-02-05",
+   "m": [
+    "Ram Tahal Choudhary"
+   ],
+   "j": "Accidents caused due to Traffic Rules",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/17/AU274.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "1",
+   "q": "636",
+   "t": "U",
+   "d": "2019-06-25",
+   "m": [
+    "Mohanbhai Kalyanji Kundariya"
+   ],
+   "j": "Road Accidents",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/171/AU636.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "1",
+   "q": "1654",
+   "t": "U",
+   "d": "2019-07-02",
+   "m": [
+    "Kaushal Kishore",
+    "Upendra Singh Rawat"
+   ],
+   "j": "Issuance of Challans by Delhi Police",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/171/AU1654.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "2",
+   "q": "273",
+   "t": "U",
+   "d": "2019-11-19",
+   "m": [
+    "Upendra Singh Rawat"
+   ],
+   "j": "Challaning of Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/172/AU273.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "250",
+   "q": "33",
+   "t": "S",
+   "d": "2019-11-20",
+   "m": [
+    "Narayan Rane"
+   ],
+   "j": "Punishment for drunken driving",
+   "u": "https://sansad.in/getFile/annex/250/AS33.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "250",
+   "q": "2611",
+   "t": "U",
+   "d": "2019-12-11",
+   "m": [
+    "Narain Dass Gupta"
+   ],
+   "j": "Amount collected from traffic violations",
+   "u": "https://sansad.in/getFile/annex/250/AU2611.docx?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "3",
+   "q": "2030",
+   "t": "U",
+   "d": "2020-03-03",
+   "m": [
+    "Rajkumar Chahar"
+   ],
+   "j": "Monitoring of Speed Violations in Delhi/NCR",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/173/AU2030.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "4",
+   "q": "1507",
+   "t": "U",
+   "d": "2020-09-20",
+   "m": [
+    "Rahul Ramesh Shewale"
+   ],
+   "j": "Traffic Challan to COVID-19 Warriors",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/174/AU1507.pdf?source=lsapps",
+   "min": "Home",
+   "borderline": true
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "717",
+   "t": "U",
+   "d": "2023-07-25",
+   "m": [
+    "Upendra Singh Rawat"
+   ],
+   "j": "Challans issued by Delhi Traffic Police",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AU717.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "718",
+   "t": "U",
+   "d": "2023-07-25",
+   "m": [
+    "Bholanath (B.P. Saroj)"
+   ],
+   "j": "Traffic Rule Enforcement by Delhi Police",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AU718.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "1216",
+   "t": "U",
+   "d": "2025-02-11",
+   "m": [
+    "Naveen Jindal"
+   ],
+   "j": "Traffic Violations",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AU1216_7s0QqD.pdf?source=lsapps",
+   "min": "Home"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "267",
+   "q": "3598",
+   "t": "U",
+   "d": "2025-04-02",
+   "m": [
+    "Laxmi Kant Bajpai"
+   ],
+   "j": "Glitches in the E-Challan Web page of Delhi Police",
+   "u": "https://sansad.in/getFile/annex/267/AU3598_dpoPSZ.pdf?source=pqars",
+   "min": "Home"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "5",
+   "q": "1528",
+   "t": "U",
+   "d": "2025-07-29",
+   "m": [
+    "Manish Tewari"
+   ],
+   "j": "Traffic Challans issued in Chandigarh",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU1528_6PHSF4.pdf?source=lsapps",
+   "min": "Home"
+  }
+ ]
+}

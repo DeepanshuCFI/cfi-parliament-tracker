@@ -31,12 +31,12 @@ USD_CAP = 1.10                       # ~ INR 96/month hard ceiling
 CHUNK = 100                          # titles per API call (~25 out-tokens each)
 MAX_TOKENS = 8000
 
-SCOPE = """You curate a public dataset: every parliamentary question (Lok Sabha + Rajya Sabha) associated with ROAD SAFETY in India, across four ministries.
+SCOPE = """You curate a public dataset: every parliamentary question (Lok Sabha + Rajya Sabha) associated with ROAD SAFETY in India, across five ministries.
 
 INCLUDE (inclusive scope, approved by the editor): anything associated with road safety - crashes/accidents/fatalities, the Motor Vehicles Act and rules, road design/engineering/black spots, enforcement (challans, licensing, speeding, drink-driving), helmets/seatbelts/vehicle safety standards/NCAP/recalls, pedestrians/cyclists/footpaths, trauma care/ambulances/golden hour/Good Samaritan/cashless treatment/compensation for crash victims, road safety policy/schemes/data.
 EXCLUDE: cross-border trade or vehicle agreements (BBIN, Nepal/Bhutan/Bangladesh), vehicle taxation/GST, toll & FASTag revenue matters, pure congestion/transport-capacity questions with no safety angle, occupational/factory safety, disease or non-road health matters.
 
-Per ministry context: MoRTH questions need a road-safety angle (not pure highway construction/finance). Health questions must be about post-crash care (trauma/ambulance/victims), not general health. Heavy Industries must be about vehicle crashworthiness/safety standards, not production. Urban must be about pedestrian/NMT/street safety, not general urban infrastructure.
+Per ministry context: MoRTH questions need a road-safety angle (not pure highway construction/finance). Health questions must be about post-crash care (trauma/ambulance/victims), not general health. Heavy Industries must be about vehicle crashworthiness/safety standards, not production. Urban must be about pedestrian/NMT/street safety, not general urban infrastructure. Home Affairs must be about road crashes, hit-and-run, drink-driving, rash driving or traffic policing and enforcement (including the criminal-law provisions on them and police crash data), not rail/air/fire/disaster accidents, general crime, human or drug trafficking, or emergency helplines with no road angle.
 
 You are given question titles with a keyword-filter verdict as a prior. Override ONLY when confident the keyword call is wrong. Be inclusive on genuine borderline road-safety matters."""
 

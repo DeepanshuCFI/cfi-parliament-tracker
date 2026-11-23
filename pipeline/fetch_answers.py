@@ -7,7 +7,7 @@ written by the grading pass described in pipeline/GRADING.md) are committed.
 
 Sources:
   RS - rsdoc Search_Questions carries full answer text (ans_text) per record;
-       one unfiltered ses_no call per session covers all four ministries.
+       one unfiltered ses_no call per session covers every tracked ministry.
   LS - the API's answerText is null; we download each record's answer PDF
        (the 'u' field) and extract its text with PyMuPDF.
 
