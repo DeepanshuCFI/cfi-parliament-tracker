@@ -52,6 +52,7 @@ INC = re.compile('|'.join([
     r'cameras? on (nhs?|nhai|national highways?|highways)', r'cctv on (nhs?|national highways?)',
     r'anti-?lock brak', r'\badas\b', r'headlamp', r'school children', r'third party insurance claims',
     r'faulty design', r'geometric design', r'road (traffic )?injur', r'road incident',
+    r'encroachment (on|of|along|from) (the )?(nhs?\b|nh[- ]?\d|national highways?|highways?|gt road|road ?sides?)',
 ]), re.I)
 # hard excludes: title matches an include term but is genuinely off-topic (trade / tax / pure counts)
 EXC = re.compile('|'.join([

@@ -16,6 +16,13 @@ Road safety is answered by more than one ministry, so we enumerate every questio
 
 **Home Affairs added (November 2026).** Home Affairs answers for traffic policing in Delhi and for the criminal law on hit-and-run, drink-driving and rash driving. All 11,805 Home Affairs questions since July 2014 (Lok Sabha 6,041, Rajya Sabha 5,764) were enumerated from Parliament's question APIs and curated by title against the same scope: 65 kept (crashes, hit-and-run, drink-driving, challans and traffic enforcement, traffic signals and signage, Good Samaritan protection). Left out: congestion, parking, vehicle theft, crime on highways, VIP movement, and the general accidental-deaths-and-suicides report. The curated list is in `data/backfill/home-affairs-2026-11.json`.
 
+**Editor's scope rulings, 23 November 2026.** After two audits (Lok Sabha against the Lok Sabha Secretariat's full-text archive, Rajya Sabha against Parliament's question feed) the editor ruled on the borderline families:
+
+- **In:** encroachment on footpaths, highways and roadsides; visibility or design of dividers, signals, signage and road markings; street lighting on highways; traffic management and ITS systems on highways; highway helplines; traffic-police enforcement lapses and strength; driver training, qualification and licensing; vehicle fitness, recalls and fires; third-party motor insurance; cashless treatment, ambulances and medical care on highways.
+- **Out:** bridge, flyover and tunnel collapses and structural or construction-quality defects with no road-user angle in the title; encroachment on land where no road is named; general emergency numbers; passenger security in transport; sun-control film; driver welfare; pure congestion and parking; and any question where only the text, not the title, raises road safety. Selection stays title-based.
+
+The lists behind these rulings are in `data/audit/`.
+
 ## Columns
 
 | Column | Description |

@@ -1646,6 +1646,11 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|16|MoRTH|2|U|1158": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|16|MoRTH|2|U|3008": {
    "da": false,
    "g": "2026-11-23",
@@ -1659,6 +1664,11 @@
   "LS|16|MoRTH|2|U|3038": {
    "da": true,
    "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|MoRTH|2|U|3173": {
+   "da": false,
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
@@ -1741,6 +1751,12 @@
   },
   "LS|16|MoRTH|4|S|146": {
    "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|16|MoRTH|4|U|1713": {
+   "da": true,
+   "dg": "y",
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
@@ -2753,6 +2769,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|17|MoRTH|10|U|1501": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|17|MoRTH|10|U|1596": {
    "da": true,
    "dg": "y",
@@ -2871,6 +2892,11 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Counts given (315 blackspots, 261 rectified) but not the location-wise details asked"
+  },
+  "LS|17|MoRTH|11|U|136": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "LS|17|MoRTH|11|U|161": {
    "da": true,
@@ -3010,6 +3036,11 @@
    "g": "2026-08-16",
    "m": "fable-5"
   },
+  "LS|17|MoRTH|12|U|110": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|17|MoRTH|12|U|1165": {
    "da": true,
    "dg": "y",
@@ -3120,6 +3151,13 @@
    "g": "2026-08-16",
    "m": "fable-5",
    "note": "Expressway-only accident counts not given; NH 'including expressways' totals substituted; expressway list annexed"
+  },
+  "LS|17|MoRTH|12|U|3595": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "No area or State-wise figures: encroachments exist 'at different places'; drives are carried out 'on periodical basis'"
   },
   "LS|17|MoRTH|12|U|3617": {
    "da": true,
@@ -5036,6 +5074,11 @@
    "g": "2026-11-23",
    "m": "fable-5.2"
   },
+  "LS|18|MoRTH|3|U|623": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "LS|18|MoRTH|4|S|134": {
    "da": false,
    "g": "2026-11-23",
@@ -5451,6 +5494,12 @@
    "note": "Counts given (48 spots, 14 for flyovers) but no specific locations or approval timeline"
   },
   "LS|18|MoRTH|5|U|754": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
+  "LS|18|MoRTH|5|U|801": {
    "da": true,
    "dg": "y",
    "g": "2026-11-23",
@@ -8220,6 +8269,13 @@
    "m": "fable-5",
    "note": "National pothole totals given; State-wise (Annex I-III) and maintenance budget (Annex IV) referenced but missing."
   },
+  "RS||MoRTH|247|S|140": {
+   "da": true,
+   "dg": "n",
+   "g": "2026-11-23",
+   "m": "fable-5.2",
+   "note": "No number of highways cleared given; removal 'is a continuous process'"
+  },
   "RS||MoRTH|247|S|259": {
    "da": true,
    "dg": "y",
@@ -8499,6 +8555,11 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|249|U|1710": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|249|U|1713": {
    "da": true,
@@ -8922,6 +8983,11 @@
    "m": "fable-5",
    "note": "National totals 2016-18 in text; 'State-wise details... given in Annexure' but annexure not included."
   },
+  "RS||MoRTH|251|U|937": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
+  },
   "RS||MoRTH|251|U|938": {
    "da": true,
    "dg": "p",
@@ -9001,6 +9067,12 @@
    "da": false,
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|253|U|2215": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|253|U|2216": {
    "da": false,
@@ -9455,6 +9527,12 @@
    "dg": "y",
    "g": "2026-08-16",
    "m": "fable-5"
+  },
+  "RS||MoRTH|258|U|899": {
+   "da": true,
+   "dg": "y",
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|258|U|903": {
    "da": true,
@@ -10177,6 +10255,11 @@
    "m": "fable-5",
    "note": "Part (d) answered only with 'training of emergency responders is generally managed by the State Governments'",
    "sd": true
+  },
+  "RS||MoRTH|269|S|41": {
+   "da": false,
+   "g": "2026-11-23",
+   "m": "fable-5.2"
   },
   "RS||MoRTH|269|U|1213": {
    "da": false,

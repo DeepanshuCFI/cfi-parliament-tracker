@@ -55,6 +55,7 @@ INC = re.compile('|'.join([
     r'cameras? on (nhs?|nhai|national highways?|highways)', r'cctv on (nhs?|national highways?)',
     r'anti-?lock brak', r'\badas\b', r'headlamp', r'school children', r'third party insurance claims',
     r'faulty design', r'geometric design', r'road (traffic )?injur', r'road incident',
+    r'encroachment (on|of|along|from) (the )?(nhs?\b|nh[- ]?\d|national highways?|highways?|gt road|road ?sides?)',
 ]), re.I)
 EXC = re.compile('|'.join([
     r'agreement with', r'\bbbin\b', r'bhutan', r'bangladesh|nepal', r'motor vehicles? agreement',
