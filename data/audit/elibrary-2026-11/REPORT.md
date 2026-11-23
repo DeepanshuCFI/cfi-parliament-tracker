@@ -2,7 +2,7 @@
 
 Source: the Lok Sabha Secretariat's archive at elibrary.sansad.in, collection "Part 1 (Questions And Answers)". Scope: 16th to 18th Lok Sabha, the five tracked ministries (Home Affairs included). Rajya Sabha is not in the archive and was not audited.
 
-**Nothing in this folder has been applied to the dataset.** These are candidates for the editor's review.
+**Update, 23 Nov 2026:** the editor approved the 124 clear misses; they are applied on the branch `home-affairs-ministry` (not deployed). Applying them moved ten MPs off the never-asked list, not eight: D Ravi Kumar (Viluppuram) and Durgadas Uikey (Betul) were missed below because the feed spells their names differently. The borderline and text-only lists remain undecided.
 
 ## Method
 
