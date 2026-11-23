@@ -1,0 +1,1596 @@
+{
+ "source": "editor backfill, Rajya Sabha audit Nov 2026",
+ "note": "Every Rajya Sabha question to the five tracked ministries, sessions 232-271, was pulled from Parliament's question feed by ministry NAME (21,266 questions) and compared with the dataset. Titles were reviewed by hand against the approved scope and the editor's Nov 2026 rulings. group=clear marks plain title-level misses; other groups are borderline families accepted under the inclusive scope. Awaiting the editor's review.",
+ "records": [
+  {
+   "h": "RS",
+   "l": "",
+   "s": "232",
+   "q": "588",
+   "t": "U",
+   "d": "2014-07-14",
+   "m": [
+    "Rajkumar Dhoot"
+   ],
+   "j": "Removal of liquor shops from highways",
+   "u": "https://sansad.in/getFile/annex/232/?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "232",
+   "q": "1727",
+   "t": "U",
+   "d": "2014-07-24",
+   "m": [
+    "Chandan Mitra"
+   ],
+   "j": "Mechanical defects due to manufacturing aspect for car fire incidents",
+   "u": "https://sansad.in/getFile/annex/232/?source=pqars",
+   "min": "Heavy",
+   "group": "Vehicle fires"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "232",
+   "q": "2901",
+   "t": "U",
+   "d": "2014-08-05",
+   "m": [
+    "Rajani Ashokrao Patil"
+   ],
+   "j": "Rural emergency health transportation services",
+   "u": "https://sansad.in/getFile/annex/232/Au2901.docx?source=pqars",
+   "min": "Health",
+   "group": "Emergency care and EMS (Health)"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "232",
+   "q": "3483",
+   "t": "U",
+   "d": "2014-08-11",
+   "m": [
+    "T.N. Seema"
+   ],
+   "j": "Speed breakers on highways",
+   "u": "https://sansad.in/getFile/annex/232/Au3483.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "103",
+   "t": "U",
+   "d": "2014-11-24",
+   "m": [
+    "S. Thangavelu"
+   ],
+   "j": "Mandatory recall of vehicles",
+   "u": "https://sansad.in/getFile/annex/233/?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "888",
+   "t": "U",
+   "d": "2014-12-01",
+   "m": [
+    "K. Rahman Khan"
+   ],
+   "j": "Samaritan Law to help injured persons",
+   "u": "https://sansad.in/getFile/annex/233/?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "1368",
+   "t": "U",
+   "d": "2014-12-04",
+   "m": [
+    "Prabhakar Kore"
+   ],
+   "j": "Encroachment on pavements",
+   "u": "https://sansad.in/getFile/annex/233/Au1368.pdf?source=pqars",
+   "min": "Urban",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "2460",
+   "t": "U",
+   "d": "2014-12-15",
+   "m": [
+    "A. K. Selvaraj"
+   ],
+   "j": "Dedicated cycle tracks along roads",
+   "u": "https://sansad.in/getFile/annex/233/?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "2466",
+   "t": "U",
+   "d": "2014-12-15",
+   "m": [
+    "Vijay Jawaharlal Darda"
+   ],
+   "j": "Unsafe school buses",
+   "u": "https://sansad.in/getFile/annex/233/?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "233",
+   "q": "3264",
+   "t": "U",
+   "d": "2014-12-22",
+   "m": [
+    "Chandan Mitra"
+   ],
+   "j": "Institutes of Driving Training and Research",
+   "u": "https://sansad.in/getFile/annex/233/Au3264.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "234",
+   "q": "741",
+   "t": "U",
+   "d": "2015-03-02",
+   "m": [
+    "Harivansh"
+   ],
+   "j": "Medical facilities on highways",
+   "u": "https://sansad.in/getFile/annex/234/Au741.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "234",
+   "q": "1224",
+   "t": "U",
+   "d": "2015-03-09",
+   "m": [
+    "Mansukh Mandaviya"
+   ],
+   "j": "Emergency medical facilities on NH 8",
+   "u": "https://sansad.in/getFile/annex/234/Au1224.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "234",
+   "q": "1230",
+   "t": "U",
+   "d": "2015-03-09",
+   "m": [
+    "Prabhakar Kore"
+   ],
+   "j": "Ban on sale of alcohol on highways",
+   "u": "https://sansad.in/getFile/annex/234/Au1230.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "234",
+   "q": "2025",
+   "t": "U",
+   "d": "2015-03-16",
+   "m": [
+    "Narendra Kumar Kashyap"
+   ],
+   "j": "Patrolling on highways",
+   "u": "https://sansad.in/getFile/annex/234/Au2025.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "234",
+   "q": "2211",
+   "t": "U",
+   "d": "2015-03-17",
+   "m": [
+    "Tiruchi Siva"
+   ],
+   "j": "Reporting system for injuries and accident cases",
+   "u": "https://sansad.in/getFile/annex/234/Au2211.docx?source=pqars",
+   "min": "Health",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "84",
+   "t": "U",
+   "d": "2015-04-23",
+   "m": [
+    "M.V. Rajeev Gowda"
+   ],
+   "j": "Pedestrian friendly commercial areas",
+   "u": "https://sansad.in/getFile/annex/235/Au84.docx?source=pqars",
+   "min": "Urban",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "372",
+   "t": "U",
+   "d": "2015-04-27",
+   "m": [
+    "Neeraj Shekhar"
+   ],
+   "j": "Penalties for rash driving",
+   "u": "https://sansad.in/getFile/annex/235/Au372.doc?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "1638",
+   "t": "U",
+   "d": "2015-05-11",
+   "m": [
+    "Majeed Memon"
+   ],
+   "j": "Steps to curb rash and negligent driving",
+   "u": "https://sansad.in/getFile/annex/235/Au1638.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "1646",
+   "t": "U",
+   "d": "2015-05-11",
+   "m": [
+    "Balwinder Singh Bhunder"
+   ],
+   "j": "Removal of liquor shops from highways",
+   "u": "https://sansad.in/getFile/annex/235/Au1646.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "235",
+   "q": "1658",
+   "t": "U",
+   "d": "2015-05-11",
+   "m": [
+    "B.K. Hariprasad"
+   ],
+   "j": "Issue of fitness certificates to vehicles by RTOs",
+   "u": "https://sansad.in/getFile/annex/235/Au1658.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "237",
+   "q": "106",
+   "t": "U",
+   "d": "2015-11-30",
+   "m": [
+    "D. Kupendra Reddy"
+   ],
+   "j": "Signages on National Highways",
+   "u": "https://sansad.in/getFile/annex/237/Au106.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "237",
+   "q": "900",
+   "t": "U",
+   "d": "2015-12-07",
+   "m": [
+    "Wansuk Syiem"
+   ],
+   "j": "Colours for marking on roads, pavements and sidewalks",
+   "u": "https://sansad.in/getFile/annex/237/Au900.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "237",
+   "q": "2517",
+   "t": "U",
+   "d": "2015-12-21",
+   "m": [
+    "A. K. Selvaraj"
+   ],
+   "j": "Renewal of fitness certificates",
+   "u": "https://sansad.in/getFile/annex/237/Au2517.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "238",
+   "q": "1877",
+   "t": "U",
+   "d": "2016-03-14",
+   "m": [
+    "Ram Kumar Kashyap"
+   ],
+   "j": "Guidelines for Safe Traffic System design",
+   "u": "https://sansad.in/getFile/annex/238/Au1877.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "239",
+   "q": "502",
+   "t": "U",
+   "d": "2016-04-28",
+   "m": [
+    "Husain Dalwai"
+   ],
+   "j": "Recalled vehicles by automobile manufacturers",
+   "u": "https://sansad.in/getFile/annex/239/Au502.pdf?source=pqars",
+   "min": "Heavy",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "239",
+   "q": "885",
+   "t": "U",
+   "d": "2016-05-02",
+   "m": [
+    "Renuka Chowdhury"
+   ],
+   "j": "Provision for safe crossing of NH 44 near Peddakunta, Telangana",
+   "u": "https://sansad.in/getFile/annex/239/Au885.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "239",
+   "q": "889",
+   "t": "U",
+   "d": "2016-05-02",
+   "m": [
+    "Dilip Kumar Tirkey"
+   ],
+   "j": "Study on road signages on highways",
+   "u": "https://sansad.in/getFile/annex/239/Au889.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "239",
+   "q": "900",
+   "t": "U",
+   "d": "2016-05-02",
+   "m": [
+    "Tiruchi Siva"
+   ],
+   "j": "Extension and construction of median on highways in Tamil Nadu",
+   "u": "https://sansad.in/getFile/annex/239/Au900.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "239",
+   "q": "1691",
+   "t": "U",
+   "d": "2016-05-09",
+   "m": [
+    "Ram Kumar Kashyap"
+   ],
+   "j": "Removal of speed breakers from highways",
+   "u": "https://sansad.in/getFile/annex/239/Au1691.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "240",
+   "q": "101",
+   "t": "U",
+   "d": "2016-07-18",
+   "m": [
+    "Harivansh"
+   ],
+   "j": "Liquor shops on NHs",
+   "u": "https://sansad.in/getFile/annex/240/Au101.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "240",
+   "q": "94",
+   "t": "U",
+   "d": "2016-07-18",
+   "m": [
+    "R. Lakshmanan"
+   ],
+   "j": "Construction of foot over bridges and underpasses on NHs",
+   "u": "https://sansad.in/getFile/annex/240/Au94.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "240",
+   "q": "1593",
+   "t": "U",
+   "d": "2016-08-01",
+   "m": [
+    "Pradeep Kumar Balmuchu"
+   ],
+   "j": "Creation of automated driving test centres",
+   "u": "https://sansad.in/getFile/annex/240/Au1593.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "240",
+   "q": "2665",
+   "t": "U",
+   "d": "2016-08-10",
+   "m": [
+    "Chunibhai Kanjibhai Gohel"
+   ],
+   "j": "Monitoring safety defects of car manufacturers",
+   "u": "https://sansad.in/getFile/annex/240/Au2665.pdf?source=pqars",
+   "min": "Heavy",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "241",
+   "q": "836",
+   "t": "U",
+   "d": "2016-11-23",
+   "m": [
+    "Chunibhai Kanjibhai Gohel"
+   ],
+   "j": "Regulator for monitoring safety defects of cars",
+   "u": "https://sansad.in/getFile/annex/241/?source=pqars",
+   "min": "Heavy",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "241",
+   "q": "2991",
+   "t": "U",
+   "d": "2016-12-12",
+   "m": [
+    "Misha Bharti"
+   ],
+   "j": "Unsafe transportation of school children",
+   "u": "https://sansad.in/getFile/annex/241/Au2991.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "143",
+   "t": "U",
+   "d": "2017-02-02",
+   "m": [
+    "Mohammed Nadimul Haque"
+   ],
+   "j": "Cycling tracks in cities",
+   "u": "https://sansad.in/getFile/annex/242/Au143.docx?source=pqars",
+   "min": "Urban",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "158",
+   "t": "S",
+   "d": "2017-03-16",
+   "m": [
+    "Mohammed Nadimul Haque"
+   ],
+   "j": "Cycling zones and parks under AMRUT",
+   "u": "https://sansad.in/getFile/annex/242/As158.pdf?source=pqars",
+   "min": "Urban",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "2008",
+   "t": "U",
+   "d": "2017-03-20",
+   "m": [
+    "R. Vaithilingam"
+   ],
+   "j": "Use of CCTV cameras on National Highways",
+   "u": "https://sansad.in/getFile/annex/242/Au2008.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "2012",
+   "t": "U",
+   "d": "2017-03-20",
+   "m": [
+    "Sanjay Raut"
+   ],
+   "j": "Cycle tracks along highways and major roads",
+   "u": "https://sansad.in/getFile/annex/242/Au2012.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "4255",
+   "t": "U",
+   "d": "2017-04-10",
+   "m": [
+    "Rajkumar Dhoot"
+   ],
+   "j": "Implementation of Supreme Court s order on removal of liquor shops",
+   "u": "https://sansad.in/getFile/annex/242/Au4255.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "4262",
+   "t": "U",
+   "d": "2017-04-10",
+   "m": [
+    "A. Vijayakumar"
+   ],
+   "j": "Action on defacing signboards on highways",
+   "u": "https://sansad.in/getFile/annex/242/Au4262.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "4268",
+   "t": "U",
+   "d": "2017-04-10",
+   "m": [
+    "Meghraj Jain"
+   ],
+   "j": "Automated centres for checking fitness of vehicles",
+   "u": "https://sansad.in/getFile/annex/242/Au4268.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "4275",
+   "t": "U",
+   "d": "2017-04-10",
+   "m": [
+    "Derek O' Brien"
+   ],
+   "j": "Potholes on roads",
+   "u": "https://sansad.in/getFile/annex/242/Au4275.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "242",
+   "q": "4276",
+   "t": "U",
+   "d": "2017-04-10",
+   "m": [
+    "Mohammed Nadimul Haque"
+   ],
+   "j": "Removal of liquor shops from highways",
+   "u": "https://sansad.in/getFile/annex/242/Au4276.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "243",
+   "q": "94",
+   "t": "U",
+   "d": "2017-07-17",
+   "m": [
+    "Husain Dalwai"
+   ],
+   "j": "Lighting on National Highways",
+   "u": "https://sansad.in/getFile/annex/243/Au94.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "243",
+   "q": "1679",
+   "t": "U",
+   "d": "2017-07-31",
+   "m": [
+    "Ajay Sancheti"
+   ],
+   "j": "Dangers posed by speed breakers",
+   "u": "https://sansad.in/getFile/annex/243/Au1679.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "244",
+   "q": "264",
+   "t": "U",
+   "d": "2017-12-18",
+   "m": [
+    "Rajkumar Dhoot"
+   ],
+   "j": "Unfit truck drivers",
+   "u": "https://sansad.in/getFile/annex/244/Au264.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "244",
+   "q": "1528",
+   "t": "U",
+   "d": "2018-01-01",
+   "m": [
+    "Motilal Vora"
+   ],
+   "j": "Potholes on roads in Delhi",
+   "u": "https://sansad.in/getFile/annex/244/Au1528.doc?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "245",
+   "q": "1058",
+   "t": "U",
+   "d": "2018-03-05",
+   "m": [
+    "R. Vaithilingam"
+   ],
+   "j": "Corruption in licensing system",
+   "u": "https://sansad.in/getFile/annex/245/Au1058.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "245",
+   "q": "3455",
+   "t": "U",
+   "d": "2018-03-26",
+   "m": [
+    "Derek O' Brien"
+   ],
+   "j": "Potholes on highways in the country",
+   "u": "https://sansad.in/getFile/annex/245/Au3455.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "245",
+   "q": "372",
+   "t": "S",
+   "d": "2018-04-02",
+   "m": [
+    "Vijila Sathyananth"
+   ],
+   "j": "Driving schools for skill development",
+   "u": "https://sansad.in/getFile/annex/245/As372.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "245",
+   "q": "3927",
+   "t": "U",
+   "d": "2018-04-02",
+   "m": [
+    "Surendra Singh Nagar"
+   ],
+   "j": "Fitness centres for vehicles",
+   "u": "https://sansad.in/getFile/annex/245/Au3927.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "245",
+   "q": "3933",
+   "t": "U",
+   "d": "2018-04-02",
+   "m": [
+    "T.G. Venkatesh"
+   ],
+   "j": "Ban on sale of alcohol   liquor near highways",
+   "u": "https://sansad.in/getFile/annex/245/Au3933.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "246",
+   "q": "2168",
+   "t": "U",
+   "d": "2018-08-06",
+   "m": [
+    "Ramkumar Verma"
+   ],
+   "j": "Lighting of NHs",
+   "u": "https://sansad.in/getFile/annex/246/Au2168.doc?source=pqars",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "247",
+   "q": "1541",
+   "t": "U",
+   "d": "2018-12-24",
+   "m": [
+    "Mir Mohammad Fayaz"
+   ],
+   "j": "CCTV Cameras on National Highways",
+   "u": "https://sansad.in/getFile/annex/247/Au1541.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "247",
+   "q": "2015",
+   "t": "U",
+   "d": "2018-12-31",
+   "m": [
+    "V. Maitreyan"
+   ],
+   "j": "Blind spots on NH",
+   "u": "https://sansad.in/getFile/annex/247/Au2015.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "247",
+   "q": "2805",
+   "t": "U",
+   "d": "2019-01-07",
+   "m": [
+    "Ahmad Ashfaque Karim"
+   ],
+   "j": "Construction of dividers on NH",
+   "u": "https://sansad.in/getFile/annex/247/Au2805.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "247",
+   "q": "2808",
+   "t": "U",
+   "d": "2019-01-07",
+   "m": [
+    "Dharmapuri Srinivas"
+   ],
+   "j": "Ban on sale of liquor and alcohols alongside National Highways",
+   "u": "https://sansad.in/getFile/annex/247/Au2808.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "248",
+   "q": "99",
+   "t": "U",
+   "d": "2019-02-04",
+   "m": [
+    "Sanjay Sinh"
+   ],
+   "j": "Safe driving on NH",
+   "u": "https://sansad.in/getFile/annex/248/Au99.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "248",
+   "q": "828",
+   "t": "U",
+   "d": "2019-02-11",
+   "m": [
+    "R. Lakshmanan"
+   ],
+   "j": "Ban on sale of liquor and alcohol near National State Highways",
+   "u": "https://sansad.in/getFile/annex/248/Au828.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "249",
+   "q": "3293",
+   "t": "U",
+   "d": "2019-07-22",
+   "m": [
+    "A. Vijayakumar"
+   ],
+   "j": "Destruction of medians on NHs",
+   "u": "https://sansad.in/getFile/annex/249/Au3293.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "249",
+   "q": "3303",
+   "t": "U",
+   "d": "2019-07-22",
+   "m": [
+    "Binoy Viswam"
+   ],
+   "j": "CCTV cameras on highways",
+   "u": "https://sansad.in/getFile/annex/249/Au3303.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "250",
+   "q": "124",
+   "t": "U",
+   "d": "2019-11-18",
+   "m": [
+    "Derek O' Brien"
+   ],
+   "j": "Fake drivers  licences",
+   "u": "https://sansad.in/getFile/annex/250/AU124.docx?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "250",
+   "q": "2383",
+   "t": "U",
+   "d": "2019-12-09",
+   "m": [
+    "Selja"
+   ],
+   "j": "Drivers Training Institutes",
+   "u": "https://sansad.in/getFile/annex/250/AU2383.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "251",
+   "q": "141",
+   "t": "U",
+   "d": "2020-02-03",
+   "m": [
+    "Dharmapuri Srinivas"
+   ],
+   "j": "Removal of speed breakers on highways",
+   "u": "https://sansad.in/getFile/annex/251/AU141.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "251",
+   "q": "932",
+   "t": "U",
+   "d": "2020-02-10",
+   "m": [
+    "Sushil Kumar Gupta"
+   ],
+   "j": "Refresher course for drivers",
+   "u": "https://sansad.in/getFile/annex/251/AU932.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "251",
+   "q": "1261",
+   "t": "U",
+   "d": "2020-03-02",
+   "m": [
+    "Sukhdev Singh Dhindsa"
+   ],
+   "j": "Removal of speed breakers along NHs",
+   "u": "https://sansad.in/getFile/annex/251/AU1261.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "251",
+   "q": "3342",
+   "t": "U",
+   "d": "2020-03-23",
+   "m": [
+    "Satish Chandra Dubey"
+   ],
+   "j": "Driving training centres in Bihar",
+   "u": "https://sansad.in/getFile/annex/251/AU3342.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "253",
+   "q": "279",
+   "t": "S",
+   "d": "2021-03-22",
+   "m": [
+    "Ahmad Ashfaque Karim"
+   ],
+   "j": "Construction of dividers on NHs",
+   "u": "https://sansad.in/getFile/annex/253/AS279.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "254",
+   "q": "128",
+   "t": "U",
+   "d": "2021-07-19",
+   "m": [
+    "Ambika Soni"
+   ],
+   "j": "Training to HMV drivers",
+   "u": "https://sansad.in/getFile/annex/254/AU128.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "254",
+   "q": "136",
+   "t": "U",
+   "d": "2021-07-19",
+   "m": [
+    "Sujeet Kumar"
+   ],
+   "j": "Status of automated fitness test centres and scrapping centres",
+   "u": "https://sansad.in/getFile/annex/254/AU136.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "254",
+   "q": "70",
+   "t": "S",
+   "d": "2021-07-26",
+   "m": [
+    "Anil Agrawal"
+   ],
+   "j": "Separate lanes for trucks/heavy vehicles on NHs",
+   "u": "https://sansad.in/getFile/annex/254/AS70.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "254",
+   "q": "777",
+   "t": "U",
+   "d": "2021-07-26",
+   "m": [
+    "Surendra Singh Nagar"
+   ],
+   "j": "Removal of liquor shops along NHs",
+   "u": "https://sansad.in/getFile/annex/254/AU777.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "254",
+   "q": "778",
+   "t": "U",
+   "d": "2021-07-26",
+   "m": [
+    "Surendra Singh Nagar"
+   ],
+   "j": "Unsafe means of transport for carrying school children",
+   "u": "https://sansad.in/getFile/annex/254/AU778.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "256",
+   "q": "1675",
+   "t": "U",
+   "d": "2022-03-16",
+   "m": [
+    "K C Venugopal"
+   ],
+   "j": "Legalising the use of mobile during driving",
+   "u": "https://sansad.in/getFile/annex/256/AU1675.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "256",
+   "q": "1693",
+   "t": "U",
+   "d": "2022-03-16",
+   "m": [
+    "Ashok Bajpai"
+   ],
+   "j": "Electronic monitoring of highways",
+   "u": "https://sansad.in/getFile/annex/256/AU1693.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "256",
+   "q": "288",
+   "t": "S",
+   "d": "2022-03-30",
+   "m": [
+    "Sushil Kumar Gupta"
+   ],
+   "j": "Star rating system for cars",
+   "u": "https://sansad.in/getFile/annex/256/AS288.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "256",
+   "q": "3126",
+   "t": "U",
+   "d": "2022-03-30",
+   "m": [
+    "C.M. Ramesh"
+   ],
+   "j": "Lighting facilities at NHs",
+   "u": "https://sansad.in/getFile/annex/256/AU3126.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "256",
+   "q": "3916",
+   "t": "U",
+   "d": "2022-04-06",
+   "m": [
+    "Ashok Bajpai"
+   ],
+   "j": "Undisciplined traffic",
+   "u": "https://sansad.in/getFile/annex/256/AU3916.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "256",
+   "q": "3929",
+   "t": "U",
+   "d": "2022-04-06",
+   "m": [
+    "Indu Bala Goswami"
+   ],
+   "j": "Walkway for differently abled on NHs",
+   "u": "https://sansad.in/getFile/annex/256/AU3929.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "257",
+   "q": "2001",
+   "t": "U",
+   "d": "2022-08-03",
+   "m": [
+    "K.R.N. Rajeshkumar"
+   ],
+   "j": "ANPR cameras on National Highways",
+   "u": "https://sansad.in/getFile/annex/257/AU2001.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "258",
+   "q": "883",
+   "t": "U",
+   "d": "2022-12-14",
+   "m": [
+    "Parimal Nathwani"
+   ],
+   "j": "Ambulance facility at Toll Plazas",
+   "u": "https://sansad.in/getFile/annex/258/AU883.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "259",
+   "q": "725",
+   "t": "U",
+   "d": "2023-02-08",
+   "m": [
+    "Harbhajan Singh"
+   ],
+   "j": "Lighting arrangements on the National Highways",
+   "u": "https://sansad.in/getFile/annex/259/AU725.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "259",
+   "q": "1689",
+   "t": "U",
+   "d": "2023-03-15",
+   "m": [
+    "Sushil Kumar Gupta"
+   ],
+   "j": "Intelligent Traffic Management System",
+   "u": "https://sansad.in/getFile/annex/259/AU1689.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "259",
+   "q": "2483",
+   "t": "U",
+   "d": "2023-03-22",
+   "m": [
+    "Sushil Kumar Gupta"
+   ],
+   "j": "Electronic Monitoring of National Highways",
+   "u": "https://sansad.in/getFile/annex/259/AU2483.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "259",
+   "q": "2488",
+   "t": "U",
+   "d": "2023-03-22",
+   "m": [
+    "A. A. Rahim"
+   ],
+   "j": "Data on Driving Schools",
+   "u": "https://sansad.in/getFile/annex/259/AU2488.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "259",
+   "q": "2952",
+   "t": "U",
+   "d": "2023-03-27",
+   "m": [
+    "Ashok Bajpai"
+   ],
+   "j": "Intelligent Traffic Management System",
+   "u": "https://sansad.in/getFile/annex/259/AU2952.pdf?source=pqars",
+   "min": "Urban",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "260",
+   "q": "2335",
+   "t": "U",
+   "d": "2023-08-09",
+   "m": [
+    "Brij Lal"
+   ],
+   "j": "Bharat New Car Assessment Programme",
+   "u": "https://sansad.in/getFile/annex/260/AU2335.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "260",
+   "q": "2351",
+   "t": "U",
+   "d": "2023-08-09",
+   "m": [
+    "Amee Yajnik"
+   ],
+   "j": "No-fixed working hours for drivers",
+   "u": "https://sansad.in/getFile/annex/260/AU2351.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "262",
+   "q": "249",
+   "t": "U",
+   "d": "2023-12-05",
+   "m": [
+    "Prabhakar Reddy Vemireddy"
+   ],
+   "j": "National Emergency Life Support skill centres",
+   "u": "https://sansad.in/getFile/annex/262/AU249.pdf?source=pqars",
+   "min": "Health",
+   "group": "Emergency care and EMS (Health)"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "263",
+   "q": "104",
+   "t": "U",
+   "d": "2024-02-02",
+   "m": [
+    "M. Thambidurai"
+   ],
+   "j": "Occurrence of accidents involving Electric Vehicles",
+   "u": "https://sansad.in/getFile/annex/263/AU104.PDF?source=pqars",
+   "min": "Heavy",
+   "group": "Vehicle fires"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "263",
+   "q": "582",
+   "t": "U",
+   "d": "2024-02-07",
+   "m": [
+    "Laxmi Kant Bajpai"
+   ],
+   "j": "Reckless driving on National Highways",
+   "u": "https://sansad.in/getFile/annex/263/AU582.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "265",
+   "q": "1852",
+   "t": "U",
+   "d": "2024-08-07",
+   "m": [
+    "M. Mohamed Abdulla"
+   ],
+   "j": "Smart Traffic Management System",
+   "u": "https://sansad.in/getFile/annex/265/AU1852_mPh2eV.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "266",
+   "q": "262",
+   "t": "U",
+   "d": "2024-11-27",
+   "m": [
+    "Dola Sen"
+   ],
+   "j": "Expansion of Intelligent Traffic Management System",
+   "u": "https://sansad.in/getFile/annex/266/AU262_sIMg8F.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "266",
+   "q": "1846",
+   "t": "U",
+   "d": "2024-12-11",
+   "m": [
+    "Brij Lal"
+   ],
+   "j": "Reduction of Blind Spots",
+   "u": "https://sansad.in/getFile/annex/266/AU1846_v9Fdku.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "266",
+   "q": "1859",
+   "t": "U",
+   "d": "2024-12-11",
+   "m": [
+    "Ashokrao Shankarrao Chavan"
+   ],
+   "j": "Fog warning system at Highway",
+   "u": "https://sansad.in/getFile/annex/266/AU1859_xI9vwb.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "267",
+   "q": "1535",
+   "t": "U",
+   "d": "2025-03-12",
+   "m": [
+    "Digvijaya Singh"
+   ],
+   "j": "Construction of a cut and foot over bridge on National Highway No. 46 (Gwalior-Betul Road)",
+   "u": "https://sansad.in/getFile/annex/267/AU1535_vBGSEj.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "267",
+   "q": "1538",
+   "t": "U",
+   "d": "2025-03-12",
+   "m": [
+    "Arun Singh"
+   ],
+   "j": "Reduction in Number of Blind Spots",
+   "u": "https://sansad.in/getFile/annex/267/AU1538_XuWECb.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "267",
+   "q": "2976",
+   "t": "U",
+   "d": "2025-03-26",
+   "m": [
+    "Rajeev Shukla"
+   ],
+   "j": "Intelligent Traffic Management System",
+   "u": "https://sansad.in/getFile/annex/267/AU2976_qU10l4.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "267",
+   "q": "3268",
+   "t": "U",
+   "d": "2025-03-28",
+   "m": [
+    "G.C. Chandrashekhar"
+   ],
+   "j": "Accidents in electric vehicles",
+   "u": "https://sansad.in/getFile/annex/267/AU3268_ZihxEY.pdf?source=pqars",
+   "min": "Heavy",
+   "group": "Vehicle fires"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "268",
+   "q": "2023",
+   "t": "U",
+   "d": "2025-08-06",
+   "m": [
+    "K.R. Suresh Reddy"
+   ],
+   "j": "Speed Management",
+   "u": "https://sansad.in/getFile/annex/268/AU2023_4IQaFb.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "268",
+   "q": "2032",
+   "t": "U",
+   "d": "2025-08-06",
+   "m": [
+    "Madan Rathore"
+   ],
+   "j": "Progress of Regional Driving Training Centres (RDTCs)",
+   "u": "https://sansad.in/getFile/annex/268/AU2032_IH7eMQ.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "268",
+   "q": "2041",
+   "t": "U",
+   "d": "2025-08-06",
+   "m": [
+    "Rajeev Shukla"
+   ],
+   "j": "Potholes on National Highways",
+   "u": "https://sansad.in/getFile/annex/268/AU2041_4wtvPq.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "269",
+   "q": "1213",
+   "t": "U",
+   "d": "2025-12-10",
+   "m": [
+    "Rajeev Shukla"
+   ],
+   "j": "Faulty design of National Highways",
+   "u": "https://sansad.in/getFile/annex/269/AU1213_tRsns3.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "269",
+   "q": "2031",
+   "t": "U",
+   "d": "2025-12-17",
+   "m": [
+    "Sanjay Kumar Jha"
+   ],
+   "j": "Separate highway patrol police force",
+   "u": "https://sansad.in/getFile/annex/269/AU2031_orukkL.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  },
+  {
+   "h": "RS",
+   "l": "",
+   "s": "270",
+   "q": "4284",
+   "t": "U",
+   "d": "2026-04-01",
+   "m": [
+    "Kanimozhi Nvn Somu"
+   ],
+   "j": "Electronic monitoring devices installed on NHs",
+   "u": "https://sansad.in/getFile/annex/270/AU4284_9SygRs.pdf?source=pqars",
+   "min": "MoRTH",
+   "group": "clear"
+  }
+ ]
+}

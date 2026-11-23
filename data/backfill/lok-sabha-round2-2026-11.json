@@ -1,0 +1,931 @@
+{
+ "source": "editor backfill, Lok Sabha borderline groups Nov 2026",
+ "note": "Borderline groups from the eLibrary audit (data/audit/elibrary-2026-11) accepted under the inclusive scope and the editor's Nov 2026 rulings, plus four questions from Urban Affairs that the baseline never pulled because the ministry's Lok Sabha code changed (16th: 31 and 45; 17th: 64; 18th: 60; Heavy Industries was 70 in the 17th). Not included and left for the editor: bridge and tunnel collapses and structural defects, encroachment on highways, and a few single questions. Awaiting the editor's review.",
+ "records": [
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "1635",
+   "t": "U",
+   "d": "2014-12-03",
+   "m": [
+    "Rabindra Kumar Jena"
+   ],
+   "j": "CYCLE SHARING SYSTEM",
+   "u": "",
+   "min": "Urban",
+   "group": "Cycling (never pulled: ministry code changed)"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "3",
+   "q": "2992",
+   "t": "U",
+   "d": "2014-12-11",
+   "m": [
+    "Nagarajan P."
+   ],
+   "j": "TRAINING ON TRAFFIC MANAGEMENT",
+   "u": "",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "593",
+   "t": "U",
+   "d": "2015-02-26",
+   "m": [
+    "Rahul Ramesh Shewale",
+    "Vinayak Bhaurao Raut"
+   ],
+   "j": "HELPLINE NUMBER ON HIGHWAYS",
+   "u": "",
+   "min": "MoRTH",
+   "group": "Highway helplines and incident services"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "5527",
+   "t": "U",
+   "d": "2015-04-28",
+   "m": [
+    "Kanwar Singh Tanwar"
+   ],
+   "j": "FAULTY CNG KITS",
+   "u": "",
+   "min": "Heavy",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "4",
+   "q": "6120",
+   "t": "U",
+   "d": "2015-04-30",
+   "m": [
+    "Kotha Prabhakar Reddy"
+   ],
+   "j": "THIRD PARTY MOTOR INSURANCE",
+   "u": "",
+   "min": "MoRTH",
+   "group": "Third-party motor insurance"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "5",
+   "q": "2910",
+   "t": "U",
+   "d": "2015-08-06",
+   "m": [
+    "T. Radhakrishnan",
+    "Dhananjay Bhimrao Mahadik",
+    "Kirron Kher",
+    "Heena Vijaykumar Gavit",
+    "Vijaysinh Mohite Patil",
+    "Supriya Sadanand Sule",
+    "Abhishek Banerjee"
+   ],
+   "j": "Third Party Insurance",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/5/AU2910.docx?source=lsapps",
+   "min": "MoRTH",
+   "group": "Third-party motor insurance"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "6",
+   "q": "1893",
+   "t": "U",
+   "d": "2015-12-10",
+   "m": [
+    "R. Parthipan"
+   ],
+   "j": "Traffic Management System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/6/AU1893.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "6",
+   "q": "3170",
+   "t": "U",
+   "d": "2015-12-17",
+   "m": [
+    "Shrikant Eknath Shinde",
+    "Rahul Ramesh Shewale",
+    "Vinayak Bhaurao Raut"
+   ],
+   "j": "Separate Lane for Emergency Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/6/AU3170.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "114",
+   "t": "S",
+   "d": "2016-03-03",
+   "m": [
+    "Jagdambika Pal"
+   ],
+   "j": "Phone Helpline on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AS114.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Highway helplines and incident services"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "7",
+   "q": "199",
+   "t": "S",
+   "d": "2016-03-10",
+   "m": [
+    "Jose K. Mani"
+   ],
+   "j": "Traffic Norms",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/7/AS199.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "9",
+   "q": "2557",
+   "t": "U",
+   "d": "2016-08-02",
+   "m": [
+    "Rabindra Kumar Jena"
+   ],
+   "j": "Testing Centres for Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/9/AU2557.pdf?source=lsapps",
+   "min": "Heavy",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "10",
+   "q": "247",
+   "t": "U",
+   "d": "2016-11-17",
+   "m": [
+    "Gaurav Gogoi",
+    "Jyotiraditya Madhavrao Scindia"
+   ],
+   "j": "Highway incident and Allied Services Scheme",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/10/AU247.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Highway helplines and incident services"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "10",
+   "q": "328",
+   "t": "S",
+   "d": "2016-12-08",
+   "m": [
+    "Kinjarapu Ram Mohan Naidu"
+   ],
+   "j": "Phone Helpline on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/10/AS328.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Highway helplines and incident services"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "10",
+   "q": "4507",
+   "t": "U",
+   "d": "2016-12-14",
+   "m": [
+    "Dharam Vira Gandhi"
+   ],
+   "j": "Public Cycle Sharing System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/10/AU4507.pdf?source=lsapps",
+   "min": "Urban",
+   "group": "Cycling (never pulled: ministry code changed)"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "1598",
+   "t": "U",
+   "d": "2017-03-09",
+   "m": [
+    "K. Maragatham"
+   ],
+   "j": "Educational Qualification for Public Transport Drivers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU1598.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Driver qualification rules"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "4608",
+   "t": "U",
+   "d": "2017-03-30",
+   "m": [
+    "Chandrakant Bhaurao Khaire",
+    "Prataprao Ganpatrao Jadhav"
+   ],
+   "j": "Railway Crossings on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU4608.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Medians, dividers and rail crossings"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "11",
+   "q": "5378",
+   "t": "U",
+   "d": "2017-04-06",
+   "m": [
+    "Elumalai Vellaigounder"
+   ],
+   "j": "Lighting on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/11/AU5378.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "708",
+   "t": "U",
+   "d": "2017-07-20",
+   "m": [
+    "Saugata Roy"
+   ],
+   "j": "Opening of Liquor Shops",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AU708.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "1990",
+   "t": "U",
+   "d": "2017-07-27",
+   "m": [
+    "Mekapati Rajamohan Reddy"
+   ],
+   "j": "Cuts on Medians",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AU1990.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Medians, dividers and rail crossings"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "346",
+   "t": "S",
+   "d": "2017-08-10",
+   "m": [
+    "Ravindra Kumar Ray"
+   ],
+   "j": "Tubeless Tyres in Buses",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AS346.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "3979",
+   "t": "U",
+   "d": "2017-08-10",
+   "m": [
+    "Nanabhau Falgunrao Patole"
+   ],
+   "j": "Educational Qualification for Drivers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AU3979.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Driver qualification rules"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "12",
+   "q": "4101",
+   "t": "U",
+   "d": "2017-08-10",
+   "m": [
+    "Sanganna Amarappa Karadi"
+   ],
+   "j": "LED Lights on NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/12/AU4101.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "16",
+   "q": "463",
+   "t": "U",
+   "d": "2018-12-13",
+   "m": [
+    "Anirudhan Sampath"
+   ],
+   "j": "Lighting on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/16/AU463.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "16",
+   "s": "16",
+   "q": "528",
+   "t": "U",
+   "d": "2018-12-13",
+   "m": [
+    "Kaushal Kishore"
+   ],
+   "j": "Rules for Black Film and Bumper Guard",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/16/AU528.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "1",
+   "q": "908",
+   "t": "U",
+   "d": "2019-06-27",
+   "m": [
+    "Jagdambika Pal"
+   ],
+   "j": "Violation of Law by Ola and Uber Drivers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/171/AU908.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "1",
+   "q": "4114",
+   "t": "U",
+   "d": "2019-07-18",
+   "m": [
+    "Imtiaz Jaleel Syed",
+    "Asaduddin Owaisi"
+   ],
+   "j": "Minimum Qualification for Drivers",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/171/AU4114.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Driver qualification rules"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "1",
+   "q": "4152",
+   "t": "U",
+   "d": "2019-07-18",
+   "m": [
+    "Shivkumar Chanabasappa Udasi"
+   ],
+   "j": "Phone Helpline Facility along NHs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/171/AU4152.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Highway helplines and incident services"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "2",
+   "q": "867",
+   "t": "U",
+   "d": "2019-11-21",
+   "m": [
+    "Mala Roy"
+   ],
+   "j": "Use of Nitrogen in Tyre",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/172/AU867.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "3",
+   "q": "834",
+   "t": "U",
+   "d": "2020-02-06",
+   "m": [
+    "T. Sumathy (a) Thamizhachi Thangapandian"
+   ],
+   "j": "LED Lighting on NHs in Tamil Nadu",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/173/AU834.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "4",
+   "q": "1963",
+   "t": "U",
+   "d": "2020-09-22",
+   "m": [
+    "Raksha Nikhil Khadse"
+   ],
+   "j": "India Cycle4Change Challenge",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/174/AU1963.pdf?source=lsapps",
+   "min": "Urban",
+   "group": "Cycling (never pulled: ministry code changed)"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "6",
+   "q": "500",
+   "t": "U",
+   "d": "2021-07-22",
+   "m": [
+    "Devji Mansingram Patel"
+   ],
+   "j": "Median Cut on NH-27",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/176/AU500.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Medians, dividers and rail crossings"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "6",
+   "q": "1759",
+   "t": "U",
+   "d": "2021-07-29",
+   "m": [
+    "Ashok Mahadeorao Nete"
+   ],
+   "j": "Norms for Public Transport Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/176/AU1759.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "7",
+   "q": "1938",
+   "t": "U",
+   "d": "2021-12-09",
+   "m": [
+    "Prataprao Jadhav",
+    "Bidyut Baran Mahato",
+    "Sanjay Sadashivrao Mandlik",
+    "Shrirang Appa Barne",
+    "Ravindra Kushawaha",
+    "Ravi Kishan Shukla",
+    "Subrata Pathak",
+    "Sudheer Gupta"
+   ],
+   "j": "Lighting System on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/177/AU1938.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "7",
+   "q": "2015",
+   "t": "U",
+   "d": "2021-12-09",
+   "m": [
+    "R.K. Singh Patel"
+   ],
+   "j": "Construction of Divider on NH-35",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/177/AU2015.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Medians, dividers and rail crossings"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "234",
+   "t": "U",
+   "d": "2022-07-19",
+   "m": [
+    "Sukanta Majumdar",
+    "Raja Amareshwara Naik",
+    "Jayanta Kumar Roy",
+    "Reddeppa Nallakonda Gari",
+    "Midhun Reddy",
+    "Su Thirunavukkarasar",
+    "Sangeeta Kumari Singh Deo",
+    "Bhola Singh",
+    "Vinod Kumar Sonkar",
+    "Rajveer (raju Bhaiya) Singh",
+    "Ravneet Singh"
+   ],
+   "j": "Incidents of Fire in Electric Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU234.pdf?source=lsapps",
+   "min": "Heavy",
+   "group": "Electric-vehicle fires (Heavy Industries)"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "1885",
+   "t": "U",
+   "d": "2022-07-28",
+   "m": [
+    "Prataprao Jadhav",
+    "Sanjay Sadashivrao Mandlik",
+    "Sambhajirao Mane Dhairyasheel",
+    "Sudheer Gupta",
+    "Shrirang Appa Barne",
+    "Bidyut Baran Mahato",
+    "Ravi Kishan Shukla",
+    "Ravindra Kushawaha",
+    "Ram Kripal Yadav",
+    "Manoj Kumar Tiwari",
+    "Subrata Pathak"
+   ],
+   "j": "Intelligent Transport System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU1885.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "9",
+   "q": "3027",
+   "t": "U",
+   "d": "2022-08-04",
+   "m": [
+    "Supriya Sadanand Sule",
+    "Kuldeep Rai Sharma",
+    "Sunil Dattatray Tatkare",
+    "Dnv Senthilkumar. S.",
+    "Amol Ramsing Kolhe",
+    "Subhash Ramrao Bhamre"
+   ],
+   "j": "Lighting System on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/179/AU3027.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "10",
+   "q": "2076",
+   "t": "U",
+   "d": "2022-12-20",
+   "m": [
+    "P. Velusamy"
+   ],
+   "j": "Incidents of Fire in Electric Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1710/AU2076.pdf?source=lsapps",
+   "min": "Heavy",
+   "group": "Electric-vehicle fires (Heavy Industries)"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "10",
+   "q": "2573",
+   "t": "U",
+   "d": "2022-12-22",
+   "m": [
+    "A.K.P. Chinraj"
+   ],
+   "j": "High-mast Lighting on NH-44",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1710/AU2573.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "11",
+   "q": "1239",
+   "t": "U",
+   "d": "2023-02-09",
+   "m": [
+    "Hibi Eden"
+   ],
+   "j": "Intelligent Traffic Management System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1711/AU1239.pdf?source=lsapps",
+   "min": "Urban",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "11",
+   "q": "2702",
+   "t": "U",
+   "d": "2023-03-16",
+   "m": [
+    "Janardan Singh Sigriwal"
+   ],
+   "j": "Arrangement of Lights on Delhi Roads",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1711/AU2702.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "11",
+   "q": "4559",
+   "t": "U",
+   "d": "2023-03-28",
+   "m": [
+    "Thirumaa Valavan Thol"
+   ],
+   "j": "Incidents of Fire in Electric Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1711/AU4559.pdf?source=lsapps",
+   "min": "Heavy",
+   "group": "Electric-vehicle fires (Heavy Industries)"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "2032",
+   "t": "U",
+   "d": "2023-08-01",
+   "m": [
+    "Bhartruhari Mahtab"
+   ],
+   "j": "Fire Incidents in Electric Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AU2032.pdf?source=lsapps",
+   "min": "Heavy",
+   "group": "Electric-vehicle fires (Heavy Industries)"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "12",
+   "q": "306",
+   "t": "S",
+   "d": "2023-08-10",
+   "m": [
+    "Hibi Eden"
+   ],
+   "j": "Street Lights on Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1712/AS306.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "14",
+   "q": "763",
+   "t": "U",
+   "d": "2023-12-07",
+   "m": [
+    "Sangamlal Kadedin Gupta",
+    "C. R. Patil",
+    "Ramapati Ram Tripathi",
+    "Pratap Chandra Sarangi",
+    "Anurag Sharma",
+    "P.P. Chaudhary"
+   ],
+   "j": "Advance Traffic Management System",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1714/AU763.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "14",
+   "q": "1534",
+   "t": "U",
+   "d": "2023-12-12",
+   "m": [
+    "Hibi Eden"
+   ],
+   "j": "Incidents of Fire in Electric Vehicles",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1714/AU1534.pdf?source=lsapps",
+   "min": "Heavy",
+   "group": "Electric-vehicle fires (Heavy Industries)"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "14",
+   "q": "2243",
+   "t": "U",
+   "d": "2023-12-15",
+   "m": [
+    "Vijay Kumar Dubey"
+   ],
+   "j": "Emergency Health Care Facilities",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1714/AU2243.pdf?source=lsapps",
+   "min": "Health",
+   "group": "Emergency care and EMS (Health)"
+  },
+  {
+   "h": "LS",
+   "l": "17",
+   "s": "14",
+   "q": "3185",
+   "t": "U",
+   "d": "2023-12-21",
+   "m": [
+    "Shriniwas Dadasaheb Patil",
+    "Jayanta Kumar Roy",
+    "Sangeeta Kumari Singh Deo",
+    "Raja Amareshwara Naik",
+    "Bhola Singh",
+    "Sukanta Majumdar",
+    "Vinod Kumar Sonkar"
+   ],
+   "j": "Lighting System on National Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/1714/AU3185.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "2",
+   "q": "740",
+   "t": "U",
+   "d": "2024-07-26",
+   "m": [
+    "Prabhakar Reddy Vemireddy"
+   ],
+   "j": "National Emergency Life Support Skill Centres",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/182/AU740_Gl192I.pdf?source=lsapps",
+   "min": "Health",
+   "group": "Emergency care and EMS (Health)"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "2",
+   "q": "1746",
+   "t": "U",
+   "d": "2024-08-01",
+   "m": [
+    "Yogender Chandolia"
+   ],
+   "j": "National policy on Traffic Management for Critical Services",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/182/AU1746_c0povC.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "3",
+   "q": "1706",
+   "t": "U",
+   "d": "2024-12-05",
+   "m": [
+    "K Radhakrishnan"
+   ],
+   "j": "Intelligent Transport Systems",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU1706_a9GWiR.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "4",
+   "q": "2895",
+   "t": "U",
+   "d": "2025-03-18",
+   "m": [
+    "Kirsan Namdeo"
+   ],
+   "j": "Fire accidents caused by EVs",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AU2895_eUGAbY.pdf?source=lsapps",
+   "min": "Heavy",
+   "group": "Electric-vehicle fires (Heavy Industries)"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "5",
+   "q": "709",
+   "t": "U",
+   "d": "2025-07-24",
+   "m": [
+    "Arun Bharti"
+   ],
+   "j": "Intelligent Transportation System on Highways",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU709_WUUAVj.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "5",
+   "q": "754",
+   "t": "U",
+   "d": "2025-07-24",
+   "m": [
+    "Hibi Eden"
+   ],
+   "j": "Street Lighting on NH-966A",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU754_3xSMPj.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "6",
+   "q": "3187",
+   "t": "U",
+   "d": "2025-12-18",
+   "m": [
+    "Khalilur Rahaman"
+   ],
+   "j": "Street Lights on National Highways in West Bengal",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/186/AU3187_CRUpJ1.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Street lighting on highways"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "91",
+   "t": "S",
+   "d": "2026-02-05",
+   "m": [
+    "Rahul Kaswan"
+   ],
+   "j": "National Design Standards for Trucks",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AS91_IHvjCT.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Other single questions"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "2110",
+   "t": "U",
+   "d": "2026-02-12",
+   "m": [
+    "Narayan Tatu Rane"
+   ],
+   "j": "Advanced Traffic Management Systems",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU2110_lj1wPH.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  },
+  {
+   "h": "LS",
+   "l": "18",
+   "s": "7",
+   "q": "4543",
+   "t": "U",
+   "d": "2026-03-19",
+   "m": [
+    "Roopkumari Choudhary"
+   ],
+   "j": "Deployment of AI-Based Traffic Management Systems",
+   "u": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU4543_ulL9Jn.pdf?source=lsapps",
+   "min": "MoRTH",
+   "group": "Traffic management and ITS systems"
+  }
+ ]
+}

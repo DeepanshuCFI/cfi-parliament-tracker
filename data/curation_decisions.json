@@ -8068,5 +8068,989 @@
     "title": "National Cyber Crime Data",
     "ministry": "Home",
     "source": "editor backfill, Home Affairs added Nov 2026"
+  },
+  "RS||MoRTH|232|U|588": {
+    "include": true,
+    "title": "Removal of liquor shops from highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Heavy|232|U|1727": {
+    "include": true,
+    "title": "Mechanical defects due to manufacturing aspect for car fire incidents",
+    "ministry": "Heavy",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Health|232|U|2901": {
+    "include": true,
+    "title": "Rural emergency health transportation services",
+    "ministry": "Health",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|232|U|3483": {
+    "include": true,
+    "title": "Speed breakers on highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|233|U|103": {
+    "include": true,
+    "title": "Mandatory recall of vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|233|U|888": {
+    "include": true,
+    "title": "Samaritan Law to help injured persons",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Urban|233|U|1368": {
+    "include": true,
+    "title": "Encroachment on pavements",
+    "ministry": "Urban",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|233|U|2460": {
+    "include": true,
+    "title": "Dedicated cycle tracks along roads",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|233|U|2466": {
+    "include": true,
+    "title": "Unsafe school buses",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|233|U|3264": {
+    "include": true,
+    "title": "Institutes of Driving Training and Research",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|234|U|741": {
+    "include": true,
+    "title": "Medical facilities on highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|234|U|1224": {
+    "include": true,
+    "title": "Emergency medical facilities on NH 8",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|234|U|1230": {
+    "include": true,
+    "title": "Ban on sale of alcohol on highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|234|U|2025": {
+    "include": true,
+    "title": "Patrolling on highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Health|234|U|2211": {
+    "include": true,
+    "title": "Reporting system for injuries and accident cases",
+    "ministry": "Health",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Urban|235|U|84": {
+    "include": true,
+    "title": "Pedestrian friendly commercial areas",
+    "ministry": "Urban",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|235|U|372": {
+    "include": true,
+    "title": "Penalties for rash driving",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|235|U|1638": {
+    "include": true,
+    "title": "Steps to curb rash and negligent driving",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|235|U|1646": {
+    "include": true,
+    "title": "Removal of liquor shops from highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|235|U|1658": {
+    "include": true,
+    "title": "Issue of fitness certificates to vehicles by RTOs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|237|U|106": {
+    "include": true,
+    "title": "Signages on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|237|U|900": {
+    "include": true,
+    "title": "Colours for marking on roads, pavements and sidewalks",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|237|U|2517": {
+    "include": true,
+    "title": "Renewal of fitness certificates",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|238|U|1877": {
+    "include": true,
+    "title": "Guidelines for Safe Traffic System design",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Heavy|239|U|502": {
+    "include": true,
+    "title": "Recalled vehicles by automobile manufacturers",
+    "ministry": "Heavy",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|239|U|885": {
+    "include": true,
+    "title": "Provision for safe crossing of NH 44 near Peddakunta, Telangana",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|239|U|889": {
+    "include": true,
+    "title": "Study on road signages on highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|239|U|900": {
+    "include": true,
+    "title": "Extension and construction of median on highways in Tamil Nadu",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|239|U|1691": {
+    "include": true,
+    "title": "Removal of speed breakers from highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|240|U|101": {
+    "include": true,
+    "title": "Liquor shops on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|240|U|94": {
+    "include": true,
+    "title": "Construction of foot over bridges and underpasses on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|240|U|1593": {
+    "include": true,
+    "title": "Creation of automated driving test centres",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Heavy|240|U|2665": {
+    "include": true,
+    "title": "Monitoring safety defects of car manufacturers",
+    "ministry": "Heavy",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Heavy|241|U|836": {
+    "include": true,
+    "title": "Regulator for monitoring safety defects of cars",
+    "ministry": "Heavy",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|241|U|2991": {
+    "include": true,
+    "title": "Unsafe transportation of school children",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Urban|242|U|143": {
+    "include": true,
+    "title": "Cycling tracks in cities",
+    "ministry": "Urban",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Urban|242|S|158": {
+    "include": true,
+    "title": "Cycling zones and parks under AMRUT",
+    "ministry": "Urban",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|242|U|2008": {
+    "include": true,
+    "title": "Use of CCTV cameras on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|242|U|2012": {
+    "include": true,
+    "title": "Cycle tracks along highways and major roads",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|242|U|4255": {
+    "include": true,
+    "title": "Implementation of Supreme Court s order on removal of liquor shops",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|242|U|4262": {
+    "include": true,
+    "title": "Action on defacing signboards on highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|242|U|4268": {
+    "include": true,
+    "title": "Automated centres for checking fitness of vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|242|U|4275": {
+    "include": true,
+    "title": "Potholes on roads",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|242|U|4276": {
+    "include": true,
+    "title": "Removal of liquor shops from highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|243|U|94": {
+    "include": true,
+    "title": "Lighting on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|243|U|1679": {
+    "include": true,
+    "title": "Dangers posed by speed breakers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|244|U|264": {
+    "include": true,
+    "title": "Unfit truck drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|244|U|1528": {
+    "include": true,
+    "title": "Potholes on roads in Delhi",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|245|U|1058": {
+    "include": true,
+    "title": "Corruption in licensing system",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|245|U|3455": {
+    "include": true,
+    "title": "Potholes on highways in the country",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|245|S|372": {
+    "include": true,
+    "title": "Driving schools for skill development",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|245|U|3927": {
+    "include": true,
+    "title": "Fitness centres for vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|245|U|3933": {
+    "include": true,
+    "title": "Ban on sale of alcohol   liquor near highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|246|U|2168": {
+    "include": true,
+    "title": "Lighting of NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|247|U|1541": {
+    "include": true,
+    "title": "CCTV Cameras on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|247|U|2015": {
+    "include": true,
+    "title": "Blind spots on NH",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|247|U|2805": {
+    "include": true,
+    "title": "Construction of dividers on NH",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|247|U|2808": {
+    "include": true,
+    "title": "Ban on sale of liquor and alcohols alongside National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|248|U|99": {
+    "include": true,
+    "title": "Safe driving on NH",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|248|U|828": {
+    "include": true,
+    "title": "Ban on sale of liquor and alcohol near National State Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|249|U|3293": {
+    "include": true,
+    "title": "Destruction of medians on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|249|U|3303": {
+    "include": true,
+    "title": "CCTV cameras on highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|250|U|124": {
+    "include": true,
+    "title": "Fake drivers  licences",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|250|U|2383": {
+    "include": true,
+    "title": "Drivers Training Institutes",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|251|U|141": {
+    "include": true,
+    "title": "Removal of speed breakers on highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|251|U|932": {
+    "include": true,
+    "title": "Refresher course for drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|251|U|1261": {
+    "include": true,
+    "title": "Removal of speed breakers along NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|251|U|3342": {
+    "include": true,
+    "title": "Driving training centres in Bihar",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|253|S|279": {
+    "include": true,
+    "title": "Construction of dividers on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|254|U|128": {
+    "include": true,
+    "title": "Training to HMV drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|254|U|136": {
+    "include": true,
+    "title": "Status of automated fitness test centres and scrapping centres",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|254|S|70": {
+    "include": true,
+    "title": "Separate lanes for trucks/heavy vehicles on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|254|U|777": {
+    "include": true,
+    "title": "Removal of liquor shops along NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|254|U|778": {
+    "include": true,
+    "title": "Unsafe means of transport for carrying school children",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|256|U|1675": {
+    "include": true,
+    "title": "Legalising the use of mobile during driving",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|256|U|1693": {
+    "include": true,
+    "title": "Electronic monitoring of highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|256|S|288": {
+    "include": true,
+    "title": "Star rating system for cars",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|256|U|3126": {
+    "include": true,
+    "title": "Lighting facilities at NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|256|U|3916": {
+    "include": true,
+    "title": "Undisciplined traffic",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|256|U|3929": {
+    "include": true,
+    "title": "Walkway for differently abled on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|257|U|2001": {
+    "include": true,
+    "title": "ANPR cameras on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|258|U|883": {
+    "include": true,
+    "title": "Ambulance facility at Toll Plazas",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|259|U|725": {
+    "include": true,
+    "title": "Lighting arrangements on the National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|259|U|1689": {
+    "include": true,
+    "title": "Intelligent Traffic Management System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|259|U|2483": {
+    "include": true,
+    "title": "Electronic Monitoring of National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|259|U|2488": {
+    "include": true,
+    "title": "Data on Driving Schools",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Urban|259|U|2952": {
+    "include": true,
+    "title": "Intelligent Traffic Management System",
+    "ministry": "Urban",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|260|U|2335": {
+    "include": true,
+    "title": "Bharat New Car Assessment Programme",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|260|U|2351": {
+    "include": true,
+    "title": "No-fixed working hours for drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Health|262|U|249": {
+    "include": true,
+    "title": "National Emergency Life Support skill centres",
+    "ministry": "Health",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Heavy|263|U|104": {
+    "include": true,
+    "title": "Occurrence of accidents involving Electric Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|263|U|582": {
+    "include": true,
+    "title": "Reckless driving on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|265|U|1852": {
+    "include": true,
+    "title": "Smart Traffic Management System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|266|U|262": {
+    "include": true,
+    "title": "Expansion of Intelligent Traffic Management System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|266|U|1846": {
+    "include": true,
+    "title": "Reduction of Blind Spots",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|266|U|1859": {
+    "include": true,
+    "title": "Fog warning system at Highway",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|267|U|1535": {
+    "include": true,
+    "title": "Construction of a cut and foot over bridge on National Highway No. 46 (Gwalior-Betul Road)",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|267|U|1538": {
+    "include": true,
+    "title": "Reduction in Number of Blind Spots",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|267|U|2976": {
+    "include": true,
+    "title": "Intelligent Traffic Management System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||Heavy|267|U|3268": {
+    "include": true,
+    "title": "Accidents in electric vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|268|U|2023": {
+    "include": true,
+    "title": "Speed Management",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|268|U|2032": {
+    "include": true,
+    "title": "Progress of Regional Driving Training Centres (RDTCs)",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|268|U|2041": {
+    "include": true,
+    "title": "Potholes on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|269|U|1213": {
+    "include": true,
+    "title": "Faulty design of National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|269|U|2031": {
+    "include": true,
+    "title": "Separate highway patrol police force",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "RS||MoRTH|270|U|4284": {
+    "include": true,
+    "title": "Electronic monitoring devices installed on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Rajya Sabha audit Nov 2026"
+  },
+  "LS|16|Urban|3|U|1635": {
+    "include": true,
+    "title": "CYCLE SHARING SYSTEM",
+    "ministry": "Urban",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|3|U|2992": {
+    "include": true,
+    "title": "TRAINING ON TRAFFIC MANAGEMENT",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|4|U|593": {
+    "include": true,
+    "title": "HELPLINE NUMBER ON HIGHWAYS",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|Heavy|4|U|5527": {
+    "include": true,
+    "title": "FAULTY CNG KITS",
+    "ministry": "Heavy",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|4|U|6120": {
+    "include": true,
+    "title": "THIRD PARTY MOTOR INSURANCE",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|5|U|2910": {
+    "include": true,
+    "title": "Third Party Insurance",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|6|U|1893": {
+    "include": true,
+    "title": "Traffic Management System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|6|U|3170": {
+    "include": true,
+    "title": "Separate Lane for Emergency Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|7|S|114": {
+    "include": true,
+    "title": "Phone Helpline on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|7|S|199": {
+    "include": true,
+    "title": "Traffic Norms",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|Heavy|9|U|2557": {
+    "include": true,
+    "title": "Testing Centres for Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|10|U|247": {
+    "include": true,
+    "title": "Highway incident and Allied Services Scheme",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|10|S|328": {
+    "include": true,
+    "title": "Phone Helpline on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|Urban|10|U|4507": {
+    "include": true,
+    "title": "Public Cycle Sharing System",
+    "ministry": "Urban",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|11|U|1598": {
+    "include": true,
+    "title": "Educational Qualification for Public Transport Drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|11|U|4608": {
+    "include": true,
+    "title": "Railway Crossings on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|11|U|5378": {
+    "include": true,
+    "title": "Lighting on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|12|U|708": {
+    "include": true,
+    "title": "Opening of Liquor Shops",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|12|U|1990": {
+    "include": true,
+    "title": "Cuts on Medians",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|12|S|346": {
+    "include": true,
+    "title": "Tubeless Tyres in Buses",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|12|U|3979": {
+    "include": true,
+    "title": "Educational Qualification for Drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|12|U|4101": {
+    "include": true,
+    "title": "LED Lights on NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|16|U|463": {
+    "include": true,
+    "title": "Lighting on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|16|MoRTH|16|U|528": {
+    "include": true,
+    "title": "Rules for Black Film and Bumper Guard",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|1|U|908": {
+    "include": true,
+    "title": "Violation of Law by Ola and Uber Drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|1|U|4114": {
+    "include": true,
+    "title": "Minimum Qualification for Drivers",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|1|U|4152": {
+    "include": true,
+    "title": "Phone Helpline Facility along NHs",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|2|U|867": {
+    "include": true,
+    "title": "Use of Nitrogen in Tyre",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|3|U|834": {
+    "include": true,
+    "title": "LED Lighting on NHs in Tamil Nadu",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|Urban|4|U|1963": {
+    "include": true,
+    "title": "India Cycle4Change Challenge",
+    "ministry": "Urban",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|6|U|500": {
+    "include": true,
+    "title": "Median Cut on NH-27",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|6|U|1759": {
+    "include": true,
+    "title": "Norms for Public Transport Vehicles",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|7|U|1938": {
+    "include": true,
+    "title": "Lighting System on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|7|U|2015": {
+    "include": true,
+    "title": "Construction of Divider on NH-35",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|Heavy|9|U|234": {
+    "include": true,
+    "title": "Incidents of Fire in Electric Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|9|U|1885": {
+    "include": true,
+    "title": "Intelligent Transport System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|9|U|3027": {
+    "include": true,
+    "title": "Lighting System on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|Heavy|10|U|2076": {
+    "include": true,
+    "title": "Incidents of Fire in Electric Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|10|U|2573": {
+    "include": true,
+    "title": "High-mast Lighting on NH-44",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|Urban|11|U|1239": {
+    "include": true,
+    "title": "Intelligent Traffic Management System",
+    "ministry": "Urban",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|11|U|2702": {
+    "include": true,
+    "title": "Arrangement of Lights on Delhi Roads",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|Heavy|11|U|4559": {
+    "include": true,
+    "title": "Incidents of Fire in Electric Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|Heavy|12|U|2032": {
+    "include": true,
+    "title": "Fire Incidents in Electric Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|12|S|306": {
+    "include": true,
+    "title": "Street Lights on Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|14|U|763": {
+    "include": true,
+    "title": "Advance Traffic Management System",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|Heavy|14|U|1534": {
+    "include": true,
+    "title": "Incidents of Fire in Electric Vehicles",
+    "ministry": "Heavy",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|Health|14|U|2243": {
+    "include": true,
+    "title": "Emergency Health Care Facilities",
+    "ministry": "Health",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|17|MoRTH|14|U|3185": {
+    "include": true,
+    "title": "Lighting System on National Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|Health|2|U|740": {
+    "include": true,
+    "title": "National Emergency Life Support Skill Centres",
+    "ministry": "Health",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|MoRTH|2|U|1746": {
+    "include": true,
+    "title": "National policy on Traffic Management for Critical Services",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|MoRTH|3|U|1706": {
+    "include": true,
+    "title": "Intelligent Transport Systems",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|Heavy|4|U|2895": {
+    "include": true,
+    "title": "Fire accidents caused by EVs",
+    "ministry": "Heavy",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|MoRTH|5|U|709": {
+    "include": true,
+    "title": "Intelligent Transportation System on Highways",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|MoRTH|5|U|754": {
+    "include": true,
+    "title": "Street Lighting on NH-966A",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|MoRTH|6|U|3187": {
+    "include": true,
+    "title": "Street Lights on National Highways in West Bengal",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|MoRTH|7|S|91": {
+    "include": true,
+    "title": "National Design Standards for Trucks",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|MoRTH|7|U|2110": {
+    "include": true,
+    "title": "Advanced Traffic Management Systems",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
+  },
+  "LS|18|MoRTH|7|U|4543": {
+    "include": true,
+    "title": "Deployment of AI-Based Traffic Management Systems",
+    "ministry": "MoRTH",
+    "source": "editor backfill, Lok Sabha borderline groups Nov 2026"
   }
 }
