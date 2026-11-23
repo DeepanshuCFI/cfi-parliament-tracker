@@ -91,6 +91,19 @@ section[id]{scroll-margin-top:80px}
 .hero-inner{position:relative;padding-top:56px;padding-bottom:48px}
 @media(min-width:1024px){.hero-inner{padding-top:72px;padding-bottom:56px}}
 .cta-row{margin-top:32px;display:flex;gap:12px;flex-wrap:wrap}
+#find{scroll-margin-top:80px}
+.finder{margin-top:28px;max-width:680px}
+.finder .mpsearch-wrap{max-width:none}
+.finder .mpsearch-wrap .flabel{font-size:13px}
+.finder #mpSearch{font-size:18px;padding:18px 20px;border:2px solid var(--brand);border-radius:14px;box-shadow:0 10px 30px rgba(71,54,254,.10)}
+.finder-browse{margin-top:14px}
+.finder-browse summary{cursor:pointer;font-family:var(--head);font-size:14px;font-weight:600;color:var(--brand);padding:8px 0;list-style-position:inside}
+.finder-browse .house-toggle{margin:14px 0 0}
+.finder-browse .pick-row{margin-top:16px}
+.state-wrap{margin-top:14px}
+.state-wrap summary{cursor:pointer;font-family:var(--head);font-size:14px;font-weight:600;color:var(--brand);padding:8px 0;list-style-position:inside}
+.card-slot-chart{max-width:680px;margin:0 auto}
+.inline-link{color:var(--brand);font-weight:600;text-decoration:underline;text-decoration-color:rgba(71,54,254,.35);text-underline-offset:3px;white-space:nowrap}
 .statrow{margin-top:36px;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 @media(min-width:800px){.statrow{grid-template-columns:repeat(4,1fr);gap:16px}}
 .stat{border:1px solid var(--border);border-radius:16px;background:#fff;padding:18px 20px}
@@ -388,10 +401,11 @@ footer{border-top:1px solid var(--border);background:#fff}
       <div class="hd-label">Parliament Watch</div>
     </div>
     <nav class="hnav" aria-label="Page sections">
+      <a href="#find" data-nav="find">Your MP</a>
       <a href="#session" data-nav="session" hidden>This session</a>
       <a href="#gap" data-nav="gap">The gap</a>
       <a href="#answers" data-nav="answers" hidden>Answers</a>
-      <a href="#state" data-nav="state">Your MP</a>
+      <a href="#state" data-nav="state">Seat chart</a>
       <a href="#explorer" data-nav="explorer">Explore</a>
       <a href="#data" data-nav="data">Method</a>
     </nav>
@@ -399,26 +413,53 @@ footer{border-top:1px solid var(--border);background:#fff}
 </header>
 <nav class="pagenav" aria-label="Page sections">
   <div class="wrap pn">
-    <a href="#session" data-nav="session" hidden>This session</a>
+    <a href="#find" data-nav="find">Your MP</a>
+      <a href="#session" data-nav="session" hidden>This session</a>
     <a href="#gap" data-nav="gap">The gap</a>
     <a href="#answers" data-nav="answers" hidden>Answers</a>
-    <a href="#state" data-nav="state">Your MP</a>
+    <a href="#state" data-nav="state">Seat chart</a>
     <a href="#explorer" data-nav="explorer">Explore</a>
     <a href="#data" data-nav="data">Method</a>
   </div>
 </nav>
 
 <main>
-<div class="hero">
+<div class="hero" id="find">
   <div class="hero-glow" aria-hidden="true"></div>
   <div class="wrap hero-inner">
     <span class="eyebrow">A Crashfree India public database</span>
-    <h1>Every road-safety question in Parliament since 2014.<br><span class="accent">And the MPs who never asked one.</span></h1>
-    <p class="lead">All <span id="dynTotalLead">1,662</span> Lok Sabha and Rajya Sabha questions on road safety — put to the five ministries that own it: Road Transport &amp; Highways, Health (trauma care), Heavy Industries (vehicle standards), Housing &amp; Urban Affairs (pedestrian safety), and Home Affairs (traffic policing and hit-and-run law). Reconciled against Parliament's own records so nothing is missed. Search who asks, who doesn't, and what the Government answered.</p>
-    <div class="cta-row">
-      <a class="btn btn-primary btn-arrow" href="#state">Find your state &amp; MP</a>
-      <a class="btn btn-ghost btn-arrow" href="#explorer">Explore all <span id="dynTotalCta">1,662</span> questions</a>
+    <h1>Has your MP ever raised road safety in Parliament?<br><span class="accent">Check. Then write to them.</span></h1>
+    <div class="finder">
+    <div class="mpsearch-wrap">
+      <label for="mpSearch" class="flabel" style="display:block;margin-bottom:8px">Search any sitting MP by name, Lok Sabha or Rajya Sabha</label>
+      <input id="mpSearch" class="statesel" type="search" placeholder="Type your MP's name, e.g. Shashi Tharoor" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="mpSearchRes">
+      <div id="mpSearchRes" class="mpsearch-res" hidden></div>
     </div>
+      <details class="finder-browse">
+        <summary>Don't know the name? Browse by state</summary>
+    <div class="house-toggle" role="group" aria-label="Choose a House of Parliament">
+      <button class="htg-btn" type="button" id="htgLS" aria-pressed="true">Lok Sabha</button>
+      <button class="htg-btn" type="button" id="htgRS" aria-pressed="false">Rajya Sabha</button>
+    </div>
+    <div class="pick-row">
+      <div>
+        <label for="stateSel" class="flabel" style="display:block;margin-bottom:8px">Your state or UT</label>
+        <select id="stateSel" class="statesel"></select>
+      </div>
+      <div>
+        <label for="pcSel" class="flabel" style="display:block;margin-bottom:8px" id="pcLabel">Your Lok Sabha constituency</label>
+        <select id="pcSel" class="statesel" disabled><option value="">— pick a state first —</option></select>
+      </div>
+    </div>
+      </details>
+    <p class="mpf-note" id="rsNomHint" hidden>Looking for a nominated member — Sudha Murty, P.T. Usha, Satnam Singh Sandhu, Ilaiyaraaja? The President's 12 nominees sit under <strong>“Nominated by the President”</strong> at the top of the state list, not under their home state.</p>
+    <div id="cardSlotTop"><div id="mpFind" class="mpfind" hidden></div></div>
+    <details class="state-wrap" id="stateWrap" hidden>
+      <summary id="stateWrapSum">Your state at a glance</summary>
+      <div id="statePanel" class="state-panel" hidden></div>
+    </details>
+    </div>
+    <p class="lead">Built on all <span id="dynTotalLead">1,662</span> road-safety questions put to five ministries since 2014, checked against Parliament's own records. <a class="inline-link" href="#explorer">Explore all <span id="dynTotalCta">1,662</span> questions</a></p>
     <div class="statrow">
       <div class="stat"><b id="statTotal">1,662</b><i>questions across 5 ministries, <span id="statPeriod">Jul 2014 – Aug 2026</span></i></div>
       <div class="stat"><b id="statNever">260</b><i>of <span id="statSitting">540</span> sitting Lok Sabha MPs have never asked one — in any term</i></div>
@@ -529,12 +570,12 @@ footer{border-top:1px solid var(--border);background:#fff}
 
 <section id="state" tabindex="-1" style="outline:none">
   <div class="wrap sec-pad">
-    <span class="eyebrow">Road safety in your state</span>
-    <h2>Who speaks for road safety<br><span class="accent">where you live?</span></h2>
-    <p class="lead">Pick your state, then your constituency — and see your own MP's road-safety record as a shareable card. Then do the one thing that changes it: <strong>write to them</strong>. Every card carries the MP's official parliamentary email with a ready draft — thanks if they've raised road safety, an invitation to start if they haven't. Your part didn't end at the ballot box.</p>
-    <div class="house-toggle" role="group" aria-label="Choose a House of Parliament">
-      <button class="htg-btn" type="button" id="htgLS" aria-pressed="true">Lok Sabha</button>
-      <button class="htg-btn" type="button" id="htgRS" aria-pressed="false">Rajya Sabha</button>
+    <span class="eyebrow">The House, seat by seat</span>
+    <h2>Who has asked.<br><span class="accent">And who never has.</span></h2>
+    <p class="lead">Every dot is a sitting MP. Red has never asked a road-safety question in any term served; blue has. Select a dot to see that MP's record and write to them.</p>
+    <div class="house-toggle" role="group" aria-label="Choose a House of Parliament for the seat chart">
+      <button class="htg-btn" type="button" data-htg="LS" aria-pressed="true">Lok Sabha</button>
+      <button class="htg-btn" type="button" data-htg="RS" aria-pressed="false">Rajya Sabha</button>
     </div>
     <div class="hemi-block" id="hemiBlockLS">
       <div class="hemi-head">
@@ -552,25 +593,7 @@ footer{border-top:1px solid var(--border);background:#fff}
       <div class="hemi-wrap"><svg id="rsHemi" viewBox="0 0 1000 545" role="img"></svg></div>
       <p class="hemi-cap">The Rajya Sabha, seat by seat — every dot is a sitting member. Select a dot for that member's record. <span id="rsHemiVacant">1 of the 245 seats is currently vacant.</span> Counts cover every term each member has served, in either House.</p>
     </div>
-    <div class="mpsearch-wrap">
-      <label for="mpSearch" class="flabel" style="display:block;margin-bottom:8px">Search any MP by name — either House</label>
-      <input id="mpSearch" class="statesel" type="search" placeholder="e.g. Sudha Murty, Satnam Singh Sandhu…" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="mpSearchRes">
-      <div id="mpSearchRes" class="mpsearch-res" hidden></div>
-    </div>
-    <p class="flabel" style="margin:14px 0 10px;color:var(--muted)">…or browse by state:</p>
-    <div class="pick-row">
-      <div>
-        <label for="stateSel" class="flabel" style="display:block;margin-bottom:8px">Your state or UT</label>
-        <select id="stateSel" class="statesel"></select>
-      </div>
-      <div>
-        <label for="pcSel" class="flabel" style="display:block;margin-bottom:8px" id="pcLabel">Your Lok Sabha constituency</label>
-        <select id="pcSel" class="statesel" disabled><option value="">— pick a state first —</option></select>
-      </div>
-    </div>
-    <p class="mpf-note" id="rsNomHint" hidden>Looking for a nominated member — Sudha Murty, P.T. Usha, Satnam Singh Sandhu, Ilaiyaraaja? The President's 12 nominees sit under <strong>“Nominated by the President”</strong> at the top of the state list, not under their home state.</p>
-    <div id="mpFind" class="mpfind" hidden></div>
-    <div id="statePanel" class="state-panel" hidden></div>
+    <div id="cardSlotChart" class="card-slot-chart"></div>
   </div>
 </section>
 
@@ -1070,6 +1093,7 @@ function setHouse(h){
   const rs = h==='RS';
   $('htgLS').setAttribute('aria-pressed', String(!rs));
   $('htgRS').setAttribute('aria-pressed', String(rs));
+  document.querySelectorAll('[data-htg]').forEach(b=>b.setAttribute('aria-pressed', String((b.dataset.htg==='RS')===rs)));
   $('hemiBlockLS').hidden = rs;
   $('hemiBlockRS').hidden = !rs;
   if(rs && !rsHemiBuilt){ buildRSHemicycle(); rsHemiBuilt = true; }
@@ -1087,6 +1111,19 @@ function buildStateSection(){
   buildStateOptions();
   $('htgLS').addEventListener('click', ()=>setHouse('LS'));
   $('htgRS').addEventListener('click', ()=>setHouse('RS'));
+  document.querySelectorAll('[data-htg]').forEach(b=>b.addEventListener('click', ()=>setHouse(b.dataset.htg)));
+  // picking from the state lists is a top-of-page action: the card answers there
+  ['stateSel','pcSel'].forEach(id=>$(id).addEventListener('change', ()=>placeCard('top')));
+  // the state figures sit folded under the card; show the fold only when there is a state to show
+  // ...and open it by itself only while no MP card is showing (a state was picked, not yet a member)
+  const syncFold = ()=>{
+    const p = $('statePanel'), st = $('stateSel').value;
+    $('stateWrap').hidden = p.hidden;
+    $('stateWrap').open = !p.hidden && $('mpFind').hidden;
+    $('stateWrapSum').textContent = st ? st + ' at a glance' : 'Your state at a glance';
+  };
+  new MutationObserver(syncFold).observe($('statePanel'), {attributes:true, attributeFilter:['hidden'], childList:true});
+  new MutationObserver(syncFold).observe($('mpFind'), {attributes:true, attributeFilter:['hidden']});
   $('stateSel').addEventListener('change', e=>{
     const st = e.target.value;
     buildMemberSel(st);
@@ -1157,6 +1194,7 @@ function buildHemicycle(){
     const st=c.dataset.st, pc=c.dataset.c;
     $('stateSel').value=st; buildPCSel(st); renderStatePanel(st);
     $('pcSel').value=pc; renderMPFind(st, pc);
+    placeCard('chart');
     $('mpFind').scrollIntoView({behavior:'smooth', block:'center'});
   });
 }
@@ -1201,6 +1239,7 @@ function buildRSHemicycle(){
     const st=c.dataset.st, mp=c.dataset.mp;
     $('stateSel').value=st; buildRSSel(st); renderStatePanel(st);
     $('pcSel').value=mp; renderRSMPFind(st, mp);
+    placeCard('chart');
     $('mpFind').scrollIntoView({behavior:'smooth', block:'center'});
   });
 }
@@ -1272,7 +1311,15 @@ function buildMPIndex(){
   MPIDX.sort((a, b) => a.mp.localeCompare(b.mp));
 }
 function hideMPRes(){ const r = $('mpSearchRes'); r.hidden = true; r.innerHTML = ''; $('mpSearch').setAttribute('aria-expanded', 'false'); }
+// The verdict card lives in one of two slots: under the search (default) or under
+// the seat chart when the reader picked a dot there, so the page never jumps away
+// from where they clicked.
+function placeCard(where){
+  const slot = $(where==='chart' ? 'cardSlotChart' : 'cardSlotTop'), card = $('mpFind');
+  if(card.parentNode !== slot) slot.appendChild(card);
+}
 function mpSearchGo(hit){
+  placeCard('top');
   $('mpSearch').value = '';
   hideMPRes();
   setHouse(hit.house);
@@ -1703,7 +1750,7 @@ applyDynamicNumbers(); buildSessionStrip(); buildAnswerQuality();
     const s = document.getElementById(id);
     if(s && !s.hidden) document.querySelectorAll('[data-nav="'+id+'"]').forEach(a=>{ a.hidden = false; });
   });
-  const KEYS = ['session','gap','answers','state','explorer','data'];
+  const KEYS = ['find','session','gap','answers','state','explorer','data'];
   let pending = null;
   function spy(){
     let cur = '';
@@ -1744,7 +1791,7 @@ const hadPC = !!(_pcs && MPDIR[_pcs]);
 if(hadPC){
   $('stateSel').value = _pcs; buildPCSel(_pcs); renderStatePanel(_pcs);
   if(_pc && (MPDIR[_pcs]||[]).some(x=>x.c===_pc)){ $('pcSel').value = _pc; renderMPFind(_pcs, _pc); }
-  setTimeout(()=>{ window.scrollTo({top:$('state').offsetTop, behavior:'instant'}); }, 80);
+  setTimeout(()=>{ window.scrollTo({top:$('find').offsetTop, behavior:'instant'}); }, 80);
 }
 // Rajya Sabha deep link (?rss=State&rsm=Member name)
 const _rss = _pp.get('rss'), _rsm = _pp.get('rsm');
@@ -1753,7 +1800,7 @@ if(hadRS){
   setHouse('RS');
   $('stateSel').value = _rss; buildRSSel(_rss); renderStatePanel(_rss);
   if(_rsm && (RSDIR[_rss]||[]).some(x=>x.mp===_rsm)){ $('pcSel').value = _rsm; renderRSMPFind(_rss, _rsm); }
-  setTimeout(()=>{ window.scrollTo({top:$('state').offsetTop, behavior:'instant'}); }, 80);
+  setTimeout(()=>{ window.scrollTo({top:$('find').offsetTop, behavior:'instant'}); }, 80);
 }
 if(hadURLState && !hadPC && !hadRS){ setTimeout(()=>{ window.scrollTo({top:$('explorer').offsetTop, behavior:'instant'}); }, 60); }
 </script>
